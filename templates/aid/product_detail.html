@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load main %}
+{% block title %}Contract/tenders from USAID for {{prodcode}} | Ujima Project{% endblock %}
+{% block extrastyle %}
+{% endblock %}
+
+{% block content %}
+<div="content_wrap" class="grid_15 suffix_1">	
+	<h3 class="prettytype">Contract/tenders from USAID for {{prodcode}}</h3>
+	
+	{% if aid %}
+
+	<p>The number of records: {{aid|length}} </p>
+
+	{% endif %}
+
+	<p> This table contains all contractors who received money from the USAID for {{prodcode}}.</p>
+	
+	<h4> Back to browse by page: 
+	<a href="{% url usaid.aid.views.country_list %}">Country</a> |  
+	<a href="{% url usaid.aid.views.search_detail %}">Search</a> | 
+	<a href="{% url usaid.aid.views.prod_list %}">Product</a> | 
+	<a href="{% url usaid.aid.views.vendor_list %}">Vendor</a>
+	</h4>
+
+	  <table border="2" class="tablesorter">
+		<thead>
+	<tr><th>Vendor</th><th>Country</th><th>Amount(USD)</th><th>Agency</th><th>Description</th><th>Year</th><th>Product or Service</th></tr>
+		</thead>
+	{% autopaginate aid 20 %}
+		<tbody>
+	{% for aid in aid %}
+	   <tr>
+	      <td><a href="{{aid.duns.get_absolute_url}}">{{aid.vendor}}</a></td>
+	      <td><a href="{{aid.pcountry.get_absolute_url}}">{{aid.pcountry}}</a></td>
+	      <td >{{aid.dollars|doll}}</td>
+	      <td>{{aid.agency}}</td>
+	      <td>{{aid.description}}</a></td>
+	      <td>{{aid.year}}</td>
+		  <td>{{aid.prodcode}}</td>
+	   </tr>
+
+	  {% endfor %}
+		</tbody>
+	  {% paginate %}
+
+	</table>
+
+<br><br>
+<center><a href="csv" style="text-decoration:none;">Download as  <img src="/Media/static/xls.png" ></a></center>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->	
+	
+</div>
+</div>
+<div class="clear"></div> 
+
+
+{% endblock %}

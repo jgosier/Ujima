@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load blog %}
+{% block title %}Global Fund Countries | Ujima Project{% endblock %}
+{% block extrastyle %}
+{% endblock %}
+
+
+{% block content %}
+<div="content_wrap" class="grid_15 suffix_1">
+<h1>{{country}}</h1>
+<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Location{{country}}.svg/250px-Location{{country}}.svg.png"></img>
+</div>
+</div>
+
+{% endblock %}
+     

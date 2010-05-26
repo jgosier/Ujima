@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %}Weapons Sales by Weapon | Ujima Project {% endblock %}
+{% block extrastyle %}
+{% endblock %}
+
+{% block content %}
+<div id="content_wrap" class="prefix_1 grid_14 suffix_1">
+
+	<h3 class="prettytype">Weapons Sales | Browse by Weapon</h3>
+
+	<p> Welcome to the US Arms sales license of the Ujima Project. The weapon sales data comes from reports made by the U.S. State Department to the U.S. Congress. The data covers approved commercial export licenses that could result in sales of weapons and equipment. These figures are only for licenses authorized, not actual weapons deliveries. The reports can be found <a href="http://www.pmddtc.state.gov/reports/655_intro.html">here, at the State Department site.</a> </p>
+	
+	<p>Click on one of the items below to get weapon specific information.</p>
+<li class="group">Weapons By Category</li>
+	{% if weapons_list %}
+
+	<ul class="cont">
+
+	{% for weapon in weapons_list %}
+
+	<li class="inner"><a class="title" href ="{{weapon.get_absolute_url}}">{{weapon.description}}</a></li>
+
+	{% endfor %}
+
+
+	</ul>
+	{% else %}
+	    <p>No data available for the type of weapon.</p>
+	{% endif %}
+<br><br>
+<center><a href="csv" style="text-decoration:none;">Download as  <img src="/Media/static/xls.png" ></a></center>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->
+	Also browse by:
+	<a href="{% url weapons.arms.views.country_list %}">Country</a>
+</div>
+</div>
+<div class="clear"></div> 
+
+
+{% endblock %}
+     

@@ -1,0 +1,58 @@
+
+<ul class="tabs"> 
+		<li><a href="#"><b>USAID</b></a></li> 
+		<li><a href="#"><b>LOBBYING</b></a></li> 
+		<li><a href="#"><b>WEAPON SALES</b></a></li>
+		<li><a href="#"><b>GLOBAL FUND</b></a></li> 
+		<li><a href="#"><b>DFID</b></a></li> 
+		<li><a href="#"><b>AFDB</b></a></li> 
+	</ul> 
+
+
+<div class="panes"> 
+	    <div id="tab_pane">
+			<ul >
+				<li><a href="/aid/country">USAID African Projects </a></li>
+			</ul>
+		    <p> This contains data  from <a href="http://usaspending.gov/">Usaspending.gov</a>, a
+			U.S. government portal that gives individuals access to contract information for vendors hired by the United States
+			Agency for International Development, USAID, for work in countries throughout Africa.</p>
+		</div>
+	    <div >
+			<ul  >
+				<li><a href="/lobby/country">Lobbying By Country </a></li>
+			</ul>
+		    <p>The lobbying database covers information about lobbyists hired by foreign governments and organizations to influence U.S. policy on issues such as trade, taxation, foreign aid, appropriations, human rights and national security. The data contained in our database goes back to at least 1950. 
+			This data comes from the <a href="http://www.usdoj.gov/criminal/fara/">United States Department of Justice</a>.</p>
+		</div> 
+	    <div id="tab_pane">
+		 	<ul  >
+				<li><a href="/arms/country" >Weapons Sales By Country</a></li>
+			</ul>
+		    <p>The weapon sales data comes from reports made by the U.S. State Department to the U.S. Congress. The data covers approved commercial export licenses that could result in sales of weapons and equipment. These figures are only for licenses authorized, not actual weapons deliveries.
+			 The reports can be found <a href="http://www.pmddtc.state.gov/reports/655_intro.html">at the State Department.</a> </p>
+			 </p>
+		 </div> 
+		<div id="tab_pane">
+			<ul  >
+				<li><a href="/globalfund/country">Global Fund Disbursements By County </a></li>
+			</ul>
+			<p>The Global Fund data includes all disbursements made by the Global Fund to fight HIV/AIDS, tuberculosis, and malaria. The fund is an international organization which receives funding from governments and the private sector. The raw data for the information found in our database can be found at the <a href="http://www.theglobalfund.org/en/commitmentsdisbursements/?lang=en">Global Fund website</a>.</p>
+		</div> 
+		<div id="tab_pane">
+			<ul  >
+				<li><a href="/dfid/country">DFID African Projects</a></li>
+			</ul>
+			<p>The Department for International Development data includes all disbursements made by the United Kingdom.
+			The raw data for the information found in our database can be found at the <a href="http://www.dfid.gov.uk/">UK Department for International Development website.</a> </p>	 
+		</div>
+		<div id="tab_pane">
+			<ul  >
+				<li><a href="http://ujima-project.org/afdb/pcountry/">African Development Bank</a></li>
+			</ul>
+			<p>The African Development Bank data  contains contracts/tender information for vendors hired by the AFDB for work in countries throughout Africa.<p>
+			<p> Information from which this data is compiled, can be found here at the <a href="http://www.afdb.org/en/projects-operations/procurement/tools-reports/procurement-statistics/">AFDB </a></p>
+
+
+		</div>
+	</div>	

@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}Global Fund Data by Organization Type | Ujima Project{% endblock %}
+{% block extrastyle %}
+{% endblock %}
+
+{% block content %}
+<div="content_wrap" class="grid_15 suffix_1">
+<h3 class="prettytype"> Browse by Type of Organization Receiving Global Fund Monies </h3>
+
+<p> Welcome to the Global Fund Search Section of the Ujima Project. You can explore the data in different ways. You can search by country, by type of lobbying, year or use any number of other filters to find the information you need.</p>
+
+<p>Click on one of the items below to get information about various lobbying activities by country. </p>
+
+<h4>
+	Browse by:
+	<a href="{% url globalfund.views.country_list %}">Country</a> |
+	<a href="{% url globalfund.views.region_list %}">Region</a> | 
+	<a href="{% url globalfund.views.disease_list %}">Disease</a>
+</h4>	
+
+<ul>
+
+{% for orgtype in orgtype_list %}
+
+<li><a href="{{orgtype.get_absolute_url }}">{{orgtype.orgtype}}</a></li>
+
+{% endfor %}
+
+
+</ul>
+<br><br>
+<center><a href="csv" style="text-decoration:none;">Download as  <img src="/Media/static/xls.png" ></a></center>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->
+
+</div>
+</div>
+<div class="clear"></div> 
+
+
+{% endblock %}

@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+
+
+<head>
+
+    <title>{% block title %}{% endblock %}</title>
+
+ <style type ="text/css">
+             body { 
+                   background-color: #d2b48c ;
+                   margin-left: 10%;
+                   margin-right: 10%;
+                   border: 1px dotted gray;
+                   padding: 20px 20px 20px 20px;
+                   fpmt-family: sans-serif;
+                   }
+
+            </style>
+
+</head>
+   
+
+<body>
+        <h1>The Ujima Project</h1>
+
+    <div id="content">
+
+        {% block content %}{% endblock %}
+
+    </div>
+
+</div>
+<hr class="hide" />
+
+<div id="footer">
+    <div class="inside">
+        <p class="copyright">Powered by <a href="http://djangoproject.com">Django</a>.</p>
+
+<p class="description">Source: United States State Department</p></div>
+    </div>
+</div>
+
+</body>
+
+</html>

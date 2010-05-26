@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml"  layout="absolute"               
+                initialize="initApplication();">
+                 
+    <mx:Script>
+        <![CDATA[
+            import flare.apps.App;
+            import flare.apps.JobVoyager;
+            
+            private var app:App;
+            
+            private function initApplication():void
+            {
+                app = new JobVoyager();    
+            }
+            
+            private function runApp():void
+            {
+                app.dispatchEvent(new Event("init_demo"));
+            }
+        ]]>
+    </mx:Script>
+    
+    <mx:Canvas width="100%" height="100%" backgroundColor="#ffffff">  
+ 
+        <mx:UIComponent width="100%" height="100%" id="container" creationComplete="container.addChild( app );" /> 
+ 
+    </mx:Canvas>
+    
+    <mx:Button label="run" click="runApp();">
+    </mx:Button>
+     
+
+</mx:Application>

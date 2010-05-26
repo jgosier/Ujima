@@ -1,0 +1,166 @@
+{% extends "base.html" %}
+{% block extrastyle %}
+    <script src="/Media/js/OpenLayers/lib/OpenLayers.js"></script>
+ 
+    <script src="/Media/js/OpenLayers/OpenStreetMap.js"></script>
+ 
+    <script type="text/javascript">
+        // Start position for the map (hardcoded here for simplicity)
+         var lon=30.00942;
+		var lat=-1.95520;
+        var zoom=3;
+ 
+        var map; //complex object of type OpenLayers.Map
+ 
+        //Initialise the 'map' object
+        function init() {
+ 
+            map = new OpenLayers.Map ("map", {
+                controls:[
+                    new OpenLayers.Control.Navigation(),
+                    new OpenLayers.Control.PanZoomBar(),
+					
+				
+                   
+                    new OpenLayers.Control.Attribution()],
+                maxExtent: new OpenLayers.Bounds(-20037508.34,-20037508.34,20037508.34,20037508.34),
+                maxResolution: 156543.0399,
+                numZoomLevels: 19,
+                units: 'm',
+                projection: new OpenLayers.Projection("EPSG:900913"),
+                displayProjection: new OpenLayers.Projection("EPSG:4326")
+            } );
+			map.addControl(new OpenLayers.Control.LayerSwitcher({'div':OpenLayers.Util.getElement('layer')}));
+
+            //pois
+             var lobbying = new OpenLayers.Layer.Vector("LOBBYING", {
+                    strategies: [new OpenLayers.Strategy.BBOX({resFactor: 1.1})],
+                    protocol: new OpenLayers.Protocol.HTTP({
+                        url: "/points/lobbying/",
+                        format: new OpenLayers.Format.Text(),
+						
+                    })
+                });
+				var usaid = new OpenLayers.Layer.Vector("USAID", {
+                    strategies: [new OpenLayers.Strategy.BBOX({resFactor: 1.1})],
+                    protocol: new OpenLayers.Protocol.HTTP({
+                        url: "/points/usaid/",
+                        format: new OpenLayers.Format.Text(),
+						
+                    })
+                });
+				var weapon_sales = new OpenLayers.Layer.Vector("WEAPON SALES", {
+                    strategies: [new OpenLayers.Strategy.BBOX({resFactor: 1.1})],
+                    protocol: new OpenLayers.Protocol.HTTP({
+                        url: "/points/weapons/",
+                        format: new OpenLayers.Format.Text(),
+						
+                    })
+                });
+				var globalfund = new OpenLayers.Layer.Vector("GLOBALFUND", {
+                    strategies: [new OpenLayers.Strategy.BBOX({resFactor: 1.1})],
+                    protocol: new OpenLayers.Protocol.HTTP({
+                        url: "/points/globalfund/",
+                        format: new OpenLayers.Format.Text(),
+						
+                    })
+                });var AFDB = new OpenLayers.Layer.Vector("African Development Bank", {
+                    strategies: [new OpenLayers.Strategy.BBOX({resFactor: 1.1})],
+                    protocol: new OpenLayers.Protocol.HTTP({
+                        url: "/points/afdb/",
+                        format: new OpenLayers.Format.Text(),
+						 
+
+						
+                    })
+                });
+				var DFID = new OpenLayers.Layer.Vector("UK AID", {
+                    strategies: [new OpenLayers.Strategy.BBOX({resFactor: 1.1})],
+                    protocol: new OpenLayers.Protocol.HTTP({
+                        url: "/points/dfid/",
+                        format: new OpenLayers.Format.Text(),
+						
+                    })
+                });
+ 
+
+ 
+            // Define the map layer
+            // Other defined layers are OpenLayers.Layer.OSM.Mapnik, OpenLayers.Layer.OSM.Maplint and OpenLayers.Layer.OSM.CycleMap
+            layerTilesAtHome = new OpenLayers.Layer.OSM.Osmarender("Osmarender");
+			var twms = new OpenLayers.Layer.WMS( "World Map",
+    "http://world.freemap.in/cgi-bin/mapserv?",
+    { map: '/www/freemap.in/world/map/factbooktrans.map',
+      transparent: 'true', layers: 'factbook'}
+    );
+ map.addLayer(layerTilesAtHome);
+            map.addLayers([DFID,AFDB,globalfund,lobbying,usaid,weapon_sales]);
+			
+
+ 
+            if( ! map.getCenter() ){
+                var lonLat = new OpenLayers.LonLat(lon, lat).transform(new OpenLayers.Projection("EPSG:4326"), map.getProjectionObject());
+                map.setCenter (lonLat, zoom);
+            }
+			// Interaction; not needed for initial display.
+                selectControl = new OpenLayers.Control.SelectFeature(layer);
+                map.addControl(selectControl);
+                selectControl.activate();
+                layer.events.on({
+                    'featureselected': onFeatureSelect,
+                    'featureunselected': onFeatureUnselect
+                });
+        }
+		
+		  // Needed only for interaction, not for the display.
+            function onPopupClose(evt) {
+                // 'this' is the popup.
+                selectControl.unselect(this.feature);
+            }
+            function onFeatureSelect(evt) {
+                feature = evt.feature;
+                popup = new OpenLayers.Popup.FramedCloud("featurePopup",
+                                         feature.geometry.getBounds().getCenterLonLat(),
+                                         new OpenLayers.Size(100,100),
+                                         "<h2>"+feature.attributes.title + "</h2>" +
+                                         feature.attributes.description,
+                                         null, true, onPopupClose);
+                feature.popup = popup;
+                popup.feature = feature;
+                map.addPopup(popup);
+            }
+            function onFeatureUnselect(evt) {
+                feature = evt.feature;
+                if (feature.popup) {
+                    popup.feature = null;
+                    map.removePopup(feature.popup);
+                    feature.popup.destroy();
+                    feature.popup = null;
+                }
+            }
+ 
+    </script>
+	{% endblock %}
+	{% block content %}
+	<div id="content_wrap" class="grid_15 suffix_1">
+	<div style=" border:1px solid red; height:500px"  class="grid_8" id="map" ></div>
+	
+	<div id="layes" style="width:250px;height:300px;float:right;" class="grid_4 suffix_1">
+	<h2>Overlays</h2>
+		
+	<div id="layer" >
+		</div>
+	</div>
+	
+		
+		
+	</div>
+</div>
+
+	
+<div class="clear"></div> 
+	{% endblock %}
+
+
+	
+ 

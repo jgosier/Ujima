@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load main %}
+
+{% block title %} The Ujima Project {% endblock %}
+
+{% block content %}
+
+<p>Country: {{country}} </p>
+
+<p>Year: {{year}} </p>
+
+{% if dfid %}
+
+<p>The number of records: {{dfid.count}} </p>
+
+{% endif %}
+
+<h3 class="prettytype"> This table contains all projects funded by DFID for work in {{country}}.</h3>
+
+  <table border ="2"  class="tablesorter">
+  	<thead>
+		<tr>
+
+<th>Project</th><th>Country</th><th>Total Amount of Project(Euro)</th><th>Project Amount to Date</th><th>Description</th><th>Start Date</th><th>End Date</th><th>Start Year</th><th>Risk</th>
+</tr>
+</thead>
+{% autopaginate dfid 20 %}
+<tbody>
+{% for dfid in dfid %}
+   <tr>
+      <td><a href="{{dfid.ariescode.get_absolute_url}}">{{dfid.projecttitle}}</a></td>
+      <td><a href="{{dfid.country.get_absolute_url}}">{{dfid.country}}</a></td>
+      <td>{{dfid.lifetimebudget|euro}}</td>
+      <td>{{dfid.expendituretodate|euro}}</td>
+      <td>{{dfid.purpose}}</td>
+      <td>{{dfid.start_date}}</td>
+      <td>{{dfid.end_date}}</td>
+      <td>{{dfid.year}}</td>
+	  <td><a href="{{dfid.risk.get_absolute_url}}">{{dfid.risk}}</td>
+   </tr>
+
+  {% endfor %}
+  </tbody>
+  {% paginate %}
+
+  </table>
+
+
+<h4> Back to search page: 
+<a href="{% url dfid.ukaid.views.country_list %}">Country</a> 
+<a href="{% url dfid.ukaid.views.project_list %}">Projects</a>
+<a href="{% url dfid.ukaid.views.search_detail %}">Search</a>
+<a href="{% url dfid.ukaid.views.type_list %}">Type</a>
+<a href="{% url dfid.ukaid.views.risk_list %}">Risk</a>
+</h4>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->
+</div>
+</div>
+<div class="clear"></div> 
+
+
+{% endblock %}

@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% load blog %}
+{% block title %}Global Fund Countries | Ujima Project{% endblock %}
+{% block extrastyle %}
+{% endblock %}
+
+{% block content %}
+<div id="content_wrap" class="prefix_1 grid_14 suffix_1">
+
+<h2 class="prettytype">Browse By Country </h2>
+
+<p class="alt" >Welcome to the Global Fund Search Section of the Ujima Project. The Global Fund data includes all disbursements made by the Global
+Fund to fight HIV/AIDS, tuberculosis, and malaria. The fund is an international organization which receives funding from
+governments and the private sector. The raw data for the information found in our database can be found at the <a href="http://www.theglobalfund.org/en/commitmentsdisbursements/?lang=en">Global Fund website</a>.</p>
+
+<p class="alt" >Click on one of the items below to get information about funding to NGOs or governmental bodies for the individual country.</p>
+
+ <ul class="cont">
+		
+
+{% for a,b in country_dict%}
+
+<li class="group ui-widget-header ui-corner-all">{{a}}</li>
+
+	{% for country in b %}
+	
+
+	<li class="inner" ><a class="title "  href ="{{country.get_absolute_url }}"><span id="c_name">{{ country.country }}</span></a><a href ="{{country.get_absolute_url }}"><img  class="flagg" src="/afdb/flag/{{country.slug}}/" ></a></li>
+
+	{% endfor %}
+	{% endfor %}
+<br><br>
+<center><a href="csv" style="text-decoration:none;">Download as  <img src="/Media/static/xls.png" ></a></center>
+
+Search by:
+<a href="{% url globalfund.views.disease_list %}">Disease</a> | 
+<a href="{% url globalfund.views.region_list %}">Region</a> | 
+<a href="{% url globalfund.views.orgtype_list %}">Org Type</a> | 
+<a href="{% url globalfund.views.orgsearch_detail %}">Search</a><br />
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->
+			
+</div>
+</div>
+<div class="clear"></div> 
+
+
+{% endblock %}
+     

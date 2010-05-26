@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+
+{% block title %} The Ujima Project {% endblock %}
+
+{% block content %}
+
+<p> Please enter the name of a vendor to search. </p>
+
+
+ <form action="." method="GET">
+
+    <label for="q">Search: </label>
+    <input type="text" name="q" value="">
+    <input type="submit" value="Search">
+  </form>
+
+
+{% if search_results %} 
+
+<p>The number of records: {{search_results.count}} </p>
+
+
+  <table border ="2">
+
+<th>Vendor</th><th>Country</th><th>Amount(USD)</th><th>Agency</th><th>Description</th><th>Year</th><th>Product or Service</th>
+{% autopaginate search_results 20 %}
+{% for aid in search_results %}
+   <tr>
+      <td>{{aid.duns}}</a></td>
+      <td><a href="{{aid.pcountry.get_absolute_url}}">{{aid.pcountry}}</a></td>
+      <td>{{aid.dollars}}</td>
+      <td>{{aid.agency}}</td>
+      <td>{{aid.description}}</a></td>
+      <td>{{aid.year}}</td>
+	  <td><a href="{{aid.prodcode.get_absolute_url}}">{{aid.prodcode}}</td>
+   </tr>
+
+  {% endfor %}
+  {% paginate %}
+
+  </table>
+
+
+ {% endif %} 
+
+
+<h4> Back to search page: 
+<a href="{% url afJuma.afdb.views.country_list %}">Country</a> 
+<a href="{% url afJuma.afdb.views.search_detail %}">Search</a>
+<a href="{% url afJuma.afdb.views.prod_list %}">Product</a>
+<a href="{% url afJuma.afdb.views.vendor_list %}">Vendor</a>
+</h4>
+
+{% endblock %}

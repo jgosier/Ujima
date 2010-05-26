@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Ujima Project | Investigative Reporting for Africa</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link rel="stylesheet" href="/Media/css/blueprint/screen.css" type="text/css">
+<link rel="stylesheet" href="/Media/css/blueprint/print.css" type="text/css">
+<!--[if lt IE 8]><link rel="stylesheet" href="/Media/css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+<link rel="stylesheet" href="/Media/css/base.css" type="text/css" media="all" charset="utf-8" />
+<link rel="stylesheet" href="/Media/css/blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection" /> 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="/Media/javascript/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="/Media/javascript/cufon-yui.js"></script>
+<script src="/Media/javascript/CartoGothic_Std_400-CartoGothic_Std_700-CartoGothic_Std_italic_400-CartoGothic_Std_italic_700.font.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" id="js">
+$(document).ready(function() { 
+    // call the tablesorter plugin
+ 	$.tablesorter.defaults.widgets = ['zebra']; 
+    $("table").tablesorter(); 
+	});
+
+Cufon.replace('.fontify');
+</script>
+
+{% block extrastyle %}
+<script src="http://maps.google.com/maps?file=api&v=2&key=ABQIAAAAYimH_excdTjwGjM6LcP-DhTFy5CdpwgrbtEYhW0ROWO43JYeTBRtMrlpB-kqfHssovWAOVFKpzM6sQ&sensor=false"
+        type="text/javascript">
+</script> 
+ 
+<script type="text/javascript">
+  google.load("maps", "2.x");
+</script>
+   
+  <script>
+$(document).ready(function(){
+  
+    var map = new google.maps.Map2(document.getElementById("map"));
+    map.setCenter(new google.maps.LatLng(5, 25), 3);
+  
+});
+  
+</script>
+{% endblock %}
+
+
+</head>
+<body id="body" class="showgrid">
+<div class="container">
+
+
+           <div id="header">
+	            <div id="logo">
+	           <h1><a href="/"> <img src="/Media/static/logo.jpg"></a></h1>
+	    </div>
+
+           <div id="menu" class="span-24"><div id="mleft" class="span-6 large tagline">investigative reporting for africa</div><div id="mright" class="span-9 last">
+                 <ul id="lstmenu">
+                       <li><a href="/about">About</a></li>
+                       <li><a href="/blog">Blog</a></li>
+                       <li><a href="/contact">Contact</a></li>
+                       <li><a href="/faq">FAQ</a></li>
+                 </ul>
+
+          </div>
+
+          <div id="msg" class="span-24 last">
+<p>Ujima Project is collection of databases, documents and other
+information that attempts to bring transparency to the workings and
+spending of Africa governmentswhy , multinational non-governmental
+organizations and business enterprise in African countries</p>
+
+         </div> 
+<div id="sep" class="span-24 last">
+</div>
+{% block content %}
+<div id="content">
+         <div id="main">
+                 <div id="map" class="span-15 swowgrid">
+
+		</div>
+
+		<div id="xmenu" class=" span-9 last ">
+			<ul>
+				<li>
+				Public Records
+				<ul>
+				<li> <a href="/lobby/country" >Lobbying</a></li>
+				<li> <a href="/globalfund/country" >Health</a></li>
+				<li> <a href="/aid/country" >Aid</a></li>
+				<li> <a href="/arms/country" >Weapons</a></li>
+
+				</ul>
+				</li>
+			</ul>
+			<ul>
+				<li>
+				Latest Documents
+				<ul>
+				
+				
+				</ul>
+				</li>
+			</ul>
+			<ul>
+				<li>
+				Latest Blog Posts
+				{% for post in posts %}
+    <div>
+      <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+      <p class="date">{{ post.publish|date:"Y F d" }}</p>
+      <p class="tease">{{ post.tease }}</p>
+    </div>
+    {% endfor %}
+				</li>
+			</ul>
+
+
+
+
+                      </div>
+</div>
+<div id="sep2" class="span-24 last">
+</div>
+
+<div id="footer" class="span-24">
+
+<div id="footer_left" class="span-12">
+	<p style="color:black;">Investigative reporters and editors ,IRE,and the non-profit Great Lakes Media Institute joined forces to collect about African countries from a variety of sources to facilitate the journalists accessing data to explain the spending of their governments, non-governmental organisations and donors</p></div><div id="footer_right" class="span-12 last"><p style="color:black;">interested in this project?find out more about the ujima project read our FAQ and our Blog</p></div>
+
+
+</div>
+</div>
+{% endblock %}
+
+</div>
+</body>
+</html>

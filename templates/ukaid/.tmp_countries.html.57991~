@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}Country List | Ujima Project {% endblock %}
+
+{% block content %}
+<div="content_wrap" class="grid_15 suffix_1">
+
+ 
+    
+
+<h2> Browse By Country </h2>
+
+<p> Welcome to the UK Department for International Development project section of the Ujima Project. The data contained in our database comes from DFID website and gives the user access to aid information from 
+1200 projects DFID has in countries throughout Africa.</p>
+<p>Click on one of the items below to get information about the projects  </p>
+
+<ul >
+
+{% for a,b in country_dict%}
+<li class="group">{{a}}</li>
+{% for country in b %}
+<li  ><a class="title" href ="{{country.get_absolute_url }}"><span id="c_name">{{ country.country }}</span></a></li>
+
+{% endfor %}
+{% endfor %}
+</ul>
+
+Search by:
+<a href="{% url dfid.ukaid.views.project_list %}">Projects</a>
+<a href="{% url dfid.ukaid.views.search_detail %}">Search</a>
+<a href="{% url dfid.ukaid.views.type_list %}">Type</a>
+<a href="{% url dfid.ukaid.views.risk_list %}">Risk</a>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->
+</div>
+</div>
+<div class="clear"></div> 
+
+
+
+{% endblock %}
+     

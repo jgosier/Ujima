@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	
+	<title>Ujima Project | Investigative Reporting for Africa</title>
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="/Media/css/reset.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="/Media/css/960.gs" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="/Media/css/text.css" type="text/css" media="screen" charset="utf-8">
+	<!-- end CSS -->
+	
+	<!-- JS -->
+         <!--[if IE]><script type="text/javascript" src="/Media/js/excanvas.pack.js"></script><![endif]-->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/Media/js/jquery.tablesorter.min.js"></script>
+	<script type="text/javascript" src="/Media/js/cufon-yui.js"></script>
+	<script src="/Media/js/CartoGothic_Std_400-CartoGothic_Std_700-CartoGothic_Std_italic_400-CartoGothic_Std_italic_700.font.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" id="js">
+	$(document).ready(function() { 
+	    // call the tablesorter plugin
+	 	$.tablesorter.defaults.widgets = ['zebra']; 
+	    $("table").tablesorter(); 
+		});
+
+	Cufon.replace('h1', '.fontify');
+	</script>
+	<!-- end JS -->	
+
+	{% block gmap %}
+	<script src="http://maps.google.com/maps?file=api&v=2&key=ABQIAAAAYimH_excdTjwGjM6LcP-DhTFy5CdpwgrbtEYhW0ROWO43JYeTBRtMrlpB-kqfHssovWAOVFKpzM6sQ&sensor=false"
+	        type="text/javascript">
+	</script> 2
+
+	<script type="text/javascript">
+	  google.load("maps", "2.x");
+	</script>
+
+	  <script>
+	$(document).ready(function(){
+
+	    var map = new google.maps.Map2(document.getElementById("map"));
+	    map.setCenter(new google.maps.LatLng(5, 25), 3);
+
+	});
+
+	</script>
+	{% endblock %}
+	
+</head>
+
+<body>
+	<div id="header_wrap">
+		<div id="header" class="container_16">
+			<div id="logo" class="grid_4 suffix_12">
+   				<h1><a href="/"> <img src="/Media/static/logo.jpg"></a></h1>
+			</div>
+		</div>
+	</div>
+	
+	<div id="nav_wrap">
+		<div id="navbar" class="container_16">
+			
+			<div id="tagline" class="fontify grid_4 suffix_6">
+				investigative reporting for africa
+			</div>
+				
+			<div id="nav_menu" class="prefix_1 grid_5">
+				<ul>
+					<li><a href="/about">About</a></li>
+					<li><a href="/blog">Blog</a></li>
+					<li><a href="/contact">Contact</a></li>
+					<li><a href="/faq">FAQ</a></li>
+				</ul>
+			</div>
+		
+		</div>
+	</div>
+	
+	
+	
+</body>
+</html>

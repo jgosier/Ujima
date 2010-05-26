@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}Weapons Sales | Ujima Project {% endblock %}
+{% block extrastyle %}
+{% endblock %}
+
+{% block content %}
+<div="content_wrap" class="grid_15 suffix_1">
+	<h2 class="prettytype">Weapons Sales by Country</h2>
+
+	<p> Welcome to the US Arms sales license of the Ujima Project. The weapon sales data comes from reports made by the U.S. State Department to the U.S. Congress. The data covers approved commercial export licenses that could result in sales of weapons and equipment. These figures are only for licenses authorized, not actual weapons deliveries. The reports can be found <a href="http://www.pmddtc.state.gov/reports/655_intro.html">here, at the State Department site.</a> </p>
+	
+	<p>Click on one of the items below to get country specific information</p>
+
+	{% if country_list %}
+
+	<ul>
+
+	{% for country in country_list %}
+
+	<li><a href ="{{country.get_absolute_url }}">{{ country.country }}</a></li>
+
+	{% endfor %}
+
+	</ul>
+	{% else %}
+	    <p>No data available for this database.</p>
+	{% endif %}
+
+	Search by:
+	<a href="{% url weapons.arms.views.weapons_list %}">Weapon</a>
+	<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->
+
+</div>
+</div>
+<div class="clear"></div> 
+
+
+{% endblock %}
+
+     

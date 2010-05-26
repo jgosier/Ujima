@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block title %}Foreign Lobbyist Details | Ujima Project{% endblock %}
+
+
+{% block content %}
+<div="content_wrap" class="grid_15 suffix_1">
+
+ 
+    <ul class="cont">
+		
+
+{% for a,b in country_dict%}
+
+<li class="group">{{a}}</li>
+
+	{% for country in b %}
+	
+
+	<li ><a  href ="{{country.get_absolute_url }}">{{ country.country }}</a></li>
+
+	{% endfor %}
+	{% endfor %}
+
+	</div>
+ 
+    
+    <p>
+      View totals by clicking on the checkbox next to the country
+    </p>
+<p>The lobbying database covers information about lobbyists hired by foreign governments and organizations to influence U.S. policy on issues such as trade, taxation, foreign aid, appropriations, human rights and national security. The data contained in our database goes back to at least 1950. This data comes from the <a href="http://www.usdoj.gov/criminal/fara/">United States Department of Justice</a>.</p>
+
+<p>Click on one of the countries below to get information about the firms or individuals lobbying for the country </p>
+
+<h4>
+Also browse by:
+<a href="{% url lobby.views.client_list %}">Client</a> | 
+<a href="{% url lobby.views.lobbytype_list %}">Lobby Type</a> | 
+<a href="{% url lobby.views.firm_list %}">Firm</a> | 
+<a href="{% url lobby.views.search_detail %}">Search</a>
+</h4>
+
+<div class="plain_ul " id="b">
+
+
+
+
+</div>
+<br><br>
+<center><a href="csv" style="text-decoration:none;">Download as  <img src="/Media/static/xls.png" ></a></center>
+</div>
+</div>
+<div class="clear"></div> 
+
+<div id="footer">
+	<div id="footer_wrap" class="container_16">
+		<div id="blurb" class="grid_8">
+			<p>Investigative Reporters and Editors (IRE), and the non-profit Great Lakes Media Institute joined forces to collect information about African countries from a variety of sources to journalists and others to explain the spending of their governments, non-governmental organizations and donors.</p>
+			<p>Interested? Read our <a href="http://ujima-project.org/faq">FAQ</a>, and our <a href="http://ujima-project.org/blog">blog</a>.</p>
+		</div>
+		
+		<div id="blog_blurb" class="grid_8">
+			<h4 class="prettytype">Data Disclaimer</h4>
+			<p>Errors may exist in these databases since we only try to make the
+			information more accessible to users of the site and we do not change
+			the underlying data, supplied by official sources.</p>
+
+			<p>We will report errors to the proper sources of the data if it is
+			brought to our attention.  We take no responsibility for the accuracy
+			of the data.</p>
+		   
+		</div>
+		</div>
+	</div>
+<!-- end footer -->
+{% endblock %}

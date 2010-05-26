@@ -1,0 +1,29 @@
+/* 
+Ujima Core CSS - IE 
+"because internet explorer is a stubborn, pushy child."
+@author brandon sheats
+@date 1 September 2009
+@version 1.0
+ */
+ 
+#header_wrap{
+	background-color: #938E7C;
+	border-bottom: 1px solid #AAA698;
+}
+
+#tagline{
+	margin-top: 5px;
+}
+
+#nav_menu ul{
+	margin-top: 5px;
+}
+
+#footer{
+	background-color: #938E7C;
+	border-top: 3px dotted #AAA698;
+}
+
+#blurb{
+	border-right: 2px dotted #AAA698;
+}

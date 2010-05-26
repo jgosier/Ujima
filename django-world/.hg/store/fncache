@@ -1,0 +1,16 @@
+data/testrpoject/urls.py.i
+data/world/management/__init__.py.i
+data/INSTALL.txt.i
+data/world/__init__.py.i
+data/testrpoject/manage.py.i
+data/testrpoject/__init__.py.i
+data/world/management/commands/__init__.py.i
+data/world/management/commands/importgeonames.py.i
+data/world/views.py.i
+data/testrpoject/settings.py.i
+data/world/tests.py.i
+data/world/admin.py.i
+data/setup.py.i
+data/LICENSE.txt.i
+data/README.txt.i
+data/world/models.py.i

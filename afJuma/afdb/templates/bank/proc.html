@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}Product List {% endblock %}
+
+{% block content %}
+
+<h2> Browse by Type of Product or Service </h2>
+
+<p> Welcome to the U.S. Agency for International Development Vendor Search Section of the Ujima Project. You can explore the data in different ways. You can search by country, by NGO or use any number of other filters to find the information you need.</p>
+
+<p>Click on one of the product descriptions below to get information about the firms or individuals who recieved funding from the USAID in your country </p>
+
+<ul>
+
+{% for product in prod_list %}
+
+<li><a href ="{{product.get_absolute_url }}">{{ product.pdescription }}</a></li>
+
+{% endfor %}
+
+</ul>
+
+Search by:
+<a href="{% url afJuma.afdb.views.country_list %}">Country</a>
+<a href="{% url afJuma.afdb.views.prod_list %}">Product</a>
+<a href="{% url afJuma.afdb.views.vendor_list %}">Vendor</a>
+
+
+{% endblock %}
+     

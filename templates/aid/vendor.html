@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% block title %}Aid Browse by Vendor | Ujima Project{% endblock %}
+{% block extrastyle %}
+{% endblock %}
+
+{% block content %}
+<div="content_wrap" class="grid_15 suffix_1">	
+	<h3 class="prettytype">Browse by Vendor </h3>
+
+	<p> Welcome to the U.S. Agency for International Development Vendor Search Section of the Ujima Project. You can explore the data in different ways.</p>
+
+	<p>Click on one of the contractors below to get information about the firms or individuals hired by the USAID for work in your country.</p>
+	<li class="group">USAID Information By Vendor</li>
+	
+	
+	<ul class="cont">
+    {%  autopaginate vendor_list 20 %}
+	{% for vendor in vendor_list %}
+
+	<li class="inner"><a class="title" href ="{{vendor.get_absolute_url}}">{{vendor.name}}</a></li>
+
+	{% endfor %}
+
+{% paginate %}
+	</ul>
+<br><br>
+<center><a href="csv" style="text-decoration:none;">Download as  <img src="/Media/static/xls.png" ></a></center>
+	<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->
+<h4>
+	Also browse by:
+	<a href="{% url usaid.aid.views.country_list %}">Country</a> | 
+	<a href="{% url usaid.aid.views.search_detail %}">Search</a> | 
+	<a href="{% url usaid.aid.views.prod_list %}">Product</a>
+	</h4>
+</div>
+</div>
+<div class="clear"></div> 
+
+
+{% endblock %}

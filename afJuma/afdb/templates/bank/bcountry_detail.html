@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+
+{% block title %} The Ujima Project {% endblock %}
+
+{% block content %}
+
+<p>Country: {{country}} </p>
+
+{% if aid %}
+
+<p>The number of records: {{aid.count}} </p>
+
+{% endif %}
+
+<p> This table contains all contractors who recieved money from the  African Development Bank for work in {{country}}.</p>
+
+  <table border ="2">
+
+<th>Vendor</th><th>Country</th><th>Amount(USD)</th><th>Agency</th><th>Description</th><th>Year</th><th>Product or Service</th>
+{% autopaginate aid 20 %}
+{% for aid in aid %}
+   <tr>
+      <td><a href="{{aid.duns.get_absolute_url}}">{{aid.vendor}}</a></td>
+      <td>{{aid.pcountry}}</a></td>
+      <td>{{aid.dollars}}</td>
+      <td>{{aid.agency}}</td>
+      <td>{{aid.description}}</a></td>
+      <td>{{aid.year}}</td>
+	  <td><a href="{{aid.prodcode.get_absolute_url}}">{{aid.prodcode}}</td>
+   </tr>
+
+  {% endfor %}
+  {% paginate %}
+
+  </table>
+<h4>Filter by Year</h4>
+<ul>
+{% for y in years %}
+<li><a href ="{{ y }}/">{{ y }}</a></li>
+
+{% endfor %}
+
+<h4> Back to search page: 
+<a href="{% url afJuma.afdb.views.country_list %}">Country</a>
+<a href="{% url afJuma.afdb.views.search_detail %}">Search</a>
+<a href="{% url afJuma.afdb.views.prod_list %}">Product</a>
+<a href="{% url afJuma.afdb.views.vendor_list %}">Vendor</a>
+
+</h4>
+
+
+{% endblock %}

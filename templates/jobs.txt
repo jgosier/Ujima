@@ -1,0 +1,5585 @@
+year	sex	occupation	people	score	sei
+2000	1	Accountant / Auditor	866460	38	72
+2000	1	Actor	29975	29	60
+2000	1	Advertising Agent	114250	35	66
+2000	1	Architect	171025	54	90
+2000	1	Artist / Art Teacher	147525	31	67
+2000	1	Author	89748	30	76
+2000	1	Baker	109810	28	22
+2000	1	Bank Teller	53683	26	52
+2000	1	Barber / Beautician	180813	19	14
+2000	1	Bartender	185678	25	19
+2000	1	Bill Collector	73893	26	39
+2000	1	Blaster	11083	26	11
+2000	1	Boilermaker	24467	34	39
+2000	1	Bookbinder	29675	25	33
+2000	1	Bookkeeper	220113	22	51
+2000	1	Building Manager	244612	20	32
+2000	1	Bus Driver	317367	30	24
+2000	1	Buyer - Farm	12935	26	33
+2000	1	Buyer - Store	825260	42	72
+2000	1	Cabinet Maker	94810	26	23
+2000	1	Carpenter	1712796	24	19
+2000	1	Cashier	976286	18	44
+2000	1	Cement / Concrete Finisher	116125	27	19
+2000	1	Charwoman	198452	14	7
+2000	1	Chemist	79842	40	79
+2000	1	Chiropractor	46698	32	70
+2000	1	Clergyman	379579	24	52
+2000	1	Clerical Worker	3739906	25	46
+2000	1	Cook	2100285	14	13
+2000	1	Counter Worker	95273	13	17
+2000	1	Cranemen / Hoistmen	97514	31	21
+2000	1	Dancer / Dance Teacher	4794	16	45
+2000	1	Delivery Man	50821	27	27
+2000	1	Demonstrator	18049	12	35
+2000	1	Dentist	141323	63	96
+2000	1	Designer	373242	38	73
+2000	1	Dispatcher	138567	31	40
+2000	1	Doctor Office Attendant	112481	16	47
+2000	1	Draftsman	216855	34	67
+2000	1	Dressmaker / Seamstress	35316	12	23
+2000	1	Economist	71392	39	73
+2000	1	Editor / Reporter	239429	39	77
+2000	1	Electrician	868613	34	36
+2000	1	Engineer	396626	49	52
+2000	1	Engineer - Aeuronautical	117501	48	87
+2000	1	Engineer - Chemical	62749	49	90
+2000	1	Engineer - Civil	275116	46	84
+2000	1	Engineer - Electrical	377014	46	86
+2000	1	Engineer - Industrial	570889	45	76
+2000	1	Engineer - Mechanical	297908	46	85
+2000	1	Engineer - Metallurgical	36887	46	82
+2000	1	Engineer - Mining	23729	48	85
+2000	1	Engraver	11601	33	47
+2000	1	Entertainer	84890	20	48
+2000	1	Farm Foreman	57670	23	68
+2000	1	Farm Laborer	856153	9	11
+2000	1	Farm Manager	208086	24	36
+2000	1	Farmer	634832	14	14
+2000	1	Fireman	373490	29	24
+2000	1	Fisherman	68818	16	10
+2000	1	Foremen	1999279	38	30
+2000	1	Forgemen	16752	32	23
+2000	1	Forrester	46628	29	43
+2000	1	Funeral Director	44421	31	59
+2000	1	Gardener / Groundskeeper	1267931	17	11
+2000	1	Glazier	57335	28	26
+2000	1	Hospital Attendant	329525	16	27
+2000	1	Household Worker	31353	18	26
+2000	1	Human Resources	565758	43	76
+2000	1	Inspector	161302	36	53
+2000	1	Insulation Worker	77376	32	25
+2000	1	Insurance Agent	512838	36	55
+2000	1	Janitor	2004939	19	9
+2000	1	Jeweler	120157	27	32
+2000	1	Laborer	4746546	20	19
+2000	1	Laundry / Dry Cleaning	157827	15	15
+2000	1	Lawyer / Judge	699931	62	93
+2000	1	Librarian	38871	22	60
+2000	1	Library Attendant	52874	13	53
+2000	1	Locomotive Engineer	57211	46	58
+2000	1	Lumberman	132973	12	4
+2000	1	Machinist	546426	32	33
+2000	1	Mail Carrier	269004	34	53
+2000	1	Manager / Owner	11270779	42	52
+2000	1	Mason	264638	29	27
+2000	1	Meat Cutter	269489	29	29
+2000	1	Mechanic	2232570	30	27
+2000	1	Mechanic - Airplane	202371	34	48
+2000	1	Mechanic - Automobile	1829579	27	19
+2000	1	Mechanic - Office Machines	276652	28	36
+2000	1	Mechanic - Radio / Television	91074	25	38
+2000	1	Messenger	193642	15	28
+2000	1	Metal Filer	110367	30	22
+2000	1	Metal Worker	297786	33	34
+2000	1	Military	1017572	30	47
+2000	1	Millwright	90310	34	31
+2000	1	Miner	200747	24	14
+2000	1	Model Maker	16049	34	44
+2000	1	Motion Picture Projectionist	10296	34	43
+2000	1	Musician / Music Teacher	413003	20	63
+2000	1	Newsboy	123854	3	8
+2000	1	Nurse	403441	19	44
+2000	1	Nutritionist	9461	20	39
+2000	1	Office Machine Operator	334259	23	45
+2000	1	Oiler / Greaser	30515	28	15
+2000	1	Operative	5837694	23	27
+2000	1	Optician / Lens Grinder	20024	30	48
+2000	1	Optometrist	24325	42	79
+2000	1	Painter	882211	25	17
+2000	1	Paperhanger	15223	15	10
+2000	1	Parking Attendant	290103	19	23
+2000	1	Pharmacist	123677	40	82
+2000	1	Photo Developer	43477	23	42
+2000	1	Photographer	116115	27	34
+2000	1	Physician / Surgeon	576125	80	92
+2000	1	Pilot	136359	52	79
+2000	1	Plasterer	54434	29	25
+2000	1	Plumber	636668	33	34
+2000	1	Policeman / Detective	817139	32	29
+2000	1	Porter	56206	18	4
+2000	1	Postmaster	20279	29	60
+2000	1	Power Station Operator	43979	36	50
+2000	1	Pressman	280610	38	35
+2000	1	Professional - Misc	2833825	33	65
+2000	1	Professor	707315	41	84
+2000	1	Psychologist	66504	39	81
+2000	1	Public Officials	129379	36	66
+2000	1	Purchasing Agent	141566	42	77
+2000	1	Radio Operator	121044	30	69
+2000	1	Railroad Brakeman	11668	36	42
+2000	1	Railroad Conductor	54613	43	58
+2000	1	Real Estate Agent	437118	35	62
+2000	1	Recreation Attendant	343733	9	15
+2000	1	Religious Worker	63275	15	56
+2000	1	Road Machinery Operator	512160	31	28
+2000	1	Roller	14228	30	22
+2000	1	Roofer	291409	23	15
+2000	1	Sailor	31389	23	16
+2000	1	Salesman	4087696	24	47
+2000	1	Sawyer	70658	17	5
+2000	1	Scientist	116374	41	80
+2000	1	Scientist - Agriculture	24723	41	80
+2000	1	Scientist - Biology	98754	41	80
+2000	1	Scientist - Geology	70402	41	80
+2000	1	Scientist - Physics	29426	41	80
+2000	1	Scientist - Social	21044	39	81
+2000	1	Secretary	191588	23	53
+2000	1	Security Guard	1212189	26	26
+2000	1	Service Attendant	211791	13	32
+2000	1	Service Worker	627109	11	11
+2000	1	Serviceman	536422	32	43
+2000	1	Sheriff / Bailiff	8228	30	11
+2000	1	Ship Officers	43594	42	54
+2000	1	Shipping and Receiving	584615	26	45
+2000	1	Shoemaker	282385	20	22
+2000	1	Social Worker	404846	24	66
+2000	1	Sports Instructor / Official	173041	32	52
+2000	1	Stationary Engineer	213589	28	29
+2000	1	Statistician / Actuary	33042	39	81
+2000	1	Stock Broker	467290	40	69
+2000	1	Surveyor	118867	28	48
+2000	1	Taxi Cab Driver / Chauffeur	294801	22	14
+2000	1	Teacher	1402235	27	72
+2000	1	Technician	431203	33	53
+2000	1	Technician - Medical / Dental	460297	25	57
+2000	1	Technician - Testing	242234	30	36
+2000	1	Telephone Operator	32532	21	45
+2000	1	Temperer	14405	30	22
+2000	1	Therapist	127400	26	53
+2000	1	Ticket Agent	104583	35	54
+2000	1	Tool Maker	138638	37	50
+2000	1	Truck / Tractor Driver	3681627	25	15
+2000	1	Typesetter	51064	36	18
+2000	1	Upholsterer	57883	26	22
+2000	1	Usher	58147	4	25
+2000	1	Veterinarian	39184	42	78
+2000	1	Waiter / Waitress	595509	11	16
+2000	1	Weaver	17800	23	6
+2000	1	Welder	727405	31	24
+2000	2	Accountant / Auditor	1217596	38	72
+2000	2	Actor	25931	29	60
+2000	2	Advertising Agent	132581	35	66
+2000	2	Architect	45789	54	90
+2000	2	Artist / Art Teacher	144382	31	67
+2000	2	Author	107058	30	76
+2000	2	Baker	117400	28	22
+2000	2	Bank Teller	474467	26	52
+2000	2	Barber / Beautician	912194	19	14
+2000	2	Bartender	232073	25	19
+2000	2	Bill Collector	189733	26	39
+2000	2	Blaster	1187	26	11
+2000	2	Boilermaker	810	34	39
+2000	2	Bookbinder	34600	25	33
+2000	2	Bookkeeper	1920224	22	51
+2000	2	Building Manager	272713	20	32
+2000	2	Bus Driver	303925	30	24
+2000	2	Buyer - Farm	3870	26	33
+2000	2	Buyer - Store	735183	42	72
+2000	2	Cabinet Maker	7648	26	23
+2000	2	Carpenter	35826	24	19
+2000	2	Cashier	3347118	18	44
+2000	2	Cement / Concrete Finisher	1620	27	19
+2000	2	Charwoman	1538658	14	7
+2000	2	Chemist	39726	40	79
+2000	2	Chiropractor	19954	32	70
+2000	2	Clergyman	69192	24	52
+2000	2	Clerical Worker	9244984	25	46
+2000	2	Cook	2289731	16	13
+2000	2	Counter Worker	208388	13	17
+2000	2	Cranemen / Hoistmen	3609	31	21
+2000	2	Dancer / Dance Teacher	29546	16	45
+2000	2	Delivery Man	13282	27	27
+2000	2	Demonstrator	73418	12	35
+2000	2	Dentist	30915	63	96
+2000	2	Designer	521359	38	73
+2000	2	Dispatcher	163762	31	40
+2000	2	Doctor Office Attendant	960494	16	47
+2000	2	Draftsman	52679	34	67
+2000	2	Dressmaker / Seamstress	115374	12	23
+2000	2	Economist	64767	39	73
+2000	2	Editor / Reporter	318909	39	77
+2000	2	Electrician	24584	34	36
+2000	2	Engineer	49325	49	52
+2000	2	Engineer - Aeuronautical	11645	48	87
+2000	2	Engineer - Chemical	10994	49	90
+2000	2	Engineer - Civil	32554	46	84
+2000	2	Engineer - Electrical	44169	46	86
+2000	2	Engineer - Industrial	285490	45	76
+2000	2	Engineer - Mechanical	20586	46	85
+2000	2	Engineer - Metallurgical	4554	46	82
+2000	2	Engineer - Mining	1776	48	85
+2000	2	Engraver	6674	33	47
+2000	2	Entertainer	122685	20	48
+2000	2	Farm Foreman	11769	23	68
+2000	2	Farm Laborer	384886	9	11
+2000	2	Farm Manager	37048	24	36
+2000	2	Farmer	117671	14	14
+2000	2	Fireman	23972	29	24
+2000	2	Fisherman	5504	16	10
+2000	2	Foremen	436539	38	30
+2000	2	Forgemen	1115	32	23
+2000	2	Forrester	7396	29	43
+2000	2	Funeral Director	9932	31	59
+2000	2	Gardener / Groundskeeper	113506	17	11
+2000	2	Glazier	2671	28	26
+2000	2	Hospital Attendant	2508569	16	27
+2000	2	Household Worker	123088	18	26
+2000	2	Human Resources	974106	43	76
+2000	2	Inspector	72389	36	53
+2000	2	Insulation Worker	4840	32	25
+2000	2	Insurance Agent	752326	36	55
+2000	2	Janitor	953749	19	9
+2000	2	Jeweler	31809	27	32
+2000	2	Laborer	825610	20	19
+2000	2	Laundry / Dry Cleaning	275642	15	15
+2000	2	Lawyer / Judge	310186	62	93
+2000	2	Librarian	188810	22	60
+2000	2	Library Attendant	205979	13	53
+2000	2	Locomotive Engineer	2324	46	58
+2000	2	Lumberman	4596	12	4
+2000	2	Machinist	33788	32	33
+2000	2	Mail Carrier	137492	34	53
+2000	2	Manager / Owner	7154236	42	52
+2000	2	Mason	3111	29	27
+2000	2	Meat Cutter	94222	29	29
+2000	2	Mechanic	90507	30	27
+2000	2	Mechanic - Airplane	13018	34	48
+2000	2	Mechanic - Automobile	36084	27	19
+2000	2	Mechanic - Office Machines	43897	28	36
+2000	2	Mechanic - Radio / Television	6283	25	38
+2000	2	Messenger	57087	15	28
+2000	2	Metal Filer	16030	30	22
+2000	2	Metal Worker	12523	33	34
+2000	2	Military	171138	31	49
+2000	2	Millwright	2007	34	31
+2000	2	Miner	7109	24	14
+2000	2	Model Maker	2772	34	44
+2000	2	Motion Picture Projectionist	1720	34	43
+2000	2	Musician / Music Teacher	761844	20	63
+2000	2	Newsboy	140034	3	8
+2000	2	Nurse	3505260	19	44
+2000	2	Nutritionist	88039	20	39
+2000	2	Office Machine Operator	891903	23	45
+2000	2	Oiler / Greaser	2196	28	15
+2000	2	Operative	4200004	23	27
+2000	2	Optician / Lens Grinder	39007	30	48
+2000	2	Optometrist	9246	42	79
+2000	2	Painter	108402	25	17
+2000	2	Paperhanger	7125	15	10
+2000	2	Parking Attendant	53227	19	23
+2000	2	Pharmacist	107598	40	82
+2000	2	Photo Developer	62574	23	42
+2000	2	Photographer	70166	27	34
+2000	2	Physician / Surgeon	211250	80	92
+2000	2	Pilot	5919	52	79
+2000	2	Plasterer	695	29	25
+2000	2	Plumber	11947	33	34
+2000	2	Policeman / Detective	144722	32	29
+2000	2	Porter	11117	18	4
+2000	2	Postmaster	27120	29	60
+2000	2	Power Station Operator	3787	36	50
+2000	2	Pressman	72897	38	35
+2000	2	Professional - Misc	2592152	33	65
+2000	2	Professor	637686	41	84
+2000	2	Psychologist	119715	39	81
+2000	2	Public Officials	162534	36	66
+2000	2	Purchasing Agent	160663	42	77
+2000	2	Radio Operator	24389	30	69
+2000	2	Railroad Brakeman	377	36	42
+2000	2	Railroad Conductor	3685	43	58
+2000	2	Real Estate Agent	500595	35	62
+2000	2	Recreation Attendant	339990	9	15
+2000	2	Religious Worker	108514	15	56
+2000	2	Road Machinery Operator	12391	31	28
+2000	2	Roller	5966	30	22
+2000	2	Roofer	4992	23	15
+2000	2	Sailor	1895	23	16
+2000	2	Salesman	3846310	24	47
+2000	2	Sawyer	11801	17	5
+2000	2	Scientist	61293	41	80
+2000	2	Scientist - Agriculture	8867	41	80
+2000	2	Scientist - Biology	84371	41	80
+2000	2	Scientist - Geology	23132	41	80
+2000	2	Scientist - Physics	3888	41	80
+2000	2	Scientist - Social	22081	39	81
+2000	2	Secretary	4829263	23	53
+2000	2	Security Guard	376663	26	26
+2000	2	Service Attendant	1948587	13	32
+2000	2	Service Worker	446730	11	11
+2000	2	Serviceman	52984	32	43
+2000	2	Sheriff / Bailiff	3574	30	11
+2000	2	Ship Officers	1504	42	54
+2000	2	Shipping and Receiving	254624	26	45
+2000	2	Shoemaker	14101	20	22
+2000	2	Social Worker	1023517	24	66
+2000	2	Sports Instructor / Official	90745	32	52
+2000	2	Stationary Engineer	9471	28	29
+2000	2	Statistician / Actuary	23370	39	81
+2000	2	Stock Broker	235499	40	69
+2000	2	Surveyor	17314	28	48
+2000	2	Taxi Cab Driver / Chauffeur	48088	22	14
+2000	2	Teacher	4460616	27	72
+2000	2	Technician	117728	33	53
+2000	2	Technician - Medical / Dental	1064460	25	57
+2000	2	Technician - Testing	148853	30	36
+2000	2	Telephone Operator	189007	21	45
+2000	2	Temperer	1677	30	22
+2000	2	Therapist	423125	26	53
+2000	2	Ticket Agent	307394	35	54
+2000	2	Tool Maker	4739	37	50
+2000	2	Truck / Tractor Driver	255543	25	15
+2000	2	Typesetter	48722	36	18
+2000	2	Upholsterer	17947	26	22
+2000	2	Usher	26527	4	25
+2000	2	Veterinarian	25883	42	78
+2000	2	Waiter / Waitress	1843769	11	16
+2000	2	Weaver	32015	23	6
+2000	2	Welder	63197	31	24
+1850	1	Accountant / Auditor	708	38	78
+1850	1	Actor	506	29	60
+1850	1	Agent	2528	36	68
+1850	1	Apprentice	3134	20	35
+1850	1	Apprentice - Carpenter	404	20	31
+1850	1	Apprentice - Construction	202	21	29
+1850	1	Architect	405	54	90
+1850	1	Artist / Art Teacher	2123	31	67
+1850	1	Athlete	204	23	52
+1850	1	Auctioneer	809	30	40
+1850	1	Author	101	33	76
+1850	1	Baggageman	809	30	25
+1850	1	Baker	14557	28	22
+1850	1	Bank Teller	404	26	52
+1850	1	Barber / Beautician	7685	19	17
+1850	1	Bartender	5660	25	19
+1850	1	Bill Collector	1212	26	39
+1850	1	Blacksmith	96744	25	16
+1850	1	Boarding House Keeper	2124	7	30
+1850	1	Boatman	28295	30	24
+1850	1	Boilermaker	2020	34	39
+1850	1	Bookbinder	3435	25	33
+1850	1	Bookkeeper	2225	22	51
+1850	1	Building Manager	2125	20	32
+1850	1	Bus Driver	3839	30	24
+1850	1	Buyer - Farm	404	26	33
+1850	1	Cabinet Maker	38303	26	23
+1850	1	Carpenter	219647	24	19
+1850	1	Cashier	101	18	44
+1850	1	Cement / Concrete Finisher	102	27	19
+1850	1	Chemist	809	40	79
+1850	1	Clergyman	29414	24	52
+1850	1	Clerical Worker	2929	25	44
+1850	1	College President / Dean	101	41	84
+1850	1	Constable	3439	24	21
+1850	1	Craftsman	47904	32	32
+1850	1	Crossing Guard / Toll Collector	1818	26	17
+1850	1	Dancer / Dance Teacher	102	16	45
+1850	1	Delivery Man	1316	27	32
+1850	1	Dentist	2023	63	96
+1850	1	Designer	203	38	73
+1850	1	Disabled	910	0	0
+1850	1	Doctor Office Attendant	101	16	38
+1850	1	Draftsman	101	34	67
+1850	1	Dressmaker / Seamstress	202	12	23
+1850	1	Dyer	2326	25	12
+1850	1	Editor / Reporter	2327	39	82
+1850	1	Engineer - Civil	607	46	84
+1850	1	Engineer - Mechanical	101	46	82
+1850	1	Engraver	1820	33	47
+1850	1	Entertainer	910	20	31
+1850	1	Farm Foreman	16270	23	20
+1850	1	Farm Laborer	296047	9	6
+1850	1	Farm Manager	707	24	36
+1850	1	Farmer	2415878	14	14
+1850	1	Fireman	1718	28	17
+1850	1	Fisherman	12734	16	10
+1850	1	Foremen	2427	38	49
+1850	1	Forgemen	1010	32	23
+1850	1	Funeral Director	606	31	59
+1850	1	Furnaceman	9808	29	18
+1850	1	Furrier	202	32	39
+1850	1	Gardener / Groundskeeper	8596	17	11
+1850	1	Glazier	101	28	26
+1850	1	Hospital Attendant	101	16	13
+1850	1	Household Worker	14966	9	17
+1850	1	Huckster	11322	13	8
+1850	1	Inmate	303	0	0
+1850	1	Inspector	1721	32	42
+1850	1	Insurance Agent	606	36	66
+1850	1	Janitor	202	19	9
+1850	1	Jeweler	11832	27	36
+1850	1	Laborer	620277	20	8
+1850	1	Laundry / Dry Cleaning	303	15	15
+1850	1	Lawyer / Judge	24369	62	93
+1850	1	Lithographer	808	47	64
+1850	1	Locomotive Engineer	505	46	58
+1850	1	Longshoreman	1314	25	11
+1850	1	Lumberman	7986	12	4
+1850	1	Machinist	23644	32	33
+1850	1	Mail Carrier	808	34	53
+1850	1	Manager / Owner	224003	42	68
+1850	1	Mason	51032	29	27
+1850	1	Meat Cutter	19314	29	29
+1850	1	Mechanic	29113	30	27
+1850	1	Mechanic - Railroad	101	32	23
+1850	1	Messenger	506	15	28
+1850	1	Metal Filer	303	30	22
+1850	1	Metal Heater	101	32	29
+1850	1	Metal Worker	11319	32	33
+1850	1	Military	8693	11	18
+1850	1	Miller	31743	25	19
+1850	1	Milliner	202	19	46
+1850	1	Millwright	9003	34	31
+1850	1	Miner	87431	24	10
+1850	1	Model Maker	1616	34	44
+1850	1	Molder	9102	28	12
+1850	1	Motorman	101	34	34
+1850	1	Musician / Music Teacher	3236	20	52
+1850	1	Newsboy	505	3	27
+1850	1	Nurse	101	11	22
+1850	1	Operative	192143	23	18
+1850	1	Optician / Lens Grinder	202	30	39
+1850	1	Painter	24058	25	17
+1850	1	Paperhanger	607	15	10
+1850	1	Pharmacist	5461	40	82
+1850	1	Photographer	707	27	50
+1850	1	Physician / Surgeon	43256	80	92
+1850	1	Plasterer	9505	29	25
+1850	1	Plumber	1516	33	34
+1850	1	Policeman / Detective	2930	32	39
+1850	1	Porter	6064	18	4
+1850	1	Postmaster	1922	29	60
+1850	1	Pressman	101	38	49
+1850	1	Professional - Misc	7076	33	65
+1850	1	Professor	1112	41	84
+1850	1	Professor - Mathematics	101	41	84
+1850	1	Public Officials	7585	36	66
+1850	1	Railroad Brakeman	506	36	42
+1850	1	Railroad Conductor	404	43	58
+1850	1	Railroad Switchman	101	36	44
+1850	1	Real Estate Agent	405	35	62
+1850	1	Recreation Attendant	303	8	19
+1850	1	Retired	1112	0	0
+1850	1	Road Machinery Operator	1415	31	24
+1850	1	Roller	1010	30	22
+1850	1	Roofer	101	23	15
+1850	1	Sailor	69440	23	16
+1850	1	Salesman	104351	24	47
+1850	1	Sawyer	9799	17	5
+1850	1	Scientist	101	41	80
+1850	1	Security Guard	3134	25	18
+1850	1	Service Worker	2324	11	11
+1850	1	Sheriff / Bailiff	1718	30	34
+1850	1	Ship Officers	7781	42	54
+1850	1	Shipping and Receiving	303	26	22
+1850	1	Shoemaker	139284	20	12
+1850	1	Stationary Engineer	10304	36	47
+1850	1	Stock Broker	101	40	73
+1850	1	Stone Cutter	11323	28	25
+1850	1	Surveyor	1314	28	48
+1850	1	Tailor	55694	26	23
+1850	1	Taxi Cab Driver / Chauffeur	1212	22	10
+1850	1	Teacher	30418	27	72
+1850	1	Telegraph Messenger	101	12	22
+1850	1	Telegraph Operator	505	32	47
+1850	1	Textile Spinner	4955	18	5
+1850	1	Ticket Agent	1314	35	60
+1850	1	Tool Maker	505	37	50
+1850	1	Truck / Tractor Driver	31753	25	15
+1850	1	Typesetter	16068	36	52
+1850	1	Upholsterer	2425	26	22
+1850	1	Waiter / Waitress	7184	11	16
+1850	1	Weaver	15970	23	6
+1850	1	Welder	101	31	24
+1850	2	Apprentice	101	19	31
+1850	2	Baker	101	28	22
+1850	2	Barber / Beautician	202	19	17
+1850	2	Blacksmith	101	25	16
+1850	2	Boarding House Keeper	910	7	30
+1850	2	Boatman	304	30	24
+1850	2	Building Manager	101	20	32
+1850	2	Cabinet Maker	101	26	23
+1850	2	Carpenter	707	24	19
+1850	2	Clergyman	101	24	52
+1850	2	Craftsman	202	32	32
+1850	2	Disabled	202	0	0
+1850	2	Dressmaker / Seamstress	2226	12	23
+1850	2	Farm Foreman	101	23	20
+1850	2	Farm Laborer	1313	9	6
+1850	2	Farmer	17583	14	14
+1850	2	Hospital Attendant	101	16	13
+1850	2	Household Worker	11620	6	13
+1850	2	Jeweler	101	27	36
+1850	2	Laborer	3436	20	8
+1850	2	Manager / Owner	1717	42	68
+1850	2	Mechanic	101	30	27
+1850	2	Miller	101	25	19
+1850	2	Milliner	506	19	46
+1850	2	Millwright	101	34	31
+1850	2	Miner	303	24	10
+1850	2	Musician / Music Teacher	101	20	52
+1850	2	Nurse	707	11	22
+1850	2	Operative	1212	23	18
+1850	2	Painter	101	23	16
+1850	2	Professional - Misc	303	33	65
+1850	2	Public Officials	102	36	66
+1850	2	Religious Worker	101	15	56
+1850	2	Sailor	101	23	16
+1850	2	Salesman	405	24	47
+1850	2	Shoemaker	101	20	12
+1850	2	Stationary Engineer	101	36	47
+1850	2	Tailor	1517	26	23
+1850	2	Teacher	2728	27	72
+1850	2	Textile Spinner	606	18	5
+1850	2	Truck / Tractor Driver	202	25	15
+1850	2	Typesetter	101	36	52
+1850	2	Waiter / Waitress	202	11	16
+1850	2	Weaver	909	23	6
+1860	1	Accountant / Auditor	1805	38	78
+1860	1	Actor	401	29	60
+1860	1	Agent	4610	36	68
+1860	1	Apprentice	22765	20	35
+1860	1	Apprentice - Bricklayer	1204	25	32
+1860	1	Apprentice - Carpenter	6818	20	31
+1860	1	Apprentice - Construction	3408	21	29
+1860	1	Apprentice - Machinist	2612	24	41
+1860	1	Apprentice - Mechanic	1003	25	34
+1860	1	Apprentice - Metal Working	13251	23	33
+1860	1	Apprentice - Plumber	1004	25	33
+1860	1	Apprentice - Printing	2005	23	40
+1860	1	Architect	1707	54	90
+1860	1	Artist / Art Teacher	5024	31	67
+1860	1	Athlete	100	23	52
+1860	1	Auctioneer	1908	30	40
+1860	1	Author	301	33	76
+1860	1	Baggageman	1509	30	25
+1860	1	Baker	17661	28	22
+1860	1	Bank Teller	1004	26	52
+1860	1	Barber / Beautician	8928	19	17
+1860	1	Bartender	9528	25	19
+1860	1	Bill Collector	2311	26	39
+1860	1	Blacksmith	111164	25	16
+1860	1	Boarding House Keeper	4819	7	30
+1860	1	Boatman	22671	30	24
+1860	1	Boilermaker	3917	34	39
+1860	1	Bookbinder	3410	25	33
+1860	1	Bookkeeper	16847	22	51
+1860	1	Bootblack	202	14	8
+1860	1	Building Manager	2909	20	32
+1860	1	Bus Driver	4514	30	24
+1860	1	Buyer - Farm	4919	26	33
+1860	1	Buyer - Store	100	42	72
+1860	1	Cabinet Maker	35416	26	23
+1860	1	Carpenter	273528	24	19
+1860	1	Cashier	600	18	44
+1860	1	Cement / Concrete Finisher	101	27	19
+1860	1	Chemist	301	40	79
+1860	1	Clergyman	35220	24	52
+1860	1	Clerical Worker	8431	25	44
+1860	1	College President / Dean	101	41	84
+1860	1	Constable	4715	24	21
+1860	1	Cook	6928	16	15
+1860	1	Craftsman	78049	32	32
+1860	1	Crossing Guard / Toll Collector	1604	26	17
+1860	1	Dancer / Dance Teacher	300	16	45
+1860	1	Delivery Man	2109	27	32
+1860	1	Dentist	5720	63	96
+1860	1	Designer	101	38	73
+1860	1	Disabled	2512	0	0
+1860	1	Draftsman	302	34	67
+1860	1	Dressmaker / Seamstress	1910	12	23
+1860	1	Dyer	2715	25	12
+1860	1	Editor / Reporter	3611	39	82
+1860	1	Electrotyper	100	47	55
+1860	1	Engineer - Civil	2507	46	84
+1860	1	Engineer - Mechanical	300	46	82
+1860	1	Engineer - Mining	100	48	85
+1860	1	Engraver	2608	33	47
+1860	1	Entertainer	501	20	31
+1860	1	Farm Advisor	100	36	83
+1860	1	Farm Foreman	31787	23	20
+1860	1	Farm Laborer	841587	15	14
+1860	1	Farm Manager	3514	24	36
+1860	1	Farmer	2586005	14	14
+1860	1	Fireman	3811	31	27
+1860	1	Fisherman	18666	16	10
+1860	1	Foremen	9835	38	49
+1860	1	Forgemen	1507	32	23
+1860	1	Forrester	300	29	48
+1860	1	Funeral Director	601	31	59
+1860	1	Furnaceman	7528	29	18
+1860	1	Furrier	301	32	39
+1860	1	Gardener / Groundskeeper	18751	17	11
+1860	1	Glazier	901	28	26
+1860	1	Hospital Attendant	200	16	13
+1860	1	Household Worker	36635	9	17
+1860	1	Huckster	21079	13	8
+1860	1	Inmate	1303	0	0
+1860	1	Inspector	1808	32	42
+1860	1	Insurance Agent	1806	36	66
+1860	1	Janitor	803	19	9
+1860	1	Jeweler	17268	27	36
+1860	1	Laborer	826978	20	8
+1860	1	Laundry / Dry Cleaning	1805	15	15
+1860	1	Lawyer / Judge	35027	62	93
+1860	1	Librarian	100	22	60
+1860	1	Lithographer	600	47	64
+1860	1	Locomotive Engineer	2206	46	58
+1860	1	Locomotive Fireman	1709	37	45
+1860	1	Longshoreman	2207	25	11
+1860	1	Loom Fixer	100	29	10
+1860	1	Lumberman	16948	12	4
+1860	1	Machinist	38635	32	33
+1860	1	Mail Carrier	1907	34	53
+1860	1	Manager / Owner	365479	42	68
+1860	1	Mason	67738	29	27
+1860	1	Meat Cutter	35620	29	29
+1860	1	Mechanic	39053	30	27
+1860	1	Messenger	1704	27	48
+1860	1	Metal Filer	2514	30	22
+1860	1	Metal Heater	1404	32	29
+1860	1	Metal Worker	20465	33	34
+1860	1	Military	10522	11	18
+1860	1	Miller	34234	25	19
+1860	1	Milliner	903	19	46
+1860	1	Millwright	7722	34	31
+1860	1	Miner	147614	24	10
+1860	1	Model Maker	2912	34	44
+1860	1	Molder	18769	28	12
+1860	1	Motorman	100	34	34
+1860	1	Musician / Music Teacher	8025	20	52
+1860	1	Newsboy	1105	3	27
+1860	1	Nurse	101	11	22
+1860	1	Operative	247834	23	18
+1860	1	Optician / Lens Grinder	401	30	39
+1860	1	Painter	55188	25	17
+1860	1	Paperhanger	1907	15	10
+1860	1	Pharmacist	9836	40	82
+1860	1	Photographer	3815	27	50
+1860	1	Physician / Surgeon	58907	80	92
+1860	1	Piano / Organ Tuner	501	24	38
+1860	1	Plasterer	13749	29	25
+1860	1	Plumber	6216	33	34
+1860	1	Policeman / Detective	4117	32	39
+1860	1	Porter	11944	18	4
+1860	1	Postmaster	3108	29	60
+1860	1	Pressman	301	38	49
+1860	1	Professional - Misc	1711	33	65
+1860	1	Professor	1002	41	84
+1860	1	Professor - Mathematics	200	41	84
+1860	1	Professor - Science	100	41	84
+1860	1	Professor - Social Science 	202	41	84
+1860	1	Public Officials	10236	36	66
+1860	1	Railroad Brakeman	2410	36	42
+1860	1	Railroad Conductor	5217	43	58
+1860	1	Railroad Switchman	202	36	44
+1860	1	Real Estate Agent	2511	35	62
+1860	1	Religious Worker	1712	15	56
+1860	1	Retired	10543	0	0
+1860	1	Roller	1706	30	22
+1860	1	Roofer	1202	23	15
+1860	1	Sailor	67827	23	16
+1860	1	Salesman	166761	24	47
+1860	1	Sawyer	13444	17	5
+1860	1	Scientist	101	41	80
+1860	1	Scientist - Biology	100	41	80
+1860	1	Security Guard	5921	25	18
+1860	1	Service Attendant	100	13	26
+1860	1	Service Worker	401	11	11
+1860	1	Sheriff / Bailiff	2913	30	34
+1860	1	Ship Officers	15656	42	54
+1860	1	Shipping and Receiving	100	26	22
+1860	1	Shoemaker	154840	20	12
+1860	1	Stationary Engineer	21783	36	47
+1860	1	Stone Cutter	15541	28	25
+1860	1	Street Car Conductor	300	33	30
+1860	1	Surveyor	2606	28	48
+1860	1	Tailor	64025	26	23
+1860	1	Taxi Cab Driver / Chauffeur	8330	22	10
+1860	1	Teacher	45663	27	72
+1860	1	Telegraph Operator	1403	32	47
+1860	1	Textile Spinner	6524	18	5
+1860	1	Therapist	401	26	58
+1860	1	Ticket Agent	4718	35	60
+1860	1	Tool Maker	301	37	50
+1860	1	Truck / Tractor Driver	63194	25	15
+1860	1	Typesetter	21878	36	52
+1860	1	Upholsterer	2406	26	22
+1860	1	Usher	100	4	25
+1860	1	Veterinarian	101	42	78
+1860	1	Waiter / Waitress	7926	11	16
+1860	1	Weaver	14346	23	6
+1860	1	Welder	200	31	24
+1860	2	Actor	100	29	60
+1860	2	Agent	200	36	68
+1860	2	Apprentice	1107	20	35
+1860	2	Apprentice - Construction	202	21	29
+1860	2	Artist / Art Teacher	605	31	67
+1860	2	Author	201	33	76
+1860	2	Baker	401	28	22
+1860	2	Barber / Beautician	100	19	17
+1860	2	Blacksmith	503	25	16
+1860	2	Boarding House Keeper	9733	7	30
+1860	2	Boatman	200	30	24
+1860	2	Bookbinder	201	25	33
+1860	2	Bookkeeper	301	22	51
+1860	2	Cabinet Maker	500	26	23
+1860	2	Carpenter	804	24	19
+1860	2	Charwoman	400	14	10
+1860	2	Clergyman	300	24	52
+1860	2	Clerical Worker	100	25	44
+1860	2	College President / Dean	101	41	84
+1860	2	Cook	8032	16	15
+1860	2	Craftsman	501	32	32
+1860	2	Crossing Guard / Toll Collector	402	26	17
+1860	2	Dancer / Dance Teacher	100	16	45
+1860	2	Delivery Man	100	27	32
+1860	2	Dentist	100	63	96
+1860	2	Disabled	1305	0	0
+1860	2	Dressmaker / Seamstress	131138	12	23
+1860	2	Dyer	101	25	12
+1860	2	Farm Foreman	402	23	20
+1860	2	Farm Laborer	18465	9	6
+1860	2	Farm Manager	1606	24	36
+1860	2	Farmer	99747	14	14
+1860	2	Foremen	101	38	49
+1860	2	Furrier	303	32	39
+1860	2	Gardener / Groundskeeper	1005	17	11
+1860	2	Hospital Attendant	902	16	13
+1860	2	Household Worker	616191	9	17
+1860	2	Huckster	1403	13	8
+1860	2	Inmate	2305	0	0
+1860	2	Janitor	100	19	9
+1860	2	Jeweler	301	27	36
+1860	2	Laborer	18778	20	8
+1860	2	Laundry / Dry Cleaning	601	15	15
+1860	2	Lawyer / Judge	100	62	93
+1860	2	Lumberman	101	12	4
+1860	2	Machinist	403	32	33
+1860	2	Manager / Owner	21688	42	68
+1860	2	Mason	200	29	27
+1860	2	Meat Cutter	202	29	29
+1860	2	Mechanic	200	30	27
+1860	2	Metal Filer	202	30	22
+1860	2	Metal Worker	100	32	33
+1860	2	Midwife	1404	5	37
+1860	2	Miller	100	25	19
+1860	2	Milliner	25379	19	46
+1860	2	Miner	803	24	10
+1860	2	Model Maker	101	34	44
+1860	2	Musician / Music Teacher	4715	20	52
+1860	2	Nurse	6629	11	22
+1860	2	Operative	73186	23	18
+1860	2	Painter	201	23	16
+1860	2	Pharmacist	201	40	82
+1860	2	Photographer	100	27	50
+1860	2	Physician / Surgeon	301	80	92
+1860	2	Plasterer	200	29	25
+1860	2	Policeman / Detective	100	32	39
+1860	2	Postmaster	100	29	60
+1860	2	Professor	400	41	84
+1860	2	Religious Worker	2014	15	56
+1860	2	Retired	2711	0	0
+1860	2	Sailor	301	23	16
+1860	2	Salesman	4616	24	47
+1860	2	Security Guard	302	25	18
+1860	2	Service Attendant	601	13	26
+1860	2	Service Worker	2005	11	11
+1860	2	Shoemaker	804	20	12
+1860	2	Stationary Engineer	101	36	47
+1860	2	Tailor	38441	26	23
+1860	2	Teacher	68141	27	72
+1860	2	Textile Spinner	5118	18	5
+1860	2	Truck / Tractor Driver	200	25	15
+1860	2	Typesetter	100	36	52
+1860	2	Upholsterer	202	26	22
+1860	2	Waiter / Waitress	705	11	16
+1860	2	Weaver	27189	23	6
+1870	1	Accountant / Auditor	1310	38	78
+1870	1	Actor	1507	29	60
+1870	1	Advertising Agent	703	35	66
+1870	1	Agent	5930	36	68
+1870	1	Apprentice	24010	20	35
+1870	1	Apprentice - Bricklayer	3320	25	32
+1870	1	Apprentice - Carpenter	8443	20	31
+1870	1	Apprentice - Construction	5525	21	29
+1870	1	Apprentice - Machinist	3212	24	41
+1870	1	Apprentice - Mechanic	1710	25	34
+1870	1	Apprentice - Metal Working	15780	23	33
+1870	1	Apprentice - Plumber	2011	25	33
+1870	1	Apprentice - Printing	4522	23	40
+1870	1	Architect	1914	54	90
+1870	1	Artist / Art Teacher	3716	31	67
+1870	1	Athlete	201	23	52
+1870	1	Auctioneer	2108	30	40
+1870	1	Author	303	33	76
+1870	1	Baggageman	2913	30	25
+1870	1	Baker	24323	28	22
+1870	1	Bank Teller	806	26	52
+1870	1	Barber / Beautician	24425	19	17
+1870	1	Bartender	16476	25	19
+1870	1	Bill Collector	1908	26	39
+1870	1	Blacksmith	133448	25	16
+1870	1	Blaster	300	26	11
+1870	1	Boarding House Keeper	4924	7	30
+1870	1	Boatman	19903	30	24
+1870	1	Boilermaker	7332	34	39
+1870	1	Bookbinder	5127	25	33
+1870	1	Bookkeeper	30849	22	51
+1870	1	Bootblack	1206	14	8
+1870	1	Building Manager	602	20	32
+1870	1	Bus Driver	6318	30	24
+1870	1	Buyer - Farm	12366	26	33
+1870	1	Cabinet Maker	30948	26	23
+1870	1	Carpenter	352340	24	19
+1870	1	Cashier	604	18	44
+1870	1	Charwoman	302	14	10
+1870	1	Chemist	1104	40	79
+1870	1	Clergyman	45907	24	52
+1870	1	Clerical Worker	62494	25	44
+1870	1	College President / Dean	101	41	84
+1870	1	Constable	4019	24	21
+1870	1	Cook	16086	16	15
+1870	1	Craftsman	91556	32	32
+1870	1	Crossing Guard / Toll Collector	2313	26	17
+1870	1	Dancer / Dance Teacher	201	16	45
+1870	1	Decorator	101	25	40
+1870	1	Delivery Man	3812	27	32
+1870	1	Dentist	7136	63	96
+1870	1	Designer	202	38	73
+1870	1	Disabled	10656	0	0
+1870	1	Dispatcher	101	31	40
+1870	1	Draftsman	1003	34	67
+1870	1	Dressmaker / Seamstress	1706	12	23
+1870	1	Dyer	2310	25	12
+1870	1	Editor / Reporter	5834	39	82
+1870	1	Electrician	101	34	44
+1870	1	Electrotyper	100	47	55
+1870	1	Engineer	101	49	87
+1870	1	Engineer - Civil	4019	46	84
+1870	1	Engineer - Mechanical	202	46	82
+1870	1	Engineer - Mining	100	48	85
+1870	1	Engraver	3516	33	47
+1870	1	Entertainer	604	20	31
+1870	1	Farm Foreman	2810	23	20
+1870	1	Farm Laborer	2595826	15	14
+1870	1	Farm Manager	1710	24	36
+1870	1	Farmer	3118876	14	14
+1870	1	Fireman	6031	31	27
+1870	1	Fisherman	24328	16	10
+1870	1	Foremen	10358	38	49
+1870	1	Forgemen	1308	32	23
+1870	1	Forrester	100	29	48
+1870	1	Funeral Director	2106	31	59
+1870	1	Furnaceman	13162	29	18
+1870	1	Furrier	501	32	39
+1870	1	Gardener / Groundskeeper	31048	17	11
+1870	1	Glazier	904	28	26
+1870	1	Hospital Attendant	403	16	13
+1870	1	Household Worker	79495	9	17
+1870	1	Huckster	32454	13	8
+1870	1	Inmate	19096	0	0
+1870	1	Inspector	5325	32	42
+1870	1	Insurance Agent	12458	36	66
+1870	1	Janitor	3016	19	9
+1870	1	Jeweler	14776	27	36
+1870	1	Laborer	1134710	20	8
+1870	1	Laundry / Dry Cleaning	7018	15	15
+1870	1	Lawyer / Judge	44027	62	93
+1870	1	Librarian	302	22	60
+1870	1	Library Attendant	303	13	44
+1870	1	Lithographer	1207	47	64
+1870	1	Locomotive Engineer	11876	46	58
+1870	1	Locomotive Fireman	8755	37	45
+1870	1	Longshoreman	6423	25	11
+1870	1	Loom Fixer	100	29	10
+1870	1	Lumberman	27120	12	4
+1870	1	Machinist	51649	32	33
+1870	1	Mail Carrier	2312	34	53
+1870	1	Manager / Owner	493343	42	68
+1870	1	Mason	88049	29	27
+1870	1	Meat Cutter	42303	29	29
+1870	1	Mechanic	29052	30	27
+1870	1	Mechanic - Railroad	1106	32	23
+1870	1	Messenger	10651	27	48
+1870	1	Metal Filer	5418	30	22
+1870	1	Metal Heater	1402	32	29
+1870	1	Metal Worker	30239	33	34
+1870	1	Military	29943	11	18
+1870	1	Miller	37084	25	19
+1870	1	Milliner	1009	19	46
+1870	1	Millwright	8735	34	31
+1870	1	Miner	171550	24	10
+1870	1	Model Maker	3314	34	44
+1870	1	Molder	29132	28	12
+1870	1	Musician / Music Teacher	9053	20	52
+1870	1	Newsboy	1909	3	27
+1870	1	Nurse	1105	16	34
+1870	1	Operative	609233	23	18
+1870	1	Optician / Lens Grinder	503	30	39
+1870	1	Painter	86449	25	17
+1870	1	Paperhanger	2712	15	10
+1870	1	Pharmacist	16085	40	82
+1870	1	Photographer	6935	27	50
+1870	1	Physician / Surgeon	61635	80	92
+1870	1	Piano / Organ Tuner	402	24	38
+1870	1	Plasterer	19695	29	25
+1870	1	Plumber	12969	33	34
+1870	1	Policeman / Detective	12456	32	39
+1870	1	Porter	17889	18	4
+1870	1	Postmaster	3317	29	60
+1870	1	Pressman	601	38	49
+1870	1	Professional - Misc	3814	33	65
+1870	1	Professor	1712	41	84
+1870	1	Professor - Geology	100	41	84
+1870	1	Professor - Mathematics	100	41	84
+1870	1	Professor - Social Science 	202	41	84
+1870	1	Public Officials	14974	36	66
+1870	1	Railroad Brakeman	12362	36	42
+1870	1	Railroad Conductor	8237	43	58
+1870	1	Railroad Switchman	1308	36	44
+1870	1	Real Estate Agent	9342	35	62
+1870	1	Recreation Attendant	201	8	19
+1870	1	Religious Worker	400	15	56
+1870	1	Retired	77092	0	0
+1870	1	Roller	2312	30	22
+1870	1	Roofer	2809	23	15
+1870	1	Sailor	65509	23	16
+1870	1	Salesman	218916	24	47
+1870	1	Sawyer	13364	17	5
+1870	1	Scientist - Biology	100	41	80
+1870	1	Scientist - Geology	101	41	80
+1870	1	Secretary	202	22	61
+1870	1	Security Guard	13271	25	18
+1870	1	Service Attendant	200	13	26
+1870	1	Service Worker	2512	11	11
+1870	1	Serviceman	101	33	49
+1870	1	Sheriff / Bailiff	3321	30	34
+1870	1	Ship Officers	15980	42	54
+1870	1	Shipping and Receiving	1204	26	22
+1870	1	Shoemaker	111359	20	12
+1870	1	Sports Instructor / Official	1006	32	64
+1870	1	Stationary Engineer	27547	36	47
+1870	1	Stone Cutter	19486	28	25
+1870	1	Street Car Conductor	2813	33	30
+1870	1	Surveyor	2713	28	48
+1870	1	Tailor	57391	26	23
+1870	1	Taxi Cab Driver / Chauffeur	13171	22	10
+1870	1	Teacher	44313	27	72
+1870	1	Technician	101	33	62
+1870	1	Technician - Testing	101	30	53
+1870	1	Telegraph Messenger	601	12	22
+1870	1	Telegraph Operator	6639	32	47
+1870	1	Temperer	202	31	22
+1870	1	Textile Spinner	3412	18	5
+1870	1	Therapist	805	26	58
+1870	1	Ticket Agent	9655	35	60
+1870	1	Tool Maker	804	37	50
+1870	1	Truck / Tractor Driver	118214	25	15
+1870	1	Typesetter	31352	36	52
+1870	1	Upholsterer	3415	26	22
+1870	1	Veterinarian	905	42	78
+1870	1	Waiter / Waitress	18090	11	16
+1870	1	Weaver	11651	23	6
+1870	1	Welder	300	31	24
+1870	2	Actor	200	29	60
+1870	2	Apprentice	4116	20	35
+1870	2	Apprentice - Carpenter	101	20	31
+1870	2	Apprentice - Construction	101	21	29
+1870	2	Apprentice - Mechanic	101	25	34
+1870	2	Artist / Art Teacher	502	31	67
+1870	2	Author	201	33	76
+1870	2	Baker	602	28	22
+1870	2	Bank Teller	101	26	52
+1870	2	Barber / Beautician	1104	19	17
+1870	2	Blacksmith	201	25	16
+1870	2	Boarding House Keeper	9138	7	30
+1870	2	Boatman	202	30	24
+1870	2	Bookbinder	702	25	33
+1870	2	Bookkeeper	1204	22	51
+1870	2	Building Manager	101	20	32
+1870	2	Cabinet Maker	100	26	23
+1870	2	Carpenter	302	24	19
+1870	2	Cashier	101	18	44
+1870	2	Charwoman	100	14	10
+1870	2	Clergyman	201	24	52
+1870	2	Clerical Worker	2308	25	44
+1870	2	College President / Dean	100	41	84
+1870	2	Cook	37994	16	15
+1870	2	Craftsman	101	32	32
+1870	2	Crossing Guard / Toll Collector	300	26	17
+1870	2	Delivery Man	101	27	32
+1870	2	Disabled	8545	0	0
+1870	2	Dressmaker / Seamstress	138614	12	23
+1870	2	Dyer	202	25	12
+1870	2	Editor / Reporter	100	39	82
+1870	2	Electrician	100	34	44
+1870	2	Entertainer	101	20	31
+1870	2	Farm Laborer	401852	9	6
+1870	2	Farm Manager	100	24	36
+1870	2	Farmer	46126	14	14
+1870	2	Foremen	201	38	49
+1870	2	Gardener / Groundskeeper	100	17	11
+1870	2	Hospital Attendant	403	16	13
+1870	2	Household Worker	869232	9	17
+1870	2	Huckster	2110	13	8
+1870	2	Inmate	14797	0	0
+1870	2	Insurance Agent	604	36	66
+1870	2	Janitor	302	19	9
+1870	2	Jeweler	101	27	36
+1870	2	Laborer	37194	20	8
+1870	2	Laundry / Dry Cleaning	4030	15	15
+1870	2	Librarian	201	22	60
+1870	2	Library Attendant	302	13	44
+1870	2	Lithographer	101	47	64
+1870	2	Manager / Owner	18179	42	68
+1870	2	Mason	301	29	27
+1870	2	Meat Cutter	101	29	29
+1870	2	Messenger	302	15	28
+1870	2	Metal Filer	605	30	22
+1870	2	Metal Heater	100	32	29
+1870	2	Metal Worker	101	32	33
+1870	2	Midwife	1203	5	37
+1870	2	Military	100	11	18
+1870	2	Miller	100	25	19
+1870	2	Milliner	26737	19	46
+1870	2	Millwright	100	34	31
+1870	2	Miner	302	24	10
+1870	2	Musician / Music Teacher	6638	20	52
+1870	2	Newsboy	100	3	27
+1870	2	Nurse	16289	11	22
+1870	2	Operative	182209	23	18
+1870	2	Painter	301	25	17
+1870	2	Photo Developer	100	23	42
+1870	2	Photographer	303	27	50
+1870	2	Physician / Surgeon	904	80	92
+1870	2	Plasterer	100	29	25
+1870	2	Plumber	101	33	34
+1870	2	Policeman / Detective	101	32	39
+1870	2	Postmaster	201	29	60
+1870	2	Professional - Misc	200	33	65
+1870	2	Public Officials	100	36	66
+1870	2	Religious Worker	7131	15	56
+1870	2	Retired	11762	0	0
+1870	2	Sailor	201	23	16
+1870	2	Salesman	12868	24	47
+1870	2	Service Attendant	6331	13	26
+1870	2	Service Worker	6030	11	11
+1870	2	Shoemaker	302	20	12
+1870	2	Tailor	31066	26	23
+1870	2	Teacher	89459	27	72
+1870	2	Telegraph Operator	502	32	47
+1870	2	Textile Spinner	1006	18	5
+1870	2	Therapist	100	26	58
+1870	2	Ticket Agent	100	35	60
+1870	2	Truck / Tractor Driver	100	25	15
+1870	2	Typesetter	1108	36	52
+1870	2	Upholsterer	201	26	22
+1870	2	Waiter / Waitress	7343	11	16
+1870	2	Weaver	9755	23	6
+1880	1	Accountant / Auditor	2295	38	78
+1880	1	Actor	3983	29	60
+1880	1	Advertising Agent	499	35	66
+1880	1	Agent	20657	36	68
+1880	1	Apprentice	20449	20	35
+1880	1	Apprentice - Bricklayer	699	25	32
+1880	1	Apprentice - Carpenter	5589	20	31
+1880	1	Apprentice - Construction	1995	21	29
+1880	1	Apprentice - Machinist	4391	24	41
+1880	1	Apprentice - Metal Working	8480	23	33
+1880	1	Apprentice - Plumber	1694	25	33
+1880	1	Apprentice - Printing	2597	23	40
+1880	1	Architect	3892	54	90
+1880	1	Artist / Art Teacher	5485	31	67
+1880	1	Athlete	498	23	52
+1880	1	Auctioneer	2594	30	40
+1880	1	Author	797	33	76
+1880	1	Baggageman	5186	30	25
+1880	1	Baker	36718	28	22
+1880	1	Bank Teller	1396	26	52
+1880	1	Barber / Beautician	43679	19	17
+1880	1	Bartender	25639	25	19
+1880	1	Bill Collector	3688	26	39
+1880	1	Blacksmith	177847	25	16
+1880	1	Boarding House Keeper	7586	7	30
+1880	1	Boatman	22846	30	24
+1880	1	Boilermaker	10973	34	39
+1880	1	Bookbinder	6884	25	33
+1880	1	Bookkeeper	62745	22	51
+1880	1	Bootblack	1896	14	8
+1880	1	Building Manager	1696	20	32
+1880	1	Bus Driver	3990	30	24
+1880	1	Buyer - Farm	23831	26	33
+1880	1	Buyer - Store	99	42	72
+1880	1	Cabinet Maker	36108	26	23
+1880	1	Carpenter	387029	24	19
+1880	1	Cashier	2495	18	44
+1880	1	Cement / Concrete Finisher	499	27	19
+1880	1	Charwoman	600	14	10
+1880	1	Chemist	2594	40	79
+1880	1	Clergyman	68499	24	52
+1880	1	Clerical Worker	98934	25	44
+1880	1	College President / Dean	398	41	84
+1880	1	Constable	5686	24	21
+1880	1	Cook	5690	16	15
+1880	1	Craftsman	61142	32	32
+1880	1	Crossing Guard / Toll Collector	4192	26	17
+1880	1	Dancer / Dance Teacher	100	16	45
+1880	1	Delivery Man	12462	27	32
+1880	1	Dentist	12171	63	96
+1880	1	Designer	798	38	73
+1880	1	Disabled	7383	0	0
+1880	1	Dispatcher	1198	31	40
+1880	1	Draftsman	2394	34	67
+1880	1	Dressmaker / Seamstress	998	12	23
+1880	1	Dyer	5188	25	12
+1880	1	Editor / Reporter	11872	39	82
+1880	1	Electrician	400	34	44
+1880	1	Electrotyper	999	47	55
+1880	1	Engineer - Civil	6381	46	84
+1880	1	Engineer - Mechanical	399	46	82
+1880	1	Engineer - Mining	999	48	85
+1880	1	Engraver	5884	33	47
+1880	1	Entertainer	3593	20	31
+1880	1	Farm Foreman	3790	23	20
+1880	1	Farm Laborer	2913760	9	6
+1880	1	Farm Manager	2196	24	36
+1880	1	Farmer	4483723	14	14
+1880	1	Fireman	16261	31	27
+1880	1	Fisherman	34303	16	10
+1880	1	Foremen	22943	38	49
+1880	1	Forgemen	599	32	23
+1880	1	Funeral Director	5784	31	59
+1880	1	Furnaceman	42480	29	18
+1880	1	Furrier	997	32	39
+1880	1	Gardener / Groundskeeper	41906	17	11
+1880	1	Glazier	696	28	26
+1880	1	Hospital Attendant	1495	16	13
+1880	1	Household Worker	200507	9	17
+1880	1	Huckster	54049	13	8
+1880	1	Inmate	11683	0	0
+1880	1	Inspector	7384	32	42
+1880	1	Insurance Agent	13365	36	66
+1880	1	Janitor	7480	19	9
+1880	1	Jeweler	22250	27	36
+1880	1	Laborer	1851194	20	8
+1880	1	Laundry / Dry Cleaning	16074	15	15
+1880	1	Lawyer / Judge	65815	62	93
+1880	1	Librarian	298	22	60
+1880	1	Lithographer	3493	47	64
+1880	1	Locomotive Engineer	16461	46	58
+1880	1	Locomotive Fireman	10872	37	45
+1880	1	Longshoreman	10575	25	11
+1880	1	Loom Fixer	299	29	10
+1880	1	Lumberman	50575	12	4
+1880	1	Machinist	84404	32	33
+1880	1	Mail Carrier	9171	34	53
+1880	1	Manager / Owner	629424	42	68
+1880	1	Mason	96139	29	27
+1880	1	Meat Cutter	77217	29	29
+1880	1	Mechanic	30222	30	27
+1880	1	Mechanic - Railroad	2296	32	23
+1880	1	Messenger	16762	27	48
+1880	1	Metal Filer	7390	30	22
+1880	1	Metal Heater	2196	32	29
+1880	1	Metal Worker	40487	33	34
+1880	1	Military	27521	11	18
+1880	1	Miller	43282	25	19
+1880	1	Milliner	1598	19	46
+1880	1	Millwright	9183	34	31
+1880	1	Miner	274581	24	10
+1880	1	Model Maker	5789	34	44
+1880	1	Molder	40395	28	12
+1880	1	Motorman	10756	34	34
+1880	1	Musician / Music Teacher	17949	20	52
+1880	1	Newsboy	3192	3	27
+1880	1	Nurse	2294	11	22
+1880	1	Operative	989348	23	18
+1880	1	Optician / Lens Grinder	1398	30	39
+1880	1	Painter	130754	25	17
+1880	1	Paperhanger	3990	15	10
+1880	1	Pharmacist	28406	40	82
+1880	1	Photo Developer	100	23	42
+1880	1	Photographer	10667	27	50
+1880	1	Physician / Surgeon	86590	80	92
+1880	1	Piano / Organ Tuner	1398	24	38
+1880	1	Plasterer	27532	29	25
+1880	1	Plumber	18655	33	34
+1880	1	Policeman / Detective	14858	32	39
+1880	1	Porter	21643	18	4
+1880	1	Postmaster	5488	29	60
+1880	1	Pressman	699	38	49
+1880	1	Professional - Misc	3295	33	65
+1880	1	Professor	3190	41	84
+1880	1	Professor - Chemistry	99	41	84
+1880	1	Professor - Geology	100	41	84
+1880	1	Professor - Mathematics	200	41	84
+1880	1	Professor - Science	100	41	84
+1880	1	Public Officials	28125	36	66
+1880	1	Purchasing Agent	996	42	77
+1880	1	Railroad Brakeman	23342	36	42
+1880	1	Railroad Conductor	18353	43	58
+1880	1	Railroad Switchman	3191	36	44
+1880	1	Real Estate Agent	13753	35	62
+1880	1	Recreation Attendant	797	8	19
+1880	1	Religious Worker	99	15	56
+1880	1	Retired	109228	0	0
+1880	1	Road Machinery Operator	698	31	24
+1880	1	Roller	2996	30	22
+1880	1	Roofer	4591	23	15
+1880	1	Sailor	72121	23	16
+1880	1	Salesman	362213	24	47
+1880	1	Sawyer	9285	17	5
+1880	1	Scientist - Biology	199	41	80
+1880	1	Scientist - Geology	299	41	80
+1880	1	Secretary	1199	22	61
+1880	1	Security Guard	22650	25	18
+1880	1	Service Attendant	2091	13	26
+1880	1	Service Worker	13370	11	11
+1880	1	Serviceman	1197	33	49
+1880	1	Sheriff / Bailiff	7084	30	34
+1880	1	Ship Officers	17955	42	54
+1880	1	Shipping and Receiving	7481	26	22
+1880	1	Shoemaker	107911	20	12
+1880	1	Stationary Engineer	62034	36	47
+1880	1	Stock Broker	597	40	73
+1880	1	Stone Cutter	29221	28	25
+1880	1	Street Car Conductor	1698	33	30
+1880	1	Surveyor	3789	28	48
+1880	1	Tailor	79299	26	23
+1880	1	Taxi Cab Driver / Chauffeur	6883	22	10
+1880	1	Teacher	74988	27	72
+1880	1	Telegraph Messenger	1497	12	22
+1880	1	Telegraph Operator	16164	32	47
+1880	1	Telephone Operator	1097	21	45
+1880	1	Temperer	398	31	22
+1880	1	Textile Spinner	1495	18	5
+1880	1	Therapist	700	26	58
+1880	1	Ticket Agent	20852	35	60
+1880	1	Tool Maker	1097	37	50
+1880	1	Truck / Tractor Driver	157797	25	15
+1880	1	Typesetter	56060	36	52
+1880	1	Union Official	897	40	58
+1880	1	Upholsterer	8976	26	22
+1880	1	Veterinarian	2894	42	78
+1880	1	Waiter / Waitress	27544	11	16
+1880	1	Weaver	16657	23	6
+1880	1	Welder	198	31	24
+1880	2	Actor	1994	29	60
+1880	2	Agent	498	36	68
+1880	2	Apprentice	5585	20	35
+1880	2	Apprentice - Machinist	200	24	41
+1880	2	Apprentice - Printing	99	23	40
+1880	2	Artist / Art Teacher	3393	31	67
+1880	2	Athlete	200	23	52
+1880	2	Author	99	33	76
+1880	2	Baker	897	28	22
+1880	2	Barber / Beautician	2990	19	17
+1880	2	Bartender	100	25	19
+1880	2	Bill Collector	100	26	39
+1880	2	Boarding House Keeper	16963	7	30
+1880	2	Boatman	300	30	24
+1880	2	Bookbinder	3490	25	33
+1880	2	Bookkeeper	2889	22	51
+1880	2	Buyer - Farm	100	26	33
+1880	2	Cabinet Maker	200	26	23
+1880	2	Carpenter	798	24	19
+1880	2	Cashier	599	18	44
+1880	2	Charwoman	100	14	10
+1880	2	Clergyman	898	24	52
+1880	2	Clerical Worker	4788	25	44
+1880	2	Cook	4787	16	15
+1880	2	Craftsman	200	32	32
+1880	2	Crossing Guard / Toll Collector	697	26	17
+1880	2	Delivery Man	398	27	32
+1880	2	Disabled	8179	0	0
+1880	2	Dressmaker / Seamstress	233469	12	23
+1880	2	Dyer	99	25	12
+1880	2	Editor / Reporter	400	39	82
+1880	2	Entertainer	398	20	31
+1880	2	Farm Foreman	199	23	20
+1880	2	Farm Laborer	508897	9	6
+1880	2	Farm Manager	400	24	36
+1880	2	Farmer	95948	14	14
+1880	2	Fireman	99	28	17
+1880	2	Fisherman	599	16	10
+1880	2	Foremen	599	38	49
+1880	2	Funeral Director	99	31	59
+1880	2	Furrier	796	32	39
+1880	2	Gardener / Groundskeeper	898	17	11
+1880	2	Hospital Attendant	698	16	13
+1880	2	Household Worker	1096234	9	17
+1880	2	Huckster	3786	13	8
+1880	2	Inmate	8674	0	0
+1880	2	Janitor	697	19	9
+1880	2	Jeweler	599	27	36
+1880	2	Laborer	157410	20	8
+1880	2	Laundry / Dry Cleaning	39807	15	15
+1880	2	Librarian	399	22	60
+1880	2	Lumberman	500	12	4
+1880	2	Machinist	99	32	33
+1880	2	Manager / Owner	35500	42	68
+1880	2	Mason	400	29	27
+1880	2	Meat Cutter	399	29	29
+1880	2	Messenger	998	15	28
+1880	2	Metal Filer	199	30	22
+1880	2	Metal Worker	299	32	33
+1880	2	Midwife	2592	5	37
+1880	2	Military	300	11	18
+1880	2	Miller	398	25	19
+1880	2	Milliner	38392	19	46
+1880	2	Miner	100	24	10
+1880	2	Musician / Music Teacher	16453	20	52
+1880	2	Nurse	26836	16	34
+1880	2	Operative	303660	23	18
+1880	2	Painter	698	25	17
+1880	2	Pharmacist	200	40	82
+1880	2	Photo Developer	200	23	42
+1880	2	Photographer	698	27	50
+1880	2	Physician / Surgeon	2592	80	92
+1880	2	Postmaster	798	29	60
+1880	2	Professional - Misc	599	33	65
+1880	2	Public Officials	897	36	66
+1880	2	Purchasing Agent	100	42	77
+1880	2	Railroad Conductor	99	43	58
+1880	2	Religious Worker	7088	15	56
+1880	2	Retired	14252	0	0
+1880	2	Sailor	299	23	16
+1880	2	Salesman	32418	24	47
+1880	2	Security Guard	198	25	18
+1880	2	Service Attendant	8885	13	26
+1880	2	Service Worker	3991	11	11
+1880	2	Shoemaker	199	20	12
+1880	2	Stationary Engineer	100	36	47
+1880	2	Surveyor	100	28	48
+1880	2	Tailor	43974	26	23
+1880	2	Taxi Cab Driver / Chauffeur	99	22	10
+1880	2	Teacher	155996	27	72
+1880	2	Telegraph Operator	999	32	47
+1880	2	Telephone Operator	100	21	45
+1880	2	Temperer	100	31	22
+1880	2	Textile Spinner	1292	18	5
+1880	2	Ticket Agent	399	35	60
+1880	2	Truck / Tractor Driver	199	25	15
+1880	2	Typesetter	2193	36	52
+1880	2	Union Official	200	40	58
+1880	2	Upholsterer	500	26	22
+1880	2	Waiter / Waitress	7381	11	16
+1880	2	Weaver	11071	23	6
+1900	1	Accountant / Auditor	11753	38	78
+1900	1	Actor	10449	29	60
+1900	1	Advertising Agent	4526	35	66
+1900	1	Agent	19299	36	68
+1900	1	Apprentice	17486	20	35
+1900	1	Apprentice - Bricklayer	1004	25	32
+1900	1	Apprentice - Carpenter	3113	20	31
+1900	1	Apprentice - Construction	2012	21	29
+1900	1	Apprentice - Electrician	1407	25	37
+1900	1	Apprentice - Machinist	12049	24	41
+1900	1	Apprentice - Mechanic	504	25	34
+1900	1	Apprentice - Metal Working	8337	23	33
+1900	1	Apprentice - Plumber	2815	25	33
+1900	1	Apprentice - Printing	4229	23	40
+1900	1	Architect	10151	54	90
+1900	1	Artist / Art Teacher	15074	31	67
+1900	1	Athlete	3417	23	52
+1900	1	Auctioneer	2818	30	40
+1900	1	Author	803	33	76
+1900	1	Baggageman	7529	30	25
+1900	1	Baker	70477	28	22
+1900	1	Bank Teller	5029	26	52
+1900	1	Barber / Beautician	122105	19	17
+1900	1	Bartender	91055	25	19
+1900	1	Bill Collector	21211	26	39
+1900	1	Blacksmith	220322	25	16
+1900	1	Blaster	302	26	11
+1900	1	Boarding House Keeper	12564	7	30
+1900	1	Boatman	8743	30	24
+1900	1	Boilermaker	28436	34	39
+1900	1	Bookbinder	13265	25	33
+1900	1	Bookkeeper	158957	22	51
+1900	1	Bootblack	9535	14	8
+1900	1	Building Manager	68034	20	32
+1900	1	Bus Driver	4622	30	24
+1900	1	Buyer - Farm	45443	26	33
+1900	1	Buyer - Store	5429	42	72
+1900	1	Cabinet Maker	36590	26	23
+1900	1	Carpenter	600594	24	19
+1900	1	Cashier	12054	18	44
+1900	1	Cement / Concrete Finisher	502	27	19
+1900	1	Chainman	302	19	25
+1900	1	Charwoman	3520	14	10
+1900	1	Chemist	8036	40	79
+1900	1	Chiropractor	100	32	75
+1900	1	Clergyman	108124	24	52
+1900	1	Clerical Worker	245106	25	44
+1900	1	College President / Dean	201	41	84
+1900	1	Constable	8545	24	21
+1900	1	Cook	68137	16	15
+1900	1	Counter Worker	502	13	17
+1900	1	Craftsman	108845	32	32
+1900	1	Cranemen / Hoistmen	2717	31	21
+1900	1	Creditor	201	37	74
+1900	1	Crossing Guard / Toll Collector	4725	26	17
+1900	1	Dancer / Dance Teacher	401	16	45
+1900	1	Decorator	1812	25	40
+1900	1	Delivery Man	41899	27	32
+1900	1	Dentist	26222	63	96
+1900	1	Designer	3515	38	73
+1900	1	Disabled	23017	0	0
+1900	1	Dispatcher	803	31	40
+1900	1	Doctor Office Attendant	503	16	38
+1900	1	Draftsman	12362	34	67
+1900	1	Dressmaker / Seamstress	4217	12	23
+1900	1	Dyer	17179	25	12
+1900	1	Editor / Reporter	28136	39	82
+1900	1	Electrician	46435	34	44
+1900	1	Electrotyper	2206	47	55
+1900	1	Elevator Operator	11247	20	10
+1900	1	Engineer	1006	49	87
+1900	1	Engineer - Chemical	100	49	90
+1900	1	Engineer - Civil	18597	46	84
+1900	1	Engineer - Electrical	6644	46	84
+1900	1	Engineer - Mechanical	11145	46	82
+1900	1	Engineer - Mining	3417	48	85
+1900	1	Engraver	9368	33	47
+1900	1	Entertainer	3713	20	31
+1900	1	Farm Foreman	4022	23	20
+1900	1	Farm Laborer	3964960	15	14
+1900	1	Farm Manager	8940	24	36
+1900	1	Farmer	5535233	14	14
+1900	1	Fireman	81592	31	27
+1900	1	Fisherman	73919	16	10
+1900	1	Floor Manager	802	26	50
+1900	1	Foremen	131261	38	49
+1900	1	Forgemen	3613	32	23
+1900	1	Forrester	1207	29	48
+1900	1	Funeral Director	12066	31	59
+1900	1	Furnaceman	28251	29	18
+1900	1	Furrier	3919	32	39
+1900	1	Gardener / Groundskeeper	55665	17	11
+1900	1	Glazier	3317	28	26
+1900	1	Hospital Attendant	5430	16	13
+1900	1	Household Worker	109734	9	17
+1900	1	Huckster	73066	13	8
+1900	1	Inmate	20904	0	0
+1900	1	Inspector	40907	32	42
+1900	1	Insulation Worker	202	32	32
+1900	1	Insurance Agent	67332	36	66
+1900	1	Janitor	48751	19	9
+1900	1	Jeweler	49851	27	36
+1900	1	Laborer	3134854	20	8
+1900	1	Laundry / Dry Cleaning	48646	15	15
+1900	1	Lawyer / Judge	98163	62	93
+1900	1	Librarian	805	22	60
+1900	1	Library Attendant	402	13	44
+1900	1	Lithographer	8239	47	64
+1900	1	Locomotive Engineer	52563	46	58
+1900	1	Locomotive Fireman	45919	37	45
+1900	1	Longshoreman	26726	25	11
+1900	1	Loom Fixer	7435	29	10
+1900	1	Lumberman	108406	12	4
+1900	1	Machinist	263131	32	33
+1900	1	Mail Carrier	26923	34	53
+1900	1	Manager / Owner	1277509	42	68
+1900	1	Mason	149652	29	27
+1900	1	Mathematician	100	41	80
+1900	1	Meat Cutter	107334	29	29
+1900	1	Mechanic	44014	30	27
+1900	1	Mechanic - Office Machines	100	28	36
+1900	1	Mechanic - Railroad	9950	32	23
+1900	1	Messenger	70948	27	48
+1900	1	Metal Filer	39098	30	22
+1900	1	Metal Heater	5633	32	29
+1900	1	Metal Worker	64716	33	34
+1900	1	Military	133383	11	18
+1900	1	Miller	37099	25	19
+1900	1	Milliner	2914	19	46
+1900	1	Millwright	10861	34	31
+1900	1	Miner	584858	24	10
+1900	1	Model Maker	15775	34	44
+1900	1	Molder	95689	28	12
+1900	1	Motorman	33779	30	19
+1900	1	Musician / Music Teacher	40304	20	52
+1900	1	Newsboy	7438	3	27
+1900	1	Nurse	7541	16	34
+1900	1	Office Machine Operator	201	23	45
+1900	1	Oiler / Greaser	6630	28	15
+1900	1	Operative	1052589	23	18
+1900	1	Optician / Lens Grinder	3920	30	39
+1900	1	Osteopath	201	60	96
+1900	1	Painter	278009	25	17
+1900	1	Paperhanger	21617	15	10
+1900	1	Pharmacist	54859	40	82
+1900	1	Photo Developer	603	23	42
+1900	1	Photographer	21811	27	50
+1900	1	Physician / Surgeon	117403	80	92
+1900	1	Piano / Organ Tuner	4526	24	38
+1900	1	Pilot	101	52	79
+1900	1	Plasterer	39880	29	25
+1900	1	Plumber	90259	33	34
+1900	1	Policeman / Detective	41908	32	39
+1900	1	Porter	72538	18	4
+1900	1	Postmaster	14178	29	60
+1900	1	Pressman	14669	38	49
+1900	1	Produce Grader	403	12	10
+1900	1	Professional - Misc	9149	33	65
+1900	1	Professor	5628	41	84
+1900	1	Professor - Agriculture 	101	41	84
+1900	1	Professor - Biology	302	41	84
+1900	1	Professor - Mathematics	100	41	84
+1900	1	Professor - Physics	100	41	84
+1900	1	Professor - Social Science 	101	41	84
+1900	1	Public Officials	35977	36	66
+1900	1	Purchasing Agent	1006	42	77
+1900	1	Railroad Brakeman	71057	36	42
+1900	1	Railroad Conductor	55275	43	58
+1900	1	Railroad Switchman	22994	36	44
+1900	1	Real Estate Agent	54886	35	62
+1900	1	Recreation Attendant	1305	8	19
+1900	1	Religious Worker	3717	15	56
+1900	1	Retired	87522	0	0
+1900	1	Road Machinery Operator	803	31	24
+1900	1	Roller	14363	30	22
+1900	1	Roofer	8648	23	15
+1900	1	Sailor	50515	23	16
+1900	1	Salesman	829630	24	47
+1900	1	Sawyer	39788	17	5
+1900	1	Scientist	101	41	80
+1900	1	Scientist - Biology	202	41	80
+1900	1	Scientist - Geology	100	41	80
+1900	1	Scientist - Social	302	39	81
+1900	1	Secretary	31973	22	61
+1900	1	Security Guard	59778	25	18
+1900	1	Service Attendant	2613	13	26
+1900	1	Service Worker	15770	11	11
+1900	1	Serviceman	17088	33	49
+1900	1	Sheriff / Bailiff	8546	30	34
+1900	1	Ship Officers	26327	42	54
+1900	1	Shipping and Receiving	37391	26	22
+1900	1	Shoemaker	103413	20	12
+1900	1	Social Worker	1510	27	66
+1900	1	Sports Instructor / Official	6727	32	64
+1900	1	Stationary Engineer	156714	36	47
+1900	1	Statistician / Actuary	202	39	81
+1900	1	Stock Broker	100	40	73
+1900	1	Stone Cutter	43720	28	25
+1900	1	Street Car Conductor	21815	33	30
+1900	1	Surveyor	5323	28	48
+1900	1	Tailor	136114	26	23
+1900	1	Taxi Cab Driver / Chauffeur	54585	22	10
+1900	1	Teacher	111956	27	72
+1900	1	Technician	703	33	62
+1900	1	Technician - Testing	803	30	53
+1900	1	Telegraph Messenger	4122	12	22
+1900	1	Telegraph Operator	42897	32	47
+1900	1	Telephone Operator	6126	21	45
+1900	1	Temperer	1105	31	22
+1900	1	Textile Spinner	29336	18	5
+1900	1	Therapist	2011	26	58
+1900	1	Ticket Agent	36377	35	60
+1900	1	Tool Maker	7140	37	50
+1900	1	Truck / Tractor Driver	435202	25	15
+1900	1	Typesetter	104848	36	52
+1900	1	Union Official	2111	40	58
+1900	1	Upholsterer	20400	26	22
+1900	1	Usher	403	4	25
+1900	1	Veterinarian	6837	42	78
+1900	1	Waiter / Waitress	63437	11	16
+1900	1	Weaver	97151	23	6
+1900	1	Welder	904	31	24
+1900	2	Accountant / Auditor	807	38	78
+1900	2	Actor	6736	29	60
+1900	2	Agent	906	36	68
+1900	2	Apprentice	5026	20	35
+1900	2	Apprentice - Machinist	100	24	41
+1900	2	Apprentice - Metal Working	101	23	33
+1900	2	Apprentice - Plumber	200	25	33
+1900	2	Apprentice - Printing	200	23	40
+1900	2	Architect	100	54	90
+1900	2	Artist / Art Teacher	11754	31	67
+1900	2	Author	1104	33	76
+1900	2	Baker	4121	28	22
+1900	2	Bank Teller	101	26	52
+1900	2	Barber / Beautician	7325	19	17
+1900	2	Bartender	503	25	19
+1900	2	Bill Collector	201	26	39
+1900	2	Blacksmith	200	25	16
+1900	2	Boarding House Keeper	78882	7	30
+1900	2	Boilermaker	100	34	39
+1900	2	Bookbinder	12966	25	33
+1900	2	Bookkeeper	57988	22	51
+1900	2	Building Manager	20099	20	32
+1900	2	Buyer - Farm	505	26	33
+1900	2	Buyer - Store	604	42	72
+1900	2	Cabinet Maker	302	26	23
+1900	2	Carpenter	1103	24	19
+1900	2	Cashier	13373	18	44
+1900	2	Charwoman	4524	14	10
+1900	2	Chemist	404	40	79
+1900	2	Clergyman	1207	24	52
+1900	2	Clerical Worker	38400	25	44
+1900	2	Cook	204394	16	15
+1900	2	Counter Worker	100	13	17
+1900	2	Craftsman	2211	32	32
+1900	2	Crossing Guard / Toll Collector	202	26	17
+1900	2	Dancer / Dance Teacher	501	16	45
+1900	2	Decorator	100	25	40
+1900	2	Delivery Man	100	27	32
+1900	2	Demonstrator	602	12	35
+1900	2	Dentist	603	63	96
+1900	2	Designer	301	38	73
+1900	2	Disabled	8040	0	0
+1900	2	Doctor Office Attendant	303	16	38
+1900	2	Draftsman	201	34	67
+1900	2	Dressmaker / Seamstress	453625	12	23
+1900	2	Dyer	603	25	12
+1900	2	Editor / Reporter	2711	39	82
+1900	2	Electrician	502	34	44
+1900	2	Electrotyper	100	47	55
+1900	2	Engineer - Mechanical	101	46	82
+1900	2	Engraver	500	33	47
+1900	2	Entertainer	402	20	31
+1900	2	Farm Foreman	100	23	20
+1900	2	Farm Laborer	677490	9	6
+1900	2	Farm Manager	1003	24	36
+1900	2	Farmer	316196	14	14
+1900	2	Fireman	200	31	27
+1900	2	Fisherman	3514	16	10
+1900	2	Floor Manager	101	26	50
+1900	2	Foremen	9846	38	49
+1900	2	Forgemen	101	32	23
+1900	2	Funeral Director	200	31	59
+1900	2	Furnaceman	200	29	18
+1900	2	Furrier	903	32	39
+1900	2	Gardener / Groundskeeper	905	17	11
+1900	2	Glazier	101	28	26
+1900	2	Hospital Attendant	3113	16	13
+1900	2	Household Worker	1465711	9	17
+1900	2	Huckster	2513	13	8
+1900	2	Inmate	11053	0	0
+1900	2	Inspector	1405	35	52
+1900	2	Insulation Worker	101	32	32
+1900	2	Insurance Agent	1403	36	66
+1900	2	Janitor	7340	19	9
+1900	2	Jeweler	2510	27	36
+1900	2	Laborer	134963	20	8
+1900	2	Laundry / Dry Cleaning	31145	15	15
+1900	2	Lawyer / Judge	402	62	93
+1900	2	Librarian	2813	22	60
+1900	2	Library Attendant	1307	13	44
+1900	2	Lithographer	202	47	64
+1900	2	Locomotive Engineer	100	46	58
+1900	2	Longshoreman	101	25	11
+1900	2	Loom Fixer	101	29	10
+1900	2	Lumberman	302	12	4
+1900	2	Machinist	1207	32	33
+1900	2	Mail Carrier	302	34	53
+1900	2	Manager / Owner	88545	42	68
+1900	2	Mason	504	29	27
+1900	2	Meat Cutter	603	29	29
+1900	2	Mechanic	402	30	27
+1900	2	Messenger	5431	27	48
+1900	2	Metal Filer	1706	30	22
+1900	2	Metal Worker	101	32	33
+1900	2	Midwife	5623	5	37
+1900	2	Military	202	11	18
+1900	2	Miller	200	25	19
+1900	2	Milliner	81502	19	46
+1900	2	Miner	2812	24	10
+1900	2	Model Maker	301	34	44
+1900	2	Molder	302	28	12
+1900	2	Motorman	100	34	34
+1900	2	Musician / Music Teacher	50346	20	52
+1900	2	Nurse	100388	12	40
+1900	2	Oiler / Greaser	100	28	15
+1900	2	Operative	492853	23	18
+1900	2	Optician / Lens Grinder	504	30	39
+1900	2	Osteopath	101	60	96
+1900	2	Painter	2913	25	17
+1900	2	Paperhanger	403	15	10
+1900	2	Pharmacist	1003	40	82
+1900	2	Photo Developer	1106	23	42
+1900	2	Photographer	2820	27	50
+1900	2	Physician / Surgeon	5635	80	92
+1900	2	Plasterer	201	29	25
+1900	2	Plumber	202	33	34
+1900	2	Policeman / Detective	201	32	39
+1900	2	Porter	403	18	4
+1900	2	Postmaster	5831	29	60
+1900	2	Pressman	602	38	49
+1900	2	Produce Grader	1509	12	10
+1900	2	Professional - Misc	1909	33	65
+1900	2	Professor	805	41	84
+1900	2	Public Officials	1605	36	66
+1900	2	Purchasing Agent	402	42	77
+1900	2	Railroad Brakeman	100	36	42
+1900	2	Railroad Conductor	101	43	58
+1900	2	Real Estate Agent	1408	35	62
+1900	2	Religious Worker	26638	15	56
+1900	2	Retired	8536	0	0
+1900	2	Sailor	503	23	16
+1900	2	Salesman	201808	24	47
+1900	2	Sawyer	402	17	5
+1900	2	Secretary	93152	22	61
+1900	2	Security Guard	905	25	18
+1900	2	Service Attendant	5227	13	26
+1900	2	Service Worker	37766	11	11
+1900	2	Serviceman	101	33	49
+1900	2	Ship Officers	302	42	54
+1900	2	Shipping and Receiving	1103	26	22
+1900	2	Shoemaker	5427	20	12
+1900	2	Social Worker	803	27	64
+1900	2	Sports Instructor / Official	602	32	64
+1900	2	Stationary Engineer	202	36	47
+1900	2	Stone Cutter	100	28	25
+1900	2	Tailor	49576	26	23
+1900	2	Taxi Cab Driver / Chauffeur	200	22	10
+1900	2	Teacher	328340	27	72
+1900	2	Technician - Testing	603	30	53
+1900	2	Telegraph Operator	5528	32	47
+1900	2	Telephone Operator	17985	21	45
+1900	2	Textile Spinner	32956	18	5
+1900	2	Therapist	1706	26	58
+1900	2	Ticket Agent	404	35	60
+1900	2	Truck / Tractor Driver	1704	25	15
+1900	2	Typesetter	12370	36	52
+1900	2	Union Official	504	40	58
+1900	2	Upholsterer	806	26	22
+1900	2	Waiter / Waitress	43520	11	16
+1900	2	Weaver	96654	23	6
+1910	1	Actor	15867	29	60
+1910	1	Agent	52647	36	68
+1910	1	Apprentice	70527	20	35
+1910	1	Apprentice - Construction	21412	21	29
+1910	1	Architect	16624	54	90
+1910	1	Artist / Art Teacher	20151	31	67
+1910	1	Auctioneer	2519	30	40
+1910	1	Author	1260	33	76
+1910	1	Baggageman	12846	30	25
+1910	1	Baker	69276	28	22
+1910	1	Barber / Beautician	177585	19	17
+1910	1	Bartender	110336	25	19
+1910	1	Bill Collector	31238	26	39
+1910	1	Blacksmith	239044	25	16
+1910	1	Boarding House Keeper	19149	7	30
+1910	1	Boatman	5291	30	24
+1910	1	Boilermaker	39803	34	39
+1910	1	Bookkeeper	294208	22	51
+1910	1	Bootblack	19394	14	8
+1910	1	Cabinet Maker	40555	26	23
+1910	1	Carpenter	816886	24	19
+1910	1	Charwoman	10579	14	10
+1910	1	Chemist	15115	40	79
+1910	1	Clergyman	122668	24	52
+1910	1	Clerical Worker	525693	25	44
+1910	1	Constable	9825	24	21
+1910	1	Craftsman	43321	32	32
+1910	1	Decorator	5292	25	40
+1910	1	Delivery Man	217884	27	32
+1910	1	Demonstrator	1008	12	35
+1910	1	Dentist	41818	63	96
+1910	1	Designer	7306	38	73
+1910	1	Draftsman	32998	34	67
+1910	1	Dressmaker / Seamstress	4282	12	23
+1910	1	Dyer	16375	25	12
+1910	1	Editor / Reporter	31492	39	82
+1910	1	Electrician	130726	34	44
+1910	1	Electrotyper	5541	47	55
+1910	1	Elevator Operator	18893	20	10
+1910	1	Engineer - Civil	47349	46	84
+1910	1	Engineer - Mechanical	14607	46	82
+1910	1	Engineer - Mining	10328	48	85
+1910	1	Engraver	13348	33	47
+1910	1	Entertainer	22165	20	31
+1910	1	Farm Foreman	51894	23	20
+1910	1	Farm Laborer	5061866	9	6
+1910	1	Farmer	5765835	14	14
+1910	1	Fireman	139785	31	27
+1910	1	Fisherman	73556	16	10
+1910	1	Floor Manager	14106	26	50
+1910	1	Foremen	274820	38	49
+1910	1	Forgemen	7558	32	23
+1910	1	Forrester	4284	29	48
+1910	1	Funeral Director	16372	31	59
+1910	1	Furnaceman	29463	29	18
+1910	1	Gardener / Groundskeeper	93958	17	11
+1910	1	Household Worker	287427	6	13
+1910	1	Inmate	25692	0	0
+1910	1	Inspector	48616	33	41
+1910	1	Insurance Agent	74801	36	66
+1910	1	Janitor	94970	19	9
+1910	1	Jeweler	27203	27	36
+1910	1	Laborer	3523434	20	8
+1910	1	Laundry / Dry Cleaning	40805	15	15
+1910	1	Lawyer / Judge	111097	62	93
+1910	1	Lithographer	7054	47	64
+1910	1	Locomotive Engineer	106301	46	58
+1910	1	Locomotive Fireman	71293	37	45
+1910	1	Longshoreman	70023	25	11
+1910	1	Loom Fixer	12595	27	36
+1910	1	Lumberman	144577	12	4
+1910	1	Machinist	471039	32	33
+1910	1	Mail Carrier	84376	34	53
+1910	1	Manager / Owner	2160453	42	68
+1910	1	Mason	183629	29	27
+1910	1	Meat Cutter	15115	29	29
+1910	1	Mechanic	40551	30	27
+1910	1	Messenger	109325	27	48
+1910	1	Metal Filer	39544	30	22
+1910	1	Metal Heater	7305	32	29
+1910	1	Metal Worker	76316	33	34
+1910	1	Midwife	252	5	37
+1910	1	Military	132487	11	18
+1910	1	Miller	21411	25	19
+1910	1	Milliner	6549	19	46
+1910	1	Miner	914115	24	10
+1910	1	Model Maker	23428	34	44
+1910	1	Molder	123690	28	12
+1910	1	Motorman	66248	34	34
+1910	1	Musician / Music Teacher	57938	20	52
+1910	1	Newsboy	28718	3	27
+1910	1	Nurse	22169	16	34
+1910	1	Oiler / Greaser	15620	28	15
+1910	1	Operative	1753668	23	18
+1910	1	Painter	336038	25	17
+1910	1	Paperhanger	23172	15	10
+1910	1	Photographer	25946	27	50
+1910	1	Physician / Surgeon	147613	80	92
+1910	1	Piano / Organ Tuner	9065	24	38
+1910	1	Plasterer	46607	29	25
+1910	1	Plumber	152913	33	34
+1910	1	Policeman / Detective	68769	32	39
+1910	1	Porter	87910	18	4
+1910	1	Pressman	25186	38	49
+1910	1	Produce Grader	2519	12	10
+1910	1	Professional - Misc	11587	33	65
+1910	1	Professor	21667	41	84
+1910	1	Public Officials	103010	36	66
+1910	1	Railroad Brakeman	94464	36	42
+1910	1	Railroad Conductor	60701	43	58
+1910	1	Railroad Switchman	68008	36	44
+1910	1	Real Estate Agent	125936	35	62
+1910	1	Religious Worker	9319	15	56
+1910	1	Roller	16373	30	22
+1910	1	Roofer	14860	23	15
+1910	1	Sailor	50632	23	16
+1910	1	Salesman	1078646	24	47
+1910	1	Sawyer	46344	17	5
+1910	1	Secretary	48107	14	61
+1910	1	Security Guard	80602	25	18
+1910	1	Service Attendant	15874	13	26
+1910	1	Service Worker	17630	11	11
+1910	1	Serviceman	24432	33	49
+1910	1	Sheriff / Bailiff	10833	30	34
+1910	1	Ship Officers	24683	42	54
+1910	1	Shipping and Receiving	76329	26	22
+1910	1	Shoemaker	65241	20	12
+1910	1	Social Worker	504	27	64
+1910	1	Stationary Engineer	225712	36	47
+1910	1	Stock Broker	16374	40	73
+1910	1	Stone Cutter	32995	28	25
+1910	1	Street Car Conductor	61212	33	30
+1910	1	Tailor	156426	26	23
+1910	1	Taxi Cab Driver / Chauffeur	81605	22	10
+1910	1	Teacher	122676	27	72
+1910	1	Telegraph Messenger	6801	12	22
+1910	1	Telegraph Operator	61714	32	47
+1910	1	Telephone Operator	9573	21	45
+1910	1	Temperer	1007	31	22
+1910	1	Textile Spinner	26445	18	5
+1910	1	Therapist	2517	26	58
+1910	1	Ticket Agent	28718	35	60
+1910	1	Tool Maker	11840	37	50
+1910	1	Truck / Tractor Driver	430738	25	15
+1910	1	Typesetter	119412	36	52
+1910	1	Union Official	4535	40	58
+1910	1	Upholsterer	17134	26	22
+1910	1	Veterinarian	12344	42	78
+1910	1	Waiter / Waitress	119657	11	16
+1910	1	Weaver	111082	23	6
+1910	2	Actor	14106	29	60
+1910	2	Agent	2016	36	68
+1910	2	Apprentice	8568	20	35
+1910	2	Artist / Art Teacher	15617	31	67
+1910	2	Author	756	33	76
+1910	2	Baggageman	251	30	25
+1910	2	Baker	5036	28	22
+1910	2	Barber / Beautician	19898	19	17
+1910	2	Bartender	252	25	19
+1910	2	Bill Collector	2016	26	39
+1910	2	Blacksmith	504	25	16
+1910	2	Boarding House Keeper	141058	7	30
+1910	2	Boilermaker	252	34	39
+1910	2	Bookkeeper	190197	22	51
+1910	2	Cabinet Maker	1008	26	23
+1910	2	Carpenter	2519	24	19
+1910	2	Charwoman	25945	14	10
+1910	2	Chemist	252	40	79
+1910	2	Clergyman	2267	24	52
+1910	2	Clerical Worker	121157	25	44
+1910	2	Craftsman	756	32	32
+1910	2	Decorator	504	25	40
+1910	2	Delivery Man	2520	27	32
+1910	2	Demonstrator	2771	12	35
+1910	2	Dentist	756	63	96
+1910	2	Designer	3022	38	73
+1910	2	Draftsman	252	34	67
+1910	2	Dressmaker / Seamstress	403770	12	23
+1910	2	Dyer	504	25	12
+1910	2	Editor / Reporter	3524	39	82
+1910	2	Electrician	252	34	44
+1910	2	Electrotyper	753	47	55
+1910	2	Engineer - Civil	1258	46	84
+1910	2	Engraver	252	33	47
+1910	2	Entertainer	252	20	31
+1910	2	Farm Foreman	5794	23	20
+1910	2	Farm Laborer	1641086	9	6
+1910	2	Farmer	282118	14	14
+1910	2	Fireman	252	28	17
+1910	2	Floor Manager	4030	26	50
+1910	2	Foremen	20403	38	49
+1910	2	Funeral Director	1259	31	59
+1910	2	Furnaceman	504	29	18
+1910	2	Gardener / Groundskeeper	5542	17	11
+1910	2	Household Worker	2031315	6	13
+1910	2	Inmate	3778	0	0
+1910	2	Inspector	1259	33	41
+1910	2	Insurance Agent	3024	36	66
+1910	2	Janitor	18391	19	9
+1910	2	Jeweler	1008	27	36
+1910	2	Laborer	123424	20	8
+1910	2	Laundry / Dry Cleaning	73802	15	15
+1910	2	Lawyer / Judge	1258	62	93
+1910	2	Lithographer	252	47	64
+1910	2	Locomotive Engineer	252	46	58
+1910	2	Locomotive Fireman	252	37	45
+1910	2	Longshoreman	252	25	11
+1910	2	Lumberman	503	12	4
+1910	2	Machinist	3273	32	33
+1910	2	Mail Carrier	504	34	53
+1910	2	Manager / Owner	117876	42	68
+1910	2	Mason	252	29	27
+1910	2	Mechanic	252	30	27
+1910	2	Messenger	9823	15	28
+1910	2	Metal Filer	3780	30	22
+1910	2	Midwife	4787	5	37
+1910	2	Miller	252	25	19
+1910	2	Milliner	123938	19	46
+1910	2	Miner	3275	24	10
+1910	2	Model Maker	252	34	44
+1910	2	Motorman	504	34	34
+1910	2	Musician / Music Teacher	84875	20	52
+1910	2	Newsboy	504	3	27
+1910	2	Nurse	225705	16	34
+1910	2	Operative	943342	23	18
+1910	2	Painter	2771	25	17
+1910	2	Paperhanger	1007	15	10
+1910	2	Photographer	5792	27	50
+1910	2	Physician / Surgeon	7555	80	92
+1910	2	Plumber	756	33	34
+1910	2	Porter	1008	18	4
+1910	2	Pressman	1008	38	49
+1910	2	Produce Grader	2016	12	10
+1910	2	Professional - Misc	10580	33	65
+1910	2	Professor	4031	41	84
+1910	2	Public Officials	12093	36	66
+1910	2	Railroad Brakeman	252	36	42
+1910	2	Real Estate Agent	3275	35	62
+1910	2	Religious Worker	10328	15	56
+1910	2	Roller	252	30	22
+1910	2	Sailor	252	23	16
+1910	2	Salesman	356928	24	47
+1910	2	Secretary	261962	14	61
+1910	2	Security Guard	1007	25	18
+1910	2	Service Attendant	9826	13	26
+1910	2	Service Worker	1260	11	11
+1910	2	Serviceman	504	33	49
+1910	2	Shipping and Receiving	1512	26	22
+1910	2	Shoemaker	252	20	12
+1910	2	Stationary Engineer	755	36	47
+1910	2	Tailor	44844	26	23
+1910	2	Taxi Cab Driver / Chauffeur	252	22	10
+1910	2	Teacher	501770	27	72
+1910	2	Telegraph Messenger	504	12	22
+1910	2	Telegraph Operator	6803	32	47
+1910	2	Telephone Operator	86153	21	45
+1910	2	Temperer	252	31	22
+1910	2	Textile Spinner	46599	18	5
+1910	2	Therapist	5036	26	58
+1910	2	Ticket Agent	1259	35	60
+1910	2	Tool Maker	252	37	50
+1910	2	Truck / Tractor Driver	2268	25	15
+1910	2	Typesetter	12090	36	52
+1910	2	Union Official	1511	40	58
+1910	2	Upholsterer	1511	26	22
+1910	2	Waiter / Waitress	92691	11	16
+1910	2	Weaver	99753	23	6
+1920	1	Accountant / Auditor	111209	19	39
+1920	1	Actor	14020	29	60
+1920	1	Advertising Agent	15437	35	66
+1920	1	Agent	30365	36	68
+1920	1	Apprentice	17761	20	35
+1920	1	Apprentice - Auto Mechanic	3532	18	25
+1920	1	Apprentice - Bricklayer	101	25	32
+1920	1	Apprentice - Carpenter	1615	20	31
+1920	1	Apprentice - Construction	705	21	29
+1920	1	Apprentice - Electrician	4439	25	37
+1920	1	Apprentice - Machinist	17659	24	41
+1920	1	Apprentice - Mechanic	1313	25	34
+1920	1	Apprentice - Metal Working	8076	23	33
+1920	1	Apprentice - Plumber	5749	25	33
+1920	1	Apprentice - Printing	5150	23	40
+1920	1	Architect	15439	54	90
+1920	1	Artist / Art Teacher	20083	31	67
+1920	1	Athlete	3735	23	52
+1920	1	Auctioneer	5652	30	40
+1920	1	Author	3836	33	76
+1920	1	Baggageman	11103	30	25
+1920	1	Baker	99297	28	22
+1920	1	Bank Teller	18875	26	52
+1920	1	Barber / Beautician	187113	19	17
+1920	1	Bartender	23312	25	19
+1920	1	Bill Collector	29573	26	39
+1920	1	Blacksmith	202217	25	16
+1920	1	Blaster	2320	26	11
+1920	1	Boarding House Keeper	16353	7	30
+1920	1	Boatman	5850	30	24
+1920	1	Boilermaker	71945	34	39
+1920	1	Bookbinder	11605	25	33
+1920	1	Bookkeeper	244835	22	51
+1920	1	Bootblack	15242	14	8
+1920	1	Building Manager	12514	20	32
+1920	1	Bus Driver	11098	30	24
+1920	1	Buyer - Farm	60344	26	33
+1920	1	Buyer - Store	33604	42	72
+1920	1	Cabinet Maker	53790	26	23
+1920	1	Car Washer	27553	16	8
+1920	1	Carpenter	840929	24	19
+1920	1	Cashier	27251	18	44
+1920	1	Cement / Concrete Finisher	7972	27	19
+1920	1	Chainman	2020	19	25
+1920	1	Charwoman	16448	14	10
+1920	1	Chemist	31894	40	79
+1920	1	Chiropractor	3837	32	75
+1920	1	Clergyman	129169	24	52
+1920	1	Clerical Worker	850683	25	44
+1920	1	College President / Dean	505	41	84
+1920	1	Constable	5449	24	21
+1920	1	Cook	107994	16	15
+1920	1	Counter Worker	6865	13	17
+1920	1	Craftsman	75069	32	32
+1920	1	Cranemen / Hoistmen	30474	31	21
+1920	1	Creditor	8582	37	74
+1920	1	Crossing Guard / Toll Collector	9889	26	17
+1920	1	Dancer / Dance Teacher	1313	16	45
+1920	1	Decorator	7571	25	40
+1920	1	Delivery Man	166109	27	32
+1920	1	Demonstrator	1513	12	35
+1920	1	Dentist	56401	63	96
+1920	1	Designer	11402	38	73
+1920	1	Disabled	10597	0	0
+1920	1	Dispatcher	2823	31	40
+1920	1	Doctor Office Attendant	2421	16	38
+1920	1	Draftsman	51760	34	67
+1920	1	Dressmaker / Seamstress	8171	12	23
+1920	1	Dyer	17962	25	12
+1920	1	Economist	101	39	81
+1920	1	Editor / Reporter	28555	39	82
+1920	1	Electrician	206165	34	44
+1920	1	Electrotyper	3933	47	55
+1920	1	Elevator Operator	31072	20	10
+1920	1	Engineer	9888	49	87
+1920	1	Engineer - Aeuronautical	403	48	87
+1920	1	Engineer - Chemical	1312	49	90
+1920	1	Engineer - Civil	68401	46	84
+1920	1	Engineer - Electrical	29464	46	84
+1920	1	Engineer - Industrial	3331	45	86
+1920	1	Engineer - Mechanical	26647	46	82
+1920	1	Engineer - Metallurgical	1108	46	82
+1920	1	Engineer - Mining	6256	48	85
+1920	1	Engraver	10088	33	47
+1920	1	Entertainer	3632	20	31
+1920	1	Farm Advisor	3127	36	83
+1920	1	Farm Foreman	15337	23	20
+1920	1	Farm Laborer	3295843	11	15
+1920	1	Farm Manager	80524	24	36
+1920	1	Farmer	6225184	14	14
+1920	1	Fireman	192430	31	27
+1920	1	Fisherman	51958	16	10
+1920	1	Floor Manager	3533	26	50
+1920	1	Foremen	443397	38	49
+1920	1	Forgemen	8676	32	23
+1920	1	Forrester	7266	29	48
+1920	1	Funeral Director	22005	31	59
+1920	1	Furnaceman	28262	29	18
+1920	1	Furrier	7469	32	39
+1920	1	Gardener / Groundskeeper	39958	17	11
+1920	1	Glazier	3635	28	26
+1920	1	Hospital Attendant	12112	16	13
+1920	1	Household Worker	108884	9	17
+1920	1	Huckster	45724	13	8
+1920	1	Human Resources	1917	43	84
+1920	1	Inmate	32293	0	0
+1920	1	Inspector	118660	32	42
+1920	1	Insulation Worker	2624	32	32
+1920	1	Insurance Agent	119169	36	66
+1920	1	Janitor	135536	19	9
+1920	1	Jeweler	33402	27	36
+1920	1	Job Setter	2524	34	28
+1920	1	Laborer	3861050	20	8
+1920	1	Laundry / Dry Cleaning	54781	15	15
+1920	1	Lawyer / Judge	121497	62	93
+1920	1	Librarian	1313	22	60
+1920	1	Library Attendant	303	13	44
+1920	1	Lithographer	11407	47	64
+1920	1	Locomotive Engineer	113014	46	58
+1920	1	Locomotive Fireman	93545	37	45
+1920	1	Longshoreman	84361	25	11
+1920	1	Loom Fixer	18167	29	10
+1920	1	Lumberman	177099	12	4
+1920	1	Machinist	818495	32	33
+1920	1	Mail Carrier	97076	34	53
+1920	1	Manager / Owner	2171254	42	68
+1920	1	Mason	125934	29	27
+1920	1	Meat Cutter	125634	29	29
+1920	1	Mechanic	119593	30	27
+1920	1	Mechanic - Airplane	1007	34	48
+1920	1	Mechanic - Automobile	197967	27	19
+1920	1	Mechanic - Office Machines	3027	28	36
+1920	1	Mechanic - Radio / Television	101	25	36
+1920	1	Mechanic - Railroad	74476	32	23
+1920	1	Messenger	93446	27	48
+1920	1	Metal Filer	60232	30	22
+1920	1	Metal Heater	14739	32	29
+1920	1	Metal Worker	155800	33	34
+1920	1	Midwife	101	5	37
+1920	1	Military	249460	11	18
+1920	1	Miller	23918	25	19
+1920	1	Milliner	2117	19	46
+1920	1	Millwright	38246	34	31
+1920	1	Miner	1026107	24	10
+1920	1	Model Maker	29867	34	44
+1920	1	Molder	131574	28	12
+1920	1	Motion Picture Projectionist	10089	34	43
+1920	1	Motorman	67514	30	19
+1920	1	Musician / Music Teacher	50958	20	52
+1920	1	Newsboy	32389	3	27
+1920	1	Nurse	8785	12	40
+1920	1	Nutritionist	101	20	39
+1920	1	Office Machine Operator	1917	23	45
+1920	1	Oiler / Greaser	26540	28	15
+1920	1	Operative	1963909	23	18
+1920	1	Optician / Lens Grinder	11710	30	39
+1920	1	Optometrist	3430	42	79
+1920	1	Osteopath	2825	60	96
+1920	1	Painter	331975	25	17
+1920	1	Paperhanger	18656	15	10
+1920	1	Parking Attendant	3532	19	19
+1920	1	Pharmacist	69519	40	82
+1920	1	Photo Developer	2422	23	42
+1920	1	Photographer	23116	27	50
+1920	1	Physician / Surgeon	130056	80	92
+1920	1	Piano / Organ Tuner	6860	24	38
+1920	1	Pilot	806	52	79
+1920	1	Plasterer	38442	29	25
+1920	1	Plumber	216042	33	34
+1920	1	Policeman / Detective	92029	32	39
+1920	1	Porter	111610	18	4
+1920	1	Postmaster	16751	29	60
+1920	1	Power Station Operator	4036	36	50
+1920	1	Pressman	23918	38	49
+1920	1	Produce Grader	5048	12	10
+1920	1	Professional - Misc	9086	33	65
+1920	1	Professor	17960	41	84
+1920	1	Professor - Agriculture 	303	41	84
+1920	1	Professor - Chemistry	404	41	84
+1920	1	Professor - Engineering	705	41	84
+1920	1	Professor - Mathematics	202	41	84
+1920	1	Professor - Medical	403	41	84
+1920	1	Professor - Physics	202	41	84
+1920	1	Professor - Science	101	41	84
+1920	1	Professor - Social Science 	505	41	84
+1920	1	Public Officials	50743	36	66
+1920	1	Purchasing Agent	15744	42	77
+1920	1	Radio Operator	2825	39	69
+1920	1	Railroad Brakeman	121299	36	42
+1920	1	Railroad Conductor	82636	43	58
+1920	1	Railroad Switchman	68425	36	44
+1920	1	Real Estate Agent	120301	35	62
+1920	1	Recreation Attendant	7368	8	19
+1920	1	Religious Worker	6861	15	56
+1920	1	Retired	143179	0	0
+1920	1	Road Machinery Operator	10292	31	24
+1920	1	Roller	26233	30	22
+1920	1	Roofer	11707	23	15
+1920	1	Sailor	52981	23	16
+1920	1	Salesman	1178007	24	47
+1920	1	Sawyer	39246	17	5
+1920	1	Scientist	303	41	80
+1920	1	Scientist - Agriculture	404	41	80
+1920	1	Scientist - Biology	1109	41	80
+1920	1	Scientist - Geology	2014	41	80
+1920	1	Scientist - Physics	202	41	80
+1920	1	Scientist - Social	302	39	81
+1920	1	Secretary	62172	22	61
+1920	1	Security Guard	127651	25	18
+1920	1	Service Attendant	5246	13	26
+1920	1	Service Worker	61340	11	11
+1920	1	Serviceman	57005	33	49
+1920	1	Sheriff / Bailiff	9679	30	34
+1920	1	Ship Officers	43997	42	54
+1920	1	Shipping and Receiving	122796	26	22
+1920	1	Shoemaker	69127	20	12
+1920	1	Social Worker	9488	27	66
+1920	1	Sports Instructor / Official	8069	32	64
+1920	1	Stationary Engineer	206553	36	47
+1920	1	Statistician / Actuary	2018	39	81
+1920	1	Stock Broker	16956	40	73
+1920	1	Stone Cutter	21792	28	25
+1920	1	Street Car Conductor	59636	33	30
+1920	1	Surveyor	9684	28	48
+1920	1	Tailor	175990	26	23
+1920	1	Taxi Cab Driver / Chauffeur	163471	22	10
+1920	1	Teacher	120384	27	72
+1920	1	Teamster	288481	15	8
+1920	1	Technician	1212	33	62
+1920	1	Technician - Medical / Dental	3530	25	48
+1920	1	Technician - Testing	4946	30	53
+1920	1	Telegraph Messenger	8784	12	22
+1920	1	Telegraph Operator	63275	32	47
+1920	1	Telephone Operator	11407	21	45
+1920	1	Temperer	3735	31	22
+1920	1	Textile Spinner	31896	18	5
+1920	1	Therapist	3127	26	58
+1920	1	Ticket Agent	51963	35	60
+1920	1	Tool Maker	61051	37	50
+1920	1	Truck / Tractor Driver	296383	25	15
+1920	1	Typesetter	138562	36	52
+1920	1	Union Official	8777	40	58
+1920	1	Upholsterer	21188	26	22
+1920	1	Usher	2317	4	25
+1920	1	Veterinarian	14934	42	78
+1920	1	Waiter / Waitress	109513	11	16
+1920	1	Weaver	102615	23	6
+1920	1	Welder	25637	31	24
+1920	2	Accountant / Auditor	15746	19	39
+1920	2	Actor	11001	29	60
+1920	2	Advertising Agent	1414	35	66
+1920	2	Agent	3632	36	68
+1920	2	Apprentice	3428	20	35
+1920	2	Apprentice - Machinist	101	24	41
+1920	2	Apprentice - Printing	303	23	40
+1920	2	Architect	100	54	90
+1920	2	Artist / Art Teacher	13929	31	67
+1920	2	Author	2924	33	76
+1920	2	Baggageman	101	30	25
+1920	2	Baker	4643	28	22
+1920	2	Bank Teller	2222	26	52
+1920	2	Barber / Beautician	32802	19	17
+1920	2	Bartender	101	25	19
+1920	2	Bill Collector	3228	26	39
+1920	2	Blacksmith	707	25	16
+1920	2	Boarding House Keeper	110201	7	30
+1920	2	Boilermaker	202	34	39
+1920	2	Bookbinder	11707	25	33
+1920	2	Bookkeeper	283872	22	51
+1920	2	Bootblack	201	14	8
+1920	2	Building Manager	6156	20	32
+1920	2	Bus Driver	201	30	24
+1920	2	Buyer - Farm	403	26	33
+1920	2	Buyer - Store	7972	42	72
+1920	2	Cabinet Maker	504	26	23
+1920	2	Car Washer	101	16	8
+1920	2	Carpenter	3129	24	19
+1920	2	Cashier	57119	18	44
+1920	2	Charwoman	18771	14	10
+1920	2	Chemist	1414	40	79
+1920	2	Chiropractor	1717	32	75
+1920	2	Clergyman	2424	24	52
+1920	2	Clerical Worker	417539	25	44
+1920	2	College President / Dean	404	41	84
+1920	2	Constable	202	24	21
+1920	2	Cook	73046	16	15
+1920	2	Counter Worker	1313	13	17
+1920	2	Craftsman	1110	32	32
+1920	2	Cranemen / Hoistmen	202	31	21
+1920	2	Creditor	403	37	74
+1920	2	Crossing Guard / Toll Collector	202	26	17
+1920	2	Dancer / Dance Teacher	2825	16	45
+1920	2	Decorator	705	25	40
+1920	2	Delivery Man	1211	27	32
+1920	2	Demonstrator	2422	12	35
+1920	2	Dentist	807	63	96
+1920	2	Designer	5448	38	73
+1920	2	Disabled	3534	0	0
+1920	2	Dispatcher	202	31	40
+1920	2	Doctor Office Attendant	11105	16	38
+1920	2	Draftsman	1514	34	67
+1920	2	Dressmaker / Seamstress	281139	12	23
+1920	2	Dyer	1110	25	12
+1920	2	Economist	100	39	81
+1920	2	Editor / Reporter	5750	39	82
+1920	2	Electrician	2017	34	44
+1920	2	Electrotyper	101	47	55
+1920	2	Elevator Operator	6156	20	10
+1920	2	Engineer	101	49	87
+1920	2	Engineer - Electrical	202	46	84
+1920	2	Engraver	606	33	47
+1920	2	Entertainer	403	20	31
+1920	2	Farm Advisor	202	36	83
+1920	2	Farm Foreman	1211	23	20
+1920	2	Farm Laborer	819956	11	15
+1920	2	Farm Manager	14731	24	36
+1920	2	Farmer	274294	14	14
+1920	2	Fireman	606	31	27
+1920	2	Fisherman	404	16	10
+1920	2	Floor Manager	1414	26	50
+1920	2	Foremen	39854	38	49
+1920	2	Forgemen	303	32	23
+1920	2	Funeral Director	806	31	59
+1920	2	Furnaceman	202	29	18
+1920	2	Furrier	1514	32	39
+1920	2	Gardener / Groundskeeper	909	17	11
+1920	2	Glazier	202	28	26
+1920	2	Hospital Attendant	11104	16	13
+1920	2	Household Worker	1476973	9	17
+1920	2	Huckster	1514	13	8
+1920	2	Human Resources	200	43	84
+1920	2	Inmate	17355	0	0
+1920	2	Inspector	4742	32	42
+1920	2	Insurance Agent	5653	36	66
+1920	2	Janitor	21601	19	9
+1920	2	Jeweler	2624	27	36
+1920	2	Laborer	206999	20	8
+1920	2	Laundry / Dry Cleaning	99415	15	15
+1920	2	Lawyer / Judge	1110	62	93
+1920	2	Librarian	12916	22	60
+1920	2	Library Attendant	3028	13	44
+1920	2	Lithographer	404	47	64
+1920	2	Locomotive Engineer	403	46	58
+1920	2	Longshoreman	505	25	11
+1920	2	Lumberman	1109	12	4
+1920	2	Machinist	6660	32	33
+1920	2	Mail Carrier	908	34	53
+1920	2	Manager / Owner	150882	42	68
+1920	2	Mason	504	29	27
+1920	2	Meat Cutter	1312	29	29
+1920	2	Mechanic	1312	30	27
+1920	2	Mechanic - Automobile	707	27	19
+1920	2	Mechanic - Railroad	101	32	23
+1920	2	Messenger	10900	27	48
+1920	2	Metal Filer	3024	30	22
+1920	2	Metal Worker	605	33	34
+1920	2	Midwife	4740	5	37
+1920	2	Military	906	11	18
+1920	2	Miller	403	25	19
+1920	2	Milliner	64274	19	46
+1920	2	Millwright	303	34	31
+1920	2	Miner	4137	24	10
+1920	2	Model Maker	202	34	44
+1920	2	Molder	404	28	12
+1920	2	Motion Picture Projectionist	202	34	43
+1920	2	Motorman	303	34	34
+1920	2	Musician / Music Teacher	71438	20	52
+1920	2	Newsboy	606	3	27
+1920	2	Nurse	256231	12	40
+1920	2	Nutritionist	1514	20	39
+1920	2	Office Machine Operator	13621	23	45
+1920	2	Oiler / Greaser	302	28	15
+1920	2	Operative	1107472	23	18
+1920	2	Optician / Lens Grinder	907	30	39
+1920	2	Osteopath	909	60	96
+1920	2	Painter	6659	25	17
+1920	2	Paperhanger	707	15	10
+1920	2	Parking Attendant	202	19	19
+1920	2	Pharmacist	2825	40	82
+1920	2	Photo Developer	4341	23	42
+1920	2	Photographer	4842	27	50
+1920	2	Physician / Surgeon	5555	80	92
+1920	2	Plasterer	101	29	25
+1920	2	Plumber	604	33	34
+1920	2	Policeman / Detective	1107	32	39
+1920	2	Porter	1413	18	4
+1920	2	Postmaster	13418	29	60
+1920	2	Power Station Operator	101	36	50
+1920	2	Pressman	706	38	49
+1920	2	Produce Grader	4032	12	10
+1920	2	Professional - Misc	3129	33	65
+1920	2	Professor	8881	41	84
+1920	2	Professor - Medical	101	41	84
+1920	2	Professor - Social Science 	101	41	84
+1920	2	Psychologist	100	39	81
+1920	2	Public Officials	4844	36	66
+1920	2	Purchasing Agent	807	42	77
+1920	2	Radio Operator	202	39	69
+1920	2	Railroad Brakeman	302	36	42
+1920	2	Railroad Conductor	202	43	58
+1920	2	Railroad Switchman	301	36	44
+1920	2	Real Estate Agent	4338	35	62
+1920	2	Recreation Attendant	201	8	19
+1920	2	Religious Worker	26133	15	56
+1920	2	Retired	10593	0	0
+1920	2	Road Machinery Operator	404	31	24
+1920	2	Roller	201	30	22
+1920	2	Sailor	404	23	16
+1920	2	Salesman	504441	24	47
+1920	2	Sawyer	303	17	5
+1920	2	Scientist - Agriculture	101	41	80
+1920	2	Scientist - Biology	707	41	80
+1920	2	Scientist - Geology	101	41	80
+1920	2	Secretary	606354	22	61
+1920	2	Security Guard	1412	25	18
+1920	2	Service Attendant	7167	13	26
+1920	2	Service Worker	110919	11	11
+1920	2	Serviceman	909	33	49
+1920	2	Sheriff / Bailiff	201	30	34
+1920	2	Ship Officers	202	42	54
+1920	2	Shipping and Receiving	5047	26	22
+1920	2	Shoemaker	3331	20	12
+1920	2	Social Worker	10699	27	66
+1920	2	Sports Instructor / Official	1614	32	64
+1920	2	Stationary Engineer	404	36	47
+1920	2	Statistician / Actuary	605	39	81
+1920	2	Stock Broker	403	40	73
+1920	2	Stone Cutter	202	28	25
+1920	2	Street Car Conductor	202	33	30
+1920	2	Tailor	37442	26	23
+1920	2	Taxi Cab Driver / Chauffeur	1110	22	10
+1920	2	Teacher	619195	27	72
+1920	2	Teamster	1616	15	8
+1920	2	Technician	100	33	62
+1920	2	Technician - Medical / Dental	1311	25	48
+1920	2	Technician - Testing	2018	30	53
+1920	2	Telegraph Messenger	303	12	22
+1920	2	Telegraph Operator	15944	32	47
+1920	2	Telephone Operator	179937	21	45
+1920	2	Textile Spinner	55605	18	5
+1920	2	Therapist	3231	26	58
+1920	2	Ticket Agent	1716	35	60
+1920	2	Tool Maker	303	37	50
+1920	2	Truck / Tractor Driver	2120	25	15
+1920	2	Typesetter	11095	36	52
+1920	2	Union Official	1615	40	58
+1920	2	Upholsterer	808	26	22
+1920	2	Usher	2925	4	25
+1920	2	Veterinarian	202	42	78
+1920	2	Waiter / Waitress	104857	11	16
+1920	2	Weaver	87387	23	6
+1920	2	Welder	606	31	24
+1930	1	Accountant / Auditor	181482	38	78
+1930	1	Actor	28815	29	60
+1930	1	Advertising Agent	37913	35	66
+1930	1	Agent	54081	36	68
+1930	1	Apprentice	17699	20	35
+1930	1	Apprentice - Auto Mechanic	506	18	25
+1930	1	Apprentice - Bricklayer	2021	25	32
+1930	1	Apprentice - Carpenter	2527	20	31
+1930	1	Apprentice - Construction	1515	21	29
+1930	1	Apprentice - Electrician	1517	25	37
+1930	1	Apprentice - Machinist	7077	24	41
+1930	1	Apprentice - Mechanic	1011	25	34
+1930	1	Apprentice - Metal Working	6067	23	33
+1930	1	Apprentice - Plumber	6571	25	33
+1930	1	Apprentice - Printing	9605	23	40
+1930	1	Architect	18200	54	90
+1930	1	Artist / Art Teacher	34876	31	67
+1930	1	Athlete	7579	23	52
+1930	1	Auctioneer	5053	30	40
+1930	1	Author	7581	33	76
+1930	1	Baggageman	7582	30	25
+1930	1	Baker	123866	28	22
+1930	1	Bank Teller	33870	26	52
+1930	1	Barber / Beautician	275008	19	17
+1930	1	Bartender	1516	25	19
+1930	1	Bill Collector	36399	26	39
+1930	1	Blacksmith	117282	25	16
+1930	1	Blaster	1011	26	11
+1930	1	Boarding House Keeper	10617	7	30
+1930	1	Boatman	5561	30	24
+1930	1	Boilermaker	55615	34	39
+1930	1	Bookbinder	11625	25	33
+1930	1	Bookkeeper	234070	22	51
+1930	1	Bootblack	20226	14	8
+1930	1	Building Manager	29320	20	32
+1930	1	Bus Driver	39423	30	24
+1930	1	Buyer - Farm	51566	26	33
+1930	1	Buyer - Store	42965	42	72
+1930	1	Cabinet Maker	61678	26	23
+1930	1	Car Washer	69245	16	8
+1930	1	Carpenter	852292	24	19
+1930	1	Cashier	32354	18	44
+1930	1	Cement / Concrete Finisher	20726	27	19
+1930	1	Chainman	3536	19	25
+1930	1	Charwoman	24774	14	10
+1930	1	Chemist	37922	40	79
+1930	1	Chiropractor	9605	32	75
+1930	1	Clergyman	136996	24	52
+1930	1	Clerical Worker	1078763	25	44
+1930	1	College President / Dean	1011	41	84
+1930	1	Constable	9099	24	21
+1930	1	Cook	170873	16	15
+1930	1	Counter Worker	16175	13	17
+1930	1	Craftsman	49544	32	32
+1930	1	Cranemen / Hoistmen	51565	31	21
+1930	1	Creditor	18198	37	74
+1930	1	Crossing Guard / Toll Collector	10114	26	17
+1930	1	Dancer / Dance Teacher	2021	16	45
+1930	1	Decorator	20224	25	40
+1930	1	Delivery Man	236570	27	32
+1930	1	Demonstrator	1012	12	35
+1930	1	Dentist	69763	63	96
+1930	1	Designer	11122	38	73
+1930	1	Disabled	15166	0	0
+1930	1	Dispatcher	2529	31	40
+1930	1	Draftsman	80877	34	67
+1930	1	Dressmaker / Seamstress	5053	12	23
+1930	1	Dyer	21242	25	12
+1930	1	Economist	1011	39	81
+1930	1	Editor / Reporter	49037	39	82
+1930	1	Electrician	257818	34	44
+1930	1	Electrotyper	9099	47	55
+1930	1	Elevator Operator	71278	20	10
+1930	1	Engineer	12636	49	87
+1930	1	Engineer - Aeuronautical	3035	48	87
+1930	1	Engineer - Chemical	7075	49	90
+1930	1	Engineer - Civil	85930	46	84
+1930	1	Engineer - Electrical	54095	46	84
+1930	1	Engineer - Industrial	7078	45	86
+1930	1	Engineer - Mechanical	43477	46	82
+1930	1	Engineer - Metallurgical	3538	46	82
+1930	1	Engineer - Mining	8091	48	85
+1930	1	Engraver	13141	33	47
+1930	1	Entertainer	9609	20	31
+1930	1	Farm Advisor	4549	36	83
+1930	1	Farm Foreman	20723	23	20
+1930	1	Farm Laborer	3489124	11	15
+1930	1	Farm Manager	44993	24	36
+1930	1	Farmer	5791250	14	14
+1930	1	Fireman	196150	31	27
+1930	1	Fisherman	67234	16	10
+1930	1	Floor Manager	3034	26	50
+1930	1	Foremen	519696	38	49
+1930	1	Forgemen	6069	32	23
+1930	1	Forrester	12134	29	48
+1930	1	Funeral Director	32352	31	59
+1930	1	Furnaceman	19715	29	18
+1930	1	Furrier	10616	32	39
+1930	1	Gardener / Groundskeeper	124869	17	11
+1930	1	Glazier	9101	28	26
+1930	1	Hospital Attendant	24262	16	13
+1930	1	Household Worker	108678	9	17
+1930	1	Huckster	52579	13	8
+1930	1	Human Resources	2022	43	84
+1930	1	Inmate	64714	0	0
+1930	1	Inspector	123842	32	42
+1930	1	Insulation Worker	1517	32	32
+1930	1	Insurance Agent	259333	36	66
+1930	1	Janitor	253254	19	9
+1930	1	Jeweler	31341	27	36
+1930	1	Job Setter	6571	34	28
+1930	1	Laborer	4421845	20	8
+1930	1	Laundry / Dry Cleaning	95031	15	15
+1930	1	Lawyer / Judge	158729	62	93
+1930	1	Librarian	2022	22	60
+1930	1	Lithographer	14663	47	64
+1930	1	Locomotive Engineer	114256	46	58
+1930	1	Locomotive Fireman	64215	37	45
+1930	1	Longshoreman	63693	25	11
+1930	1	Loom Fixer	18704	29	10
+1930	1	Lumberman	147613	12	4
+1930	1	Machinist	655648	32	33
+1930	1	Mail Carrier	111722	34	53
+1930	1	Manager / Owner	2864304	42	68
+1930	1	Mason	164810	29	27
+1930	1	Mathematician	505	41	80
+1930	1	Meat Cutter	131935	29	29
+1930	1	Mechanic	211814	30	27
+1930	1	Mechanic - Airplane	9603	34	48
+1930	1	Mechanic - Automobile	434751	27	19
+1930	1	Mechanic - Office Machines	6070	28	36
+1930	1	Mechanic - Radio / Television	26789	25	36
+1930	1	Mechanic - Railroad	50037	32	23
+1930	1	Messenger	122857	27	48
+1930	1	Metal Filer	84931	30	22
+1930	1	Metal Heater	13143	32	29
+1930	1	Metal Worker	126889	33	34
+1930	1	Military	108692	11	18
+1930	1	Miller	13648	25	19
+1930	1	Milliner	3034	19	46
+1930	1	Millwright	53577	34	31
+1930	1	Miner	758812	24	10
+1930	1	Model Maker	29314	34	44
+1930	1	Molder	104648	28	12
+1930	1	Motion Picture Projectionist	18705	34	43
+1930	1	Motorman	76336	30	19
+1930	1	Musician / Music Teacher	89981	20	52
+1930	1	Newsboy	32860	3	27
+1930	1	Nurse	4041	16	34
+1930	1	Office Machine Operator	6071	23	45
+1930	1	Oiler / Greaser	29825	28	15
+1930	1	Operative	2144940	23	18
+1930	1	Optician / Lens Grinder	8087	30	39
+1930	1	Optometrist	10106	42	79
+1930	1	Osteopath	4045	60	96
+1930	1	Painter	554055	25	17
+1930	1	Paperhanger	33868	15	10
+1930	1	Parking Attendant	76845	19	19
+1930	1	Pharmacist	89469	40	82
+1930	1	Photo Developer	8590	23	42
+1930	1	Photographer	27300	27	50
+1930	1	Physician / Surgeon	139517	80	92
+1930	1	Piano / Organ Tuner	12135	24	38
+1930	1	Pilot	6571	52	79
+1930	1	Plasterer	77840	29	25
+1930	1	Plumber	249220	33	34
+1930	1	Policeman / Detective	141547	32	39
+1930	1	Porter	159765	18	4
+1930	1	Postmaster	18192	29	60
+1930	1	Power Station Operator	7583	36	50
+1930	1	Pressman	34884	38	49
+1930	1	Produce Grader	4549	12	10
+1930	1	Professional - Misc	31847	33	65
+1930	1	Professor	31851	41	84
+1930	1	Professor - Economics	505	41	84
+1930	1	Professor - Medical	1012	41	84
+1930	1	Professor - Social Science 	1011	41	84
+1930	1	Public Officials	54094	36	66
+1930	1	Purchasing Agent	21742	42	77
+1930	1	Radio Operator	5059	39	69
+1930	1	Railroad Brakeman	87963	36	42
+1930	1	Railroad Conductor	80889	43	58
+1930	1	Railroad Switchman	68251	36	44
+1930	1	Real Estate Agent	164288	35	62
+1930	1	Recreation Attendant	21230	8	19
+1930	1	Religious Worker	9100	15	56
+1930	1	Retired	199186	0	0
+1930	1	Road Machinery Operator	22751	31	24
+1930	1	Roller	41952	30	22
+1930	1	Roofer	30332	23	15
+1930	1	Sailor	44992	23	16
+1930	1	Salesman	1830029	24	47
+1930	1	Sawyer	41453	17	5
+1930	1	Scientist	1518	41	80
+1930	1	Scientist - Agriculture	3032	41	80
+1930	1	Scientist - Biology	3036	41	80
+1930	1	Scientist - Geology	1515	41	80
+1930	1	Scientist - Physics	1011	41	80
+1930	1	Scientist - Social	505	39	81
+1930	1	Secretary	92012	22	61
+1930	1	Security Guard	150635	25	18
+1930	1	Service Attendant	5054	13	26
+1930	1	Service Worker	95556	11	11
+1930	1	Serviceman	103125	33	49
+1930	1	Sheriff / Bailiff	18197	30	34
+1930	1	Ship Officers	36906	42	54
+1930	1	Shipping and Receiving	172885	26	22
+1930	1	Shoemaker	64211	20	12
+1930	1	Social Worker	12641	27	66
+1930	1	Sports Instructor / Official	20225	32	64
+1930	1	Stationary Engineer	208276	36	47
+1930	1	Statistician / Actuary	3537	39	81
+1930	1	Stock Broker	41456	40	73
+1930	1	Stone Cutter	21734	28	25
+1930	1	Street Car Conductor	39428	33	30
+1930	1	Surveyor	14157	28	48
+1930	1	Tailor	165822	26	23
+1930	1	Taxi Cab Driver / Chauffeur	245170	22	10
+1930	1	Teacher	189588	27	72
+1930	1	Teamster	106152	15	8
+1930	1	Technician	2023	33	62
+1930	1	Technician - Medical / Dental	10614	25	48
+1930	1	Technician - Testing	9603	30	53
+1930	1	Telegraph Messenger	12129	12	22
+1930	1	Telegraph Operator	55610	32	47
+1930	1	Telephone Operator	13651	21	45
+1930	1	Temperer	3033	31	22
+1930	1	Textile Spinner	32354	18	5
+1930	1	Therapist	6069	26	58
+1930	1	Ticket Agent	55611	35	60
+1930	1	Tool Maker	101109	37	50
+1930	1	Truck / Tractor Driver	752249	25	15
+1930	1	Typesetter	200197	36	52
+1930	1	Union Official	8593	40	58
+1930	1	Upholsterer	39935	26	22
+1930	1	Usher	7078	4	25
+1930	1	Veterinarian	12131	42	78
+1930	1	Waiter / Waitress	154184	11	16
+1930	1	Weaver	96063	23	6
+1930	1	Welder	61167	31	24
+1930	2	Accountant / Auditor	14657	38	78
+1930	2	Actor	19210	29	60
+1930	2	Advertising Agent	4043	35	66
+1930	2	Agent	5562	36	68
+1930	2	Apprentice	1517	20	35
+1930	2	Apprentice - Auto Mechanic	506	18	25
+1930	2	Apprentice - Printing	505	23	40
+1930	2	Artist / Art Teacher	20220	31	67
+1930	2	Author	5055	33	76
+1930	2	Baker	10112	28	22
+1930	2	Bank Teller	6067	26	52
+1930	2	Barber / Beautician	118798	19	17
+1930	2	Bill Collector	3538	26	39
+1930	2	Boarding House Keeper	81890	7	30
+1930	2	Bookbinder	8599	25	33
+1930	2	Bookkeeper	385193	22	51
+1930	2	Building Manager	25781	20	32
+1930	2	Buyer - Farm	506	26	33
+1930	2	Buyer - Store	10614	42	72
+1930	2	Cabinet Maker	506	26	23
+1930	2	Car Washer	506	16	8
+1930	2	Carpenter	506	24	19
+1930	2	Cashier	79874	18	44
+1930	2	Charwoman	29825	14	10
+1930	2	Chemist	505	40	79
+1930	2	Chiropractor	1011	32	75
+1930	2	Clergyman	2529	24	52
+1930	2	Clerical Worker	494402	25	44
+1930	2	Cook	104637	16	15
+1930	2	Counter Worker	7082	13	17
+1930	2	Craftsman	1011	32	32
+1930	2	Creditor	2529	37	74
+1930	2	Dancer / Dance Teacher	11122	16	45
+1930	2	Decorator	4548	25	40
+1930	2	Delivery Man	2528	27	32
+1930	2	Demonstrator	2527	12	35
+1930	2	Dentist	2528	63	96
+1930	2	Designer	11126	38	73
+1930	2	Disabled	505	0	0
+1930	2	Doctor Office Attendant	28308	16	38
+1930	2	Draftsman	3540	34	67
+1930	2	Dressmaker / Seamstress	184030	12	23
+1930	2	Editor / Reporter	12637	39	82
+1930	2	Electrotyper	505	47	55
+1930	2	Elevator Operator	13143	20	10
+1930	2	Engraver	3035	33	47
+1930	2	Entertainer	1518	20	31
+1930	2	Farm Advisor	505	36	83
+1930	2	Farm Foreman	1518	23	20
+1930	2	Farm Laborer	654160	7	12
+1930	2	Farm Manager	15166	24	36
+1930	2	Farmer	246702	14	14
+1930	2	Fireman	1516	31	27
+1930	2	Floor Manager	505	26	50
+1930	2	Foremen	41959	38	49
+1930	2	Funeral Director	1011	31	59
+1930	2	Furrier	1010	32	39
+1930	2	Gardener / Groundskeeper	1011	17	11
+1930	2	Hospital Attendant	10616	16	13
+1930	2	Household Worker	1947276	9	17
+1930	2	Huckster	3540	13	8
+1930	2	Human Resources	505	43	84
+1930	2	Inmate	40948	0	0
+1930	2	Inspector	4041	35	52
+1930	2	Insurance Agent	15160	36	66
+1930	2	Janitor	24772	19	9
+1930	2	Jeweler	2024	27	36
+1930	2	Laborer	202730	20	8
+1930	2	Laundry / Dry Cleaning	187559	15	15
+1930	2	Lawyer / Judge	2529	62	93
+1930	2	Librarian	29830	22	60
+1930	2	Library Attendant	1518	13	44
+1930	2	Lithographer	506	47	64
+1930	2	Locomotive Engineer	506	46	58
+1930	2	Loom Fixer	505	29	10
+1930	2	Lumberman	1010	12	4
+1930	2	Machinist	8597	32	33
+1930	2	Mail Carrier	506	34	53
+1930	2	Manager / Owner	219900	42	68
+1930	2	Mason	505	29	27
+1930	2	Meat Cutter	1010	29	29
+1930	2	Mechanic	2021	30	27
+1930	2	Mechanic - Airplane	506	34	48
+1930	2	Mechanic - Automobile	1517	27	19
+1930	2	Messenger	9605	27	48
+1930	2	Metal Filer	3539	30	22
+1930	2	Metal Heater	505	32	29
+1930	2	Metal Worker	505	32	33
+1930	2	Midwife	3539	5	37
+1930	2	Milliner	33868	19	46
+1930	2	Millwright	1011	34	31
+1930	2	Miner	2022	24	10
+1930	2	Molder	506	28	12
+1930	2	Musician / Music Teacher	76841	20	52
+1930	2	Nurse	388747	12	40
+1930	2	Nutritionist	4552	20	39
+1930	2	Office Machine Operator	38412	23	45
+1930	2	Operative	1268895	23	18
+1930	2	Optician / Lens Grinder	505	30	39
+1930	2	Optometrist	506	42	79
+1930	2	Osteopath	2527	60	96
+1930	2	Painter	14158	25	17
+1930	2	Paperhanger	505	15	10
+1930	2	Parking Attendant	505	19	19
+1930	2	Pharmacist	2023	40	82
+1930	2	Photo Developer	6572	23	42
+1930	2	Photographer	3034	27	50
+1930	2	Physician / Surgeon	8593	80	92
+1930	2	Piano / Organ Tuner	506	24	38
+1930	2	Plumber	505	33	34
+1930	2	Policeman / Detective	1516	32	39
+1930	2	Porter	2529	18	4
+1930	2	Postmaster	11622	29	60
+1930	2	Power Station Operator	2022	36	50
+1930	2	Pressman	506	38	49
+1930	2	Produce Grader	3031	12	10
+1930	2	Professional - Misc	2528	33	65
+1930	2	Professor	14656	41	84
+1930	2	Public Officials	3032	36	66
+1930	2	Purchasing Agent	2528	42	77
+1930	2	Radio Operator	506	39	69
+1930	2	Railroad Brakeman	506	36	42
+1930	2	Real Estate Agent	9603	35	62
+1930	2	Recreation Attendant	506	8	19
+1930	2	Religious Worker	38417	15	56
+1930	2	Retired	21738	0	0
+1930	2	Salesman	698141	24	47
+1930	2	Scientist - Agriculture	505	41	80
+1930	2	Scientist - Biology	1517	41	80
+1930	2	Secretary	980734	22	61
+1930	2	Security Guard	1012	25	18
+1930	2	Service Attendant	14156	13	26
+1930	2	Service Worker	162783	11	11
+1930	2	Serviceman	505	33	49
+1930	2	Shipping and Receiving	2022	26	22
+1930	2	Shoemaker	4046	20	12
+1930	2	Social Worker	13648	27	66
+1930	2	Stationary Engineer	2023	36	47
+1930	2	Statistician / Actuary	2528	39	81
+1930	2	Stock Broker	1517	40	73
+1930	2	Tailor	29321	26	23
+1930	2	Taxi Cab Driver / Chauffeur	2529	22	10
+1930	2	Teacher	765334	27	72
+1930	2	Technician - Medical / Dental	3539	25	48
+1930	2	Technician - Testing	5054	30	53
+1930	2	Telegraph Messenger	1516	12	22
+1930	2	Telegraph Operator	12130	32	47
+1930	2	Telephone Operator	229503	21	45
+1930	2	Textile Spinner	65222	18	5
+1930	2	Therapist	4046	26	58
+1930	2	Ticket Agent	506	35	60
+1930	2	Truck / Tractor Driver	2023	25	15
+1930	2	Typesetter	13145	36	52
+1930	2	Upholsterer	4548	26	22
+1930	2	Usher	6069	4	25
+1930	2	Waiter / Waitress	185034	11	16
+1930	2	Weaver	62189	23	6
+1930	2	Welder	1011	31	24
+1940	1	Actor	12428	29	60
+1940	1	Advertising Agent	33554	35	66
+1940	1	Agent	92566	36	68
+1940	1	Apprentice	39638	20	35
+1940	1	Apprentice - Carpenter	13667	20	31
+1940	1	Apprentice - Construction	18051	21	29
+1940	1	Apprentice - Electrician	7102	25	37
+1940	1	Apprentice - Machinist	17891	24	41
+1940	1	Apprentice - Plumber	8921	25	33
+1940	1	Apprentice - Printing	15899	23	40
+1940	1	Architect	19929	54	90
+1940	1	Artist / Art Teacher	43200	31	67
+1940	1	Athlete	10153	23	52
+1940	1	Auctioneer	5580	30	40
+1940	1	Author	11522	33	76
+1940	1	Baggageman	5504	30	25
+1940	1	Baker	139541	28	22
+1940	1	Barber / Beautician	218924	19	17
+1940	1	Bartender	129349	25	19
+1940	1	Bill Collector	38109	26	39
+1940	1	Blacksmith	90238	25	16
+1940	1	Blaster	6971	26	11
+1940	1	Boarding House Keeper	8844	7	30
+1940	1	Boatman	12583	30	24
+1940	1	Boilermaker	34322	34	39
+1940	1	Bookkeeper	454109	22	51
+1940	1	Bootblack	15029	14	8
+1940	1	Building Manager	46583	20	32
+1940	1	Buyer - Farm	38019	26	33
+1940	1	Buyer - Store	53514	42	72
+1940	1	Cabinet Maker	74244	26	23
+1940	1	Car Washer	54742	16	8
+1940	1	Carpenter	741073	24	19
+1940	1	Cement / Concrete Finisher	30773	27	19
+1940	1	Chainman	13526	19	25
+1940	1	Charwoman	37062	14	10
+1940	1	Chemist	56420	40	79
+1940	1	Chiropractor	9091	32	75
+1940	1	Clergyman	133751	24	52
+1940	1	Clerical Worker	1329366	25	44
+1940	1	Constable	10729	24	21
+1940	1	Cook	205345	16	15
+1940	1	Cranemen / Hoistmen	123466	31	21
+1940	1	Creditor	28019	37	74
+1940	1	Crossing Guard / Toll Collector	17110	26	17
+1940	1	Dancer / Dance Teacher	3362	16	45
+1940	1	Decorator	27711	25	40
+1940	1	Delivery Man	409059	27	32
+1940	1	Demonstrator	2021	12	35
+1940	1	Dentist	69505	63	96
+1940	1	Designer	15745	38	73
+1940	1	Doctor Office Attendant	8806	16	38
+1940	1	Draftsman	91661	34	67
+1940	1	Dressmaker / Seamstress	7270	12	23
+1940	1	Dyer	24246	25	12
+1940	1	Editor / Reporter	47417	39	82
+1940	1	Electrician	217697	34	44
+1940	1	Electrotyper	9311	47	55
+1940	1	Elevator Operator	72757	20	10
+1940	1	Engineer - Chemical	11561	49	90
+1940	1	Engineer - Civil	90394	46	84
+1940	1	Engineer - Electrical	55931	46	84
+1940	1	Engineer - Industrial	13750	45	86
+1940	1	Engineer - Mechanical	81157	46	82
+1940	1	Engineer - Metallurgical	10425	46	82
+1940	1	Engraver	8127	33	47
+1940	1	Entertainer	6756	20	31
+1940	1	Farm Advisor	7677	36	83
+1940	1	Farm Foreman	24110	23	20
+1940	1	Farm Laborer	3086228	7	12
+1940	1	Farm Manager	34456	24	36
+1940	1	Farmer	5064557	14	14
+1940	1	Fireman	199221	31	27
+1940	1	Fisherman	66581	16	10
+1940	1	Floor Manager	7505	26	50
+1940	1	Foremen	568592	38	49
+1940	1	Funeral Director	34865	31	59
+1940	1	Furnaceman	30045	29	18
+1940	1	Furrier	16327	32	39
+1940	1	Gardener / Groundskeeper	186215	17	11
+1940	1	Glazier	12949	28	26
+1940	1	Hospital Attendant	65725	16	13
+1940	1	Household Worker	188721	9	17
+1940	1	Huckster	54906	13	8
+1940	1	Inspector	137552	32	42
+1940	1	Insulation Worker	10681	32	32
+1940	1	Insurance Agent	232506	36	66
+1940	1	Janitor	343957	19	9
+1940	1	Jeweler	44607	27	36
+1940	1	Laborer	4600712	20	8
+1940	1	Laundry / Dry Cleaning	53970	15	15
+1940	1	Lawyer / Judge	168630	62	93
+1940	1	Librarian	4836	22	60
+1940	1	Library Attendant	7096	13	44
+1940	1	Lithographer	28115	47	64
+1940	1	Locomotive Engineer	69930	46	58
+1940	1	Locomotive Fireman	50255	37	45
+1940	1	Longshoreman	68299	25	11
+1940	1	Loom Fixer	23235	29	10
+1940	1	Lumberman	161252	12	4
+1940	1	Machinist	503033	32	33
+1940	1	Mail Carrier	123474	34	53
+1940	1	Manager / Owner	2930996	42	68
+1940	1	Mason	147647	29	27
+1940	1	Meat Cutter	146170	29	29
+1940	1	Mechanic	429926	30	27
+1940	1	Mechanic - Airplane	31726	34	48
+1940	1	Mechanic - Automobile	418084	27	19
+1940	1	Mechanic - Railroad	40559	32	23
+1940	1	Messenger	84153	27	48
+1940	1	Metal Filer	104474	30	22
+1940	1	Metal Heater	17704	32	29
+1940	1	Metal Worker	135611	33	34
+1940	1	Military	235610	11	18
+1940	1	Miller	16251	25	19
+1940	1	Milliner	1616	19	46
+1940	1	Millwright	43715	34	31
+1940	1	Miner	795289	24	10
+1940	1	Model Maker	34247	34	44
+1940	1	Molder	78483	28	12
+1940	1	Motion Picture Projectionist	29822	34	43
+1940	1	Motorman	52754	30	19
+1940	1	Musician / Music Teacher	84556	20	52
+1940	1	Newsboy	55754	3	27
+1940	1	Nurse	19999	16	34
+1940	1	Office Machine Operator	16510	23	45
+1940	1	Oiler / Greaser	40008	28	15
+1940	1	Operative	2999021	23	18
+1940	1	Optician / Lens Grinder	13608	30	39
+1940	1	Optometrist	11290	42	79
+1940	1	Osteopath	5657	60	96
+1940	1	Painter	505402	25	17
+1940	1	Paperhanger	31499	15	10
+1940	1	Parking Attendant	244162	19	19
+1940	1	Pharmacist	79447	40	82
+1940	1	Photo Developer	15775	23	42
+1940	1	Photographer	34411	27	50
+1940	1	Physician / Surgeon	167176	80	92
+1940	1	Piano / Organ Tuner	10537	24	38
+1940	1	Pilot	6947	52	79
+1940	1	Plasterer	59528	29	25
+1940	1	Plumber	205078	33	34
+1940	1	Policeman / Detective	150849	32	39
+1940	1	Porter	173740	18	4
+1940	1	Postmaster	21643	29	60
+1940	1	Power Station Operator	35641	36	50
+1940	1	Pressman	38795	38	49
+1940	1	Produce Grader	22012	12	10
+1940	1	Professional - Misc	133278	33	65
+1940	1	Professor	53898	41	84
+1940	1	Public Officials	138820	36	66
+1940	1	Purchasing Agent	34317	42	77
+1940	1	Radio Operator	12231	39	69
+1940	1	Railroad Brakeman	75661	36	42
+1940	1	Railroad Conductor	47656	43	58
+1940	1	Railroad Switchman	46193	36	44
+1940	1	Real Estate Agent	111205	35	62
+1940	1	Recreation Attendant	58467	8	19
+1940	1	Religious Worker	8879	15	56
+1940	1	Roller	28821	30	22
+1940	1	Roofer	36595	23	15
+1940	1	Sailor	44940	23	16
+1940	1	Salesman	1832034	24	47
+1940	1	Sawyer	46802	17	5
+1940	1	Secretary	84828	22	61
+1940	1	Security Guard	236592	25	18
+1940	1	Service Attendant	17126	13	26
+1940	1	Service Worker	161281	11	11
+1940	1	Serviceman	114467	33	49
+1940	1	Sheriff / Bailiff	14692	30	34
+1940	1	Ship Officers	34287	42	54
+1940	1	Shipping and Receiving	230332	26	22
+1940	1	Shoemaker	68516	20	12
+1940	1	Social Worker	29975	27	64
+1940	1	Sports Instructor / Official	21582	32	64
+1940	1	Stationary Engineer	201613	36	47
+1940	1	Stock Broker	21300	40	73
+1940	1	Stone Cutter	20082	28	25
+1940	1	Street Car Conductor	17030	33	30
+1940	1	Surveyor	18349	28	48
+1940	1	Tailor	102822	26	23
+1940	1	Teacher	273015	27	72
+1940	1	Teamster	29961	15	8
+1940	1	Technician	7420	34	62
+1940	1	Technician - Testing	43733	30	53
+1940	1	Telegraph Messenger	15456	12	22
+1940	1	Telegraph Operator	43794	32	47
+1940	1	Telephone Operator	13047	21	45
+1940	1	Temperer	13475	31	22
+1940	1	Therapist	12063	26	58
+1940	1	Ticket Agent	41637	35	60
+1940	1	Tool Maker	96279	37	50
+1940	1	Truck / Tractor Driver	1314002	25	15
+1940	1	Typesetter	170993	36	52
+1940	1	Union Official	20236	40	58
+1940	1	Upholsterer	39026	26	22
+1940	1	Usher	17957	4	25
+1940	1	Veterinarian	11029	42	78
+1940	1	Waiter / Waitress	205614	11	16
+1940	1	Welder	134709	31	24
+1940	2	Actor	8750	29	60
+1940	2	Advertising Agent	4883	35	66
+1940	2	Agent	12692	36	68
+1940	2	Apprentice	3081	20	35
+1940	2	Apprentice - Carpenter	1010	20	31
+1940	2	Apprentice - Construction	101	21	29
+1940	2	Apprentice - Electrician	101	25	37
+1940	2	Apprentice - Plumber	2821	25	33
+1940	2	Apprentice - Printing	2435	23	40
+1940	2	Architect	303	54	90
+1940	2	Artist / Art Teacher	19699	31	67
+1940	2	Athlete	748	23	52
+1940	2	Auctioneer	2744	30	40
+1940	2	Author	4047	33	76
+1940	2	Baker	12300	28	22
+1940	2	Barber / Beautician	222479	19	17
+1940	2	Bartender	6704	25	19
+1940	2	Bill Collector	3309	26	39
+1940	2	Blacksmith	303	25	16
+1940	2	Blaster	202	26	11
+1940	2	Boarding House Keeper	55217	7	30
+1940	2	Boatman	1355	30	24
+1940	2	Boilermaker	303	34	39
+1940	2	Bookkeeper	475928	22	51
+1940	2	Bootblack	1503	14	8
+1940	2	Building Manager	33714	20	32
+1940	2	Buyer - Farm	505	26	33
+1940	2	Buyer - Store	19293	42	72
+1940	2	Cabinet Maker	4667	26	23
+1940	2	Car Washer	482	16	8
+1940	2	Carpenter	1903	24	19
+1940	2	Cement / Concrete Finisher	101	27	19
+1940	2	Charwoman	43528	14	10
+1940	2	Chemist	1908	40	79
+1940	2	Chiropractor	1818	32	75
+1940	2	Clergyman	4020	24	52
+1940	2	Clerical Worker	745669	25	44
+1940	2	Cook	143807	16	15
+1940	2	Cranemen / Hoistmen	583	31	21
+1940	2	Creditor	4308	37	74
+1940	2	Dancer / Dance Teacher	11905	16	45
+1940	2	Decorator	6321	25	40
+1940	2	Delivery Man	3817	27	32
+1940	2	Demonstrator	7821	12	35
+1940	2	Dentist	1415	63	96
+1940	2	Designer	8941	38	73
+1940	2	Doctor Office Attendant	32096	16	38
+1940	2	Draftsman	2020	34	67
+1940	2	Dressmaker / Seamstress	155175	12	23
+1940	2	Dyer	758	25	12
+1940	2	Editor / Reporter	15064	39	82
+1940	2	Electrician	1898	34	44
+1940	2	Electrotyper	606	47	55
+1940	2	Elevator Operator	14365	20	10
+1940	2	Engineer - Chemical	203	49	90
+1940	2	Engineer - Civil	303	46	84
+1940	2	Engineer - Electrical	202	46	84
+1940	2	Engineer - Industrial	1372	45	86
+1940	2	Engineer - Mechanical	202	46	82
+1940	2	Engineer - Metallurgical	1414	46	82
+1940	2	Engraver	808	33	47
+1940	2	Entertainer	897	20	31
+1940	2	Farm Advisor	4520	36	83
+1940	2	Farm Foreman	303	23	20
+1940	2	Farm Laborer	392640	7	12
+1940	2	Farm Manager	1010	24	36
+1940	2	Farmer	161483	14	14
+1940	2	Fireman	1480	31	27
+1940	2	Fisherman	3039	16	10
+1940	2	Floor Manager	3596	26	50
+1940	2	Foremen	48342	38	49
+1940	2	Funeral Director	1718	31	59
+1940	2	Furnaceman	101	29	18
+1940	2	Furrier	2424	32	39
+1940	2	Gardener / Groundskeeper	2518	17	11
+1940	2	Glazier	303	28	26
+1940	2	Hospital Attendant	54842	16	13
+1940	2	Household Worker	2259463	9	17
+1940	2	Huckster	3755	13	8
+1940	2	Inspector	8597	32	42
+1940	2	Insulation Worker	786	32	32
+1940	2	Insurance Agent	15793	36	66
+1940	2	Janitor	41564	19	9
+1940	2	Jeweler	5015	27	36
+1940	2	Laborer	134098	20	8
+1940	2	Laundry / Dry Cleaning	175984	15	15
+1940	2	Lawyer / Judge	4735	62	93
+1940	2	Librarian	31267	22	60
+1940	2	Library Attendant	28746	13	44
+1940	2	Lithographer	606	47	64
+1940	2	Locomotive Engineer	202	46	58
+1940	2	Longshoreman	449	25	11
+1940	2	Lumberman	824	12	4
+1940	2	Machinist	4600	32	33
+1940	2	Mail Carrier	2323	34	53
+1940	2	Manager / Owner	347927	42	68
+1940	2	Mason	1411	29	27
+1940	2	Meat Cutter	987	29	29
+1940	2	Mechanic	9456	30	27
+1940	2	Mechanic - Airplane	505	34	48
+1940	2	Mechanic - Automobile	1313	27	19
+1940	2	Messenger	3421	15	28
+1940	2	Metal Filer	7582	30	22
+1940	2	Metal Heater	5079	32	29
+1940	2	Metal Worker	3866	33	34
+1940	2	Military	404	11	18
+1940	2	Miller	101	25	19
+1940	2	Milliner	10493	19	46
+1940	2	Miner	4858	24	10
+1940	2	Model Maker	505	34	44
+1940	2	Molder	778	28	12
+1940	2	Motion Picture Projectionist	1313	34	43
+1940	2	Motorman	101	26	3
+1940	2	Musician / Music Teacher	63824	20	52
+1940	2	Newsboy	1515	3	27
+1940	2	Nurse	436474	16	34
+1940	2	Office Machine Operator	61555	23	45
+1940	2	Oiler / Greaser	778	28	15
+1940	2	Operative	2053061	23	18
+1940	2	Optician / Lens Grinder	863	30	39
+1940	2	Optometrist	1773	42	79
+1940	2	Osteopath	1212	60	96
+1940	2	Painter	11859	25	17
+1940	2	Paperhanger	3800	15	10
+1940	2	Parking Attendant	11348	19	19
+1940	2	Pharmacist	5816	40	82
+1940	2	Photo Developer	9844	23	42
+1940	2	Photographer	3311	27	50
+1940	2	Physician / Surgeon	8033	80	92
+1940	2	Pilot	303	52	79
+1940	2	Plasterer	909	29	25
+1940	2	Plumber	1388	33	34
+1940	2	Policeman / Detective	1920	32	39
+1940	2	Porter	3714	18	4
+1940	2	Postmaster	16614	29	60
+1940	2	Power Station Operator	1245	36	50
+1940	2	Pressman	773	38	49
+1940	2	Produce Grader	20208	12	10
+1940	2	Professional - Misc	37527	33	65
+1940	2	Professor	20493	41	84
+1940	2	Public Officials	16572	36	66
+1940	2	Purchasing Agent	8463	42	77
+1940	2	Radio Operator	404	39	69
+1940	2	Railroad Brakeman	458	36	42
+1940	2	Railroad Conductor	606	43	58
+1940	2	Real Estate Agent	9954	35	62
+1940	2	Recreation Attendant	9754	8	19
+1940	2	Religious Worker	23772	15	56
+1940	2	Roller	202	30	22
+1940	2	Roofer	808	23	15
+1940	2	Sailor	505	23	16
+1940	2	Salesman	847292	24	47
+1940	2	Sawyer	303	17	5
+1940	2	Secretary	1100500	22	61
+1940	2	Security Guard	3536	25	18
+1940	2	Service Attendant	25520	13	26
+1940	2	Service Worker	195557	11	11
+1940	2	Serviceman	1871	33	49
+1940	2	Sheriff / Bailiff	404	30	34
+1940	2	Ship Officers	303	42	54
+1940	2	Shipping and Receiving	17449	26	22
+1940	2	Shoemaker	764	20	12
+1940	2	Social Worker	46434	27	64
+1940	2	Sports Instructor / Official	5037	32	64
+1940	2	Stationary Engineer	1379	36	47
+1940	2	Stock Broker	3484	40	73
+1940	2	Stone Cutter	1978	28	25
+1940	2	Street Car Conductor	101	33	30
+1940	2	Surveyor	1098	28	48
+1940	2	Tailor	16548	26	23
+1940	2	Teacher	808035	27	72
+1940	2	Teamster	404	15	8
+1940	2	Technician	1201	34	62
+1940	2	Technician - Testing	21121	30	53
+1940	2	Telegraph Messenger	179	12	22
+1940	2	Telegraph Operator	11584	32	47
+1940	2	Telephone Operator	191238	21	45
+1940	2	Temperer	391	31	22
+1940	2	Therapist	9081	26	58
+1940	2	Ticket Agent	2121	35	60
+1940	2	Tool Maker	101	37	50
+1940	2	Truck / Tractor Driver	9254	25	15
+1940	2	Typesetter	12657	36	52
+1940	2	Union Official	2802	40	58
+1940	2	Upholsterer	2222	26	22
+1940	2	Usher	4500	4	25
+1940	2	Veterinarian	606	42	78
+1940	2	Waiter / Waitress	412143	11	16
+1940	2	Welder	2323	31	24
+1950	1	Accountant / Auditor	330352	38	78
+1950	1	Actor	10678	29	60
+1950	1	Advertising Agent	26603	35	66
+1950	1	Agent	115523	36	68
+1950	1	Apprentice	30590	20	35
+1950	1	Apprentice - Auto Mechanic	5955	18	25
+1950	1	Apprentice - Bricklayer	8290	25	32
+1950	1	Apprentice - Carpenter	11840	20	31
+1950	1	Apprentice - Construction	5717	21	29
+1950	1	Apprentice - Electrician	12387	25	37
+1950	1	Apprentice - Machinist	17372	24	41
+1950	1	Apprentice - Mechanic	4726	25	34
+1950	1	Apprentice - Metal Working	8716	23	33
+1950	1	Apprentice - Plumber	17684	25	33
+1950	1	Apprentice - Printing	20145	23	40
+1950	1	Architect	24820	54	90
+1950	1	Artist / Art Teacher	52247	31	67
+1950	1	Athlete	8927	23	52
+1950	1	Auctioneer	13509	30	40
+1950	1	Author	9927	33	76
+1950	1	Baggageman	7482	30	25
+1950	1	Baker	110668	28	22
+1950	1	Bank Teller	35493	26	52
+1950	1	Barber / Beautician	199062	19	17
+1950	1	Bartender	207898	25	19
+1950	1	Bill Collector	18194	26	39
+1950	1	Blacksmith	45402	25	16
+1950	1	Blaster	11950	26	11
+1950	1	Boarding House Keeper	7385	7	30
+1950	1	Boatman	14891	30	24
+1950	1	Boilermaker	38374	34	39
+1950	1	Bookbinder	14948	25	33
+1950	1	Bookkeeper	177052	22	51
+1950	1	Bootblack	14807	14	8
+1950	1	Building Manager	49271	20	32
+1950	1	Bus Driver	155103	30	24
+1950	1	Buyer - Farm	28490	26	33
+1950	1	Buyer - Store	102591	42	72
+1950	1	Cabinet Maker	70956	26	23
+1950	1	Car Washer	90099	16	8
+1950	1	Carpenter	973660	24	19
+1950	1	Cashier	47193	18	44
+1950	1	Cement / Concrete Finisher	36637	27	19
+1950	1	Chainman	12715	19	25
+1950	1	Charwoman	50778	14	10
+1950	1	Chemist	71535	40	79
+1950	1	Chiropractor	12017	32	75
+1950	1	Clergyman	168400	24	52
+1950	1	Clerical Worker	1584096	25	44
+1950	1	College President / Dean	4142	41	84
+1950	1	Constable	7493	24	21
+1950	1	Cook	230222	16	15
+1950	1	Counter Worker	51488	13	17
+1950	1	Craftsman	78662	32	32
+1950	1	Cranemen / Hoistmen	109222	31	21
+1950	1	Creditor	27992	37	74
+1950	1	Crossing Guard / Toll Collector	12586	26	17
+1950	1	Dancer / Dance Teacher	3270	16	45
+1950	1	Decorator	30892	25	40
+1950	1	Delivery Man	245625	27	32
+1950	1	Demonstrator	4894	12	35
+1950	1	Dentist	70950	63	96
+1950	1	Designer	34062	38	73
+1950	1	Dispatcher	31256	31	40
+1950	1	Doctor Office Attendant	2497	16	38
+1950	1	Draftsman	112090	34	67
+1950	1	Dressmaker / Seamstress	4609	12	23
+1950	1	Dyer	28005	25	12
+1950	1	Economist	6678	39	81
+1950	1	Editor / Reporter	66138	39	82
+1950	1	Electrician	325389	34	44
+1950	1	Electrotyper	18965	47	55
+1950	1	Elevator Operator	67776	20	10
+1950	1	Engineer	78147	49	87
+1950	1	Engineer - Aeuronautical	18100	48	87
+1950	1	Engineer - Chemical	30515	49	90
+1950	1	Engineer - Civil	127908	46	84
+1950	1	Engineer - Electrical	110418	46	84
+1950	1	Engineer - Industrial	46819	45	86
+1950	1	Engineer - Mechanical	117503	46	82
+1950	1	Engineer - Metallurgical	11737	46	82
+1950	1	Engineer - Mining	10661	48	85
+1950	1	Engraver	9858	33	47
+1950	1	Entertainer	11328	20	31
+1950	1	Farm Advisor	6357	36	83
+1950	1	Farm Foreman	18215	23	20
+1950	1	Farm Laborer	2188723	11	15
+1950	1	Farm Manager	30519	24	36
+1950	1	Farmer	4225264	14	14
+1950	1	Fireman	250390	31	27
+1950	1	Fisherman	81244	16	10
+1950	1	Floor Manager	5095	26	50
+1950	1	Foremen	790386	38	49
+1950	1	Forgemen	17916	32	23
+1950	1	Forrester	26195	29	48
+1950	1	Funeral Director	35287	31	59
+1950	1	Furnaceman	58253	29	18
+1950	1	Furrier	13387	32	39
+1950	1	Gardener / Groundskeeper	157029	17	11
+1950	1	Glazier	14297	28	26
+1950	1	Hospital Attendant	87897	16	13
+1950	1	Household Worker	92978	9	17
+1950	1	Huckster	21167	13	8
+1950	1	Human Resources	39058	43	84
+1950	1	Inspector	170403	32	42
+1950	1	Insulation Worker	17794	32	32
+1950	1	Insurance Agent	288469	36	66
+1950	1	Janitor	423443	19	9
+1950	1	Jeweler	48404	27	36
+1950	1	Job Setter	24555	34	28
+1950	1	Laborer	3170293	20	8
+1950	1	Laundry / Dry Cleaning	143430	15	15
+1950	1	Lawyer / Judge	173840	62	93
+1950	1	Librarian	6517	22	60
+1950	1	Library Attendant	2879	13	44
+1950	1	Lithographer	30018	47	64
+1950	1	Locomotive Engineer	78796	46	58
+1950	1	Locomotive Fireman	60293	37	45
+1950	1	Longshoreman	71535	25	11
+1950	1	Loom Fixer	32712	29	10
+1950	1	Lumberman	202339	12	4
+1950	1	Machinist	522212	32	33
+1950	1	Mail Carrier	168099	34	53
+1950	1	Manager / Owner	3890801	42	68
+1950	1	Mason	169569	29	27
+1950	1	Mathematician	1618	41	80
+1950	1	Meat Cutter	173515	29	29
+1950	1	Mechanic	858091	30	27
+1950	1	Mechanic - Airplane	73763	34	48
+1950	1	Mechanic - Automobile	695009	27	19
+1950	1	Mechanic - Office Machines	18600	28	36
+1950	1	Mechanic - Radio / Television	78890	25	36
+1950	1	Mechanic - Railroad	52977	32	23
+1950	1	Messenger	72703	27	48
+1950	1	Metal Filer	156734	30	22
+1950	1	Metal Heater	10872	32	29
+1950	1	Metal Worker	189923	33	34
+1950	1	Midwife	109	5	37
+1950	1	Military	991684	11	18
+1950	1	Miller	12321	25	19
+1950	1	Milliner	3488	19	46
+1950	1	Millwright	59944	34	31
+1950	1	Miner	593828	24	10
+1950	1	Model Maker	52235	34	44
+1950	1	Molder	61505	28	12
+1950	1	Motion Picture Projectionist	25522	34	43
+1950	1	Motorman	50163	30	19
+1950	1	Musician / Music Teacher	82343	20	52
+1950	1	Newsboy	99159	3	27
+1950	1	Nurse	17356	12	40
+1950	1	Nutritionist	1180	20	39
+1950	1	Office Machine Operator	26048	23	45
+1950	1	Oiler / Greaser	62567	28	15
+1950	1	Operative	4057324	23	18
+1950	1	Optician / Lens Grinder	19545	30	39
+1950	1	Optometrist	16568	42	79
+1950	1	Osteopath	6758	60	96
+1950	1	Painter	570711	25	17
+1950	1	Paperhanger	22586	15	10
+1950	1	Parking Attendant	255490	19	19
+1950	1	Pharmacist	84842	40	82
+1950	1	Photo Developer	18452	23	42
+1950	1	Photographer	46122	27	50
+1950	1	Physician / Surgeon	186164	80	92
+1950	1	Piano / Organ Tuner	13802	24	38
+1950	1	Pilot	16817	52	79
+1950	1	Plasterer	68312	29	25
+1950	1	Plumber	292481	33	34
+1950	1	Policeman / Detective	202046	32	39
+1950	1	Porter	173360	18	4
+1950	1	Postmaster	22144	29	60
+1950	1	Power Station Operator	22608	36	50
+1950	1	Pressman	56811	38	49
+1950	1	Produce Grader	23753	12	10
+1950	1	Professional - Misc	98096	33	65
+1950	1	Professor	31980	41	84
+1950	1	Professor - Agriculture 	5005	41	84
+1950	1	Professor - Biology	4834	41	84
+1950	1	Professor - Chemistry	5931	41	84
+1950	1	Professor - Economics	3419	41	84
+1950	1	Professor - Engineering	8515	41	84
+1950	1	Professor - Geology	936	41	84
+1950	1	Professor - Mathematics	4048	41	84
+1950	1	Professor - Medical	2200	41	84
+1950	1	Professor - Physics	2972	41	84
+1950	1	Professor - Psychology	2316	41	84
+1950	1	Professor - Science	136	41	84
+1950	1	Professor - Social Science 	13381	41	84
+1950	1	Professor - Statistics	519	41	84
+1950	1	Psychologist	1742	39	81
+1950	1	Public Officials	109734	36	66
+1950	1	Purchasing Agent	63795	42	77
+1950	1	Radio Operator	16670	39	69
+1950	1	Railroad Brakeman	79785	36	42
+1950	1	Railroad Conductor	55662	43	58
+1950	1	Railroad Switchman	67040	36	44
+1950	1	Real Estate Agent	134551	35	62
+1950	1	Recreation Attendant	63049	8	19
+1950	1	Religious Worker	15925	15	56
+1950	1	Road Machinery Operator	113735	31	24
+1950	1	Roller	33817	30	22
+1950	1	Roofer	56125	23	15
+1950	1	Sailor	58129	23	16
+1950	1	Salesman	2171684	24	47
+1950	1	Sawyer	98150	17	5
+1950	1	Scientist	2012	41	80
+1950	1	Scientist - Agriculture	5534	41	80
+1950	1	Scientist - Biology	6498	41	80
+1950	1	Scientist - Geology	10546	41	80
+1950	1	Scientist - Physics	6923	41	80
+1950	1	Scientist - Social	2784	39	81
+1950	1	Secretary	89660	22	61
+1950	1	Security Guard	261719	25	18
+1950	1	Service Attendant	19180	13	26
+1950	1	Service Worker	254527	11	11
+1950	1	Serviceman	213453	33	49
+1950	1	Sheriff / Bailiff	18768	30	34
+1950	1	Ship Officers	45197	42	54
+1950	1	Shipping and Receiving	287314	26	22
+1950	1	Shoemaker	56070	20	12
+1950	1	Social Worker	37483	27	66
+1950	1	Sports Instructor / Official	33262	32	64
+1950	1	Stationary Engineer	228473	36	47
+1950	1	Statistician / Actuary	15850	39	81
+1950	1	Stock Broker	11770	40	73
+1950	1	Stone Cutter	11725	28	25
+1950	1	Street Car Conductor	12833	33	30
+1950	1	Surveyor	24636	28	48
+1950	1	Tailor	83604	26	23
+1950	1	Taxi Cab Driver / Chauffeur	210517	22	10
+1950	1	Teacher	296407	27	72
+1950	1	Teamster	25025	15	8
+1950	1	Technician	27935	33	62
+1950	1	Technician - Medical / Dental	36735	25	48
+1950	1	Technician - Testing	63429	30	53
+1950	1	Telegraph Messenger	8459	12	22
+1950	1	Telegraph Operator	29863	32	47
+1950	1	Telephone Operator	28994	21	45
+1950	1	Temperer	17479	31	22
+1950	1	Textile Spinner	19327	18	5
+1950	1	Therapist	11852	26	58
+1950	1	Ticket Agent	53053	35	60
+1950	1	Tool Maker	161693	37	50
+1950	1	Truck / Tractor Driver	1406612	25	15
+1950	1	Typesetter	172748	36	52
+1950	1	Union Official	22634	40	58
+1950	1	Upholsterer	62230	26	22
+1950	1	Usher	17200	4	25
+1950	1	Veterinarian	15063	42	78
+1950	1	Waiter / Waitress	129961	11	16
+1950	1	Weaver	64570	23	6
+1950	1	Welder	281806	31	24
+1950	2	Accountant / Auditor	56117	38	78
+1950	2	Actor	7067	29	60
+1950	2	Advertising Agent	4219	35	66
+1950	2	Agent	23172	36	68
+1950	2	Apprentice	1072	20	35
+1950	2	Apprentice - Auto Mechanic	1074	18	25
+1950	2	Apprentice - Carpenter	54	20	31
+1950	2	Apprentice - Machinist	165	24	41
+1950	2	Apprentice - Metal Working	246	23	33
+1950	2	Apprentice - Plumber	3305	25	33
+1950	2	Apprentice - Printing	1967	23	40
+1950	2	Architect	519	54	90
+1950	2	Artist / Art Teacher	30171	31	67
+1950	2	Athlete	155	23	52
+1950	2	Auctioneer	2970	30	40
+1950	2	Author	5669	33	76
+1950	2	Baggageman	381	30	25
+1950	2	Baker	9889	28	22
+1950	2	Bank Teller	32017	26	52
+1950	2	Barber / Beautician	199372	19	17
+1950	2	Bartender	17293	25	19
+1950	2	Bill Collector	3874	26	39
+1950	2	Blacksmith	65	25	16
+1950	2	Boarding House Keeper	21857	7	30
+1950	2	Boatman	773	30	24
+1950	2	Boilermaker	319	34	39
+1950	2	Bookbinder	17486	25	33
+1950	2	Bookkeeper	595798	22	51
+1950	2	Bootblack	1787	14	8
+1950	2	Building Manager	27306	20	32
+1950	2	Bus Driver	5339	30	24
+1950	2	Buyer - Farm	166	26	33
+1950	2	Buyer - Store	35223	42	72
+1950	2	Cabinet Maker	559	26	23
+1950	2	Car Washer	8613	16	8
+1950	2	Carpenter	5723	24	19
+1950	2	Cashier	197824	18	44
+1950	2	Cement / Concrete Finisher	175	27	19
+1950	2	Chainman	929	19	25
+1950	2	Charwoman	76814	14	10
+1950	2	Chemist	7798	40	79
+1950	2	Chiropractor	1932	32	75
+1950	2	Clergyman	8045	24	52
+1950	2	Clerical Worker	1539068	25	44
+1950	2	College President / Dean	1526	41	84
+1950	2	Constable	164	24	21
+1950	2	Cook	254588	16	15
+1950	2	Counter Worker	49079	13	17
+1950	2	Craftsman	619	32	32
+1950	2	Cranemen / Hoistmen	1405	31	21
+1950	2	Creditor	8548	37	74
+1950	2	Crossing Guard / Toll Collector	229	26	17
+1950	2	Dancer / Dance Teacher	12049	16	45
+1950	2	Decorator	11781	25	40
+1950	2	Delivery Man	4586	27	32
+1950	2	Demonstrator	14926	12	35
+1950	2	Dentist	2037	63	96
+1950	2	Designer	11044	38	73
+1950	2	Dispatcher	3466	31	40
+1950	2	Doctor Office Attendant	40013	16	38
+1950	2	Draftsman	6803	34	67
+1950	2	Dressmaker / Seamstress	143321	12	23
+1950	2	Dyer	2297	25	12
+1950	2	Economist	3251	39	81
+1950	2	Editor / Reporter	25334	39	82
+1950	2	Electrician	2213	34	44
+1950	2	Electrotyper	1605	47	55
+1950	2	Elevator Operator	29340	20	10
+1950	2	Engineer	333	49	87
+1950	2	Engineer - Aeuronautical	545	48	87
+1950	2	Engineer - Chemical	1545	49	90
+1950	2	Engineer - Civil	4171	46	84
+1950	2	Engineer - Electrical	1010	46	84
+1950	2	Engineer - Industrial	843	45	86
+1950	2	Engineer - Mechanical	746	46	82
+1950	2	Engineer - Metallurgical	679	46	82
+1950	2	Engineer - Mining	420	48	85
+1950	2	Engraver	1318	33	47
+1950	2	Entertainer	6703	20	31
+1950	2	Farm Advisor	8128	36	83
+1950	2	Farm Foreman	420	23	20
+1950	2	Farm Laborer	644460	11	15
+1950	2	Farm Manager	2118	24	36
+1950	2	Farmer	113760	14	14
+1950	2	Fireman	3969	31	27
+1950	2	Fisherman	1461	16	10
+1950	2	Floor Manager	5334	26	50
+1950	2	Foremen	66337	38	49
+1950	2	Forgemen	339	32	23
+1950	2	Forrester	1750	29	48
+1950	2	Funeral Director	4118	31	59
+1950	2	Furnaceman	783	29	18
+1950	2	Furrier	2251	32	39
+1950	2	Gardener / Groundskeeper	3698	17	11
+1950	2	Glazier	784	28	26
+1950	2	Hospital Attendant	126801	16	13
+1950	2	Household Worker	1541444	9	17
+1950	2	Huckster	3572	13	8
+1950	2	Human Resources	15585	43	84
+1950	2	Inspector	11117	32	42
+1950	2	Insulation Worker	1610	32	32
+1950	2	Insurance Agent	24562	36	66
+1950	2	Janitor	62893	19	9
+1950	2	Jeweler	2997	27	36
+1950	2	Job Setter	550	34	28
+1950	2	Laborer	117171	20	8
+1950	2	Laundry / Dry Cleaning	307130	15	15
+1950	2	Lawyer / Judge	5909	62	93
+1950	2	Librarian	55246	22	60
+1950	2	Library Attendant	12268	13	44
+1950	2	Lithographer	1051	47	64
+1950	2	Locomotive Engineer	189	46	58
+1950	2	Locomotive Fireman	55	37	45
+1950	2	Longshoreman	1266	25	11
+1950	2	Loom Fixer	1016	29	10
+1950	2	Lumberman	1710	12	4
+1950	2	Machinist	7161	32	33
+1950	2	Mail Carrier	2689	34	53
+1950	2	Manager / Owner	561469	42	68
+1950	2	Mason	819	29	27
+1950	2	Mathematician	669	41	80
+1950	2	Meat Cutter	3651	29	29
+1950	2	Mechanic	12727	30	27
+1950	2	Mechanic - Airplane	1239	34	48
+1950	2	Mechanic - Automobile	6934	27	19
+1950	2	Mechanic - Office Machines	163	28	36
+1950	2	Mechanic - Radio / Television	1856	25	36
+1950	2	Messenger	15403	27	48
+1950	2	Metal Filer	6945	30	22
+1950	2	Metal Heater	1491	32	29
+1950	2	Metal Worker	1796	33	34
+1950	2	Midwife	1086	5	37
+1950	2	Military	20661	11	18
+1950	2	Milliner	14466	19	46
+1950	2	Millwright	265	34	31
+1950	2	Miner	725	24	10
+1950	2	Model Maker	2444	34	44
+1950	2	Molder	441	28	12
+1950	2	Motion Picture Projectionist	445	34	43
+1950	2	Motorman	516	34	34
+1950	2	Musician / Music Teacher	91745	20	52
+1950	2	Newsboy	3154	3	27
+1950	2	Nurse	615880	12	40
+1950	2	Nutritionist	22631	20	39
+1950	2	Office Machine Operator	129829	23	45
+1950	2	Oiler / Greaser	671	28	15
+1950	2	Operative	2577284	23	18
+1950	2	Optician / Lens Grinder	1947	30	39
+1950	2	Optometrist	946	42	79
+1950	2	Osteopath	574	60	96
+1950	2	Painter	31300	25	17
+1950	2	Paperhanger	3055	15	10
+1950	2	Parking Attendant	6263	19	19
+1950	2	Pharmacist	13857	40	82
+1950	2	Photo Developer	15688	23	42
+1950	2	Photographer	9922	27	50
+1950	2	Physician / Surgeon	11600	80	92
+1950	2	Piano / Organ Tuner	325	24	38
+1950	2	Plasterer	1203	29	25
+1950	2	Plumber	2210	33	34
+1950	2	Policeman / Detective	4611	32	39
+1950	2	Porter	6489	18	4
+1950	2	Postmaster	14591	29	60
+1950	2	Power Station Operator	1045	36	50
+1950	2	Pressman	1908	38	49
+1950	2	Produce Grader	28323	12	10
+1950	2	Professional - Misc	19300	33	65
+1950	2	Professor	17593	41	84
+1950	2	Professor - Agriculture 	109	41	84
+1950	2	Professor - Biology	1407	41	84
+1950	2	Professor - Chemistry	1034	41	84
+1950	2	Professor - Economics	463	41	84
+1950	2	Professor - Mathematics	998	41	84
+1950	2	Professor - Medical	246	41	84
+1950	2	Professor - Physics	1101	41	84
+1950	2	Professor - Psychology	1497	41	84
+1950	2	Professor - Social Science 	6210	41	84
+1950	2	Psychologist	2509	39	81
+1950	2	Public Officials	21025	36	66
+1950	2	Purchasing Agent	6955	42	77
+1950	2	Radio Operator	2611	39	69
+1950	2	Railroad Brakeman	485	36	42
+1950	2	Railroad Conductor	54	43	58
+1950	2	Railroad Switchman	218	36	44
+1950	2	Real Estate Agent	24702	35	62
+1950	2	Recreation Attendant	5241	8	19
+1950	2	Religious Worker	29036	15	56
+1950	2	Road Machinery Operator	948	31	24
+1950	2	Roller	510	30	22
+1950	2	Sailor	986	23	16
+1950	2	Salesman	1345595	24	47
+1950	2	Sawyer	2415	17	5
+1950	2	Scientist	65	41	80
+1950	2	Scientist - Agriculture	201	41	80
+1950	2	Scientist - Biology	2817	41	80
+1950	2	Scientist - Geology	435	41	80
+1950	2	Scientist - Physics	636	41	80
+1950	2	Scientist - Social	1187	39	81
+1950	2	Secretary	1574256	22	61
+1950	2	Security Guard	5407	25	18
+1950	2	Service Attendant	37959	13	26
+1950	2	Service Worker	339275	11	11
+1950	2	Serviceman	5900	33	49
+1950	2	Sheriff / Bailiff	1147	30	34
+1950	2	Ship Officers	5697	42	54
+1950	2	Shipping and Receiving	18829	26	22
+1950	2	Shoemaker	1432	20	12
+1950	2	Social Worker	65279	27	66
+1950	2	Sports Instructor / Official	11964	32	64
+1950	2	Stationary Engineer	1732	36	47
+1950	2	Statistician / Actuary	8274	39	81
+1950	2	Stock Broker	2603	40	73
+1950	2	Stone Cutter	219	28	25
+1950	2	Surveyor	2892	28	48
+1950	2	Tailor	24368	26	23
+1950	2	Taxi Cab Driver / Chauffeur	2306	22	10
+1950	2	Teacher	864419	27	72
+1950	2	Teamster	511	15	8
+1950	2	Technician	3687	33	62
+1950	2	Technician - Medical / Dental	46337	25	48
+1950	2	Technician - Testing	21443	30	53
+1950	2	Telegraph Messenger	499	12	22
+1950	2	Telegraph Operator	6225	32	47
+1950	2	Telephone Operator	360778	21	45
+1950	2	Temperer	167	31	22
+1950	2	Textile Spinner	63813	18	5
+1950	2	Therapist	13497	26	58
+1950	2	Ticket Agent	7253	35	60
+1950	2	Tool Maker	401	37	50
+1950	2	Truck / Tractor Driver	5306	25	15
+1950	2	Typesetter	11801	36	52
+1950	2	Union Official	2839	40	58
+1950	2	Upholsterer	4590	26	22
+1950	2	Usher	9367	4	25
+1950	2	Veterinarian	2701	42	78
+1950	2	Waiter / Waitress	610478	11	16
+1950	2	Weaver	43353	23	6
+1950	2	Welder	10209	31	24
+1960	1	Accountant / Auditor	425002	38	78
+1960	1	Actor	10461	29	60
+1960	1	Advertising Agent	32275	35	66
+1960	1	Agent	146745	36	68
+1960	1	Apprentice	21110	20	35
+1960	1	Apprentice - Auto Mechanic	2093	18	25
+1960	1	Apprentice - Bricklayer	2991	25	32
+1960	1	Apprentice - Carpenter	7666	20	31
+1960	1	Apprentice - Construction	3489	21	29
+1960	1	Apprentice - Electrician	9156	25	37
+1960	1	Apprentice - Machinist	14047	24	41
+1960	1	Apprentice - Mechanic	4784	25	34
+1960	1	Apprentice - Metal Working	4984	23	33
+1960	1	Apprentice - Plumber	9754	25	33
+1960	1	Apprentice - Printing	12253	23	40
+1960	1	Architect	30179	54	90
+1960	1	Artist / Art Teacher	70230	31	67
+1960	1	Athlete	4387	23	52
+1960	1	Auctioneer	4385	30	40
+1960	1	Author	20930	33	76
+1960	1	Baggageman	6868	30	25
+1960	1	Baker	108960	28	22
+1960	1	Bank Teller	45627	26	52
+1960	1	Barber / Beautician	232886	19	17
+1960	1	Bartender	192736	25	19
+1960	1	Bill Collector	31184	26	39
+1960	1	Blacksmith	29270	25	16
+1960	1	Blaster	8858	26	11
+1960	1	Boarding House Keeper	4282	7	30
+1960	1	Boatman	8368	30	24
+1960	1	Boilermaker	30978	34	39
+1960	1	Bookbinder	14843	25	33
+1960	1	Bookkeeper	170070	22	51
+1960	1	Bootblack	13752	14	8
+1960	1	Building Manager	35767	20	32
+1960	1	Bus Driver	181709	30	24
+1960	1	Buyer - Farm	21507	26	33
+1960	1	Buyer - Store	195651	42	72
+1960	1	Cabinet Maker	75927	26	23
+1960	1	Car Washer	110112	16	8
+1960	1	Carpenter	1100617	24	19
+1960	1	Cashier	131521	18	44
+1960	1	Cement / Concrete Finisher	54904	27	19
+1960	1	Chainman	14249	19	25
+1960	1	Charwoman	74484	14	10
+1960	1	Chemist	81301	40	79
+1960	1	Chiropractor	13641	32	75
+1960	1	Clergyman	212391	24	52
+1960	1	Clerical Worker	2030615	25	44
+1960	1	College President / Dean	6378	41	84
+1960	1	Constable	8368	24	21
+1960	1	Cook	259815	16	15
+1960	1	Counter Worker	56092	13	17
+1960	1	Craftsman	122735	32	32
+1960	1	Cranemen / Hoistmen	144028	31	21
+1960	1	Creditor	41142	37	74
+1960	1	Crossing Guard / Toll Collector	20520	26	17
+1960	1	Dancer / Dance Teacher	5981	16	45
+1960	1	Decorator	29889	25	40
+1960	1	Delivery Man	470814	27	32
+1960	1	Demonstrator	1796	12	35
+1960	1	Dentist	84779	63	96
+1960	1	Designer	61770	38	73
+1960	1	Dispatcher	54589	31	40
+1960	1	Doctor Office Attendant	2891	16	38
+1960	1	Draftsman	222058	34	67
+1960	1	Dressmaker / Seamstress	5480	12	23
+1960	1	Dyer	21118	25	12
+1960	1	Economist	16035	39	81
+1960	1	Editor / Reporter	94148	39	82
+1960	1	Electrician	384469	34	44
+1960	1	Electrotyper	9759	47	55
+1960	1	Elevator Operator	69127	20	10
+1960	1	Engineer	152998	49	87
+1960	1	Engineer - Aeuronautical	54294	48	87
+1960	1	Engineer - Chemical	42658	49	90
+1960	1	Engineer - Civil	172552	46	84
+1960	1	Engineer - Electrical	183872	46	84
+1960	1	Engineer - Industrial	103512	45	86
+1960	1	Engineer - Mechanical	167238	46	82
+1960	1	Engineer - Metallurgical	18527	46	82
+1960	1	Engineer - Mining	12947	48	85
+1960	1	Engraver	12760	33	47
+1960	1	Entertainer	10860	20	31
+1960	1	Farm Advisor	7078	36	83
+1960	1	Farm Foreman	28900	23	20
+1960	1	Farm Laborer	1784546	11	15
+1960	1	Farm Manager	26102	24	36
+1960	1	Farmer	2766741	14	14
+1960	1	Fireman	255326	31	27
+1960	1	Fisherman	55407	16	10
+1960	1	Floor Manager	7174	26	50
+1960	1	Foremen	1215583	38	49
+1960	1	Forgemen	11543	32	23
+1960	1	Forrester	40254	29	48
+1960	1	Funeral Director	36562	31	59
+1960	1	Furnaceman	62349	29	18
+1960	1	Furrier	4085	32	39
+1960	1	Gardener / Groundskeeper	287768	17	11
+1960	1	Glazier	18235	28	26
+1960	1	Hospital Attendant	124009	16	13
+1960	1	Household Worker	114267	9	17
+1960	1	Huckster	27385	13	8
+1960	1	Human Resources	76577	43	84
+1960	1	Inspector	212526	31	42
+1960	1	Insulation Worker	24297	32	32
+1960	1	Insurance Agent	415632	36	66
+1960	1	Janitor	698408	19	9
+1960	1	Jeweler	40433	27	36
+1960	1	Job Setter	40441	34	28
+1960	1	Laborer	3563009	20	8
+1960	1	Laundry / Dry Cleaning	132711	15	15
+1960	1	Lawyer / Judge	211203	61	93
+1960	1	Librarian	12953	22	60
+1960	1	Library Attendant	10059	13	44
+1960	1	Lithographer	28588	47	64
+1960	1	Locomotive Engineer	79088	46	58
+1960	1	Locomotive Fireman	40442	37	45
+1960	1	Longshoreman	64546	25	11
+1960	1	Loom Fixer	30085	29	10
+1960	1	Lumberman	163385	12	4
+1960	1	Machinist	572045	32	33
+1960	1	Mail Carrier	230874	34	53
+1960	1	Manager / Owner	4254695	42	68
+1960	1	Mason	236678	29	27
+1960	1	Mathematician	5874	41	80
+1960	1	Meat Cutter	200374	29	29
+1960	1	Mechanic	1414733	30	27
+1960	1	Mechanic - Airplane	121473	34	48
+1960	1	Mechanic - Automobile	727963	27	19
+1960	1	Mechanic - Office Machines	30580	30	36
+1960	1	Mechanic - Radio / Television	114485	25	36
+1960	1	Mechanic - Railroad	51803	32	23
+1960	1	Messenger	84687	27	48
+1960	1	Metal Filer	164297	30	22
+1960	1	Metal Heater	10362	32	29
+1960	1	Metal Worker	229401	33	34
+1960	1	Midwife	600	5	37
+1960	1	Military	1765471	11	18
+1960	1	Miller	10764	25	19
+1960	1	Milliner	794	19	46
+1960	1	Millwright	72993	34	31
+1960	1	Miner	416018	24	10
+1960	1	Model Maker	47117	34	44
+1960	1	Molder	62161	28	12
+1960	1	Motion Picture Projectionist	20021	34	43
+1960	1	Motorman	27104	30	19
+1960	1	Musician / Music Teacher	92558	20	52
+1960	1	Newsboy	264781	3	27
+1960	1	Nurse	28988	12	40
+1960	1	Nutritionist	1991	20	39
+1960	1	Office Machine Operator	81701	23	45
+1960	1	Oiler / Greaser	60558	28	15
+1960	1	Operative	4986070	23	18
+1960	1	Optician / Lens Grinder	17831	30	39
+1960	1	Optometrist	17440	42	79
+1960	1	Osteopath	3784	60	96
+1960	1	Painter	643596	25	17
+1960	1	Paperhanger	13057	15	10
+1960	1	Parking Attendant	434923	19	19
+1960	1	Pharmacist	97311	40	82
+1960	1	Photo Developer	26196	23	42
+1960	1	Photographer	50022	27	50
+1960	1	Physician / Surgeon	222442	80	92
+1960	1	Piano / Organ Tuner	5384	24	38
+1960	1	Pilot	30676	52	79
+1960	1	Plasterer	63664	29	25
+1960	1	Plumber	371777	33	34
+1960	1	Policeman / Detective	274172	32	39
+1960	1	Porter	182380	18	4
+1960	1	Postmaster	27385	29	60
+1960	1	Power Station Operator	28090	36	50
+1960	1	Pressman	78705	38	49
+1960	1	Produce Grader	10362	12	10
+1960	1	Professional - Misc	263832	31	65
+1960	1	Professor	66431	41	84
+1960	1	Professor - Agriculture 	3288	41	84
+1960	1	Professor - Biology	6975	41	84
+1960	1	Professor - Chemistry	5785	41	84
+1960	1	Professor - Economics	3883	41	84
+1960	1	Professor - Engineering	9866	41	84
+1960	1	Professor - Geology	1795	41	84
+1960	1	Professor - Mathematics	8964	41	84
+1960	1	Professor - Medical	4982	41	84
+1960	1	Professor - Physics	5282	41	84
+1960	1	Professor - Psychology	2193	41	84
+1960	1	Professor - Science	199	41	84
+1960	1	Professor - Social Science 	17431	41	84
+1960	1	Professor - Statistics	100	41	84
+1960	1	Psychologist	10065	39	81
+1960	1	Public Officials	173633	36	66
+1960	1	Purchasing Agent	99324	42	77
+1960	1	Radio Operator	27301	39	69
+1960	1	Railroad Brakeman	71215	36	42
+1960	1	Railroad Conductor	63262	43	58
+1960	1	Railroad Switchman	65023	36	44
+1960	1	Real Estate Agent	172155	35	62
+1960	1	Recreation Attendant	93742	8	19
+1960	1	Religious Worker	26016	15	56
+1960	1	Road Machinery Operator	235174	31	24
+1960	1	Roller	33573	30	22
+1960	1	Roofer	64048	23	15
+1960	1	Sailor	48904	23	16
+1960	1	Salesman	2558950	24	47
+1960	1	Sawyer	109190	17	5
+1960	1	Scientist	2787	38	80
+1960	1	Scientist - Agriculture	8576	41	80
+1960	1	Scientist - Biology	10164	41	80
+1960	1	Scientist - Geology	20425	41	80
+1960	1	Scientist - Physics	13544	41	80
+1960	1	Scientist - Social	2489	39	81
+1960	1	Secretary	91039	22	61
+1960	1	Security Guard	352263	25	18
+1960	1	Service Attendant	29596	13	26
+1960	1	Service Worker	337750	11	11
+1960	1	Serviceman	283614	33	49
+1960	1	Sheriff / Bailiff	28402	30	34
+1960	1	Ship Officers	45128	42	54
+1960	1	Shipping and Receiving	296519	26	22
+1960	1	Shoemaker	40653	20	12
+1960	1	Social Worker	90078	27	66
+1960	1	Sports Instructor / Official	57567	32	64
+1960	1	Stationary Engineer	314408	36	47
+1960	1	Statistician / Actuary	15446	39	81
+1960	1	Stock Broker	33367	40	73
+1960	1	Stone Cutter	6378	28	25
+1960	1	Street Car Conductor	5974	33	30
+1960	1	Surveyor	51674	28	48
+1960	1	Tailor	42928	26	23
+1960	1	Taxi Cab Driver / Chauffeur	182830	22	10
+1960	1	Teacher	510329	27	72
+1960	1	Teamster	25494	15	8
+1960	1	Technician	96121	33	62
+1960	1	Technician - Medical / Dental	59266	25	48
+1960	1	Technician - Testing	235487	31	53
+1960	1	Telegraph Messenger	5382	12	22
+1960	1	Telegraph Operator	18035	32	47
+1960	1	Telephone Operator	17446	21	45
+1960	1	Temperer	21626	31	22
+1960	1	Textile Spinner	13945	18	5
+1960	1	Therapist	17043	26	58
+1960	1	Ticket Agent	67749	33	60
+1960	1	Tool Maker	205485	37	50
+1960	1	Truck / Tractor Driver	1787785	25	15
+1960	1	Typesetter	181010	36	52
+1960	1	Union Official	31957	40	58
+1960	1	Upholsterer	58277	26	22
+1960	1	Usher	15142	4	25
+1960	1	Veterinarian	17730	42	78
+1960	1	Waiter / Waitress	151423	11	16
+1960	1	Weaver	46228	23	6
+1960	1	Welder	399733	31	24
+1960	2	Accountant / Auditor	112853	38	78
+1960	2	Actor	8069	29	60
+1960	2	Advertising Agent	8669	35	66
+1960	2	Agent	46524	36	68
+1960	2	Apprentice	2492	20	35
+1960	2	Apprentice - Construction	100	21	29
+1960	2	Apprentice - Electrician	99	25	37
+1960	2	Apprentice - Machinist	497	24	41
+1960	2	Apprentice - Mechanic	200	25	34
+1960	2	Apprentice - Printing	299	23	40
+1960	2	Architect	1096	54	90
+1960	2	Artist / Art Teacher	59496	31	67
+1960	2	Athlete	796	23	52
+1960	2	Auctioneer	99	30	40
+1960	2	Author	11349	33	76
+1960	2	Baggageman	498	30	25
+1960	2	Baker	28685	28	22
+1960	2	Bank Teller	146571	26	52
+1960	2	Barber / Beautician	382438	19	17
+1960	2	Bartender	32280	25	19
+1960	2	Bill Collector	9255	26	39
+1960	2	Blacksmith	99	25	16
+1960	2	Blaster	100	26	11
+1960	2	Boarding House Keeper	38355	7	30
+1960	2	Boatman	199	30	24
+1960	2	Boilermaker	99	34	39
+1960	2	Bookbinder	24210	25	33
+1960	2	Bookkeeper	1262258	22	51
+1960	2	Bootblack	399	14	8
+1960	2	Building Manager	28494	20	32
+1960	2	Bus Driver	23108	30	24
+1960	2	Buyer - Farm	597	26	33
+1960	2	Buyer - Store	75217	42	72
+1960	2	Cabinet Maker	1395	26	23
+1960	2	Car Washer	5875	16	8
+1960	2	Carpenter	3792	24	19
+1960	2	Cashier	710621	18	44
+1960	2	Cement / Concrete Finisher	299	27	19
+1960	2	Chainman	499	19	25
+1960	2	Charwoman	206218	14	10
+1960	2	Chemist	13145	40	79
+1960	2	Chiropractor	1990	32	75
+1960	2	Clergyman	7764	24	52
+1960	2	Clerical Worker	3761404	25	44
+1960	2	College President / Dean	1496	41	84
+1960	2	Constable	696	24	21
+1960	2	Cook	600691	16	15
+1960	2	Counter Worker	210897	13	17
+1960	2	Craftsman	2789	32	32
+1960	2	Cranemen / Hoistmen	1097	31	21
+1960	2	Creditor	17638	37	74
+1960	2	Crossing Guard / Toll Collector	14536	26	17
+1960	2	Dancer / Dance Teacher	28201	16	45
+1960	2	Decorator	40449	25	40
+1960	2	Delivery Man	24218	27	32
+1960	2	Demonstrator	52985	12	35
+1960	2	Dentist	3187	63	96
+1960	2	Designer	21834	38	73
+1960	2	Dispatcher	10561	31	40
+1960	2	Doctor Office Attendant	127703	16	38
+1960	2	Draftsman	24997	34	67
+1960	2	Dressmaker / Seamstress	186323	12	23
+1960	2	Dyer	1395	25	12
+1960	2	Economist	3289	39	81
+1960	2	Editor / Reporter	69526	39	82
+1960	2	Electrician	4685	34	44
+1960	2	Electrotyper	298	47	55
+1960	2	Elevator Operator	45326	20	10
+1960	2	Engineer	1096	49	87
+1960	2	Engineer - Aeuronautical	897	48	87
+1960	2	Engineer - Chemical	897	49	90
+1960	2	Engineer - Civil	1194	46	84
+1960	2	Engineer - Electrical	2196	46	84
+1960	2	Engineer - Industrial	2594	45	86
+1960	2	Engineer - Mechanical	599	46	82
+1960	2	Engineer - Metallurgical	700	46	82
+1960	2	Engraver	2591	33	47
+1960	2	Entertainer	5075	20	31
+1960	2	Farm Advisor	10762	36	83
+1960	2	Farm Foreman	1495	23	20
+1960	2	Farm Laborer	838162	11	15
+1960	2	Farm Manager	997	24	36
+1960	2	Farmer	181127	14	14
+1960	2	Fireman	1396	31	27
+1960	2	Fisherman	1098	16	10
+1960	2	Floor Manager	7976	26	50
+1960	2	Foremen	113444	38	49
+1960	2	Forgemen	997	32	23
+1960	2	Forrester	2487	29	48
+1960	2	Funeral Director	2591	31	59
+1960	2	Furnaceman	1190	29	18
+1960	2	Furrier	1297	32	39
+1960	2	Gardener / Groundskeeper	6477	17	11
+1960	2	Glazier	500	28	26
+1960	2	Hospital Attendant	479067	16	13
+1960	2	Household Worker	2760658	9	17
+1960	2	Huckster	49318	13	8
+1960	2	Human Resources	45217	43	84
+1960	2	Inspector	24507	31	42
+1960	2	Insulation Worker	995	32	32
+1960	2	Insurance Agent	65148	36	66
+1960	2	Janitor	117939	19	9
+1960	2	Jeweler	3887	27	36
+1960	2	Job Setter	698	34	28
+1960	2	Laborer	210569	20	8
+1960	2	Laundry / Dry Cleaning	504340	15	15
+1960	2	Lawyer / Judge	9565	61	93
+1960	2	Librarian	103011	22	60
+1960	2	Library Attendant	36750	13	44
+1960	2	Lithographer	1992	47	64
+1960	2	Locomotive Engineer	198	46	58
+1960	2	Longshoreman	398	25	11
+1960	2	Loom Fixer	398	29	10
+1960	2	Lumberman	1596	12	4
+1960	2	Machinist	11652	32	33
+1960	2	Mail Carrier	6875	34	53
+1960	2	Manager / Owner	862923	42	68
+1960	2	Mason	1096	29	27
+1960	2	Mathematician	3187	41	80
+1960	2	Meat Cutter	9559	29	29
+1960	2	Mechanic	32085	30	27
+1960	2	Mechanic - Airplane	3689	34	48
+1960	2	Mechanic - Automobile	3488	27	19
+1960	2	Mechanic - Office Machines	100	30	36
+1960	2	Mechanic - Radio / Television	3084	25	36
+1960	2	Mechanic - Railroad	99	32	23
+1960	2	Messenger	19520	27	48
+1960	2	Metal Filer	15144	30	22
+1960	2	Metal Heater	99	32	29
+1960	2	Metal Worker	4682	33	34
+1960	2	Midwife	1391	5	37
+1960	2	Military	34658	11	18
+1960	2	Miller	100	25	19
+1960	2	Milliner	5575	19	46
+1960	2	Miner	3088	24	10
+1960	2	Model Maker	1596	34	44
+1960	2	Molder	2786	28	12
+1960	2	Motion Picture Projectionist	399	34	43
+1960	2	Motorman	100	26	3
+1960	2	Musician / Music Teacher	140663	20	52
+1960	2	Newsboy	11756	3	27
+1960	2	Nurse	1287387	12	40
+1960	2	Nutritionist	40932	20	39
+1960	2	Office Machine Operator	408461	23	45
+1960	2	Oiler / Greaser	797	28	15
+1960	2	Operative	5044007	23	18
+1960	2	Optician / Lens Grinder	4679	30	39
+1960	2	Optometrist	1197	42	79
+1960	2	Osteopath	500	60	96
+1960	2	Painter	41041	25	17
+1960	2	Paperhanger	2288	15	10
+1960	2	Parking Attendant	10951	19	19
+1960	2	Pharmacist	10264	40	82
+1960	2	Photo Developer	32268	23	42
+1960	2	Photographer	10361	27	50
+1960	2	Physician / Surgeon	16339	80	92
+1960	2	Piano / Organ Tuner	99	24	38
+1960	2	Pilot	599	52	79
+1960	2	Plasterer	200	29	25
+1960	2	Plumber	1397	33	34
+1960	2	Policeman / Detective	11849	32	39
+1960	2	Porter	3484	18	4
+1960	2	Postmaster	21920	29	60
+1960	2	Power Station Operator	2787	36	50
+1960	2	Pressman	5886	38	49
+1960	2	Produce Grader	53084	12	10
+1960	2	Professional - Misc	94244	31	65
+1960	2	Professor	27397	41	84
+1960	2	Professor - Agriculture 	299	41	84
+1960	2	Professor - Biology	2691	41	84
+1960	2	Professor - Chemistry	1394	41	84
+1960	2	Professor - Economics	199	41	84
+1960	2	Professor - Engineering	299	41	84
+1960	2	Professor - Geology	100	41	84
+1960	2	Professor - Mathematics	1693	41	84
+1960	2	Professor - Medical	1796	41	84
+1960	2	Professor - Physics	199	41	84
+1960	2	Professor - Psychology	1196	41	84
+1960	2	Professor - Science	100	41	84
+1960	2	Professor - Social Science 	11061	41	84
+1960	2	Professor - Statistics	100	41	84
+1960	2	Psychologist	5376	39	81
+1960	2	Public Officials	59279	36	66
+1960	2	Purchasing Agent	14743	42	77
+1960	2	Radio Operator	5379	39	69
+1960	2	Railroad Brakeman	199	36	42
+1960	2	Railroad Conductor	400	43	58
+1960	2	Railroad Switchman	498	36	44
+1960	2	Real Estate Agent	65960	35	62
+1960	2	Recreation Attendant	16527	8	19
+1960	2	Religious Worker	42944	15	56
+1960	2	Road Machinery Operator	599	31	24
+1960	2	Roller	896	30	22
+1960	2	Roofer	99	23	15
+1960	2	Sailor	698	23	16
+1960	2	Salesman	3203794	24	47
+1960	2	Sawyer	3092	17	5
+1960	2	Scientist	597	38	80
+1960	2	Scientist - Agriculture	997	41	80
+1960	2	Scientist - Biology	4885	41	80
+1960	2	Scientist - Geology	1195	41	80
+1960	2	Scientist - Physics	499	41	80
+1960	2	Scientist - Social	1195	39	81
+1960	2	Secretary	3861587	22	61
+1960	2	Security Guard	16836	25	18
+1960	2	Service Attendant	95145	13	26
+1960	2	Service Worker	782462	11	11
+1960	2	Serviceman	6880	33	49
+1960	2	Sheriff / Bailiff	1594	30	34
+1960	2	Ship Officers	199	42	54
+1960	2	Shipping and Receiving	39555	26	22
+1960	2	Shoemaker	1492	20	12
+1960	2	Social Worker	155991	27	66
+1960	2	Sports Instructor / Official	41355	32	64
+1960	2	Stationary Engineer	2889	36	47
+1960	2	Statistician / Actuary	10469	39	81
+1960	2	Stock Broker	2392	40	73
+1960	2	Stone Cutter	399	28	25
+1960	2	Street Car Conductor	99	33	30
+1960	2	Surveyor	5078	28	48
+1960	2	Tailor	12553	26	23
+1960	2	Taxi Cab Driver / Chauffeur	7277	22	10
+1960	2	Teacher	1680774	27	72
+1960	2	Teamster	100	15	8
+1960	2	Technician	6772	33	62
+1960	2	Technician - Medical / Dental	137864	25	48
+1960	2	Technician - Testing	66442	31	53
+1960	2	Telegraph Messenger	896	12	22
+1960	2	Telegraph Operator	9559	32	47
+1960	2	Telephone Operator	652281	21	45
+1960	2	Temperer	699	31	22
+1960	2	Textile Spinner	69634	18	5
+1960	2	Therapist	30066	26	58
+1960	2	Ticket Agent	25404	33	60
+1960	2	Tool Maker	2486	37	50
+1960	2	Truck / Tractor Driver	11548	25	15
+1960	2	Typesetter	25304	36	52
+1960	2	Union Official	5282	40	58
+1960	2	Upholsterer	9070	26	22
+1960	2	Usher	10360	4	25
+1960	2	Veterinarian	598	42	78
+1960	2	Waiter / Waitress	1661504	11	16
+1960	2	Weaver	42041	23	6
+1960	2	Welder	28594	31	24
+1970	1	Accountant / Auditor	575667	37	78
+1970	1	Actor	11726	29	60
+1970	1	Advertising Agent	53993	35	66
+1970	1	Agent	23236	35	68
+1970	1	Apprentice	16425	21	35
+1970	1	Apprentice - Auto Mechanic	4106	18	25
+1970	1	Apprentice - Bricklayer	4710	25	32
+1970	1	Apprentice - Carpenter	9616	20	31
+1970	1	Apprentice - Construction	2603	21	29
+1970	1	Apprentice - Electrician	22140	25	37
+1970	1	Apprentice - Machinist	17724	24	41
+1970	1	Apprentice - Mechanic	5309	34	34
+1970	1	Apprentice - Metal Working	6807	23	33
+1970	1	Apprentice - Plumber	15327	25	33
+1970	1	Apprentice - Printing	10015	23	40
+1970	1	Architect	57091	49	90
+1970	1	Artist / Art Teacher	70208	31	67
+1970	1	Auctioneer	5415	30	40
+1970	1	Author	18231	33	76
+1970	1	Baker	96872	27	22
+1970	1	Bank Teller	41973	25	52
+1970	1	Barber / Beautician	227274	19	17
+1970	1	Bartender	189712	25	19
+1970	1	Bill Collector	40757	27	39
+1970	1	Blacksmith	21935	25	16
+1970	1	Blaster	10522	26	11
+1970	1	Boarding House Keeper	2103	7	30
+1970	1	Boatman	6510	30	24
+1970	1	Boilermaker	35752	33	39
+1970	1	Bookbinder	17835	24	33
+1970	1	Bookkeeper	337040	22	51
+1970	1	Bootblack	6012	14	8
+1970	1	Building Manager	62713	20	32
+1970	1	Bus Driver	196639	30	24
+1970	1	Buyer - Farm	23538	31	33
+1970	1	Buyer - Store	544178	42	72
+1970	1	Cabinet Maker	82235	25	23
+1970	1	Carpenter	1111775	23	19
+1970	1	Cashier	185135	18	44
+1970	1	Cement / Concrete Finisher	88343	27	19
+1970	1	Chainman	16531	19	25
+1970	1	Charwoman	275355	16	10
+1970	1	Chemist	104054	40	79
+1970	1	Chiropractor	14624	32	75
+1970	1	Clergyman	230171	24	52
+1970	1	Clerical Worker	2474020	24	44
+1970	1	College President / Dean	34354	40	84
+1970	1	Constable	5110	24	21
+1970	1	Cook	433899	16	15
+1970	1	Counter Worker	64511	13	17
+1970	1	Craftsman	904916	29	32
+1970	1	Cranemen / Hoistmen	173610	30	21
+1970	1	Creditor	46190	37	74
+1970	1	Crossing Guard / Toll Collector	22533	26	17
+1970	1	Dancer / Dance Teacher	1901	16	45
+1970	1	Decorator	36665	23	40
+1970	1	Delivery Man	742046	26	32
+1970	1	Demonstrator	4512	14	35
+1970	1	Dentist	90658	63	96
+1970	1	Designer	94265	37	73
+1970	1	Dispatcher	59485	30	40
+1970	1	Doctor Office Attendant	25944	16	38
+1970	1	Draftsman	290040	34	67
+1970	1	Dressmaker / Seamstress	6409	13	23
+1970	1	Dyer	25750	25	12
+1970	1	Economist	61492	36	81
+1970	1	Editor / Reporter	159347	39	82
+1970	1	Electrician	494793	34	44
+1970	1	Electrotyper	6913	47	55
+1970	1	Elevator Operator	38849	20	10
+1970	1	Engineer	253425	48	87
+1970	1	Engineer - Aeuronautical	70109	48	87
+1970	1	Engineer - Chemical	53196	48	90
+1970	1	Engineer - Civil	188593	46	84
+1970	1	Engineer - Electrical	301011	46	84
+1970	1	Engineer - Industrial	187121	44	86
+1970	1	Engineer - Mechanical	194229	45	82
+1970	1	Engineer - Metallurgical	15622	46	82
+1970	1	Engineer - Mining	17124	45	85
+1970	1	Engraver	7511	33	47
+1970	1	Entertainer	55995	25	31
+1970	1	Farm Advisor	6811	36	83
+1970	1	Farm Foreman	38151	23	20
+1970	1	Farm Laborer	1407937	11	15
+1970	1	Farm Manager	67090	24	36
+1970	1	Farmer	1655668	14	14
+1970	1	Fireman	292747	30	27
+1970	1	Fisherman	47863	16	10
+1970	1	Foremen	1664520	38	49
+1970	1	Forgemen	17428	31	23
+1970	1	Forrester	52191	29	48
+1970	1	Funeral Director	44275	31	59
+1970	1	Furnaceman	79432	29	18
+1970	1	Furrier	3807	29	39
+1970	1	Gardener / Groundskeeper	543926	17	11
+1970	1	Glazier	28336	27	26
+1970	1	Hospital Attendant	145853	15	13
+1970	1	Household Worker	100857	9	17
+1970	1	Huckster	35059	14	8
+1970	1	Human Resources	231098	42	84
+1970	1	Inspector	254269	31	42
+1970	1	Insulation Worker	29951	32	32
+1970	1	Insurance Agent	509645	36	66
+1970	1	Janitor	1471666	21	9
+1970	1	Jeweler	35357	27	36
+1970	1	Job Setter	91541	34	28
+1970	1	Laborer	4034593	20	8
+1970	1	Laundry / Dry Cleaning	141238	15	15
+1970	1	Lawyer / Judge	281466	61	93
+1970	1	Librarian	24742	22	60
+1970	1	Library Attendant	32563	13	44
+1970	1	Lithographer	32552	44	64
+1970	1	Locomotive Engineer	66515	45	58
+1970	1	Locomotive Fireman	13918	37	45
+1970	1	Longshoreman	57690	25	11
+1970	1	Loom Fixer	25537	29	10
+1970	1	Lumberman	108184	12	4
+1970	1	Machinist	422413	31	33
+1970	1	Mail Carrier	262603	34	53
+1970	1	Manager / Owner	4393393	41	68
+1970	1	Mason	235386	29	27
+1970	1	Mathematician	6907	41	80
+1970	1	Meat Cutter	214449	28	29
+1970	1	Mechanic	1218050	29	27
+1970	1	Mechanic - Airplane	157173	34	48
+1970	1	Mechanic - Automobile	989179	27	19
+1970	1	Mechanic - Office Machines	72912	30	36
+1970	1	Mechanic - Radio / Television	144978	25	36
+1970	1	Mechanic - Railroad	73929	28	23
+1970	1	Messenger	67815	15	28
+1970	1	Metal Filer	263025	26	22
+1970	1	Metal Heater	9310	32	29
+1970	1	Metal Worker	261258	32	34
+1970	1	Midwife	200	5	37
+1970	1	Military	2108307	11	18
+1970	1	Miller	8412	25	19
+1970	1	Milliner	500	19	46
+1970	1	Millwright	91451	33	31
+1970	1	Miner	271064	24	10
+1970	1	Model Maker	42759	33	44
+1970	1	Molder	56384	28	12
+1970	1	Motion Picture Projectionist	20335	34	43
+1970	1	Motorman	13617	26	3
+1970	1	Musician / Music Teacher	150233	20	52
+1970	1	Newsboy	250617	3	27
+1970	1	Nurse	90047	12	40
+1970	1	Nutritionist	3205	20	39
+1970	1	Office Machine Operator	159568	23	45
+1970	1	Oiler / Greaser	56403	28	15
+1970	1	Operative	5939103	23	18
+1970	1	Optician / Lens Grinder	23534	30	39
+1970	1	Optometrist	20031	42	79
+1970	1	Painter	631217	24	17
+1970	1	Parking Attendant	621579	18	19
+1970	1	Pharmacist	107984	39	82
+1970	1	Photo Developer	41276	32	42
+1970	1	Photographer	66716	27	50
+1970	1	Physician / Surgeon	269060	79	92
+1970	1	Piano / Organ Tuner	8118	24	38
+1970	1	Pilot	51099	52	79
+1970	1	Plasterer	36556	29	25
+1970	1	Plumber	426834	32	34
+1970	1	Policeman / Detective	391239	32	39
+1970	1	Porter	29337	14	4
+1970	1	Postmaster	30154	29	60
+1970	1	Power Station Operator	23836	36	50
+1970	1	Pressman	147758	36	49
+1970	1	Produce Grader	12425	16	10
+1970	1	Professional - Misc	907129	31	65
+1970	1	Professor	175361	41	84
+1970	1	Professor - Agriculture 	4806	41	84
+1970	1	Professor - Biology	17827	41	84
+1970	1	Professor - Chemistry	14525	41	84
+1970	1	Professor - Economics	10217	41	84
+1970	1	Professor - Engineering	16335	41	84
+1970	1	Professor - Mathematics	24749	41	84
+1970	1	Professor - Medical	13320	41	84
+1970	1	Professor - Physics	14037	41	84
+1970	1	Professor - Psychology	10322	41	84
+1970	1	Professor - Science	3906	41	84
+1970	1	Professor - Social Science 	31253	41	84
+1970	1	Psychologist	16925	39	81
+1970	1	Public Officials	252529	36	66
+1970	1	Purchasing Agent	152374	40	77
+1970	1	Radio Operator	51476	39	69
+1970	1	Railroad Brakeman	57785	36	42
+1970	1	Railroad Conductor	53684	42	58
+1970	1	Railroad Switchman	62820	36	44
+1970	1	Real Estate Agent	208549	35	62
+1970	1	Recreation Attendant	146544	10	19
+1970	1	Religious Worker	17126	15	56
+1970	1	Road Machinery Operator	394873	30	24
+1970	1	Roller	19733	30	22
+1970	1	Roofer	73714	23	15
+1970	1	Sailor	42272	23	16
+1970	1	Salesman	3021401	24	47
+1970	1	Sawyer	114909	16	5
+1970	1	Scientist	802	37	80
+1970	1	Scientist - Agriculture	12623	41	80
+1970	1	Scientist - Biology	22333	41	80
+1970	1	Scientist - Geology	21138	41	80
+1970	1	Scientist - Physics	21536	41	80
+1970	1	Scientist - Social	10112	36	81
+1970	1	Secretary	166371	22	61
+1970	1	Security Guard	403058	25	18
+1970	1	Service Attendant	57294	15	26
+1970	1	Service Worker	1009079	11	11
+1970	1	Serviceman	407903	32	49
+1970	1	Sheriff / Bailiff	37065	30	34
+1970	1	Ship Officers	28364	39	54
+1970	1	Shipping and Receiving	409220	25	22
+1970	1	Shoemaker	85438	20	12
+1970	1	Social Worker	147737	27	66
+1970	1	Sports Instructor / Official	65403	29	64
+1970	1	Stationary Engineer	201808	35	47
+1970	1	Statistician / Actuary	17925	39	81
+1970	1	Stock Broker	97647	39	73
+1970	1	Stone Cutter	7016	27	25
+1970	1	Street Car Conductor	12222	33	30
+1970	1	Surveyor	70528	28	48
+1970	1	Tailor	56304	23	23
+1970	1	Taxi Cab Driver / Chauffeur	183626	22	10
+1970	1	Teacher	950391	27	72
+1970	1	Teamster	11323	15	8
+1970	1	Technician	160324	33	62
+1970	1	Technician - Medical / Dental	107186	29	48
+1970	1	Technician - Testing	313412	31	53
+1970	1	Telegraph Messenger	2505	12	22
+1970	1	Telegraph Operator	13520	32	47
+1970	1	Telephone Operator	30156	21	45
+1970	1	Temperer	22225	30	22
+1970	1	Therapist	36159	26	58
+1970	1	Ticket Agent	68007	33	60
+1970	1	Tool Maker	214270	36	50
+1970	1	Truck / Tractor Driver	1582606	25	15
+1970	1	Typesetter	150058	36	52
+1970	1	Union Official	49489	37	58
+1970	1	Upholsterer	66008	25	22
+1970	1	Usher	20237	4	25
+1970	1	Veterinarian	17025	42	78
+1970	1	Waiter / Waitress	178989	11	16
+1970	1	Weaver	28449	23	6
+1970	1	Welder	576267	30	24
+1970	2	Accountant / Auditor	248441	37	78
+1970	2	Actor	11127	29	60
+1970	2	Advertising Agent	19544	35	66
+1970	2	Agent	1102	35	68
+1970	2	Apprentice	1103	20	35
+1970	2	Apprentice - Auto Mechanic	100	18	25
+1970	2	Apprentice - Bricklayer	200	25	32
+1970	2	Apprentice - Construction	302	21	29
+1970	2	Apprentice - Electrician	500	25	37
+1970	2	Apprentice - Machinist	401	24	41
+1970	2	Apprentice - Mechanic	201	34	34
+1970	2	Apprentice - Plumber	200	25	33
+1970	2	Apprentice - Printing	1100	23	40
+1970	2	Architect	2606	49	90
+1970	2	Artist / Art Teacher	51690	31	67
+1970	2	Auctioneer	800	30	40
+1970	2	Author	12021	33	76
+1970	2	Baker	49583	27	22
+1970	2	Bank Teller	312725	25	52
+1970	2	Barber / Beautician	640008	19	17
+1970	2	Bartender	61604	25	19
+1970	2	Bill Collector	30353	27	39
+1970	2	Blacksmith	500	26	16
+1970	2	Blaster	402	26	11
+1970	2	Boarding House Keeper	10713	7	30
+1970	2	Boatman	100	30	24
+1970	2	Boilermaker	602	33	39
+1970	2	Bookbinder	35459	24	33
+1970	2	Bookkeeper	1840579	22	51
+1970	2	Bootblack	1002	14	8
+1970	2	Building Manager	50878	20	32
+1970	2	Bus Driver	83046	30	24
+1970	2	Buyer - Farm	1103	31	33
+1970	2	Buyer - Store	150434	41	72
+1970	2	Cabinet Maker	6113	25	23
+1970	2	Carpenter	15824	23	19
+1970	2	Cashier	1236998	18	44
+1970	2	Cement / Concrete Finisher	1201	27	19
+1970	2	Chainman	602	19	25
+1970	2	Charwoman	406102	16	10
+1970	2	Chemist	19839	40	79
+1970	2	Chiropractor	2205	32	75
+1970	2	Clergyman	8308	24	52
+1970	2	Clerical Worker	5105863	25	44
+1970	2	College President / Dean	15025	40	84
+1970	2	Constable	200	24	21
+1970	2	Cook	867535	16	15
+1970	2	Counter Worker	217777	13	17
+1970	2	Craftsman	62514	29	32
+1970	2	Cranemen / Hoistmen	2404	30	21
+1970	2	Creditor	22537	37	74
+1970	2	Crossing Guard / Toll Collector	31948	26	17
+1970	2	Dancer / Dance Teacher	10013	16	45
+1970	2	Decorator	66709	23	40
+1970	2	Delivery Man	35857	26	32
+1970	2	Demonstrator	76833	14	35
+1970	2	Dentist	4605	63	96
+1970	2	Designer	41775	37	73
+1970	2	Dispatcher	16128	30	40
+1970	2	Doctor Office Attendant	298831	16	38
+1970	2	Draftsman	32359	34	67
+1970	2	Dressmaker / Seamstress	163170	13	23
+1970	2	Dyer	3107	25	12
+1970	2	Economist	10717	36	81
+1970	2	Editor / Reporter	117199	39	82
+1970	2	Electrician	13323	34	44
+1970	2	Electrotyper	301	47	55
+1970	2	Elevator Operator	19036	20	10
+1970	2	Engineer	4508	48	87
+1970	2	Engineer - Aeuronautical	2003	48	87
+1970	2	Engineer - Chemical	1205	48	90
+1970	2	Engineer - Civil	3405	46	84
+1970	2	Engineer - Electrical	6709	46	84
+1970	2	Engineer - Industrial	6610	44	86
+1970	2	Engineer - Mechanical	1704	45	82
+1970	2	Engineer - Metallurgical	401	46	82
+1970	2	Engineer - Mining	201	45	85
+1970	2	Engraver	3504	33	47
+1970	2	Entertainer	26138	25	31
+1970	2	Farm Advisor	10811	36	83
+1970	2	Farm Foreman	4011	23	20
+1970	2	Farm Laborer	516273	11	15
+1970	2	Farm Manager	4006	24	36
+1970	2	Farmer	112396	14	14
+1970	2	Fireman	9011	30	27
+1970	2	Fisherman	3008	16	10
+1970	2	Foremen	170726	38	49
+1970	2	Forgemen	1304	31	23
+1970	2	Forrester	3109	29	48
+1970	2	Funeral Director	4205	31	59
+1970	2	Furnaceman	3505	29	18
+1970	2	Furrier	802	29	39
+1970	2	Gardener / Groundskeeper	20631	17	11
+1970	2	Glazier	1504	27	26
+1970	2	Hospital Attendant	984420	15	13
+1970	2	Household Worker	2152078	9	17
+1970	2	Huckster	170465	14	8
+1970	2	Human Resources	126330	42	84
+1970	2	Inspector	28647	31	42
+1970	2	Insulation Worker	900	32	32
+1970	2	Insurance Agent	110316	36	66
+1970	2	Janitor	238126	21	9
+1970	2	Jeweler	9316	27	36
+1970	2	Job Setter	3011	34	28
+1970	2	Laborer	474892	20	8
+1970	2	Laundry / Dry Cleaning	416819	17	15
+1970	2	Lawyer / Judge	17728	61	93
+1970	2	Librarian	146646	22	60
+1970	2	Library Attendant	136732	13	44
+1970	2	Lithographer	5615	44	64
+1970	2	Locomotive Engineer	800	45	58
+1970	2	Locomotive Fireman	100	37	45
+1970	2	Longshoreman	601	25	11
+1970	2	Loom Fixer	300	29	10
+1970	2	Lumberman	4105	12	4
+1970	2	Machinist	17829	31	33
+1970	2	Mail Carrier	27746	34	53
+1970	2	Manager / Owner	997653	41	68
+1970	2	Mason	3402	29	27
+1970	2	Mathematician	1902	41	80
+1970	2	Meat Cutter	17125	28	29
+1970	2	Mechanic	36966	29	27
+1970	2	Mechanic - Airplane	5511	34	48
+1970	2	Mechanic - Automobile	15418	27	19
+1970	2	Mechanic - Office Machines	2406	30	36
+1970	2	Mechanic - Radio / Television	7808	25	36
+1970	2	Mechanic - Railroad	702	28	23
+1970	2	Messenger	19726	15	28
+1970	2	Metal Filer	56876	26	22
+1970	2	Metal Heater	601	32	29
+1970	2	Metal Worker	5616	32	34
+1970	2	Midwife	1203	5	37
+1970	2	Military	60304	11	18
+1970	2	Miller	100	25	19
+1970	2	Milliner	4505	19	46
+1970	2	Millwright	901	33	31
+1970	2	Miner	10623	23	10
+1970	2	Model Maker	2403	33	44
+1970	2	Molder	11423	28	12
+1970	2	Motion Picture Projectionist	1301	34	43
+1970	2	Motorman	100	26	3
+1970	2	Musician / Music Teacher	213735	20	52
+1970	2	Newsboy	17517	3	27
+1970	2	Nurse	1563833	12	40
+1970	2	Nutritionist	52883	20	39
+1970	2	Office Machine Operator	612403	23	45
+1970	2	Oiler / Greaser	2306	28	15
+1970	2	Operative	6135206	22	18
+1970	2	Optician / Lens Grinder	8509	30	39
+1970	2	Optometrist	902	42	79
+1970	2	Painter	65407	24	17
+1970	2	Parking Attendant	22439	18	19
+1970	2	Pharmacist	20235	39	82
+1970	2	Photo Developer	47477	32	42
+1970	2	Photographer	15632	27	50
+1970	2	Physician / Surgeon	31353	79	92
+1970	2	Piano / Organ Tuner	500	24	38
+1970	2	Pilot	804	52	79
+1970	2	Plasterer	1201	29	25
+1970	2	Plumber	5604	32	34
+1970	2	Policeman / Detective	18734	32	39
+1970	2	Porter	600	14	4
+1970	2	Postmaster	16728	29	60
+1970	2	Power Station Operator	802	36	50
+1970	2	Pressman	19231	36	49
+1970	2	Produce Grader	56705	16	10
+1970	2	Professional - Misc	764981	31	65
+1970	2	Professor	109100	41	84
+1970	2	Professor - Agriculture 	301	41	84
+1970	2	Professor - Biology	6407	41	84
+1970	2	Professor - Chemistry	2702	41	84
+1970	2	Professor - Economics	903	41	84
+1970	2	Professor - Engineering	1303	41	84
+1970	2	Professor - Mathematics	8811	41	84
+1970	2	Professor - Medical	17730	41	84
+1970	2	Professor - Physics	1000	41	84
+1970	2	Professor - Psychology	3308	41	84
+1970	2	Professor - Science	201	41	84
+1970	2	Professor - Social Science 	8218	41	84
+1970	2	Psychologist	14422	39	81
+1970	2	Public Officials	84936	35	66
+1970	2	Purchasing Agent	28844	40	77
+1970	2	Radio Operator	11417	39	69
+1970	2	Railroad Brakeman	600	36	42
+1970	2	Railroad Conductor	901	42	58
+1970	2	Railroad Switchman	800	36	44
+1970	2	Real Estate Agent	119193	35	62
+1970	2	Recreation Attendant	70335	10	19
+1970	2	Religious Worker	24832	15	56
+1970	2	Road Machinery Operator	4905	30	24
+1970	2	Roller	1403	30	22
+1970	2	Roofer	1002	23	15
+1970	2	Sailor	1201	23	16
+1970	2	Salesman	3508146	24	47
+1970	2	Sawyer	13721	16	5
+1970	2	Scientist	301	37	80
+1970	2	Scientist - Agriculture	1305	41	80
+1970	2	Scientist - Biology	13616	41	80
+1970	2	Scientist - Geology	1500	41	80
+1970	2	Scientist - Physics	1301	41	80
+1970	2	Scientist - Social	5808	39	81
+1970	2	Secretary	5795976	22	61
+1970	2	Security Guard	23846	25	18
+1970	2	Service Attendant	327779	13	26
+1970	2	Service Worker	1739908	11	11
+1970	2	Serviceman	15325	32	49
+1970	2	Sheriff / Bailiff	2502	30	34
+1970	2	Ship Officers	1003	39	54
+1970	2	Shipping and Receiving	94357	25	22
+1970	2	Shoemaker	12019	20	12
+1970	2	Social Worker	263309	27	66
+1970	2	Sports Instructor / Official	43071	29	64
+1970	2	Stationary Engineer	3004	35	47
+1970	2	Statistician / Actuary	17530	39	81
+1970	2	Stock Broker	12318	39	73
+1970	2	Stone Cutter	801	27	25
+1970	2	Street Car Conductor	301	33	30
+1970	2	Surveyor	5608	28	48
+1970	2	Tailor	37364	23	23
+1970	2	Taxi Cab Driver / Chauffeur	13222	22	10
+1970	2	Teacher	2725497	26	72
+1970	2	Teamster	801	15	8
+1970	2	Technician	15023	33	62
+1970	2	Technician - Medical / Dental	255735	25	48
+1970	2	Technician - Testing	89253	31	53
+1970	2	Telegraph Messenger	301	12	22
+1970	2	Telegraph Operator	5107	32	47
+1970	2	Telephone Operator	635165	21	45
+1970	2	Temperer	1003	30	22
+1970	2	Therapist	70219	26	58
+1970	2	Ticket Agent	51088	33	60
+1970	2	Tool Maker	5308	36	50
+1970	2	Truck / Tractor Driver	28240	25	15
+1970	2	Typesetter	38163	36	52
+1970	2	Union Official	11723	37	58
+1970	2	Upholsterer	16631	25	22
+1970	2	Usher	8512	4	25
+1970	2	Veterinarian	1401	42	78
+1970	2	Waiter / Waitress	1932298	11	16
+1970	2	Weaver	41582	23	6
+1970	2	Welder	48083	30	24
+1980	1	Accountant / Auditor	661606	37	78
+1980	1	Advertising Agent	72865	35	66
+1980	1	Apprentice	4442	20	31
+1980	1	Apprentice - Auto Mechanic	3961	18	25
+1980	1	Apprentice - Bricklayer	3562	25	32
+1980	1	Apprentice - Carpenter	11127	20	31
+1980	1	Apprentice - Electrician	18588	25	37
+1980	1	Apprentice - Machinist	15146	24	41
+1980	1	Apprentice - Metal Working	720	23	33
+1980	1	Apprentice - Plumber	12270	25	33
+1980	1	Architect	107765	49	90
+1980	1	Artist / Art Teacher	88510	30	67
+1980	1	Auctioneer	6427	30	40
+1980	1	Author	28608	33	76
+1980	1	Baker	88978	27	22
+1980	1	Bank Teller	55680	26	52
+1980	1	Barber / Beautician	176025	19	17
+1980	1	Bartender	211294	25	19
+1980	1	Bill Collector	40434	27	39
+1980	1	Blaster	12387	25	11
+1980	1	Boilermaker	42092	33	39
+1980	1	Bookbinder	14787	24	33
+1980	1	Bookkeeper	226696	22	51
+1980	1	Building Manager	133459	22	32
+1980	1	Bus Driver	246381	30	24
+1980	1	Buyer - Farm	20732	32	33
+1980	1	Buyer - Store	700449	41	72
+1980	1	Cabinet Maker	78786	25	23
+1980	1	Carpenter	1531584	24	19
+1980	1	Cashier	390848	18	44
+1980	1	Cement / Concrete Finisher	85759	28	19
+1980	1	Chainman	13886	19	25
+1980	1	Charwoman	204143	13	10
+1980	1	Chemist	88543	40	79
+1980	1	Chiropractor	20496	31	75
+1980	1	Clergyman	291038	24	52
+1980	1	Clerical Worker	2718238	25	44
+1980	1	Cook	906926	16	15
+1980	1	Counter Worker	56640	14	17
+1980	1	Cranemen / Hoistmen	182572	30	21
+1980	1	Crossing Guard / Toll Collector	22733	26	17
+1980	1	Dancer / Dance Teacher	3925	16	45
+1980	1	Delivery Man	769142	26	32
+1980	1	Demonstrator	3161	14	35
+1980	1	Dentist	125312	63	96
+1980	1	Designer	183331	31	73
+1980	1	Dispatcher	75592	31	40
+1980	1	Doctor Office Attendant	59807	16	38
+1980	1	Draftsman	307888	34	67
+1980	1	Dressmaker / Seamstress	8547	13	23
+1980	1	Economist	74162	37	81
+1980	1	Editor / Reporter	186706	39	82
+1980	1	Electrician	698214	33	44
+1980	1	Elevator Operator	21958	20	10
+1980	1	Engineer	308454	48	87
+1980	1	Engineer - Aeuronautical	89216	48	87
+1980	1	Engineer - Chemical	59210	48	90
+1980	1	Engineer - Civil	214288	46	84
+1980	1	Engineer - Electrical	325825	46	84
+1980	1	Engineer - Industrial	287934	42	86
+1980	1	Engineer - Mechanical	228850	46	82
+1980	1	Engineer - Metallurgical	25544	44	82
+1980	1	Engineer - Mining	35084	45	85
+1980	1	Engraver	10670	35	47
+1980	1	Entertainer	70659	25	31
+1980	1	Farm Foreman	50749	22	20
+1980	1	Farm Laborer	995680	9	6
+1980	1	Farm Manager	145958	25	36
+1980	1	Farmer	1284012	14	14
+1980	1	Fireman	404958	30	27
+1980	1	Fisherman	72464	17	10
+1980	1	Foremen	2132755	38	49
+1980	1	Forgemen	16311	30	23
+1980	1	Forrester	59767	29	48
+1980	1	Funeral Director	42362	39	59
+1980	1	Furrier	3882	24	39
+1980	1	Gardener / Groundskeeper	570275	17	11
+1980	1	Glazier	34302	27	26
+1980	1	Hospital Attendant	207920	17	13
+1980	1	Household Worker	57388	9	17
+1980	1	Huckster	57774	17	8
+1980	1	Human Resources	393747	42	84
+1980	1	Inspector	204298	35	52
+1980	1	Insulation Worker	60958	32	32
+1980	1	Insurance Agent	536722	36	66
+1980	1	Janitor	2153590	20	9
+1980	1	Jeweler	68858	26	36
+1980	1	Job Setter	57611	34	28
+1980	1	Laborer	4605256	20	8
+1980	1	Laundry / Dry Cleaning	113516	15	15
+1980	1	Lawyer / Judge	481261	61	93
+1980	1	Librarian	38669	22	60
+1980	1	Library Attendant	35398	13	44
+1980	1	Lithographer	22554	42	64
+1980	1	Locomotive Engineer	87426	41	58
+1980	1	Longshoreman	31467	25	11
+1980	1	Lumberman	135143	13	4
+1980	1	Machinist	555009	31	33
+1980	1	Mail Carrier	261261	34	53
+1980	1	Manager / Owner	6783518	41	68
+1980	1	Mason	279192	29	27
+1980	1	Mathematician	5543	41	80
+1980	1	Meat Cutter	281687	27	29
+1980	1	Mechanic	1700996	29	27
+1980	1	Mechanic - Airplane	119283	33	48
+1980	1	Mechanic - Automobile	1431954	26	19
+1980	1	Mechanic - Office Machines	82521	30	36
+1980	1	Mechanic - Radio / Television	175139	25	36
+1980	1	Messenger	89011	15	28
+1980	1	Metal Filer	286902	28	22
+1980	1	Metal Worker	295536	32	34
+1980	1	Military	1610699	11	9
+1980	1	Millwright	145908	31	31
+1980	1	Miner	350231	23	10
+1980	1	Model Maker	35088	32	44
+1980	1	Molder	36344	26	12
+1980	1	Motion Picture Projectionist	15972	34	43
+1980	1	Musician / Music Teacher	288301	20	52
+1980	1	Newsboy	100156	4	27
+1980	1	Nurse	154691	21	34
+1980	1	Nutritionist	7965	20	39
+1980	1	Office Machine Operator	278817	23	45
+1980	1	Oiler / Greaser	51225	27	15
+1980	1	Operative	5807712	23	18
+1980	1	Optician / Lens Grinder	29999	29	39
+1980	1	Optometrist	24055	42	79
+1980	1	Painter	760594	24	17
+1980	1	Parking Attendant	438129	18	19
+1980	1	Pharmacist	122992	39	82
+1980	1	Photo Developer	48507	32	42
+1980	1	Photographer	81296	27	50
+1980	1	Physician / Surgeon	394999	79	92
+1980	1	Pilot	80769	50	79
+1980	1	Plasterer	32999	28	25
+1980	1	Plumber	560336	32	34
+1980	1	Policeman / Detective	504399	32	39
+1980	1	Porter	24222	14	4
+1980	1	Postmaster	23556	29	60
+1980	1	Power Station Operator	29157	35	50
+1980	1	Pressman	269303	35	49
+1980	1	Professional - Misc	634581	31	65
+1980	1	Professor	337037	41	84
+1980	1	Professor - Agriculture 	3400	41	84
+1980	1	Professor - Biology	7188	41	84
+1980	1	Professor - Chemistry	7186	41	84
+1980	1	Professor - Economics	4463	41	84
+1980	1	Professor - Engineering	10848	41	84
+1980	1	Professor - Mathematics	15650	41	84
+1980	1	Professor - Medical	9945	41	84
+1980	1	Professor - Physics	5609	41	84
+1980	1	Professor - Psychology	3322	41	84
+1980	1	Professor - Science	2240	41	84
+1980	1	Professor - Social Science 	10031	41	84
+1980	1	Psychologist	50235	39	81
+1980	1	Public Officials	284687	35	66
+1980	1	Purchasing Agent	207326	40	77
+1980	1	Radio Operator	83564	38	69
+1980	1	Railroad Brakeman	91941	35	42
+1980	1	Railroad Conductor	58455	42	58
+1980	1	Railroad Switchman	10746	36	44
+1980	1	Real Estate Agent	404125	35	62
+1980	1	Recreation Attendant	177265	10	19
+1980	1	Religious Worker	23979	15	56
+1980	1	Road Machinery Operator	466269	30	24
+1980	1	Roller	20678	29	22
+1980	1	Roofer	149440	22	15
+1980	1	Sailor	42697	23	16
+1980	1	Salesman	3004021	24	47
+1980	1	Sawyer	110477	17	5
+1980	1	Scientist	7405	37	80
+1980	1	Scientist - Agriculture	21680	40	80
+1980	1	Scientist - Biology	46475	40	80
+1980	1	Scientist - Geology	43346	41	80
+1980	1	Scientist - Physics	31601	41	80
+1980	1	Scientist - Social	19772	36	81
+1980	1	Secretary	97205	22	61
+1980	1	Security Guard	720590	25	18
+1980	1	Service Attendant	137592	17	26
+1980	1	Service Worker	726901	11	11
+1980	1	Serviceman	412263	32	49
+1980	1	Sheriff / Bailiff	60663	29	34
+1980	1	Ship Officers	48159	39	54
+1980	1	Shipping and Receiving	593776	26	22
+1980	1	Shoemaker	120915	20	12
+1980	1	Social Worker	204654	27	66
+1980	1	Sports Instructor / Official	59219	30	64
+1980	1	Stationary Engineer	182504	34	47
+1980	1	Statistician / Actuary	25151	39	81
+1980	1	Stock Broker	115757	39	73
+1980	1	Surveyor	91629	28	48
+1980	1	Tailor	43507	23	23
+1980	1	Taxi Cab Driver / Chauffeur	202071	22	10
+1980	1	Teacher	1271710	26	72
+1980	1	Technician	248394	32	62
+1980	1	Technician - Medical / Dental	197649	25	48
+1980	1	Technician - Testing	679611	30	53
+1980	1	Telegraph Operator	5545	32	47
+1980	1	Telephone Operator	79779	21	45
+1980	1	Temperer	27475	30	22
+1980	1	Therapist	64399	26	58
+1980	1	Ticket Agent	47751	33	60
+1980	1	Tool Maker	208764	36	50
+1980	1	Truck / Tractor Driver	2084404	25	15
+1980	1	Typesetter	38944	35	52
+1980	1	Upholsterer	62601	25	22
+1980	1	Usher	23617	5	25
+1980	1	Veterinarian	32252	42	78
+1980	1	Waiter / Waitress	227767	11	16
+1980	1	Weaver	31842	22	6
+1980	1	Welder	821710	30	24
+1980	2	Accountant / Auditor	452783	37	78
+1980	2	Advertising Agent	58594	35	66
+1980	2	Apprentice	1622	20	31
+1980	2	Apprentice - Auto Mechanic	120	18	25
+1980	2	Apprentice - Bricklayer	140	25	32
+1980	2	Apprentice - Carpenter	840	20	31
+1980	2	Apprentice - Electrician	1160	25	37
+1980	2	Apprentice - Machinist	841	24	41
+1980	2	Apprentice - Metal Working	160	23	33
+1980	2	Apprentice - Plumber	500	25	33
+1980	2	Architect	10949	49	90
+1980	2	Artist / Art Teacher	91749	30	67
+1980	2	Auctioneer	1282	30	40
+1980	2	Author	26476	33	76
+1980	2	Baker	66119	27	22
+1980	2	Bank Teller	583967	26	52
+1980	2	Barber / Beautician	636306	19	17
+1980	2	Bartender	192798	25	19
+1980	2	Bill Collector	64010	27	39
+1980	2	Blaster	541	25	11
+1980	2	Boilermaker	761	33	39
+1980	2	Bookbinder	23481	24	33
+1980	2	Bookkeeper	2139251	22	51
+1980	2	Building Manager	107540	22	32
+1980	2	Bus Driver	216409	30	24
+1980	2	Buyer - Farm	2223	32	33
+1980	2	Buyer - Store	232898	41	72
+1980	2	Cabinet Maker	8669	25	23
+1980	2	Carpenter	28434	24	19
+1980	2	Cashier	2318015	18	44
+1980	2	Cement / Concrete Finisher	1180	28	19
+1980	2	Chainman	1021	19	25
+1980	2	Charwoman	766315	13	10
+1980	2	Chemist	23895	40	79
+1980	2	Chiropractor	3324	31	75
+1980	2	Clergyman	19574	24	52
+1980	2	Clerical Worker	6374822	24	44
+1980	2	Cook	1375041	16	15
+1980	2	Counter Worker	270330	14	17
+1980	2	Cranemen / Hoistmen	4400	30	21
+1980	2	Crossing Guard / Toll Collector	42251	26	17
+1980	2	Dancer / Dance Teacher	13749	16	45
+1980	2	Delivery Man	71026	26	32
+1980	2	Demonstrator	21926	14	35
+1980	2	Dentist	10409	63	96
+1980	2	Designer	221166	31	73
+1980	2	Dispatcher	38161	31	40
+1980	2	Doctor Office Attendant	520895	16	38
+1980	2	Draftsman	65804	34	67
+1980	2	Dressmaker / Seamstress	141472	13	23
+1980	2	Economist	32636	37	81
+1980	2	Editor / Reporter	200657	39	82
+1980	2	Electrician	15435	33	44
+1980	2	Elevator Operator	7664	20	10
+1980	2	Engineer	13670	48	87
+1980	2	Engineer - Aeuronautical	3140	48	87
+1980	2	Engineer - Chemical	3282	48	90
+1980	2	Engineer - Civil	7342	46	84
+1980	2	Engineer - Electrical	18148	46	84
+1980	2	Engineer - Industrial	56732	42	86
+1980	2	Engineer - Mechanical	5288	45	82
+1980	2	Engineer - Metallurgical	1380	44	82
+1980	2	Engineer - Mining	1462	45	85
+1980	2	Engraver	7723	35	47
+1980	2	Entertainer	48109	27	31
+1980	2	Farm Foreman	12963	22	20
+1980	2	Farm Laborer	429164	9	6
+1980	2	Farm Manager	18873	25	36
+1980	2	Farmer	181370	14	14
+1980	2	Fireman	11495	30	27
+1980	2	Fisherman	7263	17	10
+1980	2	Foremen	352845	37	49
+1980	2	Forgemen	1322	30	23
+1980	2	Forrester	8826	29	48
+1980	2	Funeral Director	4483	39	59
+1980	2	Furrier	8922	24	39
+1980	2	Gardener / Groundskeeper	57849	17	11
+1980	2	Glazier	2142	27	26
+1980	2	Hospital Attendant	1705976	17	13
+1980	2	Household Worker	962462	9	17
+1980	2	Huckster	281812	17	8
+1980	2	Human Resources	327683	42	84
+1980	2	Inspector	37570	35	52
+1980	2	Insulation Worker	3242	32	32
+1980	2	Insurance Agent	297359	36	66
+1980	2	Janitor	751580	20	9
+1980	2	Jeweler	24699	26	36
+1980	2	Job Setter	4323	34	28
+1980	2	Laborer	837301	20	8
+1980	2	Laundry / Dry Cleaning	286070	17	15
+1980	2	Lawyer / Judge	85744	58	93
+1980	2	Librarian	209578	22	60
+1980	2	Library Attendant	151852	13	44
+1980	2	Lithographer	6041	42	64
+1980	2	Locomotive Engineer	1480	41	58
+1980	2	Longshoreman	522	25	11
+1980	2	Lumberman	4223	13	4
+1980	2	Machinist	32900	31	33
+1980	2	Mail Carrier	41965	34	53
+1980	2	Manager / Owner	2683545	41	68
+1980	2	Mason	3882	29	27
+1980	2	Mathematician	1321	41	80
+1980	2	Meat Cutter	61267	27	29
+1980	2	Mechanic	65886	30	27
+1980	2	Mechanic - Airplane	4303	33	48
+1980	2	Mechanic - Automobile	18996	26	19
+1980	2	Mechanic - Office Machines	6744	30	36
+1980	2	Mechanic - Radio / Television	10370	25	36
+1980	2	Messenger	32289	15	28
+1980	2	Metal Filer	64627	29	22
+1980	2	Metal Worker	11370	32	34
+1980	2	Military	173030	11	9
+1980	2	Millwright	5382	31	31
+1980	2	Miner	12927	23	10
+1980	2	Model Maker	5804	35	44
+1980	2	Molder	7024	26	12
+1980	2	Motion Picture Projectionist	1861	34	43
+1980	2	Musician / Music Teacher	363906	25	52
+1980	2	Newsboy	51773	4	27
+1980	2	Nurse	2096615	15	34
+1980	2	Nutritionist	73865	20	39
+1980	2	Office Machine Operator	854621	22	45
+1980	2	Oiler / Greaser	2201	27	15
+1980	2	Operative	5651553	22	18
+1980	2	Optician / Lens Grinder	23697	29	39
+1980	2	Optometrist	2442	42	79
+1980	2	Painter	110802	24	17
+1980	2	Parking Attendant	47128	18	19
+1980	2	Pharmacist	41371	39	82
+1980	2	Photo Developer	65144	32	42
+1980	2	Photographer	32123	27	50
+1980	2	Physician / Surgeon	65607	79	92
+1980	2	Pilot	1341	50	79
+1980	2	Plasterer	880	28	25
+1980	2	Plumber	8083	32	34
+1980	2	Policeman / Detective	32562	32	39
+1980	2	Porter	2120	14	4
+1980	2	Postmaster	18413	29	60
+1980	2	Power Station Operator	1441	35	50
+1980	2	Pressman	63388	35	49
+1980	2	Professional - Misc	580750	31	65
+1980	2	Professor	213694	41	84
+1980	2	Professor - Agriculture 	720	41	84
+1980	2	Professor - Biology	3922	41	84
+1980	2	Professor - Chemistry	1943	41	84
+1980	2	Professor - Economics	1262	41	84
+1980	2	Professor - Engineering	1541	41	84
+1980	2	Professor - Mathematics	7664	41	84
+1980	2	Professor - Medical	22797	41	84
+1980	2	Professor - Physics	440	41	84
+1980	2	Professor - Psychology	2585	41	84
+1980	2	Professor - Science	641	41	84
+1980	2	Professor - Social Science 	5305	41	84
+1980	2	Psychologist	50476	39	81
+1980	2	Public Officials	158596	35	66
+1980	2	Purchasing Agent	85914	41	77
+1980	2	Radio Operator	47147	39	69
+1980	2	Railroad Brakeman	1303	35	42
+1980	2	Railroad Conductor	981	42	58
+1980	2	Railroad Switchman	321	36	44
+1980	2	Real Estate Agent	375987	35	62
+1980	2	Recreation Attendant	149228	17	19
+1980	2	Religious Worker	36143	15	56
+1980	2	Road Machinery Operator	7446	29	24
+1980	2	Roller	2542	29	22
+1980	2	Roofer	1701	22	15
+1980	2	Sailor	1321	23	16
+1980	2	Salesman	3179503	24	47
+1980	2	Sawyer	17380	17	5
+1980	2	Scientist	2142	37	80
+1980	2	Scientist - Agriculture	6944	40	80
+1980	2	Scientist - Biology	27184	40	80
+1980	2	Scientist - Geology	6407	41	80
+1980	2	Scientist - Physics	1800	41	80
+1980	2	Scientist - Social	17494	36	81
+1980	2	Secretary	6002545	22	61
+1980	2	Security Guard	124913	25	18
+1980	2	Service Attendant	1001088	14	26
+1980	2	Service Worker	952071	11	11
+1980	2	Serviceman	39367	32	49
+1980	2	Sheriff / Bailiff	9769	29	34
+1980	2	Ship Officers	1322	39	54
+1980	2	Shipping and Receiving	187654	26	22
+1980	2	Shoemaker	15429	20	12
+1980	2	Social Worker	409918	27	66
+1980	2	Sports Instructor / Official	23814	30	64
+1980	2	Stationary Engineer	6103	34	47
+1980	2	Statistician / Actuary	20670	39	81
+1980	2	Stock Broker	27833	39	73
+1980	2	Surveyor	9826	28	48
+1980	2	Tailor	34396	23	23
+1980	2	Taxi Cab Driver / Chauffeur	29521	22	10
+1980	2	Teacher	3208473	27	72
+1980	2	Technician	37006	32	62
+1980	2	Technician - Medical / Dental	487792	25	48
+1980	2	Technician - Testing	282257	31	53
+1980	2	Telegraph Operator	3804	32	47
+1980	2	Telephone Operator	389159	21	45
+1980	2	Temperer	1881	30	22
+1980	2	Therapist	168127	26	58
+1980	2	Ticket Agent	66826	33	60
+1980	2	Tool Maker	4680	36	50
+1980	2	Truck / Tractor Driver	60371	25	15
+1980	2	Typesetter	47775	35	52
+1980	2	Upholsterer	19717	25	22
+1980	2	Usher	13330	5	25
+1980	2	Veterinarian	5206	42	78
+1980	2	Waiter / Waitress	2063563	11	16
+1980	2	Weaver	61698	22	6
+1980	2	Welder	57920	30	24
+1990	1	Accountant / Auditor	814842	37	78
+1990	1	Advertising Agent	94797	35	66
+1990	1	Apprentice	1865	20	31
+1990	1	Apprentice - Auto Mechanic	1800	18	25
+1990	1	Apprentice - Bricklayer	976	25	32
+1990	1	Apprentice - Carpenter	5609	20	31
+1990	1	Apprentice - Electrician	17188	25	37
+1990	1	Apprentice - Machinist	4030	24	41
+1990	1	Apprentice - Metal Working	930	23	33
+1990	1	Apprentice - Plumber	7878	25	33
+1990	1	Architect	143413	49	90
+1990	1	Artist / Art Teacher	113275	30	67
+1990	1	Auctioneer	8339	30	40
+1990	1	Author	61985	33	76
+1990	1	Baker	107471	27	22
+1990	1	Bank Teller	61846	26	52
+1990	1	Barber / Beautician	162502	19	17
+1990	1	Bartender	194743	25	19
+1990	1	Bill Collector	61919	27	39
+1990	1	Blaster	10256	25	11
+1990	1	Boilermaker	28061	33	39
+1990	1	Bookbinder	16648	24	33
+1990	1	Bookkeeper	239124	22	51
+1990	1	Building Manager	247337	22	32
+1990	1	Bus Driver	272749	30	24
+1990	1	Buyer - Farm	16759	32	33
+1990	1	Buyer - Store	560069	41	72
+1990	1	Cabinet Maker	75521	25	23
+1990	1	Carpenter	1604105	24	19
+1990	1	Cashier	766005	18	44
+1990	1	Cement / Concrete Finisher	88695	28	19
+1990	1	Chainman	5411	19	25
+1990	1	Charwoman	166599	13	10
+1990	1	Chemist	114710	40	79
+1990	1	Chiropractor	33741	31	75
+1990	1	Clergyman	321137	24	52
+1990	1	Clerical Worker	2983145	24	44
+1990	1	Cook	1481390	16	15
+1990	1	Counter Worker	93128	14	17
+1990	1	Cranemen / Hoistmen	120046	30	21
+1990	1	Crossing Guard / Toll Collector	23485	26	17
+1990	1	Dancer / Dance Teacher	6107	16	45
+1990	1	Delivery Man	143502	26	32
+1990	1	Demonstrator	11569	14	35
+1990	1	Dentist	148591	63	96
+1990	1	Designer	294288	31	73
+1990	1	Dispatcher	123787	31	40
+1990	1	Doctor Office Attendant	62365	16	38
+1990	1	Draftsman	301258	34	67
+1990	1	Dressmaker / Seamstress	8137	13	23
+1990	1	Economist	93846	37	81
+1990	1	Editor / Reporter	221291	39	82
+1990	1	Electrician	777440	33	44
+1990	1	Elevator Operator	11416	20	10
+1990	1	Engineer	395357	48	87
+1990	1	Engineer - Aeuronautical	144618	48	87
+1990	1	Engineer - Chemical	65561	48	90
+1990	1	Engineer - Civil	259854	46	84
+1990	1	Engineer - Electrical	463684	46	84
+1990	1	Engineer - Industrial	390793	42	86
+1990	1	Engineer - Mechanical	215965	45	82
+1990	1	Engineer - Metallurgical	17850	44	82
+1990	1	Engineer - Mining	33345	45	85
+1990	1	Engraver	13165	35	47
+1990	1	Entertainer	100096	27	31
+1990	1	Farm Foreman	42815	22	20
+1990	1	Farm Laborer	853810	9	6
+1990	1	Farm Manager	251617	25	36
+1990	1	Farmer	868622	14	14
+1990	1	Fireman	382977	30	27
+1990	1	Fisherman	70675	17	10
+1990	1	Foremen	1741680	37	49
+1990	1	Forgemen	19672	30	23
+1990	1	Forrester	52735	29	48
+1990	1	Funeral Director	46564	39	59
+1990	1	Furrier	7218	24	39
+1990	1	Gardener / Groundskeeper	924326	17	11
+1990	1	Glazier	49856	27	26
+1990	1	Hospital Attendant	281405	17	13
+1990	1	Household Worker	62976	9	17
+1990	1	Huckster	96374	17	8
+1990	1	Human Resources	407601	42	84
+1990	1	Inspector	204463	35	52
+1990	1	Insulation Worker	86239	32	32
+1990	1	Insurance Agent	605552	36	66
+1990	1	Janitor	2288548	20	9
+1990	1	Jeweler	77985	26	36
+1990	1	Job Setter	28718	34	28
+1990	1	Laborer	5021782	20	8
+1990	1	Laundry / Dry Cleaning	161794	15	15
+1990	1	Lawyer / Judge	628376	61	93
+1990	1	Librarian	50193	22	60
+1990	1	Library Attendant	41915	13	44
+1990	1	Lithographer	41137	42	64
+1990	1	Locomotive Engineer	55052	41	58
+1990	1	Longshoreman	20427	25	11
+1990	1	Lumberman	137894	13	4
+1990	1	Machinist	612731	31	33
+1990	1	Mail Carrier	279346	34	53
+1990	1	Manager / Owner	8899765	41	68
+1990	1	Mason	307451	29	27
+1990	1	Mathematician	4668	41	80
+1990	1	Meat Cutter	257308	27	29
+1990	1	Mechanic	1821648	29	27
+1990	1	Mechanic - Airplane	180131	33	48
+1990	1	Mechanic - Automobile	1586352	27	19
+1990	1	Mechanic - Office Machines	125662	29	36
+1990	1	Mechanic - Radio / Television	182758	25	36
+1990	1	Messenger	136265	15	28
+1990	1	Metal Filer	146202	28	22
+1990	1	Metal Worker	291631	32	34
+1990	1	Military	1540672	11	18
+1990	1	Millwright	106960	31	31
+1990	1	Miner	238962	23	10
+1990	1	Model Maker	29407	32	44
+1990	1	Molder	19382	26	12
+1990	1	Motion Picture Projectionist	10917	34	43
+1990	1	Musician / Music Teacher	402586	25	52
+1990	1	Newsboy	87100	4	27
+1990	1	Nurse	241714	23	34
+1990	1	Nutritionist	11261	20	39
+1990	1	Office Machine Operator	450697	23	45
+1990	1	Oiler / Greaser	28470	27	15
+1990	1	Operative	5338347	23	18
+1990	1	Optician / Lens Grinder	37323	29	39
+1990	1	Optometrist	25867	42	79
+1990	1	Painter	885076	24	17
+1990	1	Parking Attendant	343931	18	19
+1990	1	Pharmacist	129075	39	82
+1990	1	Photo Developer	55700	32	42
+1990	1	Photographer	112297	27	50
+1990	1	Physician / Surgeon	494783	79	92
+1990	1	Pilot	117916	50	79
+1990	1	Plasterer	49512	28	25
+1990	1	Plumber	576342	32	34
+1990	1	Policeman / Detective	589960	32	39
+1990	1	Porter	40885	14	4
+1990	1	Postmaster	27766	29	60
+1990	1	Power Station Operator	39503	35	50
+1990	1	Pressman	324773	35	49
+1990	1	Professional - Misc	1190777	31	65
+1990	1	Professor	452502	41	84
+1990	1	Professor - Agriculture 	1167	41	84
+1990	1	Professor - Biology	4388	41	84
+1990	1	Professor - Chemistry	4135	41	84
+1990	1	Professor - Economics	3274	41	84
+1990	1	Professor - Engineering	7440	41	84
+1990	1	Professor - Mathematics	15592	41	84
+1990	1	Professor - Medical	7061	41	84
+1990	1	Professor - Physics	3834	41	84
+1990	1	Professor - Psychology	2555	41	84
+1990	1	Professor - Science	961	41	84
+1990	1	Professor - Social Science 	6137	41	84
+1990	1	Psychologist	83271	39	81
+1990	1	Public Officials	435434	35	66
+1990	1	Purchasing Agent	239191	40	77
+1990	1	Radio Operator	70794	39	69
+1990	1	Railroad Brakeman	39506	35	42
+1990	1	Railroad Conductor	45153	42	58
+1990	1	Railroad Switchman	5871	36	44
+1990	1	Real Estate Agent	446923	35	62
+1990	1	Recreation Attendant	227691	10	19
+1990	1	Religious Worker	49125	15	56
+1990	1	Road Machinery Operator	477535	29	24
+1990	1	Roller	13779	29	22
+1990	1	Roofer	236158	22	15
+1990	1	Sailor	34208	23	16
+1990	1	Salesman	3500491	24	47
+1990	1	Sawyer	95725	17	5
+1990	1	Scientist	13614	37	80
+1990	1	Scientist - Agriculture	28764	40	80
+1990	1	Scientist - Biology	56200	40	80
+1990	1	Scientist - Geology	50659	41	80
+1990	1	Scientist - Physics	37195	41	80
+1990	1	Scientist - Social	28226	36	81
+1990	1	Secretary	125895	22	61
+1990	1	Security Guard	1009311	25	18
+1990	1	Service Attendant	172544	17	26
+1990	1	Service Worker	879740	11	11
+1990	1	Serviceman	372866	32	49
+1990	1	Sheriff / Bailiff	108736	29	34
+1990	1	Ship Officers	49256	38	54
+1990	1	Shipping and Receiving	678335	26	22
+1990	1	Shoemaker	145321	20	12
+1990	1	Social Worker	263039	27	66
+1990	1	Sports Instructor / Official	84565	30	64
+1990	1	Stationary Engineer	243935	33	47
+1990	1	Statistician / Actuary	30736	39	81
+1990	1	Stock Broker	231013	39	73
+1990	1	Surveyor	106192	28	48
+1990	1	Tailor	36681	23	23
+1990	1	Taxi Cab Driver / Chauffeur	221055	22	10
+1990	1	Teacher	1343051	26	72
+1990	1	Technician	365240	32	62
+1990	1	Technician - Medical / Dental	296690	29	48
+1990	1	Technician - Testing	806222	31	53
+1990	1	Telephone Operator	36678	21	45
+1990	1	Temperer	20928	30	22
+1990	1	Therapist	89015	26	58
+1990	1	Ticket Agent	88051	33	60
+1990	1	Tool Maker	164984	36	50
+1990	1	Truck / Tractor Driver	3150279	25	15
+1990	1	Typesetter	27338	35	52
+1990	1	Upholsterer	65890	25	22
+1990	1	Usher	30728	5	25
+1990	1	Veterinarian	38495	42	78
+1990	1	Waiter / Waitress	356754	11	16
+1990	1	Weaver	24244	22	6
+1990	1	Welder	700666	30	24
+1990	2	Accountant / Auditor	949683	37	78
+1990	2	Advertising Agent	104742	35	66
+1990	2	Apprentice	405	20	31
+1990	2	Apprentice - Auto Mechanic	51	18	25
+1990	2	Apprentice - Bricklayer	53	25	32
+1990	2	Apprentice - Carpenter	318	20	31
+1990	2	Apprentice - Electrician	901	25	37
+1990	2	Apprentice - Machinist	356	24	41
+1990	2	Apprentice - Metal Working	106	23	33
+1990	2	Apprentice - Plumber	244	25	33
+1990	2	Architect	27057	49	90
+1990	2	Artist / Art Teacher	136297	30	67
+1990	2	Auctioneer	1577	30	40
+1990	2	Author	63063	33	76
+1990	2	Baker	100474	27	22
+1990	2	Bank Teller	562920	26	52
+1990	2	Barber / Beautician	806487	19	17
+1990	2	Bartender	215718	25	19
+1990	2	Bill Collector	125183	27	39
+1990	2	Blaster	537	25	11
+1990	2	Boilermaker	664	33	39
+1990	2	Bookbinder	21119	24	33
+1990	2	Bookkeeper	2111677	22	51
+1990	2	Building Manager	229483	22	32
+1990	2	Bus Driver	251743	30	24
+1990	2	Buyer - Farm	3951	32	33
+1990	2	Buyer - Store	359754	41	72
+1990	2	Cabinet Maker	6140	25	23
+1990	2	Carpenter	31003	24	19
+1990	2	Cashier	3286285	18	44
+1990	2	Cement / Concrete Finisher	1386	28	19
+1990	2	Chainman	759	19	25
+1990	2	Charwoman	820584	13	10
+1990	2	Chemist	42610	40	79
+1990	2	Chiropractor	15502	31	75
+1990	2	Clergyman	40106	24	52
+1990	2	Clerical Worker	7560092	24	44
+1990	2	Cook	1609016	16	15
+1990	2	Counter Worker	256746	14	17
+1990	2	Cranemen / Hoistmen	3169	26	21
+1990	2	Crossing Guard / Toll Collector	42603	26	17
+1990	2	Dancer / Dance Teacher	21996	16	45
+1990	2	Delivery Man	18029	26	32
+1990	2	Demonstrator	67502	14	35
+1990	2	Dentist	22823	63	96
+1990	2	Designer	418677	31	73
+1990	2	Dispatcher	113690	31	40
+1990	2	Doctor Office Attendant	442489	16	38
+1990	2	Draftsman	71277	34	67
+1990	2	Dressmaker / Seamstress	125498	13	23
+1990	2	Economist	74349	37	81
+1990	2	Editor / Reporter	278778	39	82
+1990	2	Electrician	21758	34	44
+1990	2	Elevator Operator	3215	20	10
+1990	2	Engineer	41711	48	87
+1990	2	Engineer - Aeuronautical	13004	48	87
+1990	2	Engineer - Chemical	8189	48	90
+1990	2	Engineer - Civil	19468	46	84
+1990	2	Engineer - Electrical	50213	46	84
+1990	2	Engineer - Industrial	137988	42	86
+1990	2	Engineer - Mechanical	11152	45	82
+1990	2	Engineer - Metallurgical	2562	44	82
+1990	2	Engineer - Mining	2347	45	85
+1990	2	Engraver	7785	35	47
+1990	2	Entertainer	102835	27	31
+1990	2	Farm Foreman	8331	22	20
+1990	2	Farm Laborer	347642	9	6
+1990	2	Farm Manager	41998	25	36
+1990	2	Farmer	157681	14	14
+1990	2	Fireman	15924	30	27
+1990	2	Fisherman	6360	17	10
+1990	2	Foremen	322602	37	49
+1990	2	Forgemen	1246	30	23
+1990	2	Forrester	9165	29	48
+1990	2	Funeral Director	7353	39	59
+1990	2	Furrier	14334	24	39
+1990	2	Gardener / Groundskeeper	86456	17	11
+1990	2	Glazier	2971	27	26
+1990	2	Hospital Attendant	2153464	17	13
+1990	2	Household Worker	855222	9	17
+1990	2	Huckster	216853	17	8
+1990	2	Human Resources	501023	42	84
+1990	2	Inspector	66435	34	52
+1990	2	Insulation Worker	4158	32	32
+1990	2	Insurance Agent	589576	36	66
+1990	2	Janitor	1153478	20	9
+1990	2	Jeweler	32224	26	36
+1990	2	Job Setter	2841	34	28
+1990	2	Laborer	1077068	20	8
+1990	2	Laundry / Dry Cleaning	318990	15	15
+1990	2	Lawyer / Judge	213279	61	93
+1990	2	Librarian	257080	22	60
+1990	2	Library Attendant	149378	13	44
+1990	2	Lithographer	14706	42	64
+1990	2	Locomotive Engineer	1520	41	58
+1990	2	Longshoreman	563	25	11
+1990	2	Lumberman	4953	13	4
+1990	2	Machinist	30893	31	33
+1990	2	Mail Carrier	98128	34	53
+1990	2	Manager / Owner	4957672	41	68
+1990	2	Mason	5004	29	27
+1990	2	Mathematician	1952	41	80
+1990	2	Meat Cutter	76033	27	29
+1990	2	Mechanic	78010	29	27
+1990	2	Mechanic - Airplane	9653	33	48
+1990	2	Mechanic - Automobile	31606	26	19
+1990	2	Mechanic - Office Machines	16289	29	36
+1990	2	Mechanic - Radio / Television	17777	25	36
+1990	2	Messenger	46974	15	28
+1990	2	Metal Filer	28219	28	22
+1990	2	Metal Worker	15090	32	34
+1990	2	Military	187266	11	18
+1990	2	Millwright	3918	31	31
+1990	2	Miner	9715	23	10
+1990	2	Model Maker	7102	32	44
+1990	2	Molder	3892	26	12
+1990	2	Motion Picture Projectionist	2219	34	43
+1990	2	Musician / Music Teacher	587496	25	52
+1990	2	Newsboy	59204	4	27
+1990	2	Nurse	2702420	15	34
+1990	2	Nutritionist	99487	20	39
+1990	2	Office Machine Operator	1252448	22	45
+1990	2	Oiler / Greaser	1252	27	15
+1990	2	Operative	4635239	22	18
+1990	2	Optician / Lens Grinder	49567	29	39
+1990	2	Optometrist	4742	42	79
+1990	2	Painter	128104	24	17
+1990	2	Parking Attendant	46028	18	19
+1990	2	Pharmacist	76550	39	82
+1990	2	Photo Developer	67981	32	42
+1990	2	Photographer	57529	27	50
+1990	2	Physician / Surgeon	133057	79	92
+1990	2	Pilot	4648	50	79
+1990	2	Plasterer	1043	28	25
+1990	2	Plumber	9252	32	34
+1990	2	Policeman / Detective	91240	31	39
+1990	2	Porter	4839	14	4
+1990	2	Postmaster	25369	29	60
+1990	2	Power Station Operator	2285	35	50
+1990	2	Pressman	79866	35	49
+1990	2	Professional - Misc	1012193	31	65
+1990	2	Professor	329228	41	84
+1990	2	Professor - Agriculture 	237	41	84
+1990	2	Professor - Biology	2447	41	84
+1990	2	Professor - Chemistry	1329	41	84
+1990	2	Professor - Economics	1134	41	84
+1990	2	Professor - Engineering	1418	41	84
+1990	2	Professor - Mathematics	10315	41	84
+1990	2	Professor - Medical	15130	41	84
+1990	2	Professor - Physics	503	41	84
+1990	2	Professor - Psychology	2702	41	84
+1990	2	Professor - Science	665	41	84
+1990	2	Professor - Social Science 	3183	41	84
+1990	2	Psychologist	123250	39	81
+1990	2	Public Officials	600459	21	66
+1990	2	Purchasing Agent	170629	40	77
+1990	2	Radio Operator	21810	39	69
+1990	2	Railroad Brakeman	564	35	42
+1990	2	Railroad Conductor	2878	42	58
+1990	2	Railroad Switchman	393	36	44
+1990	2	Real Estate Agent	499220	35	62
+1990	2	Recreation Attendant	204770	10	19
+1990	2	Religious Worker	70844	15	56
+1990	2	Road Machinery Operator	9309	29	24
+1990	2	Roller	2172	29	22
+1990	2	Roofer	3950	22	15
+1990	2	Sailor	1197	23	16
+1990	2	Salesman	3386271	24	47
+1990	2	Sawyer	15024	17	5
+1990	2	Scientist	6180	37	80
+1990	2	Scientist - Agriculture	11230	40	80
+1990	2	Scientist - Biology	42853	40	80
+1990	2	Scientist - Geology	9337	41	80
+1990	2	Scientist - Physics	5253	41	80
+1990	2	Scientist - Social	31972	36	81
+1990	2	Secretary	5743406	22	61
+1990	2	Security Guard	217882	25	18
+1990	2	Service Attendant	1490132	14	26
+1990	2	Service Worker	1031602	11	11
+1990	2	Serviceman	39196	32	49
+1990	2	Sheriff / Bailiff	25739	29	34
+1990	2	Ship Officers	1940	38	54
+1990	2	Shipping and Receiving	294791	26	22
+1990	2	Shoemaker	14360	20	12
+1990	2	Social Worker	587375	27	66
+1990	2	Sports Instructor / Official	34696	30	64
+1990	2	Stationary Engineer	12680	34	47
+1990	2	Statistician / Actuary	25831	39	81
+1990	2	Stock Broker	94937	39	73
+1990	2	Surveyor	14333	28	48
+1990	2	Tailor	37225	23	23
+1990	2	Taxi Cab Driver / Chauffeur	30311	22	10
+1990	2	Teacher	3902382	26	72
+1990	2	Technician	65100	32	62
+1990	2	Technician - Medical / Dental	833104	25	48
+1990	2	Technician - Testing	358804	30	53
+1990	2	Telephone Operator	269331	21	45
+1990	2	Temperer	1310	30	22
+1990	2	Therapist	284654	26	58
+1990	2	Ticket Agent	221236	33	60
+1990	2	Tool Maker	4571	36	50
+1990	2	Truck / Tractor Driver	233616	25	15
+1990	2	Typesetter	59642	35	52
+1990	2	Upholsterer	21674	25	22
+1990	2	Usher	15375	5	25
+1990	2	Veterinarian	14634	42	78
+1990	2	Waiter / Waitress	1690717	11	16
+1990	2	Weaver	49668	22	6
+1990	2	Welder	36224	30	24

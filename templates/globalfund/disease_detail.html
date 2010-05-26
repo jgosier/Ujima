@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load main %}
+{% block title %} Global Fund Expenditures for {{disease}} {% endblock %}
+{% block extrastyle %}
+{% endblock %}
+
+{% block content %}
+<div="content_wrap" class="grid_15 suffix_1">
+<p>Disease: {{disease}} </p>
+
+{% if fund %}
+
+<p>The number of records: {{fund|length}} </p>
+
+{% endif %}
+
+<p> This table contains all government bodies and NGOs who received funding for {{disease}}.</p>
+
+<h4> Back to browse page: 
+<a href="{% url globalfund.views.disease_list %}">Disease</a> 
+</h4>
+
+  <table class="tablesorter" border="2">
+<thead>
+	<tr>
+<th>Organization</th><th>Country</th><th>Amount</th><th>Region</th><th>StartDate</th><th>EndDate</th><th>Disease</th>
+</tr>
+</thead>
+<tbody>
+{% autopaginate fund 20 %}
+{% for fund in fund %}
+   <tr>
+      <td>{{fund.org}}</td>
+      <td><a href="{{fund.countrycd.get_absolute_url}}">{{fund.countrycd}}</a></td>
+      <td >{{fund.disbinusd|doll}}</td>
+      <td><a href="{{fund.regioncd.get_absolute_url}}">{{fund.regioncd}}</td>
+      <td>{{fund.periodstartdate}}</a></td>
+      <td>{{fund.periodenddate}}</td>
+	  <td><a href="{{fund.gadisease.get_absolute_url}}">{{fund.gadisease}}</td>
+   </tr>
+
+  {% endfor %}
+  {% paginate %}
+</tbody>
+  </table>
+<br><br>
+<center><a href="csv" style="text-decoration:none;">Download as  <img src="/Media/static/xls.png" ></a></center>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->
+
+</div>
+</div>
+<div class="clear"></div> 
+
+
+{% endblock %}

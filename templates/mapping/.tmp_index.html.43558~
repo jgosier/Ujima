@@ -1,0 +1,227 @@
+{% extends "base.html" %}
+{% block extrastyle %}
+
+   
+  
+  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key={{key}}" type="text/javascript"></script>
+
+
+
+
+ 
+   
+	{% endblock %}
+	{% block content %}
+	<div id="content_wrap" class="grid_15 suffix_1">
+	<div style=" border:1px solid red; height:500px"  class="grid_8" id="map" ></div>
+	
+	<div id="layes" style="width:250px;height:300px;float:right;" class="grid_4 suffix_1">
+	<h2>DATA</h2>
+	<ul>
+		<li><a href="#" onClick="" >Add USAID</a><a href="#" onClick="" >remove</a></li>
+		<li><a href="#" onClick="" >Add LOBBYING</a><a href="#" onClick="" >remove</a></li>
+		<li><a href="#" onClick="" >Add AFDB</a><a href="#" onClick="" >remove</a></li>
+		<li><a href="#" onClick="" >Add DFID</a><a href="#" onClick="" >remove</a></li>
+		<li><a href="#" onClick="" >Add WEAPONS</a><a href="#" onClick="" >remove</a></li>
+		<li><a href="#" onClick="" >Add GLOBALFUND</a><a href="#" onClick="" >remove</a></li>
+	</ul>
+	
+	<h2>Filter By Year</h2>
+	<ul>
+		<li><a href="#" onClick="">2009</a></li>
+		<li><a href="#" onClick="">2008</a></li>
+		<li><a href="#" onClick="">2007</a></li>
+		<li><a href="#" onClick="">2006</a></li>
+		<li><a href="#" onClick="">2005</a></li>
+		<li><a href="#" onClick="">2004</a></li>
+		<li><a href="#" onClick="">2003</a></li>
+		<li><a href="#" onClick="">2002</a></li>
+		<li><a href="#" onClick="">2001</a></li>
+		<li><a href="#" onClick="">2000</a></li>
+		<li><a href="#" onClick="">1999</a></li>
+	</ul>
+		
+	<div id="layer" >
+		 <script type="text/javascript">
+
+var map;
+var points = [];
+var index = 0;
+var infopanel;
+var yearpanel;
+var popdata = new Array();
+var years = new Array();
+var polylines = [];
+var markers = [];
+var titles = [];
+var citylist;
+
+
+    if (GBrowserIsCompatible()) {
+	infopanel = document.getElementById("infopanel");
+	yearpanel = document.getElementById("yearpanel");
+	map = new GMap(document.getElementById("map"));
+	map.centerAndZoom(new GPoint(0,0), 10);
+        map.addControl(new GLargeMapControl());
+	
+	var request = GXmlHttp.create();
+	request.open('GET','test.xml', false);
+	
+	
+	
+	request.onreadystatechange = function() {
+	    if (request.readyState == 4) {
+			
+		var xmlsource = request.responseXML;
+		alert(xmlsource);
+
+		var markerlist = xmlsource.documentElement.getElementsByTagName("city");
+		for (var i=0;i < markerlist.length;i++) {
+		    addmarker(parseFloat(markerlist[i].getAttribute("lng")),
+			      parseFloat(markerlist[i].getAttribute("lat")),
+			      markerlist[i].getAttribute("title"));
+		    popdata[i] = new Array();
+		    var poplist = markerlist[i].getElementsByTagName("pop");
+		    for (var j=0;j<poplist.length;j++) {
+			popdata[i][poplist[j].getAttribute("year")] = parseInt(poplist[j].getAttribute("value"));
+			years[poplist[j].getAttribute("year")] = 0;
+		    }
+		}
+		for (var i in years) {
+		    yearpanel.innerHTML = yearpanel.innerHTML + 
+			'<a href="#" onClick="addgraph(' + i + ')">' + i + '</a><br/';
+		}
+		recenterandzoom(points);
+	    }
+	}
+	request.send(null);
+    }
+
+
+function addgraph(year) {
+    var currentsize = map.getSpanLatLng();
+    var increment = (parseFloat(currentsize.height)/2.0)/100;
+    var maxsize = 0;
+    var graphdata = [];
+
+    map.clearOverlays();
+
+    polylines = [];
+    markers = [];
+    infopanel.innerHTML = '';
+
+    for(var i=0;i<popdata.length;i++) {
+	graphdata.push(popdata[i][year]);
+	if (popdata[i][year] > maxsize) {
+	    maxsize = popdata[i][year];
+	}
+	addmarker(points[i].x,points[i].y,titles[i] + '; Pop: ' + popdata[i][year] + ' in ' + year);
+    }
+
+    for(var i=0;i<graphdata.length;i++) {
+	var pointpair = [];
+	pointpair.push(points[i]);
+	var secondlatinc =  ((parseFloat(graphdata[i])*100)/maxsize)*increment;
+	var secondlat = (parseFloat(points[i].y)*1)+secondlatinc;
+	pointpair.push(new GPoint(points[i].x,
+				  secondlat));
+	var line = new GPolyline(pointpair,"#ff0000",20);
+	map.addOverlay(line);
+	polylines.push(line);
+    }
+}
+
+function addmarker(x,y,title) {
+    var point = new GPoint(parseFloat(x),parseFloat(y));
+    points.push(point);
+    var marker = new GMarker(point);
+    map.addOverlay(marker);
+
+    GEvent.addListener(marker,
+                       'click',
+                       function() {
+        marker.openInfoWindowHtml(title);
+    }
+                         );
+    markers.push(marker);
+    titles.push(title);
+    infopanel.innerHTML = infopanel.innerHTML + 
+	'<a href="#" onClick="movemap(' + index + ');">' + 
+	title + 
+	'</a><br/>';
+    
+    index++;
+}    
+
+function recenterandzoom(points) {
+    var latpoints = [];
+    var lngpoints = [];
+
+    var idealzoom = 1;
+
+    if (points.length == 0) {
+	return;
+    }
+
+    if (points.length == 1) {
+	map.centerAndZoom(points[0],idealzoom);
+	return;
+    }
+
+    for(var i=0;i<points.length;i++) {
+	latpoints.push(points[i].y);
+	lngpoints.push(points[i].x);
+    }
+
+    latpoints.sort(function(x,y) { return x-y });
+    lngpoints.sort(function(x,y) { return x-y });
+
+    var newlat = latpoints[0] + ((latpoints[latpoints.length-1] - latpoints[0])/2);
+    var newlng = lngpoints[0] + ((lngpoints[lngpoints.length-1] - lngpoints[0])/2);
+
+    var newpoint = new GPoint(parseFloat(newlng),parseFloat(newlat));
+
+    var idealspan = new GSize(parseFloat((Math.abs(lngpoints[lngpoints.length-1]-lngpoints[0]))*1.25),
+			      parseFloat((Math.abs(latpoints[latpoints.length-1]-latpoints[0]))*1.25));
+
+    map.zoomTo(idealzoom);
+
+    for(var i=1;i<16;i++) {
+	var currentsize = map.getSpanLatLng();
+		if ((currentsize.width < idealspan.width) ||
+	    (currentsize.height < idealspan.height)) {
+	    map.zoomTo(i);
+	    idealzoom = i;
+	}		
+	else {
+	    break;
+	}
+    }
+
+    map.centerAndZoom(newpoint,idealzoom);
+}
+
+  function movemap(index) {
+      map.recenterOrPanToLatLng(points[index]);
+  }
+
+
+  </script>
+
+
+		</div>
+		<h1>US City Population</h1><div id="infopanel"></div><h1>Available Years</h1><div id="yearpanel"></div>
+	</div>
+	
+		
+		
+	</div>
+</div>
+
+	
+<div class="clear"></div> 
+	{% endblock %}
+
+
+	
+ 

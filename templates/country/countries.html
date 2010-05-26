@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block title %}Foreign Lobbyist Details | Ujima Project{% endblock %}
+
+
+{% block content %}
+<div="content_wrap" class="grid_15 suffix_1">
+<p class="alt">The lobbying database covers information about lobbyists hired by foreign governments and organizations to influence U.S. policy on issues such as trade, taxation, foreign aid, appropriations, human rights and national security. The data contained in our database goes back to at least 1950. This data comes from the <a href="http://www.usdoj.gov/criminal/fara/">United States Department of Justice</a>.</p>
+
+<p class="alt">Click on one of the countries below to get information about the firms or individuals lobbying for the country </p>
+
+
+ 
+    <ul class="cont">
+		
+
+{% for a,b in country_dict%}
+
+<li class="group ui-widget-header ui-corner-all">{{a}}</li>
+
+	{% for country in b %}
+	
+
+	<li class="inner" ><a class="title "  href ="{{country.get_absolute_url }}"><span id="c_name">{{ country.country }}</span></a><a href ="{{country.get_absolute_url }}"><img  class="flagg" src="/afdb/flag/{{country.slug}}/" ></a></li>
+
+	{% endfor %}
+	{% endfor %}
+
+	
+ 
+    
+   
+
+<h4>
+Also browse by:
+<a href="{% url lobby.views.client_list %}">Client</a> | 
+<a href="{% url lobby.views.lobbytype_list %}">Lobby Type</a> | 
+<a href="{% url lobby.views.firm_list %}">Firm</a> | 
+<a href="{% url lobby.views.search_detail %}">Search</a>
+</h4>
+
+<div class="plain_ul " id="b">
+
+
+
+
+</div>
+<br><br>
+<center><a href="csv" style="text-decoration:none;">Download as  <img src="/Media/static/xls.png" ></a></center>
+</div>
+</div>
+
+
+
+{% endblock %}

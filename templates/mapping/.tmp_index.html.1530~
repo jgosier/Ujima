@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block extrastyle %}
+
+   
+  
+  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAYimH_excdTjwGjM6LcP-DhTPPuSUNeBR8jm1dVT7TVbcdz8N0RTpWwi1zOMJcL1W9U44GCX4NeiAGw" type="text/javascript"></script>
+
+
+
+
+ 
+    <script type="text/javascript">
+ 
+  //<![CDATA[
+   var map ;
+
+   function LoadMap()
+   {
+    if (GBrowserIsCompatible()) 				// Do Map if Compatible Browser only
+    {
+     map = new GMap2(document.getElementById("map"),{draggableCursor: 'crosshair', draggingCursor: 'pointer'}) ;
+     
+     
+     
+   
+     var latlng = new GLatLng(-1.95990,20.00942) ; 
+     map.setCenter(latlng,3);
+    } else
+    {
+     document.getElementById("map").innerHTML = "<h1>Browser not compatible with Google Maps. Sorry...</h1>" ;
+    }
+   }
+//]]>
+
+</script>
+	{% endblock %}
+	{% block content %}
+	<div id="content_wrap" class="grid_15 suffix_1">
+	<div style=" border:1px solid red; height:500px"  class="grid_8" id="map" ></div>
+	
+	<div id="layes" style="width:250px;height:300px;float:right;" class="grid_4 suffix_1">
+	<h2>Overlays</h2>
+		
+	<div id="layer" >
+		</div>
+	</div>
+	
+		
+		
+	</div>
+</div>
+
+	
+<div class="clear"></div> 
+	{% endblock %}
+
+
+	
+ 

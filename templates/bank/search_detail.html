@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+
+{% block title %} The Ujima Project {% endblock %}
+
+{% block content %}
+<div="content_wrap" class="grid_15 suffix_1">
+<p> Welcome to the African Developnment Vendor Search Section of the Ujima Project. You can explore the data in different ways.</p>
+
+<p>Click on one of the contractors below to get information about the firms or individuals hired by the AFDB for work in your country. </p>
+
+
+ <form action="." method="GET">
+
+    <label for="q">Search: </label>
+    <input type="text" name="q" value="">
+    <input type="submit" value="Search">
+  </form>
+
+
+{% if search_results %} 
+
+<p>The number of records: {{search_results.count}} </p>
+
+
+  
+  <table class="tablesorter" border="2">
+
+<th>biddername</th><th>Country</th><th>Amount(USD)</th><th>Contract Title</th><th>Description</th><th>Year</th><th>Expense category</th><th>Procurement Mode</th>
+{% autopaginate contract 20 %}
+{% for cont in contract %}
+   <tr>
+      <td><a href="{{cont.biddercod.get_absolute_url}}">{{cont.biddername}}</a></td>
+      <td>{{cont.projcountrycd.projectcountry}}</a></td>
+      <td>{{cont.totalamount}}</td>
+      <td>{{cont.contracttitle}}</td>
+      <td>{{cont.description}}</a></td>
+      <td>{{cont.year}}</td>
+	  <td><a href="{{cont.expensecode.get_absolute_url}}">{{cont.expensecode}}</td>
+	  <td><a href="{{cont.procmode.get_absolute_url}}">{{cont.procmode.procurementmode}}</td>
+   </tr>
+
+  {% endfor %}
+ 
+
+  </table>
+   {% paginate %}
+
+
+ {% endif %} 
+
+
+<h4> Back to search page: 
+<a href="{% url afJuma.afdb.views.country_list %}">Country</a> 
+<a href="{% url afJuma.afdb.views.search_detail %}">Search</a>
+<a href="{% url afJuma.afdb.views.prod_list %}">Product</a>
+<a href="{% url afJuma.afdb.views.vendor_list %}">Vendor</a>
+</h4>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->
+</div>
+</div>
+<div class="clear"></div> 
+
+
+{% endblock %}

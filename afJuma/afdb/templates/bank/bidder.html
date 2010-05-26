@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}Bidder List {% endblock %}
+
+{% block content %}
+
+<h2> Browse by Bidder </h2>
+
+<p> 
+ This portion of the site allows you to search for vendors hired by the African Development Bank for work in your country.</p>
+<p>Click on one of the items below to get information about the vendors and the type of work they are performing </p>
+
+<ul>
+
+{% for bidder in bidder_list %}
+
+<li><a href ="{{bidder.get_absolute_url}}">{{bidder.biddername}}</a></li>
+
+{% endfor %}
+
+
+</ul>
+Search by:
+Search by:
+<a href="{% url afJuma.afdb.views.pcountry_list %}">ProjectCountry</a>
+<a href="{% url afJuma.afdb.views.proc_list %}">Procurement Type</a>
+<a href="{% url afJuma.afdb.views.bcountry_list %}">BidderCountry</a>
+
+
+
+{% endblock %}
+     

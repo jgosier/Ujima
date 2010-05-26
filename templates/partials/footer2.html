@@ -1,0 +1,77 @@
+
+<div class="clear"></div> 
+<!-- footer starts here -->	
+<div id="footer">
+	
+	<div id="footer-wrapper" class="container_16">
+	
+		<div id="footer-content">
+		
+			<div class="grid_8">	
+                      {% load blog %}
+				<ul class="footer-list">				
+                    {% get_latest_posts 2 as posts %}
+		
+			<h4 class="prettytype">Latest Blog Post</h4>
+			{% for post in posts %}
+			<h4><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h4>
+		   <p class="post-info">Posted By {{post.author}} | {{ post.publish|date:"Y F d" }}</p>
+		   <p>{{post.body|truncatewords:25}}</p>
+		<a href="{{ post.get_absolute_url }}">Read more...</a>
+		    {% endfor %}
+				</ul>
+			
+					<script type="text/javascript" src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php/en_US"></script><script type="text/javascript">FB.init("258d6ad45a09d36ea80856ec30310c6b");</script><fb:fan profile_id="491178755062" stream="0" connections="5" logobar="0" width="300" height="166"></fb:fan><div id="fb">&nbsp;</div>		
+			</div>
+			
+			<div class="grid_8">
+					
+				<h2>Sponsors </h2>					
+				<p class="thumbs">
+					<a href="http://www.publicintegrity.org/investigations/icij/"><img src="/Media/static/icij.png" width="40" height="40" alt="thumbnail" /></a>
+					<a href="http://www.soros.org/"><img src="/Media/static/opensoc.png" width="40" height="40" alt="thumbnail" /></a>
+					<a href="http://www.greatlakesmedia.org/"><img src="/Media/static/glmi.png" width="40" height="40" alt="thumbnail" /></a>
+					<a href="http://www.ire.org/"><img src="/Media/static/ire.png" width="40" height="40" alt="Great Lakes Media Institute" /></a>
+					<a href="http://www.media.illinois.edu/"><img src="/Media/static/UIUC.png" width="40" height="40" alt="thumbnail" /></a>
+					
+				</p>	
+			
+				<h2>About</h2>			
+				<p>Investigative Reporters and Editors (IRE), and the non-profit Great Lakes Media Institute joined forces to collect information about African countries from a variety of sources to journalists and others to explain the spending of their governments, non-governmental organizations and donors.</p>
+			<p>Interested? <a href="/faq">Learn more...</a></p> 
+				<p><a href="http://twitter.com/theUjimaProject"><img src="/Media/static/twitter.jpg"</a></p>
+					
+			</div>	
+			<h4 class="prettytype">Data Disclaimer</h4>
+			<span style="font-size:10px;text-transform:uppercase;font-weight:bold;"><em><p>Errors may exist in these databases since we only try to make the
+			information more accessible to users of the site and we do not change
+			the underlying data, supplied by official sources.</p>
+
+			<p>We will report errors to the proper sources of the data if it is
+			brought to our attention.  We take no responsibility for the accuracy
+			of the data.</p></em></span>
+		
+		</div>
+	
+		
+	
+		
+		<div id="footer-bottom">
+	
+			<p class="bottom-left">			
+			&nbsp; &copy;2009 Ujima Project &nbsp; &nbsp;
+			Site  by <a href="http://www.appfrica.org/">Appfrica</a>
+			</p>	
+			
+			<p class="bottom-right" >
+				<a href="/home">Home</a> |
+				<a href="/faq">Faq</a> |
+				<a href="/blog">Blog</a> |						
+				
+			</p>
+	
+		</div>	
+			
+	</div>
+	<!-- footer ends here -->
+</div>

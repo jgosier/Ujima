@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load main %}
+{% block title %} Lobbying by {{firm.name}} | Ujima Project {% endblock %}
+{% block extrastyle %}
+{% endblock %}
+
+{% block content %}
+<div="content_wrap" class="grid_15 suffix_1">
+<h3 class="prettytype">Firm: {{firm.name}} </h3>
+
+{% if lobbyists %}
+
+<p>The number of records: {{lobbyists.count}} </p>
+
+{% endif %}
+
+<p> This table contains information on lobbying by firms and individuals.</p>
+
+<h4>Also browse by: 
+<a href="{% url lobby.views.firm_list %}">Firm</a> 
+</h4>
+
+  <table class="tablesorter" border ="2">
+<thead>
+	<tr>
+		<th>Firm</th>
+		<th>Client</th>
+		<th>Country</th>
+		<th>Amount</th>
+		<th>Description</th>
+		<th>Type of Lobbying</th>
+		<th>Year</th>
+	</tr>
+</thead>
+<tbody>	
+{% autopaginate lobbyists 20 %}
+{% for lobbyist in lobbyists %}
+   <tr>
+      <td>{{lobbyist.reg_cd.name}}</td>
+      <td><a href="{{lobbyist.fp_cd.get_absolute_url}}">{{lobbyist.fp_cd.name}}</td>
+      <td><a href="{{lobbyist.country.get_absolute_url}}">{{lobbyist.country.country}}</a></td>
+      <td >{{lobbyist.financial_amount|doll}}</td>
+      <td>{{lobbyist.activity_desc}}</td>
+      <td><a href="{{lobbyist.actcd.get_absolute_url}}">{{lobbyist.actcd.name}}</a></td>
+      <td>{{lobbyist.year}}</td>
+   </tr>
+  {% endfor %}
+{% paginate %}
+</tbody>
+  </table>
+<br><br>
+<center><a href="csv" style="text-decoration:none;">Download as  <img src="/Media/static/xls.png" ></a></center>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->
+
+</div>
+</div>
+<div class="clear"></div> 
+
+
+{% endblock %}

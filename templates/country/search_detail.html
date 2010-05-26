@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load main %}
+{% block title %} Lobby Search | Ujima Project {% endblock %}
+{% block extrastyle %}
+{% endblock %}
+
+{% block content %}
+<div="content_wrap" class="grid_15 suffix_1">
+<p> Please enter the name of a country to search:</p>
+
+
+ <form action="." method="GET">
+
+    <label for="q">Search: </label>
+    <input type="text" name="q" value="">
+    <input type="submit" value="Search">
+  </form>
+
+<h4> You can also browse by: 
+<a href="{% url lobby.views.country_list %}">Country</a> |
+<a href="{% url lobby.views.client_list %}">Client</a> |
+<a href="{% url lobby.views.lobbytype_list %}">Lobby Type</a> |
+<a href="{% url lobby.views.firm_list %}">Firm</a> 
+</h4>
+
+{% if search_results %}
+
+<p>The number of records: {{search_results.count}} </p>
+
+
+
+<p>This table contains all firms and individuals who lobbied on behalf of the country in your search.</p>
+
+  <table class="tablesorter" border ="2">
+<thead>
+	<tr>
+		<th>Firm</th>
+		<th>Client</th>
+		<th>Country</th>
+		<th>Amount</th>
+		<th>Description</th>
+		<th>Type of Lobbying</th>
+		<th>Year</th>
+	</tr>
+</thead>
+{% autopaginate search_results 10 %}
+<tbody>
+{% for search in search_results %}
+   <tr>
+      <td><a href="{{search.reg_cd.get_absolute_url}}">{{search.reg_cd.name}}</a></td>
+      <td><a href="{{search.fp_cd.get_absolute_url}}">{{search.fp_cd.name}}</a></td>
+      <td>{{search.country.country}}</td>
+      <td >{{search.financial_amount|doll}}</td>
+      <td>{{search.activity_desc}}</td>
+      <td><a href="{{search.actcd.get_absolute_url}}">{{search.actcd.name}}</a></td>
+      <td>{{search.year}}</td>
+   </tr>
+  {% endfor %}
+</tbody>
+  {% paginate %}
+
+  </table>
+
+
+{% endif %}
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->
+</div>
+</div>
+<div class="clear"></div> 
+
+
+{% endblock %}

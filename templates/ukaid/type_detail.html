@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% block title %} The Ujima Project {% endblock %}
+
+{% block content %}
+
+<p>Vendor: {{vendors}} </p>
+
+{% if aid %}
+
+<p>The number of records: {{aid.count}} </p>
+
+{% endif %}
+
+
+  <table border ="2">
+
+<th>Vendor</th>
+<th>Country</th>
+<th>Amount(USD)</th>
+<th>Agency</th>
+<th>Description</th>
+<th>Year</th>
+<th>Product or Service</th>
+</tr></thead>
+{% autopaginate aid 20 %}
+<tbody>
+{% for aid in aid %}
+   <tr>
+      <td>{{aid.duns}}</a></td>
+      <td><a href="{{aid.pcountry.get_absolute_url}}">{{aid.pcountry}}</a></td>
+      <td>{{aid.dollars}}</td>
+      <td>{{aid.agency}}</td>
+      <td>{{aid.description}}</a></td>
+      <td>{{aid.year}}</td>
+	  <td><a href="{{aid.prodcode.get_absolute_url}}">{{aid.prodcode}}</td>
+   </tr>
+
+  {% endfor %}
+  </tbody>
+  {% paginate %}
+
+  </table>
+
+
+<h4> Back to search page: 
+<a href="{% url usaid.aid.views.country_list %}">Country</a>
+<a href="{% url usaid.aid.views.search_detail %}">Search</a>
+<a href="{% url usaid.aid.views.prod_list %}">Product</a>
+<a href="{% url usaid.aid.views.vendor_list %}">Vendor</a>
+
+</h4>
+
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->
+{% endblock %}

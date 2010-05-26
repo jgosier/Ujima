@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load main %}
+{% block title %} The Ujima Project |procurement African Development Bank {% endblock %}
+
+{% block content %}
+<div="content_wrap" class="grid_15 suffix_1">
+
+<p>Procurement Mode: {{pcountry}} </p>
+
+
+
+<p> This table contains all contractors who recieved money from the  African Development Bank for work in {{pcountry}}.</p>
+
+  <table class="tablesorter" border ="2">
+
+<th>biddername</th><th>Country</th><th>Amount(USD)</th><th>Contract Title</th><th>Description</th><th>Year</th><th>Expense category</th><th>Procurement Mode</th>
+{% autopaginate contract 20 %}
+{% for cont in contract %}
+   <tr>
+      <td><a href="{{cont.biddercod.get_absolute_url}}">{{cont.biddername}}</a></td>
+      <td>{{cont.projcountrycd.projectcountry}}</a></td>
+      <td>{{cont.totalamount|mil}}</td>
+      <td>{{cont.contracttitle}}</td>
+      <td>{{cont.description}}</a></td>
+      <td>{{cont.year}}</td>
+	  <td><a href="{{cont.expensecode.get_absolute_url}}">{{cont.expensecode}}</td>
+	  <td><a href="{{cont.procmode.get_absolute_url}}">{{cont.procmode.procurementmode}}</td>
+   </tr>
+
+  {% endfor %}
+ 
+
+  </table>
+   {% paginate %}
+<h4>Filter by Year</h4>
+<ul>
+{% for y in years %}
+<a href ="{{ y }}/">{{ y }}</a>|
+
+{% endfor %}
+
+<h4> Back to search page: 
+<a href="{% url afJuma.afdb.views.pcountry_list %}">Country</a>
+<a href="{% url afJuma.afdb.views.bidder_list %}">Bidder</a>
+<a href="{% url afJuma.afdb.views.proc_list %}">Procurement</a>
+<a href="{% url afJuma.afdb.views.expense_list %}">Expense List</a>
+
+</h4>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->
+</div>
+</div>
+<div class="clear"></div> 
+
+
+
+{% endblock %}

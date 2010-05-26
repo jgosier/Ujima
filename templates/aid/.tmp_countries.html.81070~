@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block title %}Aid | Ujima Project {% endblock %}
+{% block extrastyle %}
+
+{% endblock %}
+
+{% block content %}
+<div="content_wrap" class="grid_15 suffix_1">
+	 
+
+	<p>Welcome to the USAID vendor section of the Ujima Project. The aid data contained in our database comes from Usaspending.gov, a
+	U.S. government portal that gives individuals access to contracts/tender information for vendors hired by the United States
+	Agency for International Development, USAID, for work in countries throughout Africa.</p>
+	
+	
+	
+	<h4>
+		Also browse by:
+		<a href="{% url usaid.aid.views.vendor_list %}">Vendor</a> | 
+		<a href="{% url usaid.aid.views.search_detail %}">Search</a> | 
+		<a href="{% url usaid.aid.views.prod_list %}">Product</a>
+	</h4>
+test
+<ul >
+		
+
+{% for a,b in country_dict%}
+
+<li class="group">{{a}}</li>
+
+	{% for country in b %}
+	
+
+	<li ><a  href ="{{country.get_absolute_url }}">{{ country.country }}</a></li>
+
+	{% endfor %}
+	{% endfor %}
+
+	</ul>
+	
+<br><br>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->
+
+</div>
+</div>
+<div class="clear"></div> 
+
+
+{% endblock %}

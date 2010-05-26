@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load main %}
+{% block title %}Vendor Search | Ujima Project{% endblock %}
+{% block extrastyle %}
+{% endblock %}
+
+{% block content %}
+<div="content_wrap" class="grid_15 suffix_1">	
+	<h3 class="prettytype"> Search </h3>
+
+	<p> Please enter the name of a vendor to search. </p>
+ 	
+	<div id="searchform" class=>
+	 <form action="." method="GET">
+    	<label for="q">Search: </label>
+	    <input type="text" name="q" value="">
+	    <input type="submit" value="Search">
+	  </form>
+	</div>
+
+	<h4>
+	Also browse by:
+	<a href="{% url usaid.aid.views.country_list %}">Country</a> | 
+	<a href="{% url usaid.aid.views.search_detail %}">Search</a> | 
+	<a href="{% url usaid.aid.views.prod_list %}">Product</a> | 
+	<a href="{% url usaid.aid.views.vendor_list %}">Vendor</a>
+	</h4>
+	 
+	{% if search_results %} 
+
+	<p>The number of records: {{search_results.count}} </p>
+
+
+	  <table class="tablesorter" border="2">
+	<thead>
+		<tr>
+	<th>Vendor</th><th>Country</th><th>Amount(USD)</th><th>Agency</th><th>Description</th><th>Year</th><th>Product or Service</th>
+		</tr>
+	</thead>
+	<tbody>
+	{% autopaginate search_results 20 %}
+	{% for aid in search_results %}
+	   <tr>
+	      <td>{{aid.duns}}</a></td>
+	      <td><a href="{{aid.pcountry.get_absolute_url}}">{{aid.pcountry}}</a></td>
+	      <td >{{aid.dollars|doll}}</td>
+	      <td>{{aid.agency}}</td>
+	      <td>{{aid.description}}</a></td>
+	      <td>{{aid.year}}</td>
+		  <td><a href="{{aid.prodcode.get_absolute_url}}">{{aid.prodcode}}</td>
+	   </tr>
+
+	  {% endfor %}
+	  {% paginate %}
+	</tbody>
+	  </table>
+
+
+	 {% endif %} 
+
+
+	<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->
+</div>
+</div>
+<div class="clear"></div> 
+
+
+{% endblock %}

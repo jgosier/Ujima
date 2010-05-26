@@ -1,0 +1,76 @@
+<citypop><city title="New York, N.Y." lat="40.714170" lng="-74.006390">
+<pop year="2004" value="8104079"/>
+<pop year="2000" value="8008278"/>
+<pop year="1990" value="7322564"/>
+</city>
+<city title="Los Angeles, Calif." lat="34.052220" lng="-118.242780">
+<pop year="2004" value="3845541"/>
+<pop year="2000" value="3694820"/>
+<pop year="1990" value="3485398"/>
+</city>
+<city title="Chicago, Ill." lat="41.850000" lng="-87.650000">
+<pop year="2004" value="2862244"/>
+<pop year="2000" value="2896016"/>
+<pop year="1990" value="2783726"/>
+</city>
+<city title="Houston, Tex." lat="29.763100" lng="-95.363100">
+<pop year="2004" value="2012626"/>
+<pop year="2000" value="1953631"/>
+<pop year="1990" value="1630553"/>
+</city>
+<city title="Philadelphia, Pa." lat="39.952200" lng="-75.164200">
+<pop year="2004" value="1470151"/>
+<pop year="2000" value="1517550"/>
+<pop year="1990" value="1585577"/>
+</city>
+<city title="Phoenix, Ariz." lat="33.448300" lng="-112.073300">
+<pop year="2004" value="1418041"/>
+<pop year="2000" value="1321045"/>
+<pop year="1990" value="983403"/>
+</city>
+<city title="San Diego, Calif." lat="37.715300" lng="-117.156400">
+<pop year="2004" value="1263756"/>
+<pop year="2000" value="1223400"/>
+<pop year="1990" value="1110549"/>
+</city>
+<city title="San Antonio, Tex." lat="29.423900" lng="-98.493300">
+<pop year="2004" value="1236249"/>
+<pop year="2000" value="1144646"/>
+<pop year="1990" value="935933"/>
+</city>
+<city title="Dallas, Tex." lat="32.783300" lng="-96.800000">
+<pop year="2004" value="1210393"/>
+<pop year="2000" value="1188580"/>
+<pop year="1990" value="1006877"/>
+</city>
+<city title="San Jose, Calif." lat="37.339400" lng="-121.893900">
+<pop year="2004" value="904522"/>
+<pop year="2000" value="894943"/>
+<pop year="1990" value="782248"/>
+</city>
+<city title="Detroit, Mich." lat="42.331400" lng="-83.045800">
+<pop year="2004" value="900198"/>
+<pop year="2000" value="951270"/>
+<pop year="1990" value="1027974"/>
+</city>
+<city title="Indianapolis, Ind." lat="39.768300" lng="-86.158100">
+<pop year="2004" value="784242"/>
+<pop year="2000" value="781870"/>
+<pop year="1990" value="741952"/>
+</city>
+<city title="Jacksonville, Fla." lat="30.331900" lng="-81.655800">
+<pop year="2004" value="777704"/>
+<pop year="2000" value="735617"/>
+<pop year="1990" value="635230"/>
+</city>
+<city title="San Francisco, Calif." lat="37.775000" lng="-122.418300">
+<pop year="2004" value="744230"/>
+<pop year="2000" value="776733"/>
+<pop year="1990" value="723959"/>
+</city>
+<city title="Columbus, Ohio" lat="39.961100" lng="-82.998900">
+<pop year="2004" value="730008"/>
+<pop year="2000" value="711470"/>
+<pop year="1990" value="632910"/>
+</city>
+</citypop>

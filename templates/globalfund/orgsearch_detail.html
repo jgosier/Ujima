@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load main %}
+{% block title %}Search Global Fund | Ujima Project{% endblock %}
+{% block extrastyle %}
+{% endblock %}
+
+{% block content %}
+<div="content_wrap" class="grid_15 suffix_1">
+<p> Please enter the name of a NGO or Government organization to search: </p>
+
+
+ <form action="." method="GET">
+
+    <label for="q">Search: </label>
+    <input type="text" name="q" value="">
+    <input type="submit" value="Search">
+  </form>
+
+
+{% if orgsearch_results %} 
+
+<p>The number of records: {{orgsearch_results.count}} </p>
+
+<p> This table contains the results of your search for individual NGOs or governmental bodies who recieved HIV/Aids, Malaria or Turburculosis funding.</p>
+
+<h4> You can also search by: 
+<a href="{% url globalfund.views.country_list %}">Country</a> | 
+<a href="{% url globalfund.views.region_list %}">Region</a> | 
+<a href="{% url globalfund.views.orgtype_list %}">OrgType</a> | 
+<a href="{% url globalfund.views.disease_list %}">Disease</a> 
+</h4>
+
+  <table class="tablesorter" border="2">
+	<thead>
+		<tr>
+<th>Organization</th><th>Country</th><th>Amount</th><th>Region</th><th>StartDate</th><th>EndDate</th><th>Disease</th>
+		</tr>
+	</thead>
+	<tbody>
+{% autopaginate orgsearch_results 20 %}
+{% for fund in orgsearch_results %}
+   <tr>
+      <td>{{fund.org}}</td>
+      <td><a href="{{fund.countrycd.get_absolute_url}}">{{fund.countrycd}}</a></td>
+      <td >{{fund.disbinusd|doll}}</td>
+      <td><a href="{{fund.regioncd.get_absolute_url}}">{{fund.regioncd}}</td>
+      <td>{{fund.periodstartdate}}</a></td>
+      <td>{{fund.periodenddate}}</td>
+	  <td><a href="{{fund.gadisease.get_absolute_url}}">{{fund.gadisease}}</td>
+   </tr>
+
+  {% endfor %}
+  {% paginate %}
+
+</tbody>
+  </table>
+
+
+ {% endif %} 
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->
+
+
+</div>
+</div>
+<div class="clear"></div> 
+
+
+{% endblock %}

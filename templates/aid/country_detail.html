@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load main %}
+{% block title %}USAID Contracts/Tenders for {{country}} | Ujima Project {% endblock %}
+{% block extrastyle %}
+{% endblock %}
+
+{% block content %}
+<div="content_wrap" class="grid_15 suffix_1">	
+	<h3 class="prettytype">Country: {{country}} </h3>
+	<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Location{{cont}}.svg/250px-Location{{cont}}.svg.png"></img>
+
+	{% if aid %}
+
+	<p>The number of records: {{aid.count}} </p>
+
+	{% endif %}
+
+	<p>This table contains all contractors who recieved money from the USAID for work in {{country}}.</p>
+	
+	<h4>Filter by Year</h4>
+	<ul>
+	{% for y in years %}
+	<a href ="{{ y }}/">{{ y }}</a> | 
+
+	{% endfor %}
+
+	</ul>
+
+	<h4> 
+	Back to search page: 
+	<a href="{% url usaid.aid.views.country_list %}">Country</a> | 
+	<a href="{% url usaid.aid.views.search_detail %}">Search</a> | 
+	<a href="{% url usaid.aid.views.prod_list %}">Product</a> | 
+	<a href="{% url usaid.aid.views.vendor_list %}">Vendor</a>
+	</h4>	
+	
+	  <table class="tablesorter" border="2">
+	<thead>
+		<tr>
+	<th>Vendor</th><th>Country</th><th>Amount(USD)</th><th>Agency</th><th>Description</th><th>Year</th><th>Product or Service</th>
+		</tr>
+	</thead>
+	<tbody>
+	{% autopaginate aid 20 %}
+	{% for aid in aid %}
+	   <tr>
+	      <td><a href="{{aid.duns.get_absolute_url}}"><span style="font-size:14px;">{{aid.vendor}}</span></a></td>
+	      <td>{{aid.pcountry}}</a></td>
+	      <td >{{aid.dollars|doll}}</td>
+	      <td>{{aid.agency}}</td>
+	      <td>{{aid.description}}</a></td>
+	      <td>{{aid.year}}</td>
+		  <td><a href="{{aid.prodcode.get_absolute_url}}">{{aid.prodcode}}</td>
+	   </tr>
+
+	  {% endfor %}
+	  {% paginate %}
+	 
+	</tbody>
+	  </table>
+ <br><br>
+<center><a href="csv" style="text-decoration:none;">Download as  <img src="/Media/static/xls.png" ></a></center>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->
+
+	
+	
+</div>
+</div>
+<div class="clear"></div> 
+
+
+{% endblock %}

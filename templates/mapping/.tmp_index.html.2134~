@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+{% block extrastyle %}
+
+   
+  
+  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAYimH_excdTjwGjM6LcP-DhTPPuSUNeBR8jm1dVT7TVbcdz8N0RTpWwi1zOMJcL1W9U44GCX4NeiAGw" type="text/javascript"></script>
+
+
+
+
+ 
+   
+	{% endblock %}
+	{% block content %}
+	<div id="content_wrap" class="grid_15 suffix_1">
+	<div style=" border:1px solid red; height:500px"  class="grid_8" id="map" ></div>
+	
+	<div id="layes" style="width:250px;height:300px;float:right;" class="grid_4 suffix_1">
+	<h2>Overlays</h2>
+		
+	<div id="layer" >
+		 <script type="text/javascript">
+    //<![CDATA[
+
+    if (GBrowserIsCompatible()) {
+
+
+      // === Create a custom Control ===
+      var labelContainer;
+
+      function LabelControl() {  }
+      LabelControl.prototype = new GControl();
+
+      LabelControl.prototype.initialize = function(map) {
+        labelContainer = document.createElement("div");
+        labelContainer.style.overflow="auto";
+        labelContainer.style.backgroundColor = "#ffffcc";
+        labelContainer.style.border = "1px solid black";
+        labelContainer.style.height="200px";
+        labelContainer.style.width="120px";
+        labelContainer.style.paddingLeft="5px";
+
+        map.getContainer().appendChild(labelContainer);
+        return labelContainer;
+      }
+
+      LabelControl.prototype.getDefaultPosition = function() {
+        return new GControlPosition(G_ANCHOR_TOP_RIGHT, new GSize(7, 33));
+      }
+
+
+
+      // === This function picks up the click and opens the corresponding info window ===
+      function myclick(i) {
+        GEvent.trigger(gmarkers[i], "click");
+      }
+
+
+
+
+      // === A function to create the marker and set up the event window ===
+      var gmarkers = [];
+      var side_bar_html = "";
+
+      function createMarker(point,name,html) {
+        var marker = new GMarker(point);
+        GEvent.addListener(marker, "click", function() {
+          marker.openInfoWindowHtml(html);
+        });
+        // save the info we need to use later for the side_bar
+        gmarkers.push(marker);
+        // add a line to the side_bar html
+        side_bar_html += '<a href="javascript:myclick(' + (gmarkers.length-1) + ')">' + name + '<\/a><br>';
+        return marker;
+      }
+
+
+
+      // === Create the map ===
+      var map = new GMap2(document.getElementById("map"));
+      map.addControl(new LabelControl());
+     
+      map.setCenter(new GLatLng(-1.95990,20.00942), 3);
+	  
+
+
+
+      // === add the points ===
+        var point = new GLatLng(-1.95990,20.00942);
+      var marker = createMarker(point,"USAID","Some stuff to display<br> in the 1st Info Window")
+      map.addOverlay(marker);
+
+      var point = new GLatLng(-4.95990,21.00942);
+      var marker = createMarker(point,"Lobbying","Some stuff to display<br> in the 2nd Info Window")
+      map.addOverlay(marker);
+
+      var point = new GLatLng(-9.95990,22.00942);
+      var marker = createMarker(point,"Globalfund","Some stuff to display<br> in the 3rd Info Window")
+      map.addOverlay(marker);
+
+      var point = new GLatLng(-8.95990,23.00942);
+      var marker = createMarker(point,"Weapon Sales","Some stuff to display<br> in the 4th Info Window")
+      map.addOverlay(marker);
+	  
+	  var point = new GLatLng(-8.00990,23.00942);
+      var marker = createMarker(point,"AFDB","Some stuff to display<br> in the 4th Info Window")
+      map.addOverlay(marker);
+	  
+	   var point = new GLatLng(-18.00990,23.00942);
+      var marker = createMarker(point,"DFID","Some stuff to display<br> in the 4th Info Window")
+      map.addOverlay(marker);
+ 
+
+
+      // === put the assembled side_bar_html contents into the custom control ===
+      labelContainer.innerHTML = side_bar_html;
+
+    }
+
+    // This Javascript is based on code provided by the
+    // Community Church Javascript Team
+    // http://www.bisphamchurch.org.uk/   
+    // http://econym.org.uk/gmap/
+
+    //]]>
+    </script>
+
+		</div>
+	</div>
+	
+		
+		
+	</div>
+</div>
+
+	
+<div class="clear"></div> 
+	{% endblock %}
+
+
+	
+ 

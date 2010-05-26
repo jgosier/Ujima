@@ -1,0 +1,234 @@
+/* root element for tabs  */
+ul.tabs { 
+	list-style:none; 
+	margin:0 !important; 
+	padding:0;
+	height:30px;
+		
+}
+
+/* single tab */
+ul.tabs li { 
+	float:left;	 
+	text-indent:0;
+	padding:0;
+	margin:0 !important;
+	list-style-image:none !important; 
+}
+
+/* link inside the tab. uses a background image */
+ul.tabs a { 
+	
+	font-size:11px;
+	display:block;
+	height: 30px;  
+	line-height:30px;
+	width: 100px;
+	text-align:center;	
+	text-decoration:none;
+	color:#ccc;
+	margin:0px;	
+	position:relative;
+	top:1px;
+	left:5px;
+}
+
+ul.tabs a:active {
+	outline:none;		
+}
+
+/* when mouse enters the tab move the background image */
+ul.tabs a:hover {
+         border: 1px solid #DFDDD8; background: #96967d url(/Media/js/ujima/css/images/ui-bg_flat_75_96967d_40x100.png) 50% 50% repeat-x; font-weight: normal; color: #DFDDD8; outline: none;
+}
+
+/* active tab uses a class name "current". it's highlight is also done by moving the background image. */
+ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a {
+        border: 1px solid #DFDDD8; background: #96967d url(/Media/js/ujima/css/images/ui-bg_flat_75_96967d_40x100.png) 50% 50% repeat-x; font-weight: normal; color: #DFDDD8; outline: none;
+}
+
+/* Different widths for tabs: use a class name: w1, w2, w3 or w2 */
+
+
+/* width 1 */
+ul.tabs a.w1 			{ background-position: -519px 0; width:134px; }
+ul.tabs a.w1:hover 	{ background-position: -519px -31px; }
+ul.tabs a.w1.current { background-position: -519px -62px; }
+
+/* width 2 */
+ul.tabs a.w2 			{ background-position: -366px -0px; width:154px; }
+ul.tabs a.w2:hover 	{ background-position: -366px -31px; }
+ul.tabs a.w2.current { background-position: -366px -62px; }
+
+
+/* width 3 */
+ul.tabs a.w3 			{ background-position: -193px -0px; width:174px; }
+ul.tabs a.w3:hover 	{ background-position: -193px -31px; }
+ul.tabs a.w3.current { background-position: -193px -62px; }
+
+/* width 4 */
+ul.tabs a.w4 			{ background-position: -0px -0px; width:194px; }
+ul.tabs a.w4:hover 	{ background-position: -0px -31px; }
+ul.tabs a.w4.current { background-position: -0px -62px; }
+
+
+/* initially all panes are hidden */ 
+div.panes div.pane {
+	display:none;		
+}
+#tab_pane{
+
+height:200px;
+margin-left:2px;
+margin-top:1px;
+border:1px solid #97cdd7;
+background-color: #153944;
+font-size: 1.7em;
+font-weight: normal;
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+
+padding-left: 15px;
+
+color: #6e6e6e;
+text-align: center;
+
+}
+#tab_pane a{
+	color: #4a8ebc;
+    text-decoration: underline;
+}
+#search{
+	position:absolute;
+	top:120px;
+	left:80%;
+	background-color:#9cabaf;
+	
+}
+
+#searchform{
+	background: #9cabaf url(/images/header-search.gif) no-repeat;
+}
+.feat{
+	color:#777;
+	
+	margin-top:40px;
+}
+.btn{
+	
+	margin-left:-5px;
+	
+}
+
+ #s {
+	width: 170px; height: 28px;
+	  
+	 vertical-align: bottom;
+	 line-height:1px;
+	 font: normal 15px Verdana, Sans-Serif; 
+	 color: #777; border: 0; 
+	 background: #9cabaf;
+}
+a[href$=".pdf"]   { background-image: url(/Media/static/pdf.png); }  
+.button:hover {
+background:#97cdd7 none repeat scroll 0% 0%;
+}
+.active_button {
+background:#97cdd7 none repeat scroll 0% 0%;
+}
+.button{
+	padding-left:5px;
+	float:left;
+	width:100px;
+	
+}
+/* drop down */
+
+
+
+#button {
+	height: 32px;
+	width: 184px;
+	margin: auto;
+}
+
+ul, li {
+	margin:0; 
+	padding:0; 
+	list-style:none;
+}
+
+
+
+.countries {
+	 position:absolute;
+	 top:155px;
+	background-color:#153944;
+	display:none;
+	width:600px;
+	border: 1px solid #817c6a;
+height:300px;
+z-index:987;
+color:#ccc;
+
+}
+.countries a{
+	color:#ccc;
+}
+.topics {
+	position:absolute;
+	 top:155px;
+	 z-index:988;
+	 
+    
+	background-color:#153944;
+	display:none;
+	width:800px;
+	border: 1px solid #817c6a;
+height:267px;
+
+}
+
+
+.hidden{
+	display:none;
+}
+
+div.visual{
+
+height:400px;
+margin-top:7px;
+
+
+
+
+}
+.input{
+	margin:0.5em 0;
+  border:1px solid #bbb;
+  height:22px;
+}
+
+.caps { 
+  font-variant: small-caps; 
+  letter-spacing: 1px; 
+  text-transform: lowercase; 
+  font-size:1.2em;
+  line-height:1%;
+  font-weight:bold;
+  padding:0 2px;
+}
+
+.alt { 
+  color: #666; 
+  font-family: "Warnock Pro", "Goudy Old Style","Palatino","Book Antiqua", Georgia, serif; 
+  font-style: italic;
+  font-weight: normal;
+  font-size:large;
+}
+p + p { text-indent:2em; margin-top:-1.5em; }
+   form p + p  { text-indent: 0; } /* Don't want this in forms. */
+
+   .p {cursor: pointer;}
+

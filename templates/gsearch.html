@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %} Search results for  {{query}} | Ujima Project {% endblock %}
+
+
+{% block extra-style %}
+<style type="text/css" media="screen">
+    iframe{
+    	width:100%;
+		
+    	
+    }
+    
+  </style>
+{% endblock %}
+{% block content %}
+<div="content_wrap" class="grid_15 suffix_1">
+
+
+
+{% if query %}
+    <h2>Search results for {{query}}</h>
+    <div id="cse-search-results">
+      <div id="cse-search-results-js-required">
+        The Ujima Project search uses a Google Custom Search, which
+        requires Javascript. If your results don't appear here shortly, please
+        <a href="http://www.google.com/cse?{{ query}}">view the results on Google's site</a>. 
+      </div>
+    </div>
+    <script type="text/javascript">
+      var googleSearchMessage = document.getElementById("cse-search-results-js-required");
+      googleSearchMessage.parentNode.removeChild(googleSearchMessage);
+    
+      var googleSearchIframeName = "cse-search-results";
+      var googleSearchFormName = "cse-search-box";
+      var googleSearchDomain = "www.google.com";
+      var googleSearchPath = "/cse";
+    </script>
+    <script type="text/javascript" src="http://www.google.com/afsonline/show_afs_search.js"></script>
+  {% else %}
+   
+    <h2> you need to type something in the searchbox to search</h2>
+  {% endif %}
+  </div>
+</div>
+<div class="clear"></div> 
+  {% endblock %}
+  

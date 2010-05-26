@@ -1,0 +1,12 @@
+/* reset.css - To eliminate browser default CSS */
+
+/****** Global Settings ******/
+html, body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+

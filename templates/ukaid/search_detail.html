@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load main %}
+
+{% block title %} The Ujima Project {% endblock %}
+
+{% block content %}
+<div="content_wrap" class="grid_15 suffix_1">
+
+<p> Please enter the name of a project to search. </p>
+
+
+ <form action="." method="GET">
+
+    <label for="q">Search: </label>
+    <input type="text" name="q" value="">
+    <input type="submit" value="Search">
+  </form>
+
+
+{% if search_results %} 
+
+
+<p>The number of records: {{search_results.count}} </p>
+
+
+  <table border ="2" class="tablesorter">
+  	<thead >
+		<tr >
+
+<th>Project</th><th>Project Component</<thead><th>Country</th><th>Total Amount of Project(Euro)</th><th>Project Amount to Date</th><th>Description</th><th>Start Date</th><th>End Date</th><th>Start Year</th><th>Risk</th>
+</tr>
+</thead>
+<tbody>
+{% autopaginate search_results 10 %}
+{% for search in search_results %}
+
+   <tr>
+      <td><a href="{{search.ariescode.get_absolute_url}}">{{search.projecttitle}}</a></td>
+      <td>{{search.componenttitle}}</td>
+      <td><a href="{{search.country.get_absolute_url}}">{{search.country}}</a></td>
+      <td>{{search.lifetimebudget|euro}}</td>
+      <td>{{search.expendituretodate|euro}}</td>
+      <td>{{search.purpose}}</td>
+      <td>{{search.start_date}}</td>
+      <td>{{search.end_date}}</td>
+      <td>{{search.year}}</td>
+	  <td><a href="{{search.risk.get_absolute_url}}">{{search.risk}}</td>
+   </tr>
+
+  {% endfor %}
+  {% paginate %}
+  </tbody>
+
+  </table>
+
+
+ {% endif %} 
+
+
+<h4> Back to search page: 
+<a href="{% url dfid.ukaid.views.country_list %}">Country</a> 
+<a href="{% url dfid.ukaid.views.project_list %}">Projects</a>
+<a href="{% url dfid.ukaid.views.type_list %}">Type</a>
+<a href="{% url dfid.ukaid.views.risk_list %}">Risk</a>
+</h4>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->
+</div>
+</div>
+<div class="clear"></div> 
+
+<div id="footer">
+	<div id="footer_wrap" class="container_16">
+		<div id="blurb" class="grid_8">
+			<p>Investigative Reporters and Editors (IRE), and the non-profit Great Lakes Media Institute joined forces to collect information about African countries from a variety of sources to journalists and others to explain the spending of their governments, non-governmental organizations and donors.</p>
+			<p>Interested? Read our <a href="">FAQ</a>, and our <a href="">blog</a>.</p>
+		</div>
+
+		<div id="blog_blurb" class="grid_8">
+			<h4 class="prettytype">Data Disclaimer</h4>
+			<p>Errors may exist in these databases since we only try to make the
+			information more accessible to users of the site and we do not change
+			the underlying data, supplied by official sources.</p>
+
+			<p>We will report errors to the proper sources of the data if it is
+			brought to our attention.  We take no responsibility for the accuracy
+			of the data.</p>
+
+		</div>
+		</div>
+	</div>
+{% endblock %}

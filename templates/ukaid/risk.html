@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}Risk List {% endblock %}
+
+{% block content %}
+
+<h2> Browse by Risk </h2>
+
+<p> Welcome to UK Department International Development Project Search Section of the Ujima Project. Search Section of the Ujima Project. You can explore the data in different ways.</p>
+
+<p>Click on one of the projects listed below to get information about the projects that recieved funding from the DFID in your country. </p>
+
+<ul>
+
+{% for risk in risk_list %}
+
+<li><a href ="{{risk.get_absolute_url}}">{{risk.risk}}</a></li>
+
+{% endfor %}
+
+
+</ul>
+Search by:
+<a href="{% url dfid.ukaid.views.country_list %}">Country</a>
+<a href="{% url dfid.ukaid.views.search_detail %}">Search</a>
+<a href="{% url dfid.ukaid.views.type_list %}">Type</a>
+<a href="{% url dfid.ukaid.views.project_list %}">Project</a>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->
+
+{% endblock %}
+     

@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+	<title>{% block title %}Ujima Project | Investigative Reporting for Africa{% endblock %}</title>
+	 <link href="/Media/static/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	  <meta name="keywords" content="Africa,USAID,Aid,African Development Bank,DFID,AFDB,Spending,Transparency"/>
+    <meta name="description" content="The Ujima Project brings transparency to the workings and spending of governments, non-governmental organizations and businesses operating in African countries."/>
+
+<!-- CSS -->
+	<link rel="stylesheet" href="/Media/css/reset.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="/Media/css/960.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="/Media/css/text.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="/Media/css/core.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="/Media/css/ui.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="/Media/js/ujima/css/ujima.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="/Media/js/ujima/css/ujima.css" type="text/css" media="screen" charset="utf-8">
+	
+	<!--[if gte IE 7]> <link rel="stylesheet" href="/Media/css/core-ie.css" type="text/css" media="screen" charset="utf-8"> <![endif]-->
+<!-- end CSS -->
+<!-- JS -->
+ <!--[if IE]><script type="text/javascript" src="/Media/js/excanvas.pack.js"></script><![endif]-->
+ 
+ 
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+ 
+ 
+	
+	
+	<script type="text/javascript" src="/Media/js/jquery.tablesorter.min.js"></script>
+	<script src="http://ujima-project.org/Media/js/jquery.currency.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="/Media/js/cufon-yui.js"></script>
+	<script src="/Media/js/CartoGothic_Std_400-CartoGothic_Std_700-CartoGothic_Std_italic_400-CartoGothic_Std_italic_700.font.js" type="text/javascript" charset="utf-8"></script>
+	
+  <script type="text/javascript" src="/Media/js/jquery.flot.js"></script>
+  
+
+  <script type="text/javascript" src="/Media/js/ujima/ujima.js"></script>
+	<!--[if lt IE 8]>	<script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE7.js" type="text/javascript"></script>	<![endif]-->
+	<script type="text/javascript" id="js">
+	$(document).ready(function() { 
+		// call currency first
+		$('.currency').currency();
+		// *then* call the tablesorter plugin
+	 	$.tablesorter.defaults.widgets = ['zebra']; 
+	    $("table").tablesorter(); 
+		
+		// Then replace the type with Cufon
+		Cufon.replace('.prettytype', {
+		hover:true
+		
+		});
+		$('#accordion').accordion({
+header: 'h3',
+active:false,
+collapsible:true
+});
+
+$("#featured_tabs").tabs();
+
+
+
+
+});
+
+
+	</script>
+<!-- end JS -->	
+
+{% block extrastyle %}
+<script type="text/javascript" src="/Media/js/jquery.tools.min.js"></script>
+ <script type="text/javascript" src="/Media/js/ui.js"></script>
+
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	    <script type="text/javascript" src="/Media/js/gvis.min.js"></script>
+		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	    <script type="text/javascript" src="/Media/js/gvis.min.js"></script>
+	    <script type="text/javascript">
+	      google.load("visualization", "1", {packages:["geomap"]});
+	      google.setOnLoadCallback(drawChart);
+
+	      function drawChart() {
+	          var chart = new GVis("map", "geomap");
+	          chart.addColumns({ "Assisted Nation": "string", "Contracts($Millions)": "number"});
+	          chart.setRows({{a_map}});
+	          chart.draw({ region:"002", width:500, height:450 });      
+	      }
+	    </script>
+		<script type="text/javascript">
+	      google.load("visualization", "1", {packages:["geomap"]});
+	      google.setOnLoadCallback(drawChart);
+
+	      function drawChart() {
+	          var chart = new GVis("map2", "geomap");
+	          chart.addColumns({ "Nation": "string", "millions of euros": "number" });
+	          chart.setRows({{a_uk}});
+	          chart.draw({ region:"002", width:500, height:450 });      
+	      }
+	    </script>
+		
+    <script>
+    	function formatCurrency(num) {
+			if (num > 100000) {
+				num = num / 100000
+				return ('$' + num + 'M')
+			}
+			else {
+				num = num.toString().replace(/\\$|\\,/g, '');
+				if (isNaN(num)) 
+					num = '0';
+				sign = (num == (num = Math.abs(num)));
+				num = Math.floor(num * 100 + 0.50000000001);
+				cents = num % 100;
+				num = Math.floor(num / 100).toString();
+				if (cents < 10) 
+					cents = '0' + cents;
+				
+				for (var i = 0; i < Math.floor((num.length - (1 + i)) / 3); i++) 
+					num = num.substring(0, num.length - (4 * i + 3)) + ',' + num.substring(num.length - (4 * i + 3));
+				
+				return (((sign) ? '' : '-') + '$' + num);
+			}
+}
+
+
+    </script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+							   
+		$(".pane-list li").click(function(){
+	    	window.location=$(this).find("a").attr("href");return false;
+		});
+	
+	}); //close doc ready
+	</script>
+
+	    
+{% endblock %}
+</head>
+
+<body onload="LoadMap();" onunload="GUnload()"> 
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-13048259-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+	<div id="header_wrap">
+		<div id="header" class="container_16">
+			<div  class="grid_4 suffix_12">
+   				<a  href="/"> <img id="logo" src="/Media/static/logo.png"></a>   <span id="ltxt" style="position:absolute;top:50px;left:230px;">Investigative Reporting for Africa</span>
+			</div>
+		</div>
+	</div>
+	
+	<div id="nav_wrap">
+		<div id="navbar" class="container_16">
+			
+			<div id="tagline" class=" grid_6 suffix_4">
+				<ul class="parent">
+					<li><img src="/Media/static/nav_country_button.png" class="country" style="border:1px solid #817c6a;"></li>
+					<li><img src="/Media/static/nav_topic_button.png" class="topic " style="border:1px solid #817c6a;"></li>
+				</ul>
+			</div>
+			<div class="countries ui-widget-content">
+				Filter Countries: <input id="filter" name="filter" size="20"/>
+
+<div class="filtered">
+	
+
+{%for country in countries%}
+<a href="/dashboard/{{country.slug}}/" style="cursor: pointer;text-decoration:none;"><em class="ts" id="{{country.iso_code|lower}}" style="margin:4px;width:40px;padding:1px;"><img src="/Media/static/flags/{{country.iso_code|lower}}.png " alt="{{country.name}}" title="{{country.name}}" width="25" height="15" style="width:margin-left:3px;margin-right:3px;margin-top:3px;padding-top:5px;padding-left:5px;padding-bottom:15px;padding-right:5px;background-color:f4faf6;"><em style="font-size: .75em;margin-left:-33px;margin-top:-10px;">{{country.name}}</em></em></a>
+
+{%endfor%}
+</div>
+
+</div>
+				
+				<div class="topics ui-widget-content">
+					
+					<div >
+<em><a href="/aid/country/"><img src="/Media/static/usaid_logo.jpg" title="Usaid African Projects" alt="Usaid African Projects" style="border:2px solid black;margin:4px;"></a></em>
+<em><a href="/afdb/pcountry/"><img src="/Media/static/afdb2.jpg"  title="African Development Bank data contracts" alt="African Development Bank data contracts" style="border:2px solid black;margin:4px;"></a></em>
+<em><a href="/dfid/country/"><img src="/Media/static/Dfid_logo.gif" title="Department for International Development" alt="Department for International Development" style="border:2px solid black;margin:4px;"></a></em>
+
+<em><a href="/globalfund/country/"><img src="/Media/static/globalfund_logo.jpg" title="Global Fund Disbursements" alt="Global Fund Disbursements" style="border:2px solid black;margin-top:4px;"></a></em>
+<em class="tsha"><a href="/arms/country/" style="text-decoration:none" title="Weapon Sales" ><span >Weapon Sales</span></a></em>
+<em class="tsha"><a href="/lobby/country" style="text-decoration:none" title="Lobbying Data" ><span>Lobbying</span></a></em>
+</div>
+
+</div>
+					
+					
+					
+					</div>
+					
+					
+				
+			<div id="nav_menu" class="grid_6 ">
+				<ul>
+					<li><a href="/about">   About   </a></li>
+					<li><a href="/blog">   Blog   </a></li>
+					<li><a href="/faq">   FAQ   </a></li>
+					
+				</ul>
+			</div>
+			<div id="search">
+				<form action="search" id="searchform" class="search">
+  <div>
+    
+    <input type="hidden" name="cof" value="FORID:11" />
+    <input type="hidden" name="ie" value="UTF-8" />
+	<input type="hidden" name="cx" value="011025008135629465200:evny7b_zsic" />
+   
+<input  name="q" id="s"  type="text" style="background:  url(http://www.google.com/cse/intl/en/images/google_custom_search_watermark.gif) no-repeat scroll left center; -moz-background-clip: border; -moz-background-origin: padding; -moz-background-inline-policy: continuous;">
+<input id="sb" class="query" alt="Search" type="image" name="sa" title="Search" src="/Media/static/search_button.png"  /> 
+  </div>
+</form>
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=searchform&amp;lang=en"></script>
+
+
+
+
+</form>
+
+</div>
+
+		
+		</div>
+	</div>
+	
+<!-- end top nav/identity -->
+	
+<div id="content_wrap" class="container_16">
+	<!-- Intro -->
+	{% block content %}
+	<div id="intro_msg" class="prefix_1 grid_14 suffix_1">
+		<h4 class="">The Ujima Project brings transparency to the workings and spending of governments, non-governmental organizations and businesses operating in African countries.</h4>
+	</div>
+		
+	<div class="clear"></div>
+	<ul class="tabs"> 
+		<li><a href="#"><b>USAID</b></a></li> 
+		<li><a href="#"><b>LOBBYING</b></a></li> 
+		<li><a href="#"><b>WEAPON SALES</b></a></li>
+		<li><a href="#"><b>GLOBAL FUND</b></a></li> 
+		<li><a href="#"><b>DFID</b></a></li> 
+		<li><a href="#"><b>AFDB</b></a></li> 
+	</ul> 
+	<div class="clear"></div>
+	<!-- tab "panes" --> 
+	<div class="panes"> 
+	    <div id="tab_pane">
+			<ul  class="pane-list">
+				<li><a href="/aid/country">USAID African Projects </a></li>
+			</ul>
+		    <p> This contains data  from <a href="http://usaspending.gov/">Usaspending.gov</a>, a
+			U.S. government portal that gives individuals access to contract information for vendors hired by the United States
+			Agency for International Development, USAID, for work in countries throughout Africa.</p>
+		</div>
+	    <div id="tab_pane">
+			<ul  class="pane-list">
+				<li><a href="/lobby/country">Lobbying By Country </a></li>
+			</ul>
+		    <p>The lobbying database covers information about lobbyists hired by foreign governments and organizations to influence U.S. policy on issues such as trade, taxation, foreign aid, appropriations, human rights and national security. The data contained in our database goes back to at least 1950. 
+			This data comes from the <a href="http://www.usdoj.gov/criminal/fara/">United States Department of Justice</a>.</p>
+		</div> 
+	    <div id="tab_pane">
+		 	<ul  class="pane-list">
+				<li><a href="/arms/country" class>Weapons Sales By Country</a></li>
+			</ul>
+		    <p>The weapon sales data comes from reports made by the U.S. State Department to the U.S. Congress. The data covers approved commercial export licenses that could result in sales of weapons and equipment. These figures are only for licenses authorized, not actual weapons deliveries.
+			 The reports can be found <a href="http://www.pmddtc.state.gov/reports/655_intro.html">at the State Department.</a> </p>
+			 </p>
+		 </div> 
+		<div id="tab_pane">
+			<ul  class="pane-list">
+				<li><a href="/globalfund/country">Global Fund Disbursements By County </a></li>
+			</ul>
+			<p>The Global Fund data includes all disbursements made by the Global Fund to fight HIV/AIDS, tuberculosis, and malaria. The fund is an international organization which receives funding from governments and the private sector. The raw data for the information found in our database can be found at the <a href="http://www.theglobalfund.org/en/commitmentsdisbursements/?lang=en">Global Fund website</a>.</p>
+		</div> 
+		<div id="tab_pane">
+			<ul  class="pane-list">
+				<li><a href="/dfid/country">DFID African Projects</a></li>
+			</ul>
+			<p>The Department for International Development data includes all disbursements made by the United Kingdom.
+			The raw data for the information found in our database can be found at the <a href="http://www.dfid.gov.uk/">UK Department for International Development website.</a> </p>	 
+		</div>
+		<div id="tab_pane">
+			<ul  class="pane-list">
+				<li><a href="http://ujima-project.org/afdb/pcountry/">African Development Bank</a></li>
+			</ul>
+			<p>The African Development Bank data  contains contracts/tender information for vendors hired by the AFDB for work in countries throughout Africa.<p>
+			<p> Information from which this data is compiled, can be found here at the <a href="http://www.afdb.org/en/projects-operations/procurement/tools-reports/procurement-statistics/">AFDB </a></p>
+
+
+		</div>
+	</div>	 
+	<div class="clear"></div>
+	<div id="featured" class="grid_11">
+		<div class="featured_main ">
+			<div id="featured_tabs">
+				<ul>
+					<li><a href="#tabs-1">USAID MAP</a></li>
+					<li><a href="#tabs-2">Featured country</a></li>
+					<li><a href="#tabs-3">DFID MAP</a></li>
+					
+				</ul>
+				<div id="tabs-1"">
+					<p>The heatmap that you see is a map of the amounts of money from the US Agency for International Development (USAID) for contracts to vendors in each of the highlighted nations.</p style="text-align:center;">
+					<div id="map">
+					</div>
+				</div>
+				<div id="tabs-2" >
+					<center>total USAID funding for projects in {{country}}</center>
+					<div id="graph" style="width:500px;height:300px;">
+						<script>
+							var data={{data}}
+							$.plot($("#graph"),data, {
+								 yaxis:{ tickFormatter: function (v) { return formatCurrency(v) }},
+						             
+						          xaxis: { tickDecimals: 0, label: 'Year' }
+								
+							});
+						
+						</script>
+					</div>
+				</div>
+				<div id="tabs-3">
+					<p>The heatmap that you see is a map of the amounts of money from the UK Department for International Development project(DFID) to vendors for projects in each of the highlighted nations.</p>
+					<div id="map2">
+					</div>
+						
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="front_sidebar" class="grid_4">
+		<div id="accordion" class="Accordion">
+			<h3><a class="head" href="#">USA</a></h3>
+				<div>
+					<ul class="pane-list">
+						<li> <a href="/lobby/country" >Lobbying</a></li>
+						<li> <a href="/aid/country" >USAID</a></li>
+						<li> <a href="/arms/country" >Weapons Sales by County</a></li>
+					</ul>
+				</div>
+			<h3><a class="head" href="#">INTERNATIONAL</a></h3>
+				<div>
+					<ul class="pane-list">
+						<li> <a href="/globalfund/country" >GLOBALFUND</a></li>
+					</ul>
+				</div>
+			<h3><a class="head" href="#">EU</a></h3>
+				<div>
+					<ul class="pane-list">
+					   <li><a href="/dfid/country">DFID</a></li>
+					</ul>
+				</div>
+			<h3><a class="head" href="#">AFRICA</a></h3>
+				<div>
+					<ul class="pane-list">
+					   <li><a href="/afdb/pcountry/">African Development Bank</a> </li>
+					</ul>
+					
+				</div>
+			<h3><a class="head" href="#">Downloads</a></h3>
+				<div>
+					<ul class="pane-list">
+					   <li><a href="/docs/">Documents</a></li>
+					</ul>
+				</div>
+			
+		</div>
+	</div>
+	<div class="clear"></div>		
+</div>
+	
+
+{% endblock %}
+	{% include 'partials/footer2.html' %}
+</body>
+</html>

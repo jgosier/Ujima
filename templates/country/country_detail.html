@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load main %}
+{% block title %}Lobbying Firms for {{country.country}} | Ujima Project  {% endblock %}
+{% block extrastyle %}
+<script>
+ $(document).ready( function() {
+
+$('#td .currency').each(function()
+{
+ return($(this).replace($(this).html(),'$'+$(this).html())); 
+  
+});
+});
+
+</script>
+{% endblock %}
+
+{% block content %}
+<div="content_wrap" class="grid_15 suffix_1">	
+	<h3>Country: {{country.country}} </h3>
+	<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Location{{country.country}}.svg/250px-Location{{country.country}}.svg.png"></img>	
+
+	<h4>Filter by Year</h4>
+	<ul>
+	{% for y in years %}
+	<a href ="{{ y }}/">{{ y }}</a> | 
+
+	{% endfor %}
+
+	</ul>
+
+	<h4>Also browse by: 
+	<a href="{% url lobby.views.country_list %}">Country</a> | 
+	<a href="{% url lobby.views.search_detail %}">Search</a>
+	</h4>
+	
+	{% if lobbyists %}
+
+	<p>The number of records: {{lobbyists.count}} </p>
+
+	{% endif %}
+
+	<p> This table contains all firms and individuals who lobbied on behalf of {{country.country}}.</p>
+
+	<table class="tablesorter" border ="2" id="td">
+	<thead>
+	  <tr>
+		<th>Firm</th>
+		<th>Client</th>
+		<th>Country</th>
+		<th>Amount</th>
+		<th>Description</th>
+		<th>Type of Lobbying</th>
+		<th>Year  </th>
+	  </tr>
+	</thead>
+	<tbody>	
+	{% autopaginate lobbyists 20 %}
+	{% for lobbyist in lobbyists %}
+		<tr>
+	      <td><a href="{{lobbyist.reg_cd.get_absolute_url}}">{{lobbyist.reg_cd.name}}</a></td>
+	      <td><a href="{{lobbyist.fp_cd.get_absolute_url}}">{{lobbyist.fp_cd.name}}</a></td>
+	      <td>{{lobbyist.country.country}}</td>
+	      <td >{{lobbyist.financial_amount|doll}}</td>
+	      <td>{{lobbyist.activity_desc}}</td>
+	      <td><a href="{{lobbyist.act_type.get_absolute_url}}">{{lobbyist.act_type}}</a></td>
+	      <td>{{lobbyist.year}}</td>
+	   </tr>
+	  {% endfor %}
+	</tbody>
+	{% paginate %}
+
+	  </table>
+<br><br>
+<center><a href="csv" style="text-decoration:none;">Download as  <img src="/Media/static/xls.png" ></a></center>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->	
+	
+</div>
+</div>
+<div class="clear"></div> 
+
+
+{% endblock %}

@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block title %}African Development Bank  Countries | Ujima Project {% endblock %}
+
+{% block content %}
+<div id="content_wrap" class="grid_15 suffix_1">
+
+
+<p>Welcome to the African Development Bank vendor section of the Ujima Project. The data contained in our database comes from the African Development Bank and contains contracts/tender information for vendors hired by the AFDB for work in countries throughout Africa. Information from which this data is compiled can be found here at the <a href="http://www.afdb.org/en/projects-operations/procurement/tools-reports/procurement-statistics/">AFDB </a></p>
+
+<p>Click on one of the items below to get information about a specific nation.</p>
+
+
+
+<h2 class="prettytype"> Browse Bidders By Country </h2>
+
+
+<ul class="cont">
+
+{% for a,b in country_dict%}
+<li class="group ui-widget-header ui-corner-all">{{a}}</li>
+{% for pcountry in b %}
+
+<li class="inner"><a class="title" href ="{{pcountry.get_absolute_url }}"><span id="c_name">{{ pcountry.projectcountry }}</span></a><a href ="{{pcountry.get_absolute_url }}"><img  class="flagg" src="/afdb/flag/{{pcountry.slug}}/" ></a></li>
+
+{% endfor %}
+{% endfor %}
+
+</ul>
+
+Search by:
+<a href="{% url afJuma.afdb.views.bcountry_list %}">BidderCountry</a>
+<a href="{% url afJuma.afdb.views.proc_list %}">Procurement Type</a>
+<a href="{% url afJuma.afdb.views.bidder_list %}">Bidders</a>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->
+</div>
+</div>
+<div class="clear"></div> 
+
+
+
+{% endblock %}
+     

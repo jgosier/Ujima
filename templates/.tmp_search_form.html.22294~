@@ -1,0 +1,11 @@
+<form action="search" id="search" class="search">
+  <div>
+    <input type="hidden" name="cx" value="011025008135629465200:evny7b_zsic"  />
+    <input type="hidden" name="cof" value="FORID:11" />
+    <input type="hidden" name="ie" value="UTF-8" />
+   
+<input value="Search" name="q" id="s" onfocus="if(this.value=='Search')this.value='';" onblur="if(this.value=='')this.value='Search';" type="text">
+<input class="btn" alt="Search" type="image" name="sa" title="Search" src="/Media/static/search.gif" /> 
+  </div>
+</form>
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=search&amp;lang=en"></script>

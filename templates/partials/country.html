@@ -1,0 +1,94 @@
+
+<ul id="lol" class="tabs ui-widget-header ui-corner-all grid_11" style="margin-top:10px;"> 
+		<li><a id="USAID" name="#graph_aid" type="opt1" href="#"><b>USAID</b></a></li> 
+		<li><a id="LOBBYING" name="#graph_lobby" type="opt1"  href="#" onClick="plot_graph('LOBBYING','#graph_lobby')"><b>LOBBYING</b></a></li> 
+		<li><a id="WEAPONS" name="#graph_weapon" type="opt1" onClick="plot_graph('WEAPONS','#graph_weapon')" href="#" ><b>WEAPON SALES</b></a></li>
+		<li><a id="GLOBALFUND" name="#graph_globalfund" type="opt2"  href="#"><b>GLOBAL FUND</b></a></li> 
+		<li><a id="DFID" name="#graph_dfid" href="#" type="opt1" onClick="plot_graph('DFID','#graph_dfid')"><b>DFID</b></a></li> 
+		<li><a id="AFDB" name="#graph_afdb" href="#" type="opt1" onClick="plot_graph('AFDB','#graph_afdb')"><b>AFDB</b></a></li> 
+	</ul> 
+
+
+<div class="panes ui-widget ui-corner-all grid_11" style="margin-left:0px;"> 
+	    <div class="visual ui-widget-content ui-corner-all" >
+	    	<center>total USAID funding for projects in {{country}}</center>
+					<div id="graph_aid" style="width:600px;height:300px;">
+					
+						
+					</div>
+			
+		    
+		</div>
+	    <div class="visual ui-widget-content ui-corner-all">
+			<center>total Lobbying funding for projects in {{country}}</center>
+					<div id="graph_lobby" style="width:600px;height:300px;">
+					<script>
+					
+						
+					plot_graph($('.current')[1].id,$('.current')[1].name);
+					
+					</script>
+						
+					</div>
+		   
+		</div> 
+	    <div class="visual ui-widget-content ui-corner-all" >
+		 	<center>total Weapon Sales funding for projects in {{country}}</center>
+					<div id="graph_weapon" style="width:600px;height:300px;">
+						
+					</div>
+		    
+		 </div> 
+		<div class="visual ui-widget-content ui-corner-all">
+			<center>total GlobalFund funding for projects in {{country}}</center>
+					<div id="graph_globalfund" style="width:600px;height:300px;">
+					<script>
+					$(function () {
+   
+    var data = [
+        {label: 'foo', data: [[1,300], [2,300], [3,300], [4,300], [5,300]]},
+        {label: 'bar', data: [[1,800], [2,600], [3,400], [4,200], [5,0]]},
+        {label: 'baz', data: [[1,100], [2,200], [3,300], [4,400], [5,500]]},
+    ];
+    var options = {
+        series: {stack: 0,
+                 lines: {show: false, steps: false },
+                 bars: {show: true, barWidth: 0.9, align: 'center',},},
+        xaxis: {ticks: [[1,'One'], [2,'Two'], [3,'Three'], [4,'Four'], [5,'Five']]},
+    };
+
+    $.plot($("#graph_globalfund"), data, options);
+});
+</script>
+						
+					</div>
+			
+		</div> 
+		<div class="visual ui-widget-content ui-corner-all">
+			<center>total DFID funding for projects in {{country}}</center>
+					<div id="graph_dfid" style="width:600px;height:300px;">
+						
+					</div>
+			
+		</div>
+		<div class="visual ui-widget-content ui-corner-all" >
+			
+			<center>total AFDB funding for projects in {{country}}</center>
+					<div id="graph_afdb" style="width:600px;height:300px;">
+						
+					</div>
+
+		</div>
+	</div>	
+	<div class="ui-widget ui-corner-all  grid_3 " >
+ <div class=" ui-widget-content ui-corner-all" style="height:430px;margin-top:-30px;">
+ 	
+			 <input class="input" onFocus="this.value=''" id="compare" name="compare" value="enter country to compare" title="enter country to compare"size="15"/>
+			 <div id="celect">
+			 	<div style="width: auto;" name="{{country}}" id="opt" class="ui-state-hover ui-corner-all opt hidden">{{country}}<a class="ui-corner-all ui-widget-content remove" style="color: blue; float: right;" href="javascript:" title="Remove {{country}}">x</a></div>
+			 	<span id="one"></span>
+			 </div>
+		   
+		</div> 
+
+	</div>

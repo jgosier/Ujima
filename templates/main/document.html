@@ -1,0 +1,24 @@
+{% extends "base.html"%}
+{% load pagination_tags %}
+{% block extrastyle %}
+{% endblock %}
+
+
+
+{% block content%}
+<div="content_wrap" class="prefix_1 grid_14 suffix_1">
+<div style="height:80%;">
+<h1 class="prettytype">Currently Available Documents</h1>
+<ul style="list-style:none;">
+{% autopaginate docs 10 %}
+{% for doc in docs %}
+<li><a href="/docs/{{doc.scribd_id }}"><h4>{{doc.title}}</h4></a>
+{{doc.description}}</li><br />
+{% endfor %}
+{% paginate %}
+</ul>
+</div>
+</div>
+<div class="clear"></div> 
+
+{% endblock %}

@@ -1,0 +1,312 @@
+/* 
+Ujima Core CSS 
+@author Brandon Sheats
+@date 28 August 2009
+@version 1.2
+ */
+
+html,body {
+	height: 100%;
+	background:  #F4FAF6 url(/Media/static/bg.png) repeat-x;
+	
+}
+#group{
+	border-bottom: 1px solid #E0E0E0;
+	list-style:none;
+}
+
+#header_wrap {
+	background-color: #817C6A;
+	margin-top:3px;
+	border-bottom: 1px solid #96967D;
+	height: 114px;
+}
+
+#header {
+	padding: 0;
+}
+
+#nav_wrap {
+	background: url('/Media/static/title.gif') repeat-x;
+	height: 35px;
+}
+
+#intro_msg {
+	text-align: center;
+}
+
+#tagline {
+	color: #fff;
+	float: left;
+	font-size: 1.25em;
+	padding-bottom: 50px;
+	margin-top: -10px;
+}
+
+
+#tagline ul.parent{
+	padding-top:12px;
+}
+#tagline ul.parent li{
+	
+	display:inline;
+	list-style:none;
+	
+	overflow:visible;
+	
+}
+#tagline ul.parent li a{
+	text-decoration:none;
+	color:#ffffff;
+	text-shadow: rgba(255, 255, 255, 0.7) 0 1px 0;
+	
+	
+	
+	
+}
+#nav_menu{
+	position:absolute;
+	top:118px;
+	left:60%;
+	
+}
+
+div#tagline.prettytype.grid_6.suffix_4.blog {
+	margin-top: -22px;
+}
+
+div#nav_menu.grid_6.prettytype.blog {
+	margin-top: -12px;
+	float: right;
+}
+
+#nav_menu ul li {
+	display: inline;
+	text-shadow: rgba(255, 255, 255, 0.7) 0 1px 0;
+	padding-left:6px;
+}
+
+#nav_menu ul li a {
+	display: inline;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.25em;
+}
+
+#nav_menu ul li a:hover {
+	color: #7c7c64;
+}
+
+#nav_menu ul {
+	margin-top: 3px;
+}
+#logo{
+	
+
+}
+#ltxt{
+	font-weight: bold;
+    text-shadow: rgba(0, 0, 0, 0.4) 0px -1px 0;
+    font-size: 20px;
+    color:#ffffff
+}
+
+.tsha{
+	text-shadow: rgba(0, 0, 0, 0.4) 0px -1px 0;
+    font-size: 20px;
+	text-decoration:none;
+	margin-left:4px;
+    
+	margin-bottom:10px;
+	
+	
+}
+em.Tx{
+	margin-top:-30px;
+	
+}
+#content_wrap {
+	min-height: 600px;
+	height: auto !important;
+}
+
+#map {
+	height: 500px;
+	overflow: hidden;
+}
+
+#footer {
+	width: 100%;
+	min-height:520px;
+	background: #817C6A;
+	margin-top: 50px;
+	border-top: 3px dotted #96967D;
+	border-bottom: 10px solid #817c6a;
+}
+
+#blurb {
+	float:left;
+	margin-right: -1px;
+	padding-top: 10px;
+	margin-top: 10px;
+	padding-right: 4px;
+	
+}
+
+#blog_blurb {
+	float:right;
+	border-left: 2px dotted #96967D;
+	padding-left: 5px;
+	
+	
+}
+#blog_blurb h4,p{
+	padding-left:10px;
+	
+}
+
+/* Inmported styles from old base.css */
+
+/* tables */
+
+table.tablesorter {
+	font-family: arial;
+	background-color: #CDCDCD;
+	margin: 10px 0pt 15px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+}
+
+table.tablesorter thead tr .header {
+	background: 100% 30% url(img/bg.gif) no-repeat;
+	cursor: pointer;
+	/*min-width:65px;*/
+	padding-right: 20px;
+
+}
+
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+
+table.tablesorter tbody tr.odd td {
+	background-color: #F0F0F6;
+}
+
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(img/asc.gif);
+}
+
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(img/desc.gif);
+}
+
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+	background-color: #8dbdd8;
+}
+
+/* Accordion Design */
+
+
+#front_sidebar{
+	margin-top:80px;
+}
+ul.accordion #sub-head {
+	display:none;
+	padding: 0;
+	margin: 0;
+	float: left;
+	display: block;
+	width: 100%;
+	background: url('/Media/static/open.gif') no-repeat center right;
+	
+}
+
+#featured{
+	margin-top:70px;
+}
+.accordion li {
+	background: #817c6a;
+	cursor: pointer;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	float: left;
+	display: block;
+	width: 100%;
+}
+
+.accordion li.active>a {
+	background: url('img/close.gif') no-repeat center right;
+}
+
+.accordion li div {
+	padding: 20px;
+	background: #DFDDD8;
+	display: block;
+	clear: both;
+	float: left;
+	width: 360px;
+}
+
+.accordion #head a {
+	text-decoration: none;
+	border-bottom: 1px solid #96967d;
+	font: bold 1.1em/2em Arial, sans-serif;
+	color: #222;
+	padding: 0 10px;
+	display: block;
+	cursor: pointer;
+	background: url('img/open.gif') no-repeat center right;
+}
+
+		/* Level 2 */
+
+.accordion li ul li {
+	background: #9A9584
+	font-size: 0.9em;
+}
+
+.pane-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.pane-list li,.list {
+	background: #F4FAF6;
+	padding: 5px 10px 5px;
+	border: solid 1px #c4df9b;
+	cursor: pointer;
+	margin-left: 0px;
+	list-style:none;
+}
+.flag{
+	height:30px;
+	padding:5px;
+}
+.pane-list li:hover,.list:hover {
+	background: #f6ffe9;
+}
+
+
+/* just maintain some attributes like display & position, and everything is changeable */
+.bgCover { background:#000; position:absolute; left:0; top:0; display:none; overflow:hidden }
+.overlayBox {
+	border:5px solid #09F;
+	position:absolute;
+	display:none;
+	width:500px;
+	height:300px;
+	background:#fff;
+}

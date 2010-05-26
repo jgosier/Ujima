@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}Product List {% endblock %}
+
+{% block content %}
+
+<h2> Browse by Type of Product or Service </h2>
+
+<p> Welcome to the U.S. Agency for International Development Vendor Search Section of the Ujima Project. You can explore the data in different ways. You can search by country, by NGO or use any number of other filters to find the information you need.</p>
+
+<p>Click on one of the product descriptions below to get information about the firms or individuals who recieved funding from the USAID in your country </p>
+
+<ul>
+
+{% for product in prod_list %}
+
+<li><a href ="{{product.get_absolute_url }}">{{ product.pdescription }}</a></li>
+
+{% endfor %}
+
+</ul>
+
+Search by:
+<a href="{% url afJuma.afdb.views.country_list %}">Country</a>
+<a href="{% url afJuma.afdb.views.prod_list %}">Product</a>
+<a href="{% url afJuma.afdb.views.vendor_list %}">Vendor</a>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style">
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b72bf0f772d1a50" class="addthis_button_compact">Share</a>
+<span class="addthis_separator">|</span>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_myspace"></a>
+<a class="addthis_button_google"></a>
+<a class="addthis_button_twitter"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b72bf0f772d1a50"></script>
+<!-- AddThis Button END -->
+
+{% endblock %}
+     

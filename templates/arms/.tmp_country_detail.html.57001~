@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% load pagination_tags %}
+{% load main %}
+{% block title %} Weapon Sales Involving {{country}} | Ujima Project {% endblock %}
+{% block extrastyle %}
+{% endblock %}
+
+{% block content %}
+<div id="content_wrap" class="prefix_1 grid_14 suffix_1">
+
+<h3 class="prettytype">Country: <span class="name">{{country}} </span></h3>
+<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Location{{country.country}}.svg/250px-Location{{country.country}}.svg.png"></img>
+
+<h4> Back to browse page:
+<a href="{% url weapons.arms.views.weapons_list %}">Weapon</a> <br/>
+<a href="{% url weapons.arms.views.country_list %}">Country</a>
+</h4>
+
+{% if arms %}
+
+<p style=" font-size: 14px;">The number of records: <span class="count">{{arms.count}}</span> </p>
+
+
+
+  <table class="tablesorter" border="2">
+<thead>
+	<tr>
+<th>Weapon</th><th>Quantity</th><th>Amount(USD)</th><th>Year</th>
+	</tr>
+</thead>
+<tbody>	
+{% autopaginate arms 20 %}
+{% for arms in arms %}
+   <tr>
+      
+      <td><a href="{{arms.catcode.get_absolute_url}}">{{arms.catcode}}</a></td>
+      <td>{{arms.quantity}}</td>
+      <td>{{arms.value|doll}}</td>
+      <td>{{arms.year}}</td>
+	     
+         
+   </tr>
+
+
+  {% endfor %}
+  {% else %}
+    <p>No data available for this country.</p>
+{% endif %}
+  
+  {% paginate %}
+</tbody>
+ </table>
+<br><br>
+<center><a href="csv" style="text-decoration:none;">Download as  <img src="/Media/static/xls.png" ></a></center>
+</div>
+</div>
+<div class="clear"></div> 
+
+
+{% endblock %}

@@ -1,0 +1,166 @@
+{% extends "base2.html" %}
+{% load blog %}
+{% block title %}{{country}} dashboard | Ujima Project{% endblock %}
+{% block extrastyle %}
+  <script type="text/javascript" src="/Media/js/jquery.ui.position.js"></script>
+  
+   <script type="text/javascript" src="/Media/js/jquery.ui.widget.js"></script>
+  <script type="text/javascript" src="/Media/js/jquery.ui.autocomplete.js"></script>
+    <script type="text/javascript" src="/Media/js/jquery.flot.js"></script>
+  
+  
+  <script>
+    	function formatCurrency(num) {
+			if (num > 100000) {
+				num = num / 100000
+				return ('$' + num + 'M')
+			}
+			else {
+				num = num.toString().replace(/\\$|\\,/g, '');
+				if (isNaN(num)) 
+					num = '0';
+				sign = (num == (num = Math.abs(num)));
+				num = Math.floor(num * 100 + 0.50000000001);
+				cents = num % 100;
+				num = Math.floor(num / 100).toString();
+				if (cents < 10) 
+					cents = '0' + cents;
+				
+				for (var i = 0; i < Math.floor((num.length - (1 + i)) / 3); i++) 
+					num = num.substring(0, num.length - (4 * i + 3)) + ',' + num.substring(num.length - (4 * i + 3));
+				
+				return (((sign) ? '' : '-') + '$' + num);
+			}
+}
+var dat={{DATA}};
+function plot_graph(app,div){ 
+
+
+var data = [];			
+$(".opt").each(function(){ 	
+ 
+var key = $(this).attr( 'name' ); 
+ if( key && dat[app][key] ){
+ 	
+ data.push( dat[app][key] );
+    }});
+
+var i = 0;
+
+
+if( data.length > 0 ) {         
+    $.plot( $(div), data, {  
+	 yaxis:{ tickFormatter:  function (v) { return formatCurrency(v) },minTickSize:1000},  
+	              legend: { show: true,backgroundOpacity: 0.5,margin: 10},
+				  points: {show: true},
+				  lines: {show: true},
+				  bars: {show: true, barWidth: 0.9, align: 'center',},
+				  selection: { mode: "y" },
+				  clickable:true,hoverable: true,
+
+
+
+
+				  
+ 
+				                xaxis: {tickFormatter: function(v) {if (v>10){return Math.abs(v);}
+								else if(v==1){
+									
+									return "HIV/AIDS";
+								}
+								else if(v==2){
+									
+									return "MALARIA";
+								}
+								else if(v==3){
+									
+									return "TUBERCLOSIS";
+								}
+								else{
+									return "";
+									
+								}
+								
+								
+								} }      
+								      } ); 			 		}}
+
+
+    </script>
+  
+  <script type="text/javascript">
+          $(function() {
+		  	
+		  	
+		  	
+
+		var availableTags = ["angola", "burkina-faso", "burundi", "benin", "botswana", "congo-kinshasa", "central-african-republic", "congo-brazzaville", "ivory-coast", "cameroon", "cape-verde", "djibouti", "algeria", "egypt", "western-sahara", "eritrea", "ethiopia", "gabon", "ghana", "gambia", "guinea", "equatorial-guinea", "guinea-bissau", "kenya", "comoros", "liberia", "lesotho", "libya", "morocco", "madagascar", "mali", "mauritania", "mauritius", "malawi", "mozambique", "namibia", "niger", "nigeria", "reunion", "rwanda", "seychelles", "sudan", "saint-helena", "sierra-leone", "senegal", "somalia", "sao-tome-and-principe", "swaziland", "chad", "togo", "tunisia", "tanzania", "uganda", "mayotte", "south-africa", "zambia", "zimbabwe"];
+		
+		
+		$("#compare").autocomplete({
+			source: availableTags,
+			 select: function(e, ui) {  
+   
+             //create formatted country  
+             var country = ui.item.value,  
+                 span = $("<div class='ui-state-hover ui-corner-all opt' id='opt' name='"+country+"' style='width:auto;'>").text(country),  
+                 a = $("<a style='color:blue;float:right;' class='ui-corner-all ui-widget-content'>").addClass("remove").attr({  
+                     href: "javascript:",  
+                     title: "Remove " + country  
+                 }).text("x").appendTo(span);  
+                  
+                 //add country to country div  
+                 span.insertBefore("#one"); 
+				
+				 plot_graph($('.current')[1].id,$('.current')[1].name);
+				 
+             },
+			  change: function() {  
+   
+               
+                 $("#compare").val("");  
+				 
+             }  
+		});
+		 //add live handler for clicks on remove links  
+ $(".remove", document.getElementById("celect")).live("click", function(){  
+   
+     //remove current friend  
+     $(this).parent().remove(); 
+	
+	 
+	 plot_graph($('.current')[1].id,$('.current')[1].name);
+	
+	 
+   
+     
+ });  
+  
+  plot_graph($('.current')[1].id,$('.current')[1].name);
+  $("#lol").change(function(){
+		
+	plot_graph($('.current')[1].id,$('.current')[1].name);
+		
+ });
+  
+			
+	});
+	
+
+	</script>
+{% endblock %}
+
+
+{% block content %}
+<div="content_wrap" class="grid_15 suffix_1">
+<div class="grid_15 suffix_1" style="border-bottom:30px;height:200px;" >
+<h1 class="caps">{{country}}</h1>
+<img src="/afdb/flag/{{country}}/">
+</div>
+<p>double click on the tab to see the graph and enter a country on the left to compare</p>
+{% include 'partials/country.html' %}
+</div>
+</div>
+
+{% endblock %}
+     

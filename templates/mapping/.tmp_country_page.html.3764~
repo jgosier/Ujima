@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load blog %}
+{% block title %}Global Fund Countries | Ujima Project{% endblock %}
+{% block extrastyle %}
+{% endblock %}
+
+
+{% block content %}
+<div="content_wrap" class="grid_15 suffix_1">
+<h1>{{country}}</h1>
+<img src="/afdb/flag/{{country}}/">
+</div>
+</div>
+
+{% endblock %}
+     

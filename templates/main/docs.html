@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block extrastyle %}
+<script type='text/javascript' src='http://www.scribd.com/javascripts/view.js'></script>
+
+{% endblock %}
+
+{% block title %}
+    {{doc.title}}
+{% endblock %}
+
+{% block body %}
+{% block content %}
+<div id="content_wrap" class="prefix_1 grid_14 suffix_1">
+
+<h3 class="prettytype">{{doc.title}} - <a href="{{doc.document_url}}">Download</a></h3>
+<div id='embedded_flash'><a href="http://www.scribd.com"></a></div>
+<script type="text/javascript">
+var scribd_doc = scribd.Document.getDoc( {{doc_id}}, "{{doc_access}}");
+
+var oniPaperReady = function(e){
+// scribd_doc.api.setPage(3);
+}
+
+scribd_doc.addParam( 'jsapi_version', 1 );
+scribd_doc.getDownloadUrl;
+scribd_doc.addParam('width', 800);
+scribd_doc.addParam('height', 600);
+scribd_doc.addParam("mode", 'list');
+
+
+scribd_doc.addEventListener( 'iPaperReady', oniPaperReady );
+scribd_doc.write( 'embedded_flash' );
+</script>
+</div>
+</div>
+
+<div class="clear"></div> 
+
+
+
+{% endblock %}
+{% endblock %} 

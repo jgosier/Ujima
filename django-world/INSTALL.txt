@@ -1,0 +1,6 @@
+= Installation =
+
+   # The {{{world}}} package should be on your {{{PYTHONPATH}}}, the easiest way to do this is {{{setup.py install}}} or {{{setup.py develop}}} if you want to hack on the code.
+   # Make sure you have [http://geodjango.org/docs/install.html all the requirements for GeoDjango installed] and a spatial database created.
+   # Add {{{django.contrib.gis}}} and {{{world}}} to {{{INSTALLED_APPS}}} in {{{settings.py}}}.
+   # Do {{{syncdb}}} and you are ready to import and use the datasets.
